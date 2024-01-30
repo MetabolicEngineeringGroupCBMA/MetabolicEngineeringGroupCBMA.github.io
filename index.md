@@ -1,4 +1,3 @@
-
 <div align="center">
 
 ![life_of_Yeast](The_life_of_Yeast_wide.gif)
