@@ -14,7 +14,7 @@ for consumption of new types of substrates and production of new biotechnologica
 
 Specifically, we work on expanding the consumption of for efficient metabolism of new types of sugars as [D-xylose](https://en.wikipedia.org/wiki/Xylose) combined with biosynthesis of [fatty acids](https://en.wikipedia.org/wiki/Fatty_acid) and derived lipids.
 
-![fa](fa.png)
+![fa](8-methyl-6-nonenoic acid.png)
 
 This process is important in nature, since fatty acids make up significant parts of fundamental structures such as cell membranes, but also serve as
 efficient energy storage for many cells and organisms.
@@ -37,7 +37,7 @@ short metabolic pathways for a given number of genes compared to other methods. 
 
 ### pydna (or Why Is So Much Cloning Documentation Wrong?)
 
-We have developed a bioinformatics tool called [`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) that allow genetic construction experiments to be expressed in [`Python`](https://www.python.org) code. 
+We have developed a bioinformatics tool called [`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) that allow genetic construction experiments to be expressed in [`Python`](https://www.python.org) code.
 
 This allows for "programming with DNA", expressing cloning strategies as a computer program. This produces a verifiable, complete description of a cloning strategy.
 This is especially powerful in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker
