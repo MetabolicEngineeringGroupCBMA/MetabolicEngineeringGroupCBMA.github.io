@@ -1,6 +1,6 @@
 ![life_of_Yeast](The_life_of_Yeast_wide.gif)
 
-Welcome, We are the mec research group, a part of the research center [Centro de Biologia Molecular e Ambiental (CBMA)](https://www.google.pt/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjhgeWevKLLAhUIQBoKHQfcDcAQFggbMAA&url=http%3A%2F%2Fcbma.bio.uminho.pt%2F&usg=AFQjCNERIO6tvOxPHIgk4DaE4Y5LivlEXQ&sig2=8-94NSGguCRjdxnoOm0cYQ&bvm=bv.115339255,d.ZWU). We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt/EN) in the ancient city of [Braga](https://en.wikipedia.org/wiki/Braga), Portugal.
+Welcome, We are the mec research group, a part of the research center [Centro de Biologia Molecular e Ambiental (CBMA)](https://cbma.uminho.pt). We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt) in the ancient city of [Braga](https://en.wikipedia.org/wiki/Braga), Portugal.
 
 ## Our interest
 
@@ -54,3 +54,8 @@ and from the [Swedish Fulbright Commission](https://www.fulbright.se).
 
 
 CBMA was supported by the strategic program UIDB/04050/2020 funded by national funds through the FCT I.P.
+
+
+### Contact
+
+- [Björn Johansson](https://cbma.uminho.pt/people-detail/?userid=22)
