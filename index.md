@@ -25,15 +25,18 @@ As the genetic modifications performed in the scope of metabolic engineering gro
 ### Yeast Pathway Kit
 
 We have developed a metabolic pathway assembly method we call the [**Yeast Pathway Kit**](https://pubmed.ncbi.nlm.nih.gov/26916955), that produces
-short metabolic pathways for a given number of genes compared to other methods. It relies on one library of promoters and another for terminators. Pathways are joined together by first making a set of single gene expression vectors by homologous recombination. The promoter-gene-terminator fragments (or transcriptional units) can then be stitched together by a second round of homologous recombination (see the figure below):
+compact metabolic pathways for a given number of genes compared to other methods.
+
+It relies on one library of promoters and another for terminators. Pathways are joined together by first making a set of single gene expression vectors by homologous recombination. The promoter-gene-terminator fragments (or transcriptional units) can then be stitched together by a second round of homologous recombination (see the figure below):
 
 ![ypk](yeast_pathway_kit_figure2.png)
 
 ### pydna (or Why Is So Much Cloning Documentation Wrong?)
 
-We have developed a bioinformatics tool called [`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) that allow genetic construction experiments to be expressed in [`Python`](https://www.python.org) code.
+Most documented cloning or subcloning in the literature are not described sufficiently well to be reproducible. We have developed a bioinformatics tool called [`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) that allow genetic construction experiments to be expressed as [`Python`](https://www.python.org) code.
 
-This allows for "programming with DNA", expressing cloning strategies as a computer program. This produces a verifiable, complete description of a cloning strategy.
+This allows for "programming with DNA" or expressing cloning strategies as a computer program. This produces a verifiable, complete description of virtually any deterministic genetic design procedure.
+
 This is especially powerful in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker
 Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
 
@@ -41,11 +44,13 @@ Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-document
 
 ### Funding
 
-We are grateful for funding from:
+We are grateful for funding from Fundação para a Ciência e Tecnologia ([FCT](https://www.fct.pt)):
 
-[Fundação para a Ciência e Tecnologia](https://www.fct.pt) Portugal (FCT) through project
-FatVal PTDC/EAM-AMB/032506/2017 funded by national funds through the FCT I.P.
-and by the ERDF through the COMPETE2020 – Programa Operacional Competitividade e Internacionalizacão (POCI).
+- FatVal PTDC/EAM-AMB/032506/2017 funded by national funds through the FCT I.P. and by the ERDF through the COMPETE2020 – Programa Operacional Competitividade e Internacionalizacão (POCI).
+
+- MycoFat: PTDC/AAC-AMB/120940/2010
+
+and from the [Swedish Fulbright Commission](https://www.fulbright.se).
 
 
 CBMA was supported by the strategic program UIDB/04050/2020 funded by national funds through the FCT I.P.
