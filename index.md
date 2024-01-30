@@ -2,6 +2,10 @@
 
 Welcome, We are the mec research group, a part of the research center [Centro de Biologia Molecular e Ambiental (CBMA)](https://cbma.uminho.pt). We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt) in the ancient city of [Braga](https://en.wikipedia.org/wiki/Braga), Portugal.
 
+### People & Contacts
+
+[People & Contacts](https://github.com/MetabolicEngineeringGroupCBMA/MetabolicEngineeringGroupCBMA.github.io/wiki/people)
+
 ## Our interest
 
 We are interested is metabolic engineering of baker's yeast [*Saccharomyces cerevisiae*](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
@@ -42,6 +46,8 @@ Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-document
 
 ![pydna](saat_cloning_animation.gif)
 
+See our [software](https://github.com/MetabolicEngineeringGroupCBMA/MetabolicEngineeringGroupCBMA.github.io/wiki/software) wiki page for more information.
+
 ### Funding
 
 We are grateful for funding from Fundação para a Ciência e Tecnologia ([FCT](https://www.fct.pt)):
@@ -56,6 +62,6 @@ and from the [Swedish Fulbright Commission](https://www.fulbright.se).
 CBMA was supported by the strategic program UIDB/04050/2020 funded by national funds through the FCT I.P.
 
 
-### Contact
 
-- [Björn Johansson](https://cbma.uminho.pt/people-detail/?userid=22)
+
+
