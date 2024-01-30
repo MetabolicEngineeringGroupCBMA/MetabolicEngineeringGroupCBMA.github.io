@@ -1,6 +1,8 @@
 <div align="center">
 
+
 ![life_of_Yeast](The_life_of_Yeast_wide.gif)
+
 
 </div>
 
@@ -15,7 +17,9 @@ Specifically, we work on expanding the consumption of for efficient metabolism o
 
 <div align="center">
 
+
 ![fa](8-methyl-6-nonenoic-acid.png)
+
 
 </div>
 
@@ -26,7 +30,9 @@ The process could potentially be used for the green production of fuels or speci
 
 <div align="center">
 
+
 ![fas](fas.png)
+
 
 </div>
 
@@ -41,7 +47,9 @@ short metabolic pathways for a given number of genes compared to other methods. 
 
 <div align="center">
 
+
 ![ypk](yeast_pathway_kit_figure2.png)
+
 
 </div>
 
@@ -55,7 +63,9 @@ Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-document
 
 <div align="center">
 
+
 ![pydna](saat_cloning_animation.gif)
+
 
 </div>
 
