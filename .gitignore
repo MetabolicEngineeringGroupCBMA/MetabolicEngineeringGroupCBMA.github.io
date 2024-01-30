@@ -1,0 +1,5 @@
+.obsidian/*
+_site
+.sass-cache
+*~
+.ipynb_checkpoints
