@@ -1,5 +1,6 @@
 ---
 layout: default
+title: mec - the metabolic engineering group @ CBMA
 ---
 
 ![life_of_Yeast](The_life_of_Yeast_wide.gif)
