@@ -31,13 +31,14 @@ It relies on one library of promoters and another for terminators. Pathways are 
 
 ![ypk](yeast_pathway_kit_figure2.png)
 
-### pydna (or Why Is So Much Cloning Documentation Wrong?)
+### pydna
 
-Most documented cloning or subcloning in the literature are not described sufficiently well to be reproducible. We have developed a bioinformatics tool called [`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) that allow genetic construction experiments to be expressed as [`Python`](https://www.python.org) code.
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2a80c949-cc40-43de-aa97-d8297980f836" />
 
-This allows for "programming with DNA" or expressing cloning strategies as a computer program. This produces a verifiable, complete description of virtually any deterministic genetic design procedure.
 
-This is especially powerful in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker
+[`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) is a python package that facilitate "programming with DNA" or expressing cloning strategies as a computer program. This can be used for automating cloning in a high throughput environment. It can also be used to produce a automatically verifiable, complete description of virtually any deterministic genetic design procedure.
+
+This can be powerful for high quality documentation in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker
 Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
 
 ![pydna](saat_cloning_animation.gif)
