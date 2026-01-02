@@ -1,0 +1,394 @@
+
+<!-- saved from url=(0086)https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./The TRAFO FAQ Page_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=291;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./The TRAFO FAQ Page_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./The TRAFO FAQ Page_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://home.cc.umanitoba.ca:80/~gietz/FAQ.html","20150401010220","https://web.archive.org/","web","/_static/",
+	      "1427850140");
+</script>
+<link rel="stylesheet" type="text/css" href="./The TRAFO FAQ Page_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./The TRAFO FAQ Page_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+  <meta name="GENERATOR" content="Adobe PageMill 3.0 Mac">
+  <title>The TRAFO FAQ Page</title>
+  
+  <meta name="Content-Type" content="text/html; charset=x-user-defined">
+</head>
+<body bgcolor="#95e9ea" link="#0000ff" vlink="#551a8b" alink="#0000ff"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca:80/~gietz/FAQ.html</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(675,27,25,2,"web","http://home.cc.umanitoba.ca/~gietz/FAQ.html","20150401010220",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<p></p><center><img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"> <img src="./The TRAFO FAQ Page_files/bluebar.GIF" height="11" width="560" align="BOTTOM" naturalsizeflag="0"> <img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"></center><p></p>
+
+<h1><center>The TRAFO FAQ</center></h1>
+
+<h3><center><img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"> <img src="./The TRAFO FAQ Page_files/bluebar.GIF" height="11" width="560" align="BOTTOM" naturalsizeflag="0"> <img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"> <hr><font size="+4">Frequently asked Questions</font><a name="anchor2194990"></a><hr></center></h3>
+
+<ol>
+  <li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2107081"><font size="+2">What transformation
+  protocol do I use?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2146414"><font size="+2">I followed the protocol
+  and got no (zero, nada, none, zip) transformants. What's wrong?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2147296"><font size="+2">Can I store the
+  Competent cells for any length of time before using them?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2148247"><font size="+2">My yeast culture
+  really stinks! What is the problem?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2149102"><font size="+2">I did a transformation
+  and got a lot of fungus all over my plates. What can I do?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2150278"><font size="+2">What are the steps
+  I need to perform before doing a screening?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2150823"><font size="+2">Is it really important
+  to do the transformation experiment with increasing amounts of
+  library DNA?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2151317"><font size="+2">Do I really have
+  to heat shock for 20 to 30 min.?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2152069"><font size="+2">Some people add
+  b mercaptoethanol, 95% ethanol, DTT, or DMSO to their transformation
+  reactions. Will this increase the efficiency of your method?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2152518"><font size="+2">We have transformed
+  our bait plasmid into yeast and it grows poorly. Can we do anything
+  to make it grow better?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2153187"><font size="+2">Is the quality of
+  water critical for transformation?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2154340"><font size="+2">Can the yeast cells
+  as prepared in protocol 2 or 3 be frozen? If so, how and how
+  well do they transform?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2154858"><font size="+2">Does it matter if
+  your plasmid preparation contains RNA?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2155533"><font size="+2">Plating method affects
+  transformation yield. What NOT to DO!</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2156041"><font size="+2">How do I resuspend
+  my pellet of cells into the TRAFO mix that contains PEG? I really
+  have a hard time with this step!</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor11012373"><font size="+2">I cannot obtain
+  the transformation levels that you list on this site! WHY?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor11016107"><font size="+2">What variables
+  do i test to get optimal transformation efficiency?</font></a>
+  </li><li><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor864835"><font size="+2">How do I sterilize
+  my carrier DNA? </font></a>
+</li></ol>
+
+<p></p><center><hr><a name="anchor2107081"></a><img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"></center><p></p>
+
+<ol>
+  <li><b><font size="+1">What transformation protocol do I use?</font></b>
+  <ol>
+    <p>If you want to do a two-hybrid or similar screen start with
+    the Quick and Easy Transformation Procedure to transform your
+    bait plasmid into the yeast strain you will be using. Then use
+    the Standard Transformation procedure to do an experiment to
+    test your library plasmid DNA for transformation yield to determine
+    the scale you wish to use. Finally, use the High Efficiency Library
+    Transformation procedure with the appropriate scale to generate
+    the transformants to screen your library.<a name="anchor2146414"></a>
+    <b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">I followed the protocol and got no (zero,
+  nada, none, zip) transformants. What's wrong?</font></b>
+  <ol>
+    <p>If you have used the Quick and Easy transformation protocol
+    it is likely that your yeast source was too old. Try the Standard
+    protocol with your plasmid as well as the plasmid provided in
+    the kit. This will give you better results. If you have used
+    this high efficiency procedure, it is likely that there is a
+    problem with your SC-minus drop-out medium that selects for the
+    transformed yeast cells. Check the medium recipe against the
+    strain genotype. Better yet use the recipe listed on the <b><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/media.html">Yeast media Page</a></b>.<a name="anchor2147296"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Can I store the Competent cells for any
+  length of time before using them?</font></b>
+  <ol>
+    <p>For highest efficiency you should use your cells immediately
+    upon reaching the correct titer and continue until the yeast
+    cells have been plated onto the selective medium. You may want
+    to prepare competent yeast cells that can be stored in the freezer
+    and used at a moments notice. There is a protocol published in
+    Schiestl et al. (1993) which gives reasonable levels of transformed
+    cells. What is the relationship between OD<sub>600</sub> and
+    yeast cell density? Each yeast strain is a little different but
+    essentially an OD<sub>600</sub> of 0.1 roughly corresponds to
+    1 x 10<sup>6 </sup>cells/ml.<a name="anchor2148247"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">My yeast culture really stinks! What is
+  the problem?</font></b>
+  <ol>
+    <p>You likely have a contamination problem. Carefully bleach
+    your culture to destroy the contaminating bacteria or fungi and
+    then check your medium stock bottle as well as the plate the
+    inoculum was started from. You may find that the liquid medium
+    was contaminated or your plate used to streak out your yeast
+    strain contained contaminants. Check your other media bottles
+    to determine if your problem is with the autoclave step of sterilization.
+    Also inspect your inoculum plate to determine if any colonies
+    have a different color or shape which may indicate a contaminating
+    organism. If your media bottles and inoculum look OK you had
+    better practice your sterile technique or use a laminar flow
+    hood (usually not necessary).<a name="anchor2149102"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">I did a transformation and got a lot of
+  fungus all over my plates. What can I do?</font></b>
+  <ol>
+    <p>You probably have an infection in your plate storage cold
+    room. Most cold rooms are cold and dark and ideal for fungus
+    growth. We store our plates in large plastic storage containers
+    in the cold room and every now and then disinfect them with a
+    dilute solutions of bleach (0.3% Na hypochlorite). Inspect your
+    cold storage facility and disinfect if necessary.<a name="anchor2150278"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">What are the steps I need to perform before
+  doing a screening?</font></b>
+  <ol>
+    <p>The first thing is to 1) transform your bait or reporter plasmid
+    into the yeast strain and test for auto-activation. If your bait
+    or reporter does not show auto-activation you are ready to proceed.
+    The second experiment that is important before doing a screen
+    is 2) the titration of your library plasmid DNA to determine
+    what size of scale up is required and how many transformants
+    are expected. Grow up your yeast strain as in Protocol 3 in 15
+    ml of SC-Trp and then sub into 50 ml of YPAD. Do 5 different
+    transformation reactions with increasing amounts of library plasmid
+    DNA (0.0, 0.1, 1.0, 2.0, 5.0 µg). Determine the amount
+    of library DNA that most effectively gives the number of transformants
+    needed to cover your library. (We usually attempt to recover
+    about 20 million transformants) Scale up the transformation to
+    either 30 or 60 X. If necessary the transformation reaction can
+    be scaled up to 120 x.<a name="anchor2150823"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Is it really important to do the transformation
+  experiment with increasing amounts of library DNA?</font></b>
+  <ol>
+    <p><b>YES! </b>For 2 reasons: <b>1)</b> To more effectively use
+    your library plasmid DNA and <b>2)</b> to aid in eliminating
+    transformants that take up more than one plasmid. Under conditions
+    of high DNA concentration many yeast cells take up more than
+    one DNA molecule. If the DNA source is a complex cDNA plasmid
+    library then many transformants will contain 2 or even 3 different
+    library plasmids. This complicates the subsequent analysis of
+    positive colonies. I have done yeast transformation in the past
+    and used a 5 min heat shock.<a name="anchor2151317"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Do I really have to heat shock for 20
+  to 30 min.?</font></b>
+  <ol>
+    <p>YES! We have extensively studied the length of the heat shock
+    and found the heat shock time is necessary to obtain a high transformation
+    efficiency. A heat shock of 5 min will not give rise to optimal
+    transformation efficiency using this Kit.<a name="anchor2152069"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Some people add </font><font size="+1" face="Symbol">b</font> mercaptoethanol, 95% ethanol, DTT, or
+  DMSO to their transformation reactions. Will this increase the
+  efficiency of your method?</b>
+  <ol>
+    <p>Some publications have used 10% volume of ethanol or DMSO
+    or a specific concentration of bme or DTT in the transformation
+    reaction. This may help if your transformation reaction is not
+    optimized! We have found that adding these components to the
+    transformation reaction generally reduces the efficiency if you
+    use a 20 to 30 min heat shock . If you reduce the heat shock
+    to between 5 and 10 mins you will end with the same efficiency
+    levels without these components and the longer heat shock. It
+    may pay to run the test experiments to determine the best heat
+    shock for the strain and the conditions you have chosen.<a name="anchor2152518"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">We have transformed our bait plasmid into
+  yeast and it grows poorly. Can we do anything to make it grow
+  better?</font></b>
+  <ol>
+    <p>Unfortunately you cannot. It appears that some bait fusion
+    protein seems to have a detrimental affect on yeast growth. As
+    long as your bait does not autoactivate the reporter gene it
+    may be best to co-transform your bait and library plasmid DNA
+    . The transformation efficiency will be reduced but you should
+    still be able to generate the number of transformants necessary
+    to cover the complexity of your library. Before you begin however,
+    perform an experiment to determine the best ratio of bait and
+    library plasmid DNA and then scale up your transformation to
+    generate the desired numbers of transformants.<a name="anchor2153187"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Is the quality of water critical for transformation?</font></b>
+  <ol>
+    <p>We always use the best water we have available. Cartridge
+    purified water, such as Milli-Q or NanoPure, gives the best results.
+    Double distilled water can also be used, but the rule of thumb
+    is to use the best water you have available.<a name="anchor2153740"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Can the yeast cells as prepared in protocol
+  2 or 3 be frozen? If so, how and how well do they transform?</font></b>
+  <ol>
+    <p>Yes, however freezing dramatically reduces the transformation
+    efficiency. Schiestl et al. (1993) gives a protocol for the production
+    of the frozen competent yeast cells, however the transformation
+    efficiency is only in the range of 1 x 10<sup>4 </sup>transformants/µg.<a name="anchor2154858"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Does it matter if your plasmid preparation
+  contains RNA?</font></b>
+  <ol>
+    <p>Plasmid DNA does not need to be extensively purified for transformation
+    into yeast. Plasmid DNA containing E. coli RNA transforms just
+    as effectively or in some cases even better than the same preparation
+    after removal of the RNA (Gietz Lab, unpublished observations).
+    <a name="anchor2155533"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b><br>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">Plating method affects Transformation
+  yield! What NOT to DO!</font></b>
+  <ol>
+    <p>One person wrote in telling of an individual in the laboratory
+    that followed the protocol but still got no Transformation! After
+    observation it was determined that the problem was the plating
+    procedure. This individual was over spreading the transformed
+    yeast cells onto the plate (2-3 minutes of continual spreading
+    until the fluid was fully absorbed by the medium). This action
+    killed the transformed yeast cells resulting in no transformation.
+    When spreading be careful to allow your sterile glass wand to
+    cool sufficiently prior to spreading yeast inoculum. Then spread
+    the inoculum evenly over the plate with a minimum number of strokes.
+    Allow the medium to absorb the fluid (will take 2 to 5 min depending
+    on how dry the plates are) and then incubate until colonies appear.
+    This should be 2-4 days depending on the medium recipe used.
+    <a name="anchor2156041"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b><br>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">How do I resuspend my pellet of cells
+  into the TRAFO mix that contains PEG? I really have a hard time
+  with this step!</font></b>
+  <ol>
+    <p>This has been the most popular question of late! The answer
+    is to use a good vortex and just keep it mixing at max until
+    it is resuspended. When we are doing standard transformations
+    in a 1.5 ml microfuge tube we use two tubes opposed to each other
+    so they knock into each other. This helps dislodge the pellet
+    from the wall of the tube. For large scale transformations try
+    and get vigorous mixing with the tube at an angle so that it
+    also vibrates as well as mixing. <b>Wolfgang Lankes</b> from
+    the <b>Max Delbrueck Center for Molecular Medicine</b>, wrote
+    me with a good solution to the resuspension problem. He uses
+    a rough surface such as a wire test tube basket to quickly run
+    the end of the tube over a couple of times. He says this works
+    very well to resuspend the pellets into TRAFO mix or even sterile
+    water at the end of the TRAFO reaction. Be careful not to use
+    a rough surface as it could damage the tube which may cause it
+    to fail during centrifugation <a name="anchor11012373"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    </p><p>&nbsp;
+  </p></ol>
+  </li><li><b><font size="+1">I cannot obtain the transformation levels
+  listed on this site! Why?</font></b>
+  <ol>
+    <p>This is probably one of the most asked questions! Reasons
+    for transformation variation!
+    </p><li><font face="Times New Roman">Transformation efficiency has
+    genetic variables. There is dramatic variation in the transformation
+    efficiency of amoung strains currently being used in the general
+    yeast community. Not all strains will give 3 million transformants
+    per microgram of plasmid DNA even if you optimize all the variables.
+    It is best to start with a good transforming strain and then
+    optimize.</font>
+    </li><li face="Times New Roman"><font face="Times New Roman">Cell
+    Growth is very important. Cells must go thru at least 2 divisions
+    before they become fully competent for transformation. They remain
+    that way for another 1 division. Be sure that you are using a
+    rich media like YPAD and grow the cells from 5.0 x10<sup>6</sup>
+    cells/ml to at least 2.0 x10<sup>7</sup> cells/ml.</font>
+    </li><li face="Times New Roman"><font face="Times New Roman">Media
+    is very important. Ensure you are using a "Drop out"
+    media when plateing your cells. See the Media Page, accessable
+    from the front Trafo page. Ensure that you titrate the pH of
+    you media to 5.6 before autoclaving. We have done the experiment
+    and found that this pH promotes the highest efficiency. YPAD
+    should be titrated to a pH of 6.0. In addition <b>DO NOT</b>
+    expose your "Drop out" plates fluorescent lighting
+    for any length of time. Some bulbs (not all) cause reduced plating
+    efficiency ! (dont know why but it does). We store all our plates
+    under cardboard boxes at room temperature and in a dark cold
+    room.</font>
+    </li><li><font face="Times New Roman">Ensure that all your reagents
+    are top quality and made correctly. The carrier DNA is an important
+    reagent. Make it according to the instruction on this web site!
+    <b>Do not use the older methods</b>. In addition the PEG reagent
+    must be at the correct concentration. This is very important.
+    If you are having a hard time with TRAFO efficiency, vary the
+    amount of PEG added to the Trafo reaction. You may find that
+    your PEG concentration is a bit off and needs more or less volume
+    to reach optimal transformation efficiency. OK, I am going to
+    be a shameless self promoting capitalist here and tell you if
+    you need help with the reagent part of transformation consider
+    buying the <b>GIETZ Lab Yeast Yransformation Kit</b>. I make
+    and test them myself and know they work! (See the front page
+    for details!) Sorry about that! It is just a royal pain see all
+    these companies (you know the ones) making money off of the technology
+    I developed! </font><a name="anchor11016107"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a></font></b>
+    <p>&nbsp;
+  </p></li></ol>
+  </li><li><b><font size="+1">What variables do I test to get optimal
+  Transformation efficiency?</font></b>
+  <ol>
+    <li>The easiest variable to test is the <b>heat shock length</b>.
+    Test various times from 15 min to 60 min heat shock at 42<sup>o</sup>C.
+    Ensure you plate duplicate plates to ensure good reproducibility.
+    </li><li>The next variable to test is <b>amount of carrier DNA</b>
+    in the TRAFO reaction. Some yeast strains need a bit more carrier
+    DNA. Do a set of experiments to determine the best DNA amount
+    to add to the transformation reaction.
+    </li><li>The next variable to test is <b>amount of PEG</b> in the
+    TRAFO reaction. Some PEG stock solutions are not exactly correct
+    due to the viscosity of the solution. Do an experiment to determine
+    the amount needed to get to optimal transformation efficiency.
+    Remember the optimal concentration is 33% w/v.
+    </li><li>If you still can't get good transformation, get a hold of
+    a yeast strain/plasmid combination that gives good transformation
+    so you have a bench mark! <a name="anchor864835"></a><b><font size="-2"><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/FAQ.html#anchor2194990">FAQ</a><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/">.</a></font></b>
+    <p>&nbsp;
+  </p></li></ol>
+  </li><li><b><font size="+1">How do I sterilize my carrier DNA?</font></b>
+  <ol>
+    <p>We dissolve our carrier DNA in sterile TE and handle all operations
+    with sterile technique. Then we consider our carrier DNA sterile
+    after we place in a boiling water bath for 5 mins. We have had
+    NO sterility problems that could be traced back to the carrier
+    DNA!!!!
+  </p></ol>
+  <p>&nbsp;
+</p></li></ol>
+
+<p></p><center><img src="./The TRAFO FAQ Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"></center><p></p>
+
+<h3><center>&nbsp;</center></h3>
+
+<p>&nbsp;</p>
+
+<p><a href="https://web.archive.org/web/20150401010220/http://home.cc.umanitoba.ca/~gietz/Trafo.html"><img src="./The TRAFO FAQ Page_files/SMALLa_Trafo.GIF" width="58" height="51" align="BOTTOM" naturalsizeflag="3"> <b>Back to Yeast
+TRAFO Page</b></a> 
+
+
+
+
+</p></body></html>

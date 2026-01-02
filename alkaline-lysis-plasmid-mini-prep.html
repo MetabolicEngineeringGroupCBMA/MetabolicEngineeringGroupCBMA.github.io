@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>alkaline lysis plasmid mini prep</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="MEC wiki"/><meta property="og:title" content="alkaline lysis plasmid mini prep"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="alkaline lysis plasmid mini prep"/><meta name="twitter:description" content="Low cost E. coli plasmid alkaline lysis mini-prep Also known as (Snik-protokollet från TMB)."/><meta property="og:description" content="Low cost E. coli plasmid alkaline lysis mini-prep Also known as (Snik-protokollet från TMB)."/><meta property="og:image:alt" content="Low cost E. coli plasmid alkaline lysis mini-prep Also known as (Snik-protokollet från TMB)."/><meta property="og:image" content="https://http://localhost:8080/static/og-image.png"/><meta property="og:image:url" content="https://http://localhost:8080/static/og-image.png"/><meta name="twitter:image" content="https://http://localhost:8080/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="http://localhost:8080"/><meta property="og:url" content="https://http//localhost:8080/alkaline-lysis-plasmid-mini-prep"/><meta property="twitter:url" content="https://http//localhost:8080/alkaline-lysis-plasmid-mini-prep"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Low cost E. coli plasmid alkaline lysis mini-prep Also known as (Snik-protokollet från TMB)."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvYmpvcm4vcHVibGljX3ZhdWx0L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://http://localhost:8080/index.xml"/></head><body data-slug="alkaline-lysis-plasmid-mini-prep"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">MEC wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-200"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-200" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>alkaline lysis plasmid mini prep</a></div></nav><h1 class="article-title">alkaline lysis plasmid mini prep</h1><p show-comma="true" class="content-meta"><time datetime="2026-01-02T18:31:59.000Z">Jan 02, 2026</time><span>12 min read</span></p></div></div><article class="popover-hint"><h1 id="low-cost-e-coli-plasmid-alkaline-lysis-mini-prep">Low cost E. coli plasmid alkaline lysis mini-prep<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#low-cost-e-coli-plasmid-alkaline-lysis-mini-prep" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Also known as (Snik-protokollet från <a href="http://www.tmb.lth.se" class="external">TMB<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>).</p>
+<p>This protocol can be used to prepare plasmid DNA from cells in liquid culture or growing on solid medium.
+Cells from fresh o/n cultures tend to give the best results.
+If cultures can not be processed right away, pelleted cells can be stored a -20°C for future plasmid preparation.
+For solid medium, we have found that it might be better to scrape cells off the plate, wash with P1 and save the
+pellet at -20°C rather than saving the plate in the fridge for several days as cells on plate tend to become slimy after a while.</p>
+<p>Any microcentrifuge can be used for this protocol, the maximum force generated seems not to be critical.</p>
+<p>Picofuge type centrifuges may <strong>not</strong> give sufficient force to pellet precipitated DNA, but is fine for spinning cells.</p>
+<p><img src="./pico.jpeg" alt="pico"/></p>
+<h2 id="collect-cells-from-liquid-culture">Collect cells from liquid culture<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#collect-cells-from-liquid-culture" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>
+<p>Grow 1 ml of <em>E. coli</em> in a 1.5 - 2 ml Eppendorf tube at 37°C o/n. Larger 2 mL tubes might be better, since mixing seems more efficient. Tubes can be incubated sideways at 200 rpm.</p>
+</li>
+<li>
+<p>Centrifuge at top speed for 30 s to recover cells.</p>
+</li>
+<li>
+<p>Resuspend cells in 200 µL of buffer P1. Cells can be vortexed briefly or cells can be resuspended by pipetting up and down with a P1000 pipette.</p>
+</li>
+</ol>
+<h2 id="collect-cells-from-solid-culture">Collect cells from solid culture<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#collect-cells-from-solid-culture" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>
+<p>Streak about a quarter to a half of a LB plate necessary antibiotic from a colony or directly from a frezer stock and incubate o/n.</p>
+</li>
+<li>
+<p>On the next day, collect cells from at least 1/4 of the inoculated solid medium using a toothpick with a flat end.</p>
+</li>
+<li>
+<p>Resuspend the cells in 200 µL buffer P1. If the cells are hard to resuspend, try to decant as much as possible of the cells to another tube and leave behind the sticky biomass..</p>
+</li>
+</ol>
+<h2 id="alkaline-lysis">Alkaline lysis<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#alkaline-lysis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="4">
+<li>
+<p>Add 200 µL of buffer P2, mix by inversion about ten times, <strong>do not vortex</strong> or else the chromosomal DNA might fragment and contaminate the plasmid DNA. <strong>Wear goggles for this step!</strong></p>
+</li>
+<li>
+<p>Incubate at room temperature for 3-5 min. <strong>Do not incubate more than 5 min</strong>, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.</p>
+</li>
+</ol>
+<h2 id="neutralization">Neutralization<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#neutralization" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="6">
+<li>
+<p>Add 250 µL buffer P3, mix by inversion about ten times, <strong>do not vortex</strong> for the same reason as before.</p>
+</li>
+<li>
+<p>Centrifuge at top speed for 5-10 min. While centrifuge is running, add 1 ml of 96% - 99,5% ethanol
+to a new clean 1.5 ml Eppendorf tube for each plasmid prep. 750 µL of Isopropanol can be used instead of ethanol.</p>
+</li>
+</ol>
+<h2 id="ethanol-precipitation">Ethanol precipitation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ethanol-precipitation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="8">
+<li>
+<p>Add 500 µL of the supernatant from the centrifugation to the ethanol and mix by inversion. If isopropanol is used, add as much as possible without touching the precipitate.</p>
+</li>
+<li>
+<p>Centrifuge at top speed for 10 min.</p>
+</li>
+<li>
+<p>Pour away supernatant by opening and inverting the tube. The plasmid should be visible as a small white spot in the bottom of the tube.</p>
+</li>
+<li>
+<p>Add 1 mL 70% ethanol. Some protocols specify cold ethanol (-20°C) but ethanol at room temperature works fine.</p>
+</li>
+<li>
+<p>Centrifuge 1 min at top speed.</p>
+</li>
+</ol>
+<h2 id="dry-plasmid-dna">Dry plasmid DNA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dry-plasmid-dna" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="13">
+<li>
+<p>Pour away supernatant by opening and inverting the tube. Be sure to remove as much of the liquid as as possible. If nececessary, spin the tubes a second time ad remove the remaining liquid with a micropipette.</p>
+</li>
+<li>
+<p>Let tubes dry on the bench for 10-15 min with the lid open or at 50°C for 5 min . A <a href="./speedvac" class="internal" data-slug="speedvac">speedvac</a> can also be used if available.</p>
+</li>
+</ol>
+<p><img src="./alkaline-lysis-plasmid-mini-prep_003.png" width="auto" height="auto" alt/></p>
+<h2 id="reconstitution-of-plasmid-dna">Reconstitution of plasmid DNA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#reconstitution-of-plasmid-dna" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="15">
+<li>Dissolve pellet in 30-50 µL buffer such as:</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Buffer</th><th>Tris-HCl(mM)</th><th>EDTA(mM)</th><th>pH</th></tr></thead><tbody><tr><td><a href="./TE" class="internal" data-slug="TE">TE</a> buffer</td><td>10</td><td>0.1</td><td>8</td></tr><tr><td>Qiagen EB buffer</td><td>10</td><td>-</td><td>8.5</td></tr><tr><td>Qiagen Buffer AE</td><td>10</td><td>0.5</td><td>9.0</td></tr><tr><td>Sigma Genelute Elution Solution</td><td>10</td><td>1 mM</td><td>approx. 8.0</td></tr><tr><td>NZYMiniprep AE buffer (does not contain EDTA)</td><td>?</td><td>?</td><td>?</td></tr></tbody></table></div>
+<p>Any resuspension buffer from a commercial plasmid miniprep kit is probably fine for this.</p>
+<ol start="16">
+<li>Done! Store your DNA in fridge (4-8°C) or freezer (-20°C).</li>
+</ol>
+<p>A <a href="./snik-short" class="internal alias" data-slug="snik-short">short</a> protocol for printing.</p>
+<h2 id="usage">Usage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#usage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>5 µL of this prep should give a fairly strong band on an agarose gel, 10 µL of this prep can be used for restriction cutting to spot correct clones. This DNA can also be used as template for PCR or to transform E. coli, yeast and probably most other organisms. This DNA prep can be purified using for a clean-up kit (for example Quiagen QIA quick PCR purification columns) prior to cloning.
+The DNA is pure enough to digest and use for in-vivo gap repair cloning in S. cerevisiae.</p>
+<h2 id="notes">Notes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>This procedure is based on the alkaline lysis procedure described in <a href="https://www.ncbi.nlm.nih.gov/pubmed/388356" class="external">Birnboim, H.C., Doly, J., 1979. A rapid alkaline extraction procedure for screening recombinant plasmid DNA. Nucleic Acids Res. 7, 1513–1523.<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p>The procedure takes advantage of the fact that plasmids are relatively small super coiled DNA
+molecules and bacterial chromosomal DNA is much larger and less supercoiled. This difference in topology allows for selective precipitation of the chromosomal DNA and cellular proteins from plasmids and RNA molecules. The cells are lysed under alkaline conditions, which denatures both nucleic acids and proteins, and when the solution is neutralized by the addition of Potassium Acetate, chromosomal DNA and proteins precipitate because it is impossible for them to renature correctly (they are so large). Plasmids renature correctly and stay in solution, effectively separating them from chromosomal DNA and proteins.</p>
+<h2 id="solutions">Solutions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#solutions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="p1">P1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#p1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>50 mM Tris-HCl</li>
+<li>10 mM EDTA (292,248 g/mol)</li>
+<li>100 µg/mL RNase A, pH 8.0</li>
+</ul>
+<p>Dissolve 6.06 g Tris base (121.14 g/mol) and 3.72 g Na<sub>2</sub>EDTA•2H<sub>2</sub>O (372.2 g/mol) in 800 mL water.
+Adjust to pH 8.0 with concentrated HCl (use protection!).</p>
+<p>Add 100 µl of RNase (20 mg/ml) to 20 mL of P1.
+This solution can be stored at 4°C for long periods.
+RNase is not strictly necessary, but removes RNA from the plasmid prep.
+When the cells are lysed in the next step, the RNase will catalyze hydrolysis of all RNA molecules into nucleotides, but the DNA will not be damaged.</p>
+<h3 id="p2">P2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#p2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>1% SDS</li>
+<li>0.2 M NaOH (39,99711 g/mol)</li>
+</ul>
+<p>Dissolve 8 g NaOH in 950 mL water.
+Add 50 mL of a 20% (w/v) <a href="./SDS" class="internal" data-slug="SDS">SDS</a> water solution.</p>
+<p>SDS is an ionic detergent which disrupts cell membranes and destabilizes all hydrophobic interactions holding various macromolecules
+in their native conformation. The high pH of the 0.2 M NaOH also denatures macromolecules by changing the condition of ionizable groups
+(ionizing certain groups and deionizing others).</p>
+<p>The clearing you should see is because the cells are lysing.
+The viscosity of the solution is increased by the increase in concentration of macromolecules in solution (a result of the cell lysis).</p>
+<h3 id="p3">P3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#p3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>3.0 M Potassium Acetate (KCH3COO; 98,14 g/mol), pH 5.5</li>
+</ul>
+<p>There are two ways to prepare this solution.</p>
+<p>Glacial or anhydrous acetic acid is essentially water free acetic acid.
+It has a density of 1.05 g/mL.
+For one liter, add 3 * 60.05 = 180.15 g glacial acetic acid in a 1 L beaker.
+Add water to about 500 mL.
+Add KOH pellets until pH is 5.5.
+Be careful not to overshoot the pH, it may be safe to use a 3M KOH solution just before the right pH.</p>
+<p>Alternatively, dissolve 294.5 g potassium acetate powder in 500 mL water.
+Adjust the pH with glacial acetic acid (~110 mL was needed when this was attempted).
+Add water to one liter.</p>
+<p>This is probably the key step in the alkaline lysis procedure. The low pH of the Potassium acetate solution
+neutralizes the NaOH and when the pH returns to near-neutrality then the macromolecules renature.
+The proteins and large DNA molecules do not renature correctly however. They form hydrophobic, ionic and hydrogen
+bonds with each other non-specifically because the correct conformation of the molecule was not maintained during denaturation.
+The plasmid DNA molecules, however, never really fully denatured because they are small circular molecules, which are supercoiled.
+Even though the hydrogen bonds between base pairs were broken by the high pH, they reform correctly when the pH is lowered.
+The large DNA molecules (chromosomal DNA) and proteins form precipitates because they bind to each other in a large
+aggregate but the plasmids don’t precipitate because they renature correctly and don’t become part of the large multi-molecule aggregates.
+Thus plasmid DNA remains in solution while proteins and other DNA molecules precipitate.</p>
+<h3 id="te-buffer">TE-buffer<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#te-buffer" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./TE" class="internal" data-slug="TE">TE</a></p>
+<h3 id="further-reading">Further reading<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#further-reading" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>
+<p><a href="https://bitesizebio.com/180/the-basics-how-alkaline-lysis-works" class="external">The Basics: How Alkaline Lysis Works<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p><a href="https://bitesizebio.com/13524/how-to-identify-supercoils-nicks-and-circles-in-plasmid-preps" class="external">How to Identify Supercoils, Nicks and Circles in Plasmid Preps<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p><a href="https://bitesizebio.com/1660/plasmid-v-genomic-dna-extractionthe-difference" class="external">Plasmid vs. Genomic DNA Extraction: The Difference<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Alkaline_lysis" class="external">Alkaline lysis - Wikipedia<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p><a href="http://www.youtube.com/watch?v=8xEDEJ0DHFA" title="Isolating_Plasmid_DNA.png" class="external"><img src="http://img.youtube.com/vi/8xEDEJ0DHFA/0.jpg" alt/><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+<li>
+<p><a href="http://www.youtube.com/watch?v=pw5jgvKn6dw" title="Isolating_Plasmid_DNA.png" class="external"><img src="http://img.youtube.com/vi/pw5jgvKn6dw/0.jpg" alt/><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</li>
+</ul>
+<h3 id="lista-de-materiais-em-português">Lista de materiais em Português<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lista-de-materiais-em-português" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>2-3 dias antes da aula:</p>
+<ul>
+<li>LB com ampicilina (100 µg/mL) ~ 25-50 mL</li>
+<li>10 Tubos 2 mL</li>
+</ul>
+<p>No dia da aula:</p>
+<ul>
+<li>Tips amarelas (novos!)</li>
+<li>Tips azuis (novos!)</li>
+<li>12 tubos Eppendorf com 1 mL tampão P1 (marcados “P1”)</li>
+<li>12 tubos Eppendorf com 1 mL tampão P2 (—”—    “P2”)</li>
+<li>12 tubos Eppendorf com 1 mL tampão P3 (—”—    “P3”)</li>
+<li>12 tubos com 1 mL TE x1</li>
+<li>4 tubos Falcon 50 mL (usados)</li>
+<li>4 suportes para tubos Eppendorf</li>
+<li>4 suportes para tubos Falcon 50 mL</li>
+<li>4 tubos Falcon 50 mL com 25-50 mL EtOH 96-100% (etanol absoluto para DNA/RNA)</li>
+<li>4 tubos Falcon 50 mL com 25-50 mL EtOH 70% (v/v) (Feito com agua ultrapura)</li>
+<li>4 copos com Tubos eppendorf 1.5 mL (novos, mas não necessariamente estéreis)</li>
+<li>microcentrifuga</li>
+<li>Agarose para geis</li>
+<li>Tampão TAE x1</li>
+<li>Tampão TAE stock</li>
+<li>4 copos de 50-100 mL</li>
+<li>1 proveta 50-100 mL</li>
+<li>4 erlenmeyers 250 mL</li>
+<li>2 tinas de eletroforese</li>
+<li>Fonte de eletricidade</li>
+<li>Barquinhos de pesagem (plástico)</li>
+</ul>
+<h3 id="notes-1">Notes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notes-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>CAVAN plasmid miniprep: This procedure is based on the alkaline lysis procedure developed by Birnboim and Doly (Nucleic Acids Research 7:1513, 1979).</p>
+<p>Procedure:</p>
+<ul>
+<li>Inoculate 1 colony in 3 ml LB+amp; O/N 37°C shaking</li>
+<li>Put cell suspension in 2 mL tube</li>
+<li>Spin down at 14000 RPM for 30s</li>
+<li>Resuspend with 300µl Resuspension solution (vortex)</li>
+<li>Add 300 µl Lysis solution and invert 3X (do NOT vortex)</li>
+<li>Incubate up to 5 minutes (not longer!)</li>
+<li>Add 300µl Neutralization solution and invert 3X (do NOT vortex)</li>
+<li>Incubate up to 5 minutes</li>
+<li>Spin down for 10 min at 14000 RPM at 4°C</li>
+<li>Pipet the supernatant in a new epp</li>
+<li>Add 750µl of Isopropanol (precipitation)</li>
+<li>Vortex and incubate 2 min at RT</li>
+<li>Spin down at 4°C for 15 min (14000 RPM)</li>
+<li>Discard supernatant</li>
+<li>Wash pellet with 300 µl of 70% EtOH</li>
+<li>Spin down at 4°C for 5 min at 14000RPM</li>
+<li>Discard supernatant</li>
+<li>Repeat washing step</li>
+<li>Dry pellet with speedvac for 30 min (or overnight to the air)</li>
+<li>Add 50 µl of TE-buffer
+(no guanidine hydrochloride to permanently inactivate nucleases in nuclease rich species)</li>
+</ul>
+<p>Solutions:
+Resuspension solution: 50 mM Tris-HCl (121,14 g/mol), 10 mM EDTA (292,248 g/mol), 100 µg/mL RNase A, pH 8.0
+Stock solution:
+1L: 6,057 g Tris + 3,722 g EDTA.2H2O ; adjust to pH 8,0 (HCl)
+500 mL: 3,0285 g Tris + 1,861 g EDTA.2H2O ; adjust to pH 8,0 (HCl)</p>
+<p>Working solution:
+Add 0,6 ml of RNase (20 mg/ml) to 100 ml of resuspension solution store at 4°C</p>
+<p>When the cells are lysed in the next step, the RNase will catalyze hydrolysis of all RNA molecules into nucleotides, but the DNA will not be affected.</p>
+<p>Lysis solution: 1% SDS; 0,2 M NaOH (39,99711 g/mol)
+1L: 8,0 g NaOH pellets in 900 ml MQ-water; autoclave; add 100 ml of SDS 10%
+500 mL: 4,0 g NaOH pellets in 450 ml MQ-water; autoclave; add 50 ml of SDS 10%</p>
+<p>SDS is an ionic detergent which disrupts cell membranes and destabilizes all hydrophobic interactions holding
+various macromolecules in their native conformation. The high pH of the 0.2 M NaOH also denatures macromolecules by
+changing the condition of ionizable groups (ionizing certain groups and deionizing others).
+The clearing you see is because the cells are lysing. The viscosity of the solution is increased by the increase
+in concentration of macromolecules in solution (a result of the cell lysis).</p>
+<p>Neutralisation solution: 3.0 M Potassium Acetate (KCH3COO; 98,14 g/mol), pH 5.5
+1L: 294,45 g KAc in 500 ml H2O; pH to 5,5 with acetic acid (CH3COOH); H2O to 1L
+500 mL: 147,225 g KAc in 250 ml H2O; pH to 5,5 with acetic acid, H2O to 500 mL</p>
+<p>This is really the key step in the alkaline lysis procedure. The low pH of the Potassium acetate solution neutralizes
+the NaOH and when the pH returns to near-neutrality then the macromolules renature. The proteins and large DNA molecules
+do not renature correctly however. They form hydrophobic, ionic and hydrogen bonds with each other nonspecifically because
+the correct conformation of the molecule was not maintained during denaturation. The plasmid DNA molecules, however, never really
+fully denatured because they are small circular molecules, which are supercoiled. Even though the hydrogen bonds between base pairs
+were broken by the high pH, they reform correctly when the pH is lowered. The large DNA molecules (chromosomal DNA) and proteins form
+precipitates because they bind to each other in a large aggregate but the plasmids don’t precipitate because they renature correctly
+and don’t become part of the large multi-molecule aggregates. Thus plasmid DNA remains in solution while proteins and other DNA molecules precipitate.</p>
+<p>TE-buffer (1X): 1mM EDTA (292,248 g/mol), 10 mM Tris (121,14 g/mol); HCl pH 8.0
+1L (10X): 3,722 g EDTA .2H2O  ;  12,114 g Tris
+100 mL (10X): 0,3722 g EDTA .2H2O  ;  1,2114 g Tris</p>
+<p>TE buffer is commonly used to redissolve DNA because it contains EDTA. The EDTA will chelate magnesium ions, which are a
+cofactor for most nucleases (enzymes which degrade nucleic acids). If your DNA prep becomes contaminated with a nuclease
+(like the ones produced by the cells in your skin) then the nuclease will be inactivated by the fact that the magnesium cofactor
+is unavailable in the solution (because it is chelated by the EDTA).</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-59" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#low-cost-e-coli-plasmid-alkaline-lysis-mini-prep" data-for="low-cost-e-coli-plasmid-alkaline-lysis-mini-prep">Low cost E. coli plasmid alkaline lysis mini-prep</a></li><li class="depth-1"><a href="#collect-cells-from-liquid-culture" data-for="collect-cells-from-liquid-culture">Collect cells from liquid culture</a></li><li class="depth-1"><a href="#collect-cells-from-solid-culture" data-for="collect-cells-from-solid-culture">Collect cells from solid culture</a></li><li class="depth-1"><a href="#alkaline-lysis" data-for="alkaline-lysis">Alkaline lysis</a></li><li class="depth-1"><a href="#neutralization" data-for="neutralization">Neutralization</a></li><li class="depth-1"><a href="#ethanol-precipitation" data-for="ethanol-precipitation">Ethanol precipitation</a></li><li class="depth-1"><a href="#dry-plasmid-dna" data-for="dry-plasmid-dna">Dry plasmid DNA</a></li><li class="depth-1"><a href="#reconstitution-of-plasmid-dna" data-for="reconstitution-of-plasmid-dna">Reconstitution of plasmid DNA</a></li><li class="depth-1"><a href="#usage" data-for="usage">Usage</a></li><li class="depth-1"><a href="#notes" data-for="notes">Notes</a></li><li class="depth-1"><a href="#solutions" data-for="solutions">Solutions</a></li><li class="depth-2"><a href="#p1" data-for="p1">P1</a></li><li class="depth-2"><a href="#p2" data-for="p2">P2</a></li><li class="depth-2"><a href="#p3" data-for="p3">P3</a></li><li class="depth-2"><a href="#te-buffer" data-for="te-buffer">TE-buffer</a></li><li class="depth-2"><a href="#further-reading" data-for="further-reading">Further reading</a></li><li class="depth-2"><a href="#lista-de-materiais-em-português" data-for="lista-de-materiais-em-português">Lista de materiais em Português</a></li><li class="depth-2"><a href="#notes-1" data-for="notes-1">Notes</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="./EGB23" class="internal">EGB23</a></li><li><a href="./EGB24" class="internal">EGB24</a></li><li><a href="./GMB21" class="internal">GMB21</a></li><li><a href="./LIB20" class="internal">LIB20</a></li><li><a href="./midiprep" class="internal">midiprep</a></li><li><a href="./pTAx/LAB1" class="internal">LAB1</a></li><li><a href="./plasmid-rescue" class="internal">plasmid rescue</a></li><li><a href="./protocols" class="internal">protocols</a></li><li><a href="./vault" class="internal">vault</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="./postscript.js" type="module" data-persist="true"></script></html>

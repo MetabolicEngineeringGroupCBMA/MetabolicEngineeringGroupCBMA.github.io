@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>MEC wiki</title>
+      <link>https://http://localhost:8080</link>
+      <description>Last 10 notes on MEC wiki</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>10X Taq Buffer with (NH4)2SO4</title>
+    <link>https://http://localhost:8080/10X-Taq-Buffer-with-(NH4)2SO4</link>
+    <guid>https://http://localhost:8080/10X-Taq-Buffer-with-(NH4)2SO4</guid>
+    <description><![CDATA[ 10X Taq Buffer with (NH4)2SO4 recipe: 750 mM Tris-HCl (pH 8.8 at 25°C) 200 mM (NH4)2SO4 0.1% (v/v) Tween 20. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>2x PCR mastermix</title>
+    <link>https://http://localhost:8080/2x-PCR-mastermix</link>
+    <guid>https://http://localhost:8080/2x-PCR-mastermix</guid>
+    <description><![CDATA[ 2x PCR mastermix Using a PCR master-mix saves time and improves PCR reproducibility, especially if many reactions are prepared. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>6x DNA loading buffer</title>
+    <link>https://http://localhost:8080/6x-DNA-loading-buffer</link>
+    <guid>https://http://localhost:8080/6x-DNA-loading-buffer</guid>
+    <description><![CDATA[ 6 x DNA loading buffer (PCR compatible) Use Add 1/6 volume of this DNA Loading buffer to your DNA sample, for example 5 µL DNA sample and 1 µL loading buffer. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>Acknowledgement</title>
+    <link>https://http://localhost:8080/Acknowledgement</link>
+    <guid>https://http://localhost:8080/Acknowledgement</guid>
+    <description><![CDATA[ Example acknoledgement section updated on 2022-02-16: We thank Professors Jin Hou, Xiaoming Bao and colleagues for sending us the malonyl-CoA sensor. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>Agar</title>
+    <link>https://http://localhost:8080/Agar</link>
+    <guid>https://http://localhost:8080/Agar</guid>
+    <description><![CDATA[ If you work with several different media such as YPD, LB, SOB and SOC liquid and solid it might pay off to separate the solutions to a smaller set that can be combined to form each medium. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>ApE</title>
+    <link>https://http://localhost:8080/ApE</link>
+    <guid>https://http://localhost:8080/ApE</guid>
+    <description><![CDATA[ ApE (A Plasmid Editor) is a freely available DNA Manipulation and visualization program. I works on macOS and Windows as well as on Linux. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>Bachman</title>
+    <link>https://http://localhost:8080/Bachman</link>
+    <guid>https://http://localhost:8080/Bachman</guid>
+    <description><![CDATA[  325 volts * 0.637 = 207 volts (en.wikipedia.org/wiki/Rectifier#Full-wave_rectification) about 15-20 min . ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>Bio Rad Mini Sub Cell</title>
+    <link>https://http://localhost:8080/Bio-Rad-Mini-Sub-Cell</link>
+    <guid>https://http://localhost:8080/Bio-Rad-Mini-Sub-Cell</guid>
+    <description><![CDATA[ Mini-Sub-Cell-GT-System This electrophoresis container works well with 90 v for 45 min using 1x TAE or 120 for 20 min for a faster run. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>Bloom verbs</title>
+    <link>https://http://localhost:8080/Bloom-verbs</link>
+    <guid>https://http://localhost:8080/Bloom-verbs</guid>
+    <description><![CDATA[ Bloom’s Taxonomy provides a list of action verbs based on each level of understanding. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item><item>
+    <title>BustnGrab</title>
+    <link>https://http://localhost:8080/BustnGrab</link>
+    <guid>https://http://localhost:8080/BustnGrab</guid>
+    <description><![CDATA[  Transfer 1.5 ml of liquid culture of yeast grown for 20 – 24 h at 30°C in YPD (1% yeast extract, 2% peptone, 2% dextrose) into a microcentrifuge tube. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 18:31:59 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

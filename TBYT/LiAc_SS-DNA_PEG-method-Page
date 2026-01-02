@@ -1,0 +1,363 @@
+
+<!-- saved from url=(0089)https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca/~gietz/method.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./LiAc_SS-DNA_PEG method Page_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=596;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./LiAc_SS-DNA_PEG method Page_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./LiAc_SS-DNA_PEG method Page_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://home.cc.umanitoba.ca:80/~gietz/method.html","20190416221914","https://web.archive.org/","web","/_static/",
+	      "1555453154");
+</script>
+<link rel="stylesheet" type="text/css" href="./LiAc_SS-DNA_PEG method Page_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./LiAc_SS-DNA_PEG method Page_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+  <meta name="GENERATOR" content="Adobe PageMill 3.0 Mac">
+  
+  <title>LiAc/SS-DNA/PEG method Page</title>
+</head>
+<body bgcolor="#fcffa1"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca:80/~gietz/method.html</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(675,27,25,2,"web","http://home.cc.umanitoba.ca/~gietz/method.html","20190416221914",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<p></p><center><font size="+1"><img src="./LiAc_SS-DNA_PEG method Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"></font></center><p></p>
+
+<h1><center>The TRAFO Page</center></h1>
+
+<p></p><center><font size="+1"><img src="./LiAc_SS-DNA_PEG method Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"></font></center><p></p>
+
+<p></p><center>&nbsp;</center><p></p>
+
+<h2><center>HIGH EFFICIENCY TRANSFORMATION</center></h2>
+
+<blockquote>
+  <h2><center>Reference: Gietz, R.D. and R.A. Woods. (2002) TRANSFORMATION
+  OF YEAST BY THE Liac/SS CARRIER DNA/PEG METHOD. Methods in Enzymology
+  350: 87-96.</center></h2>
+</blockquote>
+
+<p></p><center><b><font size="+1">All Solutions for the LiAc/SS-DNA/PEG
+TRAFO Protocol are listed in the <a href="https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca/~gietz/Solutions.html">TRAFO
+Solutions Page.</a></font></b></center><p></p>
+
+<p><font size="+1"></font></p><hr align="LEFT"><hr align="LEFT"><p></p>
+
+<blockquote>
+  <p><b><i><font size="+3">High Efficiency Transformation Protocol</font></i></b></p>
+  <p><b><i><font size="+1"><br>
+  </font></i></b><font size="+2">This protocol can be used to generate
+  sufficient transformants in a single reaction to screen multiple
+  yeast genome equivalents for plasmids that complement a specific
+  mutation. It can also be used to transform integrating plasmids,
+  DNA fragments and oligonucleotides for yeast genome manipulation.
+  Finally, it is used to optimise the conditions for transformation
+  of a particular yeast strain, for example, the transformation
+  of a plasmid library into a two-hybrid yeast strain transformed
+  with a bait plasmid by the Rapid Transformation Protocol. The
+  High Efficiency Protocol can also be employed to transform a
+  yeast strain simultaneously with two different plasmids, such
+  as the two-hybrid bait and prey plasmids.</font></p></blockquote>
+
+<p><font size="+1"></font></p><hr align="LEFT"><p></p>
+
+<blockquote>
+  <p><b><font size="+3">Day 1</font></b></p>
+  <p><font size="+1"><br>
+  </font><font size="+2">Inoculate the yeast strain into 5 ml of
+  liquid medium (2x YPAD or SC selection medium) and incubate overnight
+  on a rotary shaker at 200 rpm and 30°C. Place a bottle of
+  double strength YPAD broth (2x YPAD) and a 250 ml culture flask
+  in the incubator as well.</font></p></blockquote>
+
+<p><font size="+1"></font></p><hr align="LEFT"><p></p>
+
+<blockquote>
+  <p><b><font size="+3">Day 2</font></b></p>
+  <p><font size="+2"><br>
+  <b>1.</b> Determine the titer of the yeast culture by pipetting
+  10 ml of cells into 1.0 ml of water in a spectrophotometer cuvette
+  and measuring the OD at 600 nm. For many yeast strains a suspension
+  containing 1 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> cells/ml will give an OD600 of 0.1. Alternatively,
+  titer the culture using a hemocytometer. see note:</font></p></blockquote>
+
+<ol>
+  <p><font size="+1"></font></p><hr align="LEFT"><font size="+1"><b>Note:</b></font>
+  <ul>
+    <p><b><font size="+1">i)</font></b><font size="+1"> Dilute overnight
+    YPAD or SC cultures 10<sup></sup></font><font size="-1">-1</font><font size="+1"> or more in water.</font>
+    </p><p><b><font size="+1">ii)</font></b><font size="+1"> Carefully
+    place 10 µl of the cell suspension between the cover slip
+    and the baseof haemocytometer. Let the cells settle onto the
+    haemocytometer grid for a few minutes. The grid area is typically
+    1 square millimeter, divided into 25 equal-sized squares, and
+    the volume measured is 10<sup></sup></font><font size="-1">-4</font><font size="+1"> ml.</font>
+    </p><p><b><font size="+1">ii)</font></b><font size="+1"> Count the
+    number of cells in 5 diagonal squares</font>
+    </p><p><b><font size="+1">iv)</font></b><font size="+1"> Calculate
+    the cell titer as follows: cells counted x 5 x dilution factor
+    x 1/volume measured by the 25 squares of the haemocytometer.
+    239 cells x 5 x 10 (dilution factor) x 1/10<sup></sup></font><font size="-1">-4</font><font size="+1">ml = 1.2 x 10<sup></sup></font><font size="-1">8</font><font size="+1"> cells/ml.</font>
+    </p><p><b><font size="+1">v)<i> Saccharomyces cerevisiae</i></font></b><font size="+1"> divides by budding from a mother cell. Count budded
+    cells as a single cells. Count cells with equal bud sizes as
+    two cells when there is evidence of additional buds forming on
+    eithercell. Some strains form clumps of cells which reduce plating
+    efficiency. A single clump of cells will only give rise to one
+    colony on a plate, which may complicate further analysis.</font>
+  </p></ul>
+  <p><font size="+1"></font></p><hr align="LEFT">
+</ol>
+
+<blockquote>
+  <p><b><font size="+2"><br>
+  2.</font></b><font size="+2"> Transfer 50 ml of the pre-warmed
+  2x YPAD to the pre-warmed culture flask and add 2.5 x 10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2">
+  cells to give 5 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> cells/ml.</font></p>
+  <p><font size="+2"><br>
+  <b>3.</b> Incubate the flask on a rotary or reciprocating shaker
+  at 30°C and 200 rpm.</font></p></blockquote>
+
+<ul>
+  <ol>
+    <p><b><font size="+1">Note:</font></b>
+    </p><dl>
+      <dd><b><font size="+1">i)</font></b><font size="+1"> It is important
+      to allow the cells to complete at least two divisions.</font>
+      </dd><dd><b><font size="+1">ii)</font></b><font size="+1">This will
+      take 3 to 5 hours.</font>
+      </dd><dd><b><font size="+1">iii)</font></b><font size="+1">This culture
+      will give sufficient cells for 10 transformations.<br>
+      <b>iv)</b> Transformation efficiency (transformants/ µg
+      plasmid/10<sup></sup></font><font size="-1">8</font><font size="+1">
+      cells) remains constant for 3 to 4 celldivisions.</font>
+    </dd></dl>
+  </ol>
+</ul>
+
+<blockquote>
+  <p>&nbsp;</p>
+  <p><b><font size="+2">4.</font></b><font size="+2"> When the
+  cell titer is at least 2 x 10</font><font size="+1"><sup></sup></font>7<font size="+1"></font><font size="+2"> cells/ml, which should
+  take about 4 hours, harvest the cells by centrifugation at 3000
+  <i>g</i> for 5 min, wash the cells in 25 ml of sterile water
+  and resuspend in 1 ml of sterile water.</font></p>
+  <p><font size="+2"><br>
+  <b>5.</b> Boil a 1.0 ml sample of carrier DNA for 5 min and chill
+  in an ice/water bath while harvesting the cells.</font></p>
+  <blockquote>
+    <p><b><font size="+1">****</font></b><font size="+1"> It is not
+    necessary or desirable to boil the carrier DNA every time. Keep
+    a small aliquot in your own freezer box and boil after 3-4 freeze-thaws.
+    But keep on ice when out.<b>****</b></font></p></blockquote>
+  <p><font size="+2"><br>
+  <b>6.</b> Transfer the cell suspension to a 1.5 ml microcentrifuge
+  tube, centrifuge for 30 sec and discard the supernatant.</font></p>
+  <p><font size="+2"><br>
+  <b>7. </b>Add water to a final volume of 1.0 ml and vortex mix
+  vigorously to resuspend the cells.</font></p></blockquote>
+
+<ul>
+  <ol>
+    <p><b><font size="+1">Note:</font></b><font size="+1">If the
+    cell titer of the culture is greater than 2 x 10<sup></sup></font><font size="-1">7</font><font size="+1"> cells/ml the volume
+    then increase the volume to maintain the titer of this suspension
+    at 2 x 10<sup></sup></font><font size="-1">9</font><font size="+1">
+    cells/ml. If the titer of the culture is less than 2 x 10<sup></sup></font><font size="-1">7</font><font size="+1"> cells/ml then decrease
+    volume.</font>
+  </p></ol>
+</ul>
+
+<blockquote>
+  <p><font size="+2"><br>
+  <b>8.</b> Pipette 100 µl samples (ca. 10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2"> cells) into 1.5 ml microfuge
+  tubes, one for each transformation, centrifuge at top speed for
+  30 sec and remove the supernatant.</font></p>
+  <p><font size="+2"><br>
+  <b>9.</b> Make up sufficient Transformation Mix for the planned
+  number of transformations plus one extra. Keep the Transformation
+  Mix in ice/water.</font></p>
+  <blockquote>
+    <p><table width="450" border="1" cellspacing="2" cellpadding="0" height="148">
+      <tbody><tr>
+        <td colspan="4" height="21">
+          <blockquote>
+            <p align="RIGHT">&nbsp; <b><font size="+1">Number of Transformations</font></b></p></blockquote>
+        </td>
+      </tr>
+      <tr>
+        <td width="38%" height="18">&nbsp;<b><font size="+1">Reagents</font></b></td> 
+        <td width="20%" height="18">
+          <p></p><center>&nbsp; <b><font size="+1">1</font></b></center></td>
+        <td width="21%" height="18">
+          <p></p><center><b><font size="+1">5 (6X)</font></b></center></td>
+        <td width="21%" height="18">
+          <p></p><center><b><font size="+1">10 (11X)</font></b></center></td>
+      </tr>
+      <tr>
+        <td width="38%" height="18"><b><font size="+1">PEG 3500 50% w/v</font></b></td> 
+        <td width="20%" height="18">
+          <p align="RIGHT"><b><font size="+1">&nbsp;240 µl</font></b></p></td> 
+        <td width="21%" height="18" align="RIGHT">&nbsp;<b><font size="+1">1440
+          µl</font></b></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">2640
+          µl</font></b></td> 
+      </tr>
+      <tr>
+        <td width="38%" height="18">&nbsp;<b><font size="+1">LiAc 1.0
+          M</font></b></td> 
+        <td width="20%" height="18">
+          <p align="RIGHT"><b><font size="+1">&nbsp;36 µl</font></b></p></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">216
+          µl</font></b></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">396
+          µl</font></b></td> 
+      </tr>
+      <tr>
+        <td width="38%" height="18">&nbsp;<b><font size="+1">Boiled SS-carrier
+          DNA</font></b></td> 
+        <td width="20%" height="18">
+          <p align="RIGHT"><b><font size="+1">&nbsp;50 µl</font></b></p></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">300
+          µl</font></b></td> 
+        <td width="21%" height="18" align="RIGHT">&nbsp;<b><font size="+1">550
+          µl</font></b></td> 
+      </tr>
+      <tr>
+        <td width="38%" height="18">&nbsp;<b><font size="+1">Plasmid
+          DNA plus Water</font></b></td> 
+        <td width="20%" height="18">
+          <p align="RIGHT"><b><font size="+1">&nbsp;34 µl</font></b></p></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">204
+          µl</font></b></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">374
+          µl</font></b></td> 
+      </tr>
+      <tr>
+        <td width="38%" height="18">
+          <p></p><center><b>&nbsp;<font size="+1">Total</font></b></center></td>
+        <td width="20%" height="18">
+          <p align="RIGHT"><b><font size="+1">&nbsp;360 µl</font></b></p></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">2160
+          µl</font></b></td> 
+        <td width="21%" height="18" align="RIGHT"><b><font size="+1">3960
+          µl</font></b></td> 
+      </tr>
+    </tbody></table></p></blockquote>
+  <p><font size="+1"><br>
+<br>
+  </font><font size="+2">10. Add 360 µl of Transformation
+  Mix to each transformation tube and resuspend the cells by vortex
+  mixing vigorously.</font></p>
+  <p><font size="+2"><br>
+  11. Incubate the tubes in a 42°C water bath for 40 min.</font></p></blockquote>
+
+<ul>
+  <ol>
+    <p><b><font size="+1">Note:</font></b><font size="+1">The optimum
+    time can vary for different yeast strains. Please test this if
+    you need high efficiency from your transformations.</font>
+  </p></ol>
+</ul>
+
+<blockquote>
+  <p><font size="+2"><br>
+  12. Microcentrifuge at top speed for 30 sec and remove the Transformation
+  Mix with a micropipettor.</font></p>
+  <p><font size="+2"><br>
+  13. Pipette 1.0 ml of sterile water into each tube; stir the
+  pellet by with a micropipette tip and vortex .</font></p></blockquote>
+
+<ul>
+  <ol>
+    <p><b><font size="+1">Note:</font></b><font size="+1">We like
+    to be a gentle as possible at this step if high efficiency is
+    important. Excessive washing washes away transformants!!!!</font>
+  </p></ol>
+</ul>
+
+<blockquote>
+  <p><font size="+2"><br>
+  14. Plate appropriate dilutions of the cell suspension onto SC
+  selection medium. For transformation with an integrating plasmid
+  (YIp), linear construct or oligonucleotide, plate 200 µl
+  onto each of 5 plates; for a YEp, YRp or YCp library plasmid
+  dilute 10 µl of the suspension into 1.0 ml of water and
+  plate 10 and 100 µl samples onto two plates each. The 10
+  µl samples should be pipetted directly into 100 µl
+  puddles of sterile water on the SC selection medium.</font></p></blockquote>
+
+<ul>
+  <ol>
+    <p><b><font size="+1">Note:</font></b><font size="+1">When spreading
+    yeast inoculum onto the plate gently distribute the fluid completely
+    with a sterile glass rod with a minimum of strokes. Allow the
+    fluid to be taken up by the plate prior to incubation.</font>
+  </p></ol>
+</ul>
+
+<blockquote>
+  <p><font size="+2"><br>
+  15. Incubate the plates at 30°C for 3 to 4 days and count
+  the number of transformants.<br>
+  The transformation efficiency (transformants/1 µg plasmid/10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2">
+  cells) can be determined by calculating the number of transformants
+  in 1.0 ml of resuspended cells per 1.0 microgram plasmid per
+  10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2"> cells. For example, if the transformation of 1.0
+  x 10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2"> cells with 100 nanogram plasmid resulted in 500 colonies
+  on a plate of SC dropout medium spread with 1 µl of suspension
+  (usually dispensed into a 100µl puddle of sterile water
+  on the plate).<br>
+  Transformation Efficiency = 500 x 1000 (plating factor) x 10
+  (plasmid factor) x 1 (cells/transformation x 10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2">).<br>
+  Transformation Efficiency = 5 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> transformants/1.0 µg
+  plasmid/10</font><font size="+1"><sup></sup></font>8<font size="+1"></font><font size="+2"> cells.<br>
+  Transformation efficiency declines as plasmid concentration is
+  increased (Gietz et al. 1995) but the actual yield of transformants
+  per transformation increases. For example, 100 nanogram of plasmid
+  in a transformation might give a Transformation Efficiency of
+  5 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> and a yield of 5 x 10</font><font size="+1"><sup></sup></font>5<font size="+1"></font><font size="+2"> transformants whereas
+  with 1 µg of plasmid the Transformation Efficiency might
+  be 2 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> and the yield 2 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> per transformation.
+  In order to obtain 5 x 10</font><font size="+1"><sup></sup></font>6<font size="+1"></font><font size="+2"> transformants it is
+  simpler to set up two or three transformations with 1 µg
+  of plasmid DNA, or a single 3 fold scaled up transformation,
+  than to carry out 10 reactions with 100 ng of plasmid in each.<br>
+  </font></p></blockquote>
+
+<ol>
+  <p><b><font size="+1">Note:</font></b><font size="+1"> Two plasmids,
+  such as an expression plasmid and a library plasmid pool, can
+  be co-transformed into a single cell by including both plasmids
+  in the same transformation reaction. The efficiency is reduced,
+  however, because only about 30-40 % of all transformed cells
+  take up more than one plasmid molecule. An alternative approach,
+  which has a higher efficiency is to transform in the expression
+  plasmid first, using this or the<b><a href="https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca/~gietz/Quick.html"> Quick
+  and Easy protocol</a></b>, and then use the protocol found on
+  the <b><a href="https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca/~gietz/2HS.html">2 Hybrid System TRAFO Page</a></b>
+  to transform in the library plasmid pool.<br>
+  </font>
+</p></ol>
+
+<p></p><center><font size="+1"><hr><img src="./LiAc_SS-DNA_PEG method Page_files/anibar.gif" height="3" width="600" naturalsizeflag="0" align="BOTTOM"> <hr></font></center><p></p>
+
+<p><a href="https://web.archive.org/web/20190416221914/http://home.cc.umanitoba.ca/~gietz/Trafo.html"><font size="+1"><img src="./LiAc_SS-DNA_PEG method Page_files/SMALLa_Trafo.GIF" height="51" width="58" naturalsizeflag="0" align="BOTTOM"><b>Return
+to YEAST TRAFO HOMEPAGE</b></font></a>
+
+
+
+
+</p></body></html>

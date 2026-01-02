@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>catalase lab</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="MEC wiki"/><meta property="og:title" content="catalase lab"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="catalase lab"/><meta name="twitter:description" content="Catalase measurement in permeabilized yeast cells Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water and oxygen."/><meta property="og:description" content="Catalase measurement in permeabilized yeast cells Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water and oxygen."/><meta property="og:image:alt" content="Catalase measurement in permeabilized yeast cells Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water and oxygen."/><meta property="og:image" content="https://http://localhost:8080/static/og-image.png"/><meta property="og:image:url" content="https://http://localhost:8080/static/og-image.png"/><meta name="twitter:image" content="https://http://localhost:8080/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="http://localhost:8080"/><meta property="og:url" content="https://http//localhost:8080/catalase-lab"/><meta property="twitter:url" content="https://http//localhost:8080/catalase-lab"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Catalase measurement in permeabilized yeast cells Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water and oxygen."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvYmpvcm4vcHVibGljX3ZhdWx0L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://http://localhost:8080/index.xml"/></head><body data-slug="catalase-lab"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">MEC wiki</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-214"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-214" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>catalase lab</a></div></nav><h1 class="article-title">catalase lab</h1><p show-comma="true" class="content-meta"><time datetime="2026-01-02T18:31:59.000Z">Jan 02, 2026</time><span>13 min read</span></p></div></div><article class="popover-hint"><h2 id="catalase-measurement-in-permeabilized-yeast-cells">Catalase measurement in permeabilized yeast cells<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#catalase-measurement-in-permeabilized-yeast-cells" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water and oxygen.</p>
+<p><img src="./catalase.png" alt="Figure-1"/></p>
+<p>Figure 1</p>
+<p>The aim of this practical class is to measure the activity of catalase in permeabilized <a href="https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae" class="external"><em>Saccharomyces cerevisiae</em><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> yeast cells.</p>
+<h2 id="background">Background<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#background" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Acyl-CoA oxidase is the first enzyme in the peroxisomal β-oxidation pathway, responsible for catalyzing the oxidation of acyl-CoA, a process that breaks down fatty acids.</p>
+<p><img src="./catalase-lab-20241030065447199.png" width="auto" height="auto" alt/></p>
+<p>Figure 2</p>
+<p>Unlike in mitochondria, where FADH₂ would enter the electron transport chain, peroxisomal FADH₂ directly donates its electrons to molecular oxygen, leading to the formation
+of hydrogen peroxide (H₂O₂) instead (Figure 2). This step is unique to peroxisomal β-oxidation since, in mitochondria, electron carriers like FADH₂ contribute to ATP synthesis through oxidative phosphorylation. In peroxisomes, however, FADH₂ is quickly oxidized back to FAD, enabling continuous fatty acid oxidation but producing H₂O₂ as a byproduct instead of ATP.</p>
+<p><img src="./catalase-lab-20241030065724928.png" width="auto" height="auto" alt/></p>
+<p>Figure 3</p>
+<p>Complex I and III can inadvertently leak electrons to molecular oxygen (Figure 3), forming superoxide. The superoxide anion (O₂⁻•​) generated in Complex I and III of the mitochondrial electron transport chain is detoxified primarily by the enzyme <strong>superoxide dismutase (SOD)</strong>.</p>
+<p><img src="./catalase-lab-20241030070256864.png" width="auto" height="auto" alt/></p>
+<p>Figure 4</p>
+<p>NOX1 and NOX2 are enzymes that belong to the NADPH oxidase (NOX) family, which play crucial roles in producing reactive oxygen species (ROS) as part of cell signaling and immune responses (Figure 4). Unlike mitochondrial ROS generation, these enzymes generate ROS directly at the cell membrane or within specific cellular compartments.</p>
+<h3 id="nox1">NOX1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nox1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Location</strong>: Primarily expressed in epithelial cells, including those in the colon and vascular smooth muscle cells.</li>
+<li><strong>Function</strong>: NOX1 generates superoxide (O₂⁻•), which can be converted into other ROS, such as hydrogen peroxide (H₂O₂).</li>
+<li><strong>Role in Cellular Function</strong>: Involved in cell signaling related to cell proliferation, migration, and immune responses. NOX1 is also implicated in vascular remodeling, inflammatory responses, and some forms of cancer progression, where ROS play a role in cell growth signaling.</li>
+</ul>
+<h3 id="nox2">NOX2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#nox2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Location</strong>: Most well-known for its role in phagocytic cells (like neutrophils and macrophages), but it is also expressed in other cell types.</li>
+<li><strong>Function</strong>: NOX2 is crucial for the immune response, as it produces superoxide in phagosomes to destroy ingested pathogens. Superoxide generated by NOX2 contributes to the “respiratory burst,” a rapid release of ROS that kills bacteria and other pathogens.</li>
+<li><strong>Role in Host Defense</strong>: NOX2-derived ROS are critical in antimicrobial defense. Inherited defects in NOX2 lead to impaired ability to fight off infections.</li>
+</ul>
+<p><img src="./catalase-lab-20241030070651789.png" width="auto" height="auto" alt/></p>
+<p>Figure 5</p>
+<p>Glutathione (GSH) removes hydrogen peroxide (H₂O₂) through an enzymatic reaction involving <strong>glutathione peroxidase (GPx)</strong> (Figure 5).
+This enzyme catalyzes the reduction of H₂O₂ to water, using glutathione as the electron donor.</p>
+<ol>
+<li><strong>Reduction of Hydrogen Peroxide</strong>: Glutathione peroxidase uses two molecules of reduced glutathione (GSH) to convert hydrogen peroxide into water. GSH is oxidized to form glutathione disulfide (GSSG).</li>
+<li><strong>Regeneration of Glutathione</strong>:  To maintain a steady supply of reduced glutathione (GSH), <strong>glutathione reductase (GR)</strong> recycles GSSG back to GSH using NADPH as a reducing agent:</li>
+</ol>
+<h3 id="the-catalase-test">The catalase test<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-catalase-test" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="https://youtu.be/SBmL2vg-IN0?si=g4FuyzAxANuq77Rm&amp;t=124" class="external"><img src="./catalase-lab-20241031103259320.png" alt="catalase"/><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Figure 6</p>
+<p>The catalase test is a simple biochemical assay used to identify organisms capable of producing the enzyme catalase. All known aerobic microorganisms produce catalase. In the test (Figure 6), a small amount of bacterial culture is exposed to hydrogen peroxide, and the presence of bubbles indicates a <strong>positive</strong> result, signifying catalase activity. This test is commonly used to differentiate between catalase-positive organisms, like <em>Staphylococcus</em> spp., and catalase-negative organisms, such as <em>Streptococcus</em> spp. in clinical microbiology.</p>
+<h2 id="assay">Assay<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#assay" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The protocol is based on a combination of a method for preparing permeabilized yeast cells with ethanol described by <a href="https://pubmed.ncbi.nlm.nih.gov/26019618/" class="external">Trawczyńska &amp; Wójcik 2015<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+and an assay for peroxide using cobalt ions described by <a href="https://bmcbiochem.biomedcentral.com/articles/10.1186/s12858-018-0097-5" class="external">Hadwan 2018<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p>After the cells have been permeabilized, substrate such as H<sub>2</sub>O<sub>2</sub> can more easily reach the catalase enzyme and the products (H<sub>2</sub>O and O<sub>2</sub>) can
+more easily leave (Figure 7).</p>
+<p><img src="./permyeast2.png" width="auto" height="auto" alt/></p>
+<p>Figure 7</p>
+<p>The permeabilization protocol is very simple. The yeast cells are incubated with ethanol for 20 min in a phosphate buffer.</p>
+<p>Permeabilized yeast cells are mixed with hydrogen peroxide and incubated for 10 min at 37°C.  During this time some of the hydrogen peroxide is consumed by catalase and broken down to oxygen and water.</p>
+<p>The remaining peroxide is measured by allowing the hydrogen peroxide to oxidize cobalt(II) to cobalt(III) which can be measured with a spectrophotometer at 440 nm (Figure 8).
+The oxidation is performed in the presence of carbonate ions which causes a pink complex with cobalt(II) and a green complex with cobalt(III).</p>
+<p><img src="./cobalt2-3.png" width="auto" height="auto" alt/>
+Figure 8</p>
+<h1 id="day-1-strain-cultivation-on-solid-medium">Day 1 strain cultivation on solid medium<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#day-1-strain-cultivation-on-solid-medium" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Streak the two strains below on solid YPD medium and incubate at 30 °C for ~48 h.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Strain number</th><th>Strain designation</th><th>Plasmid vector</th><th></th><th>box</th><th>pos</th></tr></thead><tbody><tr><td>µ1886</td><td>CENPK111-32D</td><td>pTA1</td><td>empty vector</td><td>Björn12</td><td>35</td></tr><tr><td>µ1885</td><td>”</td><td>pTA1_TDH3_ScCTT1_PGI1</td><td><a href="https://www.yeastgenome.org/locus/CTT1" class="external">CTT1<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> expression vector</td><td>&quot;&quot;</td><td>34</td></tr></tbody></table></div>
+<h1 id="day-3-pre-culture">Day 3 pre-culture<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#day-3-pre-culture" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Inoculate two 50 mL glass tubes os small Erlenmeyers with ~5 mL of SD medium and incubate at 30 °C with shaking for ~48 h.
+Label the tubes 1885 and 1886, respectively. These cultures can be kept at 4-8°C in a fridge for for ~3-4 weeks.</p>
+<h1 id="day-7-preparation">Day 7 preparation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#day-7-preparation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>This should be done in the morning the day before the class. Inoculate two 50 mL glass tubes with 5 mL of the same medium using 100 µL of each pre-culture.
+Label the tubes with 1885 and 1886.</p>
+<h1 id="day-8-class">Day 8 class<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#day-8-class" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Prepare 10 mL Hydrogen peroxide solution (10 mM) by adding 12 µL of 30% hydrogen peroxide to 10 ml of 50 mM phosphate buffer (pH 7.0). Pour ~1 mL of the Hydrogen peroxide solution in four Eppendorf tubes, one for each group.</p>
+<p>Measure the optical density (OD) at 640 nm for the cultures. Add fresh medium to the culture with the higher OD in order to set the two cultures to the same optical density.</p>
+<p>Prepare 50 mL <strong>Working solution</strong>. The order in which these components are added is <strong>important</strong>:</p>
+<ol>
+<li>2.5 ml of cobalt (II) solution (3 x 834 µL)</li>
+<li>2.5 ml of Graham salt solution (3 x 834 µL)</li>
+<li>45 ml of sodium bicarbonate solution. (Fill  x 834 µL)</li>
+</ol>
+<p>Pour 5-10 mL of working solution into four 50 mL FALCON tubes, one for each group.
+This solution should be stored at room temperature in the <strong>dark</strong>.</p>
+<div style="page-break-after:always;"></div>
+<h2 id="protocol-for-permeabilization-of-yeast-with-ethanol">Protocol for permeabilization of yeast with ethanol.<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#protocol-for-permeabilization-of-yeast-with-ethanol" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Group</th><th>Strain number</th><th>Strain designation</th><th>Plasmid vector</th></tr></thead><tbody><tr><td>1</td><td>µ1886</td><td>CENPK111-32D</td><td>pTA1 (empty vector)</td></tr><tr><td>2</td><td>&quot;</td><td>&quot;</td><td>&quot;</td></tr><tr><td>3</td><td>µ1885</td><td>”</td><td>pTA1_TDH3_ScCTT1_PGI1</td></tr><tr><td>4</td><td>&quot;</td><td>&quot;</td><td>&quot;</td></tr></tbody></table></div>
+<ol>
+<li>Each group (G1, G2, G3 and G4) should take out 1 mL of the culture indicated in the table above in an empty 1.5 mL Eppendorf tube.</li>
+<li>Centrifuge 🌀 the culture for 20 s in a microcentrifuge.</li>
+<li>Remove supernatant with a P1000 pipette.</li>
+<li>Add 1 mL 5 mM phosphate buffer.</li>
+<li>Resuspend cells by pipetting up&amp;down with the same tip.</li>
+<li>Centrifuge 🌀 culture for 20 s.</li>
+<li>Remove supernatant.</li>
+<li>Add 1 mL 5 mM phosphate buffer.</li>
+<li>Resuspend cells.</li>
+<li>Transfer 100 µL of the cells to a <strong>new</strong> Eppendorf tube.</li>
+<li>Add 400 µL dH2O.</li>
+<li>Add 500 µL absolute ethanol.</li>
+<li>Mix the content of the tube by vortexing for ~30s.</li>
+<li>Incubate for 20 min @ room temperature on the bench.</li>
+<li>Mark nine empty Eppendorf tubes with a marker, <strong>Sa</strong>,  <strong>Sb</strong>, <strong>Sc</strong>, <strong>T1a</strong>, <strong>T1b</strong>, <strong>T1c</strong>, <strong>T2a</strong>, <strong>T2b</strong>, and <strong>T2c</strong></li>
+<li>Mark nine empty plastic <a href="./cuvette" class="internal alias" data-slug="cuvette">cuvettes</a> in the same way.</li>
+<li><a href="https://youtu.be/TwY6Hp5RYvI" class="external">☕<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> break until cells are ready. The timing is not critical.</li>
+</ol>
+<div style="page-break-after:always;"></div>
+<h2 id="protocol-for-measuring-catalase-activity">Protocol for measuring catalase activity<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#protocol-for-measuring-catalase-activity" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol start="18">
+<li>Add the components in the table to the marked tubes. Volumes are indicated in micro liters (µL). Prepare the tubes in the <strong>indicated</strong> order top to bottom, add components in the indicated order, left to right. Remember that after the addition of Peroxide, the reaction starts, so make this addition rapidly for all tubes.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Label</th><th>Sample</th><th>Water</th><th>Cells</th><th>Peroxide</th><th>Total</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sa</td><td>Standard</td><td>70</td><td>0</td><td>140</td><td>210</td></tr><tr><td>Sb</td><td>Standard</td><td>70</td><td>0</td><td>140</td><td>210</td></tr><tr><td>Sc</td><td>Standard</td><td>70</td><td>0</td><td>140</td><td>210</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>T1a</td><td>Test 1a</td><td>0</td><td>70</td><td>140</td><td>210</td></tr><tr><td>T1b</td><td>Test 1b</td><td>0</td><td>70</td><td>140</td><td>210</td></tr><tr><td>T1c</td><td>Test 1c</td><td>0</td><td>70</td><td>140</td><td>210</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>T2a</td><td>Test 2a</td><td>35</td><td>35</td><td>140</td><td>210</td></tr><tr><td>T2b</td><td>Test 2b</td><td>35</td><td>35</td><td>140</td><td>210</td></tr><tr><td>T2c</td><td>Test 2c</td><td>35</td><td>35</td><td>140</td><td>210</td></tr></tbody></table></div>
+<ol start="19">
+<li>Incubate Eppendorf tubes at 🌡️37 °C in a water bath 🛁 for 10 min. ⏱️ <strong>This timing is critical!</strong></li>
+<li>Add 800 µL working solution to each tube.</li>
+<li>Mix by inversion.</li>
+<li>Incubate at room temperature for at least 10 min in the dark 🌙. You can put the tubes in one of the empty drawers in the lab.</li>
+<li>Centrifuge 🌀 for 20 s at top speed.</li>
+<li>Transfer supernatants to the cuvettes with the same marking. Take a picture 📷 of the cuvettes with your phone, upload to Google photos <img src="./catalase-lab-20241030141408936.png" width="auto" height="auto" alt/>.</li>
+<li>Record the absorbance for each cuvette at 440 nm against air. Position the cuvette as per the instructions for the <a href="./GENESYS20" class="internal" data-slug="GENESYS20">GENESYS20</a> spectrophotometer.</li>
+<li>Add the data to the Google Spreadsheet <img src="./catalase-lab-20241030143806102.png" width="auto" height="auto" alt/>.</li>
+</ol>
+<div style="page-break-after:always;"></div>
+<h2 id="references">References:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#references" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>This practical class was based on a combination of methods described in the two publications below:</p>
+<p>Trawczyńska, I., &amp; Wójcik, M. (2015). Optimization of permeabilization process
+of yeast cells for catalase activity using response surface methodology.
+Biotechnology, Biotechnological Equipment, 29(1), 72–77. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4434045/" class="external">link<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Hadwan, M. H. (2018). Simple spectrophotometric assay for measuring catalase
+activity in biological tissues. BMC Biochemistry, 19(1), 7. <a href="https://bmcbiochem.biomedcentral.com/articles/10.1186/s12858-018-0097-5" class="external">link<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="other-references-of-interest">Other references of interest:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#other-references-of-interest" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Kaplan, J. G. (1963). THE REVERSION OF CATALASE DURING GROWTH OF YEAST IN ANAEROBIOSIS.
+The Journal of General Physiology, 47, 103–115. <a href="https://pubmed.ncbi.nlm.nih.gov/14060440/" class="external">link<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<p>Martins, D., &amp; English, A. M. (2014). Catalase activity is stimulated by H(2)O(2) in rich culture medium and
+is required for H(2)O(2) resistance and adaptation in yeast. Redox Biology, 2, 308–313. <a href="https://pubmed.ncbi.nlm.nih.gov/24563848/" class="external">link<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="how-to-calculate-catalase-activity">How to calculate catalase activity<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#how-to-calculate-catalase-activity" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>All absorbance values are taken with a spectrophotometer calibrated against air <em>without</em> a <a href="./cuvette" class="internal" data-slug="cuvette">cuvette</a> (Figure 10).</p>
+<p>The <strong>S</strong>tandard reaction in Figure 9 contains only hydrogen peroxide and and cobalt(II) carbonate. All of the available peroxide should oxidize cobalt(II) to cobalt(III). The <strong>T</strong>est reactions contain H<sub>2</sub>O<sub>2</sub> and cells. Some of the peroxide should have been consumed by the catalase in the cells, so the absorbance value at 440 nm should be lower than for the <strong>S</strong>tandard reaction.
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.05382em;">S</span></span></span><span class="mord mathnormal">t</span><span class="mord mathnormal">an</span><span class="mord mathnormal">d</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">b</span><span class="mord mathnormal mtight">s</span><span class="mord mtight">440</span><span class="mord mathnormal mtight">nm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8361em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.15972em;">T</span></span></span><span class="mord mathnormal">es</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">b</span><span class="mord mathnormal mtight">s</span><span class="mord mtight">440</span><span class="mord mathnormal mtight">nm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>
+The absorbance that we should have observed for the consumed H₂O₂ is the absorbance for the <strong>S</strong>tandard reaction minus the absorbance of the <strong>T</strong>est reaction. We would expect a higher absorbance for the Test 2 reaction, since less cells should have consumed less peroxide.</p>
+<p><img src="./catalase-lab-20241030134016670.png" width="auto" height="auto" alt/></p>
+<p>Figure 9</p>
+<p>We use a standard curve (Figure 10) to calculate the actual concentration of the samples. The activity is then calculated from the concentration difference between the Standard and the sample divided by the reaction time.</p>
+<h2 id="calibration-curve">Calibration curve<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#calibration-curve" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./Concentration_as_a_function_of_absorbance_at_440_nm.png" alt="Figure-11"/>
+Figure 10</p>
+<p>A 10 mM hydrogen peroxide solution was <a href="https://microbenotes.com/serial-dilution/#serial-dilution-formulacalculations" class="external">serially diluted<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> (Figure 11) by first preparing twelve Eppendorf tubes with 300 µL of <a href="./ddH2O" class="internal" data-slug="ddH2O">ddH2O</a>. One milliliter hydrogen peroxide was transferred to the first tube, the contents were mixed by pipetting up and down 5-6 times followed by transferring 1 mL to the next tube. This means that the last tube (12) eventually had a final volume of 1.3 ,L while all preceding tubes had 300 µL.</p>
+<p>The hydrogen peroxide concentration in the first tube is 1 mL * 10 mM/1.3 mL = 7.6923 mM. The dilution factor is the same for all tubes (1/1.3) so the concentration of each tube can be calculated using the formula <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1.3</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span> where n is 1..12.</p>
+<p><img src="./serial_dilution.png" alt="Figure-6"/></p>
+<p>Figure 11</p>
+<p>Cuvettes with  210 µL of each dilution were prepared, twelve in total. Working solution (800 µL)  (Series#1 and #2 below, Figure 12) was added to each cuvette followed by 10 min incubation at room temperature under darkness. Two replicates were prepared and the absorbance at 440 nm was measured with a <a href="./GENESYS20" class="internal" data-slug="GENESYS20">GENESYS20</a> spectrophotometer.</p>
+<h2 id="series1">Series#1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#series1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./Series1-catalase.jpg" alt="Series1"/></p>
+<h2 id="series2">Series#2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#series2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><img src="./Series2-catalase.jpg" alt="Series2"/></p>
+<p>Figure 12</p>
+<p>The absorbance readings were collected in the table below.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Tube</th><th>Concentration (mM)</th><th>Series#1</th><th>Series#2</th></tr></thead><tbody><tr><td>1</td><td>7.692</td><td>0.450</td><td>0.414</td></tr><tr><td>2</td><td>5.917</td><td>0.394</td><td>0.361</td></tr><tr><td>3</td><td>4.551</td><td>0.345</td><td>0.307</td></tr><tr><td>4</td><td>3.501</td><td>0.291</td><td>0.263</td></tr><tr><td>5</td><td>2.693</td><td>0.248</td><td>0.225</td></tr><tr><td>6</td><td>2.072</td><td>0.213</td><td>0.194</td></tr><tr><td>7</td><td>1.594</td><td>0.197</td><td>0.166</td></tr><tr><td>8</td><td>1.226</td><td>0.160</td><td>0.148</td></tr><tr><td>9</td><td>0.943</td><td>0.143</td><td>0.134</td></tr><tr><td>10</td><td>0.725</td><td>0.123</td><td>0.115</td></tr><tr><td>11</td><td>0.558</td><td>0.109</td><td>0.113</td></tr><tr><td>12</td><td>0.429</td><td>0.113</td><td>0.095</td></tr></tbody></table></div>
+<p>The average absorbance was plotted against the hydrogen peroxide concentration resulting in a reasonably linear relationship (Figure 10). The graph follows the linear relationship between Concentration (mM) and A<sub>440</sub>:
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">mm</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20.8</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">440</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.95</span></span></span></span></p>
+<p>At this point, we have absorbance change or ∆A per 10 min. What we want is µmol / min which is the definition of the <a href="./enzyme-activity" class="internal alias" data-slug="enzyme-activity">classical unit</a>.</p>
+<h2 id="linearity">Linearity<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#linearity" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The protocol specifies two experiments (Figure 6), <strong>T</strong>est<strong>1</strong> and <strong>T</strong>est<strong>2</strong>, where the latter contain half as much cells. If the assay is <a href="./enzyme-activity" class="internal alias" data-slug="enzyme-activity">linear</a>, <strong>T</strong>est<strong>1</strong> should produce twice the absorbance compared to <strong>T</strong>est<strong>2</strong>.</p>
+<p><img src="./catalase-assay-linearity.png" width="auto" height="auto" alt/></p>
+<p>Figure 13</p>
+<h2 id="material-">Material 🇬🇧<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#material-" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>dH2O 4 x 40 mL</p>
+<h3 id="100-ml-liquid-sd-synthetic-defined-medium">100 mL liquid SD (Synthetic Defined) medium<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#100-ml-liquid-sd-synthetic-defined-medium" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>6.7 g/L Yeast Nitrogen Base (YNB) WITHOUT AMINO ACIDS</li>
+<li>20  g/L glucose</li>
+</ul>
+<p>10 x 50 mL glass culture tubes with cotton stopper or aluminium cap</p>
+<p>25 mL Ethanol 95-99% (2 courses * 3 shifts * 4 groups  * 0.5 mL = 12 mL)</p>
+<p>Six empty new FALCON tubes 50 mL</p>
+<h3 id="250-ml-50-mm-phosphate-buffer-ph-70">250 mL 50 mM phosphate buffer (pH 7.0)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#250-ml-50-mm-phosphate-buffer-ph-70" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>This buffer can be prepared by by mixing two solutions in ultrapure water:</p>
+<ul>
+<li>100 mL 6.81 g/L KH2PO4</li>
+<li>100 mL 8.90 g/L K2HPO4</li>
+</ul>
+<h3 id="300-ml-sodium-bicarbonate-nahco3-solution">300 mL <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Bicarbonate" class="external">Sodium bicarbonate (NaHCO3)<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> solution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#300-ml-sodium-bicarbonate-nahco3-solution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Prepared by dissolving 24 g (MW 84.01 g/mol) in 300 ml ultrapure water. This solution should be stored at <strong>room</strong> temperature.</p>
+<h3 id="25-ml-cobalt-ii-solution">25 mL Cobalt (II) solution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25-ml-cobalt-ii-solution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Prepared by dissolving 0.51 g of <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Cobalt_II_-nitrate-hexahydrate" class="external">Co(NO3)2 x 6H2O<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> in 25 ml of distilled water. This solution should be stored at <strong>room</strong> temperature in the <strong>dark</strong>.</p>
+<h3 id="25-ml-graham-salt-sodium-hexametaphosphate-solution">25 mL Graham salt (Sodium hexametaphosphate) solution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25-ml-graham-salt-sodium-hexametaphosphate-solution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Prepared by dissolving 0.25 g of (NaPO3)6 in 25 ml of distilled water. This solution should be stored at <strong>room</strong> temperature.</p>
+<h3 id="05-ml-hydrogen-peroxide-solution-30">0.5 mL Hydrogen peroxide solution 30%<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#05-ml-hydrogen-peroxide-solution-30" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Eppendorf tubes 1.5 mL (new, not sterile)</li>
+<li>Blue tips</li>
+<li>Yellow tips</li>
+<li>Plastic cuvettes</li>
+</ul>
+<h2 id="equipment">Equipment<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#equipment" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>37 °C water bath</li>
+<li>boat for cuvettes</li>
+<li>microcentrifuge</li>
+<li>vortex</li>
+<li>P1000 pipettes</li>
+<li>P200 pipettes</li>
+</ul>
+<h2 id="preparação-">Preparação 🇵🇹<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preparação-" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h1 id="dia-1-cultivo-de-estirpes-em-meio-sólido">Dia 1 Cultivo de estirpes em meio sólido<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dia-1-cultivo-de-estirpes-em-meio-sólido" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Estriar as duas estirpes abaixo em meio sólido YPD e incubar a 30 °C por ~48 h.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Número da Estirpe</th><th>Designação da Estirpe</th><th>Vetor Plasmídeo</th><th></th><th>caixa</th><th>pos</th></tr></thead><tbody><tr><td>µ1886</td><td>CENPK111-32D</td><td>pTA1</td><td>vetor vazio</td><td>Björn12</td><td>35</td></tr><tr><td>µ1885</td><td>”</td><td>pTA1_TDH3_ScCTT1_PGI1</td><td>vetor de expressão <a href="https://www.yeastgenome.org/locus/CTT1" class="external">CTT1<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>&quot;&quot;</td><td>34</td></tr></tbody></table></div>
+<h1 id="pré-cultura-do-dia-3">Pré-cultura do Dia 3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pré-cultura-do-dia-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Inocular dois tubos de vidro de 50 mL com ~5 mL de meio SD e incubar a 30 °C por ~48 h.<br/>
+Rotular os tubos 5 e 6 para µ1885 e µ1886, respetivamente. Estas culturas podem ser mantidas a 4-8°C no frigorífico durante ~3-4 semanas.</p>
+<h1 id="preparação-do-dia-7">Preparação do Dia 7<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preparação-do-dia-7" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Esta etapa deve ser realizada na manhã do dia anterior à aula. Inocular dois tubos de vidro de 50 mL com 5-10 mL do mesmo meio usando 100 µL de cada pré-cultura. Rotular os tubos com 5 ou 6.</p>
+<h2 id="material--1">Material 🇵🇹<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#material--1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="100-ml-de-meio-líquido-sd-synthetic-defined">100 mL de meio líquido SD (Synthetic Defined)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#100-ml-de-meio-líquido-sd-synthetic-defined" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>6,7 g/L de Base de Nitrogénio de Levedura (YNB) SEM AMINOÁCIDOS</li>
+<li>20 g/L de glicose</li>
+</ul>
+<p>10 x 50 mL tubos de cultura de vidro com rolha de algodão ou tampa de alumínio</p>
+<p>25 mL de Etanol 95-99% (2 cursos * 3 turnos * 4 grupos * 0,5 mL = 12 mL)</p>
+<p>Seis tubos FALCON novos e vazios de 50 mL</p>
+<h3 id="250-ml-de-tampão-fosfato-50-mm-ph-70">250 mL de tampão fosfato 50 mM (pH 7,0)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#250-ml-de-tampão-fosfato-50-mm-ph-70" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Este tampão pode ser preparado misturando duas soluções em água ultrapura:</p>
+<ul>
+<li>100 mL de 6,81 g/L de KH2PO4</li>
+<li>150 mL de 8,90 g/L de Na2HPO4</li>
+</ul>
+<h3 id="300-ml-de-solução-de-bicarbonato-de-sódio-nahco3">300 mL de solução de <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Bicarbonate" class="external">Bicarbonato de Sódio (NaHCO3)<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#300-ml-de-solução-de-bicarbonato-de-sódio-nahco3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Preparada dissolvendo 24 g (PM 84,01 g/mol) em 300 mL de água ultrapura. Esta solução deve ser armazenada à <strong>temperatura ambiente</strong>.</p>
+<h3 id="25-ml-de-solução-de-cobalto-ii">25 mL de solução de Cobalto (II)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25-ml-de-solução-de-cobalto-ii" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Preparada dissolvendo 0,51 g de <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Cobalt_II_-nitrate-hexahydrate" class="external">Co(NO3)2 x 6H2O<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> em 25 mL de água destilada. Esta solução deve ser armazenada à <strong>temperatura ambiente</strong> no <strong>escuro</strong>.</p>
+<h3 id="25-ml-de-solução-de-sal-de-graham-hexametafosfato-de-sódio">25 mL de solução de sal de Graham (Hexametafosfato de Sódio)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#25-ml-de-solução-de-sal-de-graham-hexametafosfato-de-sódio" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Preparada dissolvendo 0,25 g de (NaPO3)6 em 25 mL de água destilada. Esta solução deve ser armazenada à <strong>temperatura ambiente</strong>.</p>
+<h3 id="05-ml-de-solução-de-peróxido-de-hidrogénio-a-30">0,5 mL de solução de Peróxido de Hidrogénio a 30%<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#05-ml-de-solução-de-peróxido-de-hidrogénio-a-30" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Tubos Eppendorf de 1,5 mL (novos, não estéreis)</li>
+<li>Pontas azuis</li>
+<li>Pontas amarelas</li>
+<li>Cuvetes de plástico</li>
+</ul>
+<h2 id="equipamento">Equipamento<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#equipamento" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Banho-maria a 37 °C</li>
+<li>Barcos para tubos</li>
+<li>Microcentrífuga</li>
+<li>Vórtex</li>
+<li>Pipetas P1000</li>
+<li>Pipetas P200</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-66" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#catalase-measurement-in-permeabilized-yeast-cells" data-for="catalase-measurement-in-permeabilized-yeast-cells">Catalase measurement in permeabilized yeast cells</a></li><li class="depth-1"><a href="#background" data-for="background">Background</a></li><li class="depth-2"><a href="#nox1" data-for="nox1">NOX1</a></li><li class="depth-2"><a href="#nox2" data-for="nox2">NOX2</a></li><li class="depth-2"><a href="#the-catalase-test" data-for="the-catalase-test">The catalase test</a></li><li class="depth-1"><a href="#assay" data-for="assay">Assay</a></li><li class="depth-0"><a href="#day-1-strain-cultivation-on-solid-medium" data-for="day-1-strain-cultivation-on-solid-medium">Day 1 strain cultivation on solid medium</a></li><li class="depth-0"><a href="#day-3-pre-culture" data-for="day-3-pre-culture">Day 3 pre-culture</a></li><li class="depth-0"><a href="#day-7-preparation" data-for="day-7-preparation">Day 7 preparation</a></li><li class="depth-0"><a href="#day-8-class" data-for="day-8-class">Day 8 class</a></li><li class="depth-1"><a href="#protocol-for-permeabilization-of-yeast-with-ethanol" data-for="protocol-for-permeabilization-of-yeast-with-ethanol">Protocol for permeabilization of yeast with ethanol.</a></li><li class="depth-1"><a href="#protocol-for-measuring-catalase-activity" data-for="protocol-for-measuring-catalase-activity">Protocol for measuring catalase activity</a></li><li class="depth-1"><a href="#references" data-for="references">References:</a></li><li class="depth-1"><a href="#other-references-of-interest" data-for="other-references-of-interest">Other references of interest:</a></li><li class="depth-1"><a href="#how-to-calculate-catalase-activity" data-for="how-to-calculate-catalase-activity">How to calculate catalase activity</a></li><li class="depth-1"><a href="#calibration-curve" data-for="calibration-curve">Calibration curve</a></li><li class="depth-1"><a href="#series1" data-for="series1">Series#1</a></li><li class="depth-1"><a href="#series2" data-for="series2">Series#2</a></li><li class="depth-1"><a href="#linearity" data-for="linearity">Linearity</a></li><li class="depth-1"><a href="#material-" data-for="material-">Material 🇬🇧</a></li><li class="depth-2"><a href="#100-ml-liquid-sd-synthetic-defined-medium" data-for="100-ml-liquid-sd-synthetic-defined-medium">100 mL liquid SD (Synthetic Defined) medium</a></li><li class="depth-2"><a href="#250-ml-50-mm-phosphate-buffer-ph-70" data-for="250-ml-50-mm-phosphate-buffer-ph-70">250 mL 50 mM phosphate buffer (pH 7.0)</a></li><li class="depth-2"><a href="#300-ml-sodium-bicarbonate-nahco3-solution" data-for="300-ml-sodium-bicarbonate-nahco3-solution">300 mL Sodium bicarbonate (NaHCO3) solution</a></li><li class="depth-2"><a href="#25-ml-cobalt-ii-solution" data-for="25-ml-cobalt-ii-solution">25 mL Cobalt (II) solution</a></li><li class="depth-2"><a href="#25-ml-graham-salt-sodium-hexametaphosphate-solution" data-for="25-ml-graham-salt-sodium-hexametaphosphate-solution">25 mL Graham salt (Sodium hexametaphosphate) solution</a></li><li class="depth-2"><a href="#05-ml-hydrogen-peroxide-solution-30" data-for="05-ml-hydrogen-peroxide-solution-30">0.5 mL Hydrogen peroxide solution 30%</a></li><li class="depth-1"><a href="#equipment" data-for="equipment">Equipment</a></li><li class="depth-1"><a href="#preparação-" data-for="preparação-">Preparação 🇵🇹</a></li><li class="depth-0"><a href="#dia-1-cultivo-de-estirpes-em-meio-sólido" data-for="dia-1-cultivo-de-estirpes-em-meio-sólido">Dia 1 Cultivo de estirpes em meio sólido</a></li><li class="depth-0"><a href="#pré-cultura-do-dia-3" data-for="pré-cultura-do-dia-3">Pré-cultura do Dia 3</a></li><li class="depth-0"><a href="#preparação-do-dia-7" data-for="preparação-do-dia-7">Preparação do Dia 7</a></li><li class="depth-1"><a href="#material--1" data-for="material--1">Material 🇵🇹</a></li><li class="depth-2"><a href="#100-ml-de-meio-líquido-sd-synthetic-defined" data-for="100-ml-de-meio-líquido-sd-synthetic-defined">100 mL de meio líquido SD (Synthetic Defined)</a></li><li class="depth-2"><a href="#250-ml-de-tampão-fosfato-50-mm-ph-70" data-for="250-ml-de-tampão-fosfato-50-mm-ph-70">250 mL de tampão fosfato 50 mM (pH 7,0)</a></li><li class="depth-2"><a href="#300-ml-de-solução-de-bicarbonato-de-sódio-nahco3" data-for="300-ml-de-solução-de-bicarbonato-de-sódio-nahco3">300 mL de solução de Bicarbonato de Sódio (NaHCO3)</a></li><li class="depth-2"><a href="#25-ml-de-solução-de-cobalto-ii" data-for="25-ml-de-solução-de-cobalto-ii">25 mL de solução de Cobalto (II)</a></li><li class="depth-2"><a href="#25-ml-de-solução-de-sal-de-graham-hexametafosfato-de-sódio" data-for="25-ml-de-solução-de-sal-de-graham-hexametafosfato-de-sódio">25 mL de solução de sal de Graham (Hexametafosfato de Sódio)</a></li><li class="depth-2"><a href="#05-ml-de-solução-de-peróxido-de-hidrogénio-a-30" data-for="05-ml-de-solução-de-peróxido-de-hidrogénio-a-30">0,5 mL de solução de Peróxido de Hidrogénio a 30%</a></li><li class="depth-1"><a href="#equipamento" data-for="equipamento">Equipamento</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="./postscript.js" type="module" data-persist="true"></script></html>
