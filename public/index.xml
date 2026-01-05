@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>mec</title>
+      <link>https://metabolicengineeringgroupcbma.github.io</link>
+      <description>Last 10 notes on mec</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>mec...</title>
+    <link>https://metabolicengineeringgroupcbma.github.io/</link>
+    <guid>https://metabolicengineeringgroupcbma.github.io/</guid>
+    <description><![CDATA[ Welcome, We are the mec research group, a part of the research center Centro de Biologia Molecular e Ambiental (CBMA). ]]></description>
+    <pubDate>Mon, 05 Jan 2026 15:07:45 GMT</pubDate>
+  </item><item>
+    <title>people</title>
+    <link>https://metabolicengineeringgroupcbma.github.io/people</link>
+    <guid>https://metabolicengineeringgroupcbma.github.io/people</guid>
+    <description><![CDATA[  Current memberslinks|Paulo Silva, PhD studentcienciavitae Google Scholar|Humberto Pereira, PhD studentcienciavitae Google ScholarBjörn Johansson, PICBMA page Dept page CIÊNCIAVITAE CIÊNCIA ID FCT Public Key (chave pública) J005395QL1Q Github BjornFJohansson Google Scholar ORCID 0000-0002-7723-074X ... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 17:46:28 GMT</pubDate>
+  </item><item>
+    <title>vault</title>
+    <link>https://metabolicengineeringgroupcbma.github.io/vault</link>
+    <guid>https://metabolicengineeringgroupcbma.github.io/vault</guid>
+    <description><![CDATA[ This wiki contains protocols and other information mostly of interest to the mec group at CBMA and people working in the LGM lab. ]]></description>
+    <pubDate>Fri, 02 Jan 2026 17:58:43 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
