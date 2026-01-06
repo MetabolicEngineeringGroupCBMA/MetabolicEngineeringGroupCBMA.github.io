@@ -1,0 +1,153 @@
+## ***What are checksums and why use them?***
+
+Biological sequence data files are stored in databases with a unique number or identifier (or key) that is identifies the sequence.
+This is important so that we can be sure to always access the same file for a given key.
+
+For [GenBank](http://www.ncbi.nlm.nih.gov/genbank/), the identifier is called ACCESSION number.
+
+![[image.png]]
+Figure 1 : The ACCESSION number is highlighted by the yellow box. The ACCESSION number is a unique identifier for GenBank records. See this link for further information on the GenBank file format.
+
+
+However, the same sequence may be stored in different databases under different keys that are specific to each database.
+This is a problem since reference tables between keys have to be maintained in order to identify the same sequence.
+
+The **se**quence **g**lobally **u**nique **id**entifier ([**seguid**](http://onlinelibrary.wiley.com/doi/10.1002/pmic.200600032/abstract;jsessionid=8E73EB1CB7522FF9D3CD411A848CDF5B.f01t03)) was proposed to solve this problem by allowing the calculation of a unique 27 character code from the sequence itself.
+
+The calculation of the SEGUID is based on a cryptographic checksum algorithm called [SHA-1](https://en.wikipedia.org/wiki/SHA-1) (**Secure Hash Algorithm 1**) and should be the same in all databases as it only depends on the sequence data.
+
+The seguid checksum has been extended (**SEGUID v2**) to DNA, which is a more complex case, since DNA can be linear or circular as well as single or double stranded.
+
+SEGUID v2 consists of four separate algorithms (see table below). There is one for each combination of single/double stranded DNA and linear or circular topology.
+
+|          | single strand | double strand |
+| -------- | ------------- | ------------- |
+| linear   | slSEGUID      | dlSEGUID      |
+| circular | scSEGUID      | dcSEGUID      |
+
+---
+
+
+Now, open the text file “**plasmid\_pUC19\_in\_raw\_sequence\_format.txt**” that should be in the same folder as this [document](plasmid_pUC19_in_raw_sequence_format.txt).
+
+The  same sequence can also be found in [GenBank](http://www.ncbi.nlm.nih.gov/genbank/) with the accession number [L09137](http://www.ncbi.nlm.nih.gov/nuccore/L09137).
+This file contains the complete sequence of the pUC19 plasmid (2686 bp).
+
+There is also an online version of the SEGUID calculator [here](https://seguid.github.io/seguid-calculator).
+
+![[TP01_Calculating_checksums_using_seguid_calculator-20240219122149626.png]]
+
+You should get the `lsseguid=71B4PwSgBZ3htFjJXwHPxtUIPYE` for linear single-strand sequences.
+
+Now change the first character of the sequence “T” for a “A” as depicted below.
+Make sure **not** to change anything else.
+Then click the “calc” button.
+
+![[TP01_Calculating_checksums_using_seguid_calculator-20240219170804857.png]]
+
+Clicking the “Calc” button should give you **lsseguid=scIQxOHOpWQOoMyD6VxzCBggwO8**.
+As we can see, the new result is very different although only one out of a total of 2686 nucleotides was changed.
+
+**NB!** Identical sequences in UPPERCASE or lowercase or mixed case have the same seguids.
+
+Characters, numbers and spaces except the ones allowed in biological sequences are automatically **removed** from the input.
+This means that all characters except “GATCRYWSMKHBVDN" are automatically removed from the input.
+The Characters window shows all the different characters present in the sequence after filtering.
+
+Always check the calculated size versus the size you would expect as well as and the characters that the sequence contain.
+You should be familiar with this tool as we will use it to check that the DNA sequences that result from exercises are correct.
+
+There is a button called “Reverse complement”. This button transforms the sequence in the window into the reverse complement and calculates the seguid.
+
+Click the “Reverse complement button”. The new lsseguid should be lsseguid=giuu4irAEGCUtb9JD50X909J73Y.
+
+**Question 1:**
+Calculate the lsseguid for the sequence “gatt” and the reverse complement.
+The first six characters are **lsseguid=kAeu2g** and **lsseguid=Zd45Jj**.
+What are the last three characters of each checksum?
+
+**Question 2:**
+Compare the seguids for the sequence “ggatcc” and the reverse complement.
+Why are they the same?
+
+## ***The ldseguid checksum***
+A linear double stranded (ds) DNA molecule can be described by either the upper or lower strands.
+If we consider the dsDNA molecule Figure 6, this blunt sequence can be described as TACGACC  or GGTCGTA.
+In order to produce a unique checksum  the ldseguid calculates the checksum for the [lexicographically](https://en.wikipedia.org/wiki/Lexicographical_order) smallest of the strands (sorted in alphabetical order) followed by the second strand.
+If we were to sort the two strands in Figure 6 the first strand would be  GGTCGTA and the second TACGACC, since G comes before T.
+
+## ***The clseguid and cdseguid checksums***
+The csseguid and cdseguid algorithms looks at the circular sequence and rotates it until the [lexicographically](https://en.wikipedia.org/wiki/Lexicographical_order) smallest sequence rotation is found.
+The cdseguid algorithm does the same thing for the reverse complement of the sequence and selects the smallest.
+
+For example, consider the circular **single-stranded** sequence **GATT** which consists of four nucleotides where the first C and the last A are connected.
+There are four different cyclic permutations.
+
+| #   | rotation |
+| --- | -------- |
+| 1   | GATT     |
+| 2   | TGAT     |
+| 3   | TTGA     |
+| 4   | **ATTG**     |
+
+
+The smallest rotation is obviously the last **ATTG** . If the sequence I double-stranded, there are four more sequences to consider. Now the smallest sequence is **AATC**.
+
+| # | rotation | reverse compl |
+| ---- | ---- | ---- |
+| 1 | GATT | **AATC** |
+| 2 | TGAT | CAAT |
+| 3 | TTGA | TCAA |
+| 4 | ATTG | ATCA |
+
+**Question 3:**
+
+The [pUC19](https://en.wikipedia.org/wiki/PUC19) is a commonly used *E. coli* cloning vector. It is a **circular double stranded DNA** molecule. There are **four** sequences in Genbank that are very similar to the pUC19 plasmid sequence. The following three text files are downloaded copies of these sequences.
+
+**One differs from the others, which one?**
+
+| Sequence                                |
+|:--------------------------------------- |
+| [[JD007526_in_raw_sequence_format.txt]] |
+| [[JD009973_in_raw_sequence_format.txt]] |
+| [[L09137_in_raw_sequence_format.txt]]   |
+| [[M77789_in_raw_sequence_format.txt]]   |
+
+/home/bjorn/Desktop/wiki/TPs/TP01_Calculating_checksums_using_seguid_calculator/JD007526_in_raw_sequence_format.txt
+/home/bjorn/Desktop/wiki/TPs/TP01_Calculating_checksums_using_seguid_calculator/JD009973_in_raw_sequence_format.txt
+/home/bjorn/Desktop/wiki/TPs/TP01_Calculating_checksums_using_seguid_calculator/L09137_in_raw_sequence_format.txt
+/home/bjorn/Desktop/wiki/TPs/TP01_Calculating_checksums_using_seguid_calculator/M77789_in_raw_sequence_format.txt
+/home/bjorn/Desktop/wiki/TPs/TP01_Calculating_checksums_using_seguid_calculator/plasmid_pUC19_in_raw_sequence_format.txt
+
+
+
+**Question 4:**
+The sequence CAT represents a circular double stranded DNA molecule. List all the circular permutations of both the sequence and the reverse complement of the sequence. How many permutations are there? Do this manually on a piece of paper or in a text editor on your computer.
+
+`CAT`
+`|||`
+`GTA`
+
+**Question 5:**
+
+This is an individual exercise for each student.
+The input data can be found in the TP01 Google spreadsheet where you can find your name in the leftmost column.
+Please answer as as indicated for the first example student "*Max Maximus*".
+If your name is **not** in the list, please inform your instructor.
+
+The three rightmost columns contain three sequences (Sequence 1, 2 and 3).
+
+Two of the sequences represent the same circular sequence and one of the sequences is different.
+Which one is different?
+Put your answer in the "Answer" column.
+## ***Literature***
+
+If you want to know more, there is optional further reading:
+
+- The Wikipedia article about [checksums](http://pt.wikipedia.org/wiki/Soma_de_verificação) (Portuguese) or the English Wikipedia article about [checksums](https://en.wikipedia.org/wiki/Checksum). These articles explain checksums from a technical point of view.
+- Babnigg, G., and Giometti, C. S. (2006) A database of unique protein sequence identifiers for proteome studies. Proteomics 6, 4514–4522. [link](http://onlinelibrary.wiley.com/doi/10.1002/pmic.200600032/abstract). This publication suggests the SEGUID as protein sequence identifiers.
+- Bassi, S., Bassi, S., and Gonzalez, V. (2007) New checksum functions for Biopython. *Nature Precedings*. [Link](http://precedings.nature.com/documents/278/version/1). This presentation deals with SEGUID implementation.
+- Website from the Argonne National Laboratory where the SEGUID was first developed [link](http://bioinformatics.anl.gov/).
+
+
+© Björn Johansson 2024

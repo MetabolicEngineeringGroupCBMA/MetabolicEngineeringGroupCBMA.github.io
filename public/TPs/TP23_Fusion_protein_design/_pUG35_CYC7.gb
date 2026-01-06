@@ -1,0 +1,290 @@
+LOCUS       pUG35                   6528 bp    ds-DNA  circular UNK 05-OCT-2019
+DEFINITION  C-terminal GFP fusion vector pUG35, complete sequence.
+ACCESSION   AF298787
+VERSION     AF298787.1  GI:11344888
+KEYWORDS    .
+SOURCE      C-terminal GFP fusion vector pUG35
+  ORGANISM  C-terminal GFP fusion vector pUG35 other sequences; artificial
+            sequences; vectors.
+REFERENCE   1  (bases 1 to 6231)
+  AUTHORS   Gueldener,U. and Hegemann,J.H.
+  TITLE     A second generation of GFP-vectors for subcelluar localization
+            studies in budding yeast
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 6231)
+  AUTHORS   Gueldener,U. and Hegemann,J.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2000) Institut fuer Mikrobiologie,
+            Heinrich-Heine-Universitaet, Universtitaetsstr. 1, Duesseldorf
+            40225, Germany
+COMMENT     cSEGUID n51k4_ogfQH7xklqAHN-VjMbaus
+            Fusion protein CYC7-GFP 358 aa
+            SEGUID FpGVlkYb1H3Y0FKr1YlK8p6rkZI
+            MAKESTGFKPGSAKKGATLFKTRCQQCHTIEEGGPNKVGPNLHGIFGRHSGQVKGYSYTDAN
+            INKNVKWDEDSMSEYLTNPKKYIPGTKMAFAGLKKEKDRNDLITYMTKAAKIDTVDLDMSKG
+            EELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFGY
+            GVQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGI
+            DFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGD
+            GPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK
+            ApEinfo:methylated:1
+            pydna cdseguid=J67yG-RgG51Au0sM6ylxMQNw0Wc 2024-06-11T18:40:50
+FEATURES             Location/Qualifiers
+     source          complement(3521..6528)
+                     /organism="C-terminal GFP fusion vector pUG35"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:142955"
+                     /note="derived from Saccharomyces cerevisiae"
+                     /locus_tag="derived from Saccharomyces cerevisiae"
+                     /label="derived from Saccharomyces cerevisiae"
+                     /ApEinfo_label="derived from Saccharomyces cerevisiae"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     gene            complement(5309..6112)
+                     /gene="URA3"
+                     /locus_tag="URA3"
+                     /label="URA3"
+                     /ApEinfo_label="URA3"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             complement(5309..6112)
+                     /gene="URA3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="orotidine-5'-phosphate decarboxylase"
+                     /protein_id="AAG34528.1"
+                     /db_xref="GI:11344889"
+                     /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELL
+                     ELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVKLQ
+                     YSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLSTGE
+                     YTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYRTVDD
+                     VVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
+                     /locus_tag="orotidine-5'-phosphate decarboxylase"
+                     /label="orotidine-5'-phosphate decarboxylase"
+                     /ApEinfo_label="orotidine-5'-phosphate decarboxylase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      complement(4267..4525)
+                     /note="from CYC1"
+                     /locus_tag="from CYC1"
+                     /label="from CYC1"
+                     /ApEinfo_label="from CYC1"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     gene            3542..4258
+                     /gene="EGFP3"
+                     /locus_tag="EGFP3"
+                     /label="EGFP3"
+                     /ApEinfo_label="EGFP3"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             3542..4258
+                     /gene="EGFP3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="enhanced green fluorescent protein 3"
+                     /protein_id="AAG34529.1"
+                     /db_xref="GI:11344890"
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK
+                     FICTTGKLPVPWPTLVTTFGYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG
+                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV
+                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE
+                     FVTAAGITHGMDELYK"
+                     /locus_tag="enhanced green fluorescent protein 3"
+                     /label="enhanced green fluorescent protein 3"
+                     /ApEinfo_label="enhanced green fluorescent protein 3"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        complement(2789..3181)
+                     /note="from MET25"
+                     /locus_tag="from MET25"
+                     /label="from MET25"
+                     /ApEinfo_label="from MET25"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      complement(2278..2350)
+                     /locus_tag="rep_origin"
+                     /label="rep_origin"
+                     /ApEinfo_label="rep_origin"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     gene            715..1575
+                     /gene="AmpR"
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             715..1575
+                     /gene="AmpR"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Protocol for ampicillin stock solution resistance
+                     protein"
+                     /protein_id="AAG34530.1"
+                     /db_xref="GI:11344891"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+                     /locus_tag="Protocol for ampicillin stock solution
+                     resistance protein"
+                     /label="Protocol for ampicillin stock solution resistance
+                     protein"
+                     /ApEinfo_label="Protocol for ampicillin stock solution
+                     resistance protein"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    complement(62..576)
+                     /note="CEN6/ARSH4"
+                     /locus_tag="CEN6/ARSH4"
+                     /label="CEN6/ARSH4"
+                     /ApEinfo_label="CEN6/ARSH4"
+                     /ApEinfo_fwdcolor="#ccff6b"
+                     /ApEinfo_revcolor="#ccff6b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     source          complement(1..3181)
+                     /organism="C-terminal GFP fusion vector pUG35"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:142955"
+                     /note="derived from Saccharomyces cerevisiae"
+                     /locus_tag="derived from Saccharomyces cerevisiae(1)"
+                     /label="derived from Saccharomyces cerevisiae(1)"
+                     /ApEinfo_label="derived from Saccharomyces cerevisiae"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 gacgaaaggg cctcgtgata cgcctatttt tataggttaa tgtcatgata ataatggttt
+       61 cttaggacgg atcgcttgcc tgtaacttac acgcgcctcg tatcttttaa tgatggaata
+      121 atttgggaat ttactctgtg tttatttatt tttatgtttt gtatttggat tttagaaagt
+      181 aaataaagaa ggtagaagag ttacggaatg aagaaaaaaa aataaacaaa ggtttaaaaa
+      241 atttcaacaa aaagcgtact ttacatatat atttattaga caagaaaagc agattaaata
+      301 gatatacatt cgattaacga taagtaaaat gtaaaatcac aggattttcg tgtgtggtct
+      361 tctacacaga caagatgaaa caattcggca ttaatacctg agagcaggaa gagcaagata
+      421 aaaggtagta tttgttggcg atccccctag agtcttttac atcttcggaa aacaaaaact
+      481 attttttctt taatttcttt ttttactttc tatttttaat ttatatattt atattaaaaa
+      541 atttaaatta taattatttt tatagcacgt gatgaaaagg acccaggtgg cacttttcgg
+      601 ggaaatgtgc gcggaacccc tatttgttta tttttctaaa tacattcaaa tatgtatccg
+      661 ctcatgagac aataaccctg ataaatgctt caataatatt gaaaaaggaa gagtatgagt
+      721 attcaacatt tccgtgtcgc ccttattccc ttttttgcgg cattttgcct tcctgttttt
+      781 gctcacccag aaacgctggt gaaagtaaaa gatgctgaag atcagttggg tgcacgagtg
+      841 ggttacatcg aactggatct caacagcggt aagatccttg agagttttcg ccccgaagaa
+      901 cgttttccaa tgatgagcac ttttaaagtt ctgctatgtg gcgcggtatt atcccgtatt
+      961 gacgccgggc aagagcaact cggtcgccgc atacactatt ctcagaatga cttggttgag
+     1021 tactcaccag tcacagaaaa gcatcttacg gatggcatga cagtaagaga attatgcagt
+     1081 gctgccataa ccatgagtga taacactgcg gccaacttac ttctgacaac gatcggagga
+     1141 ccgaaggagc taaccgcttt tttgcacaac atgggggatc atgtaactcg ccttgatcgt
+     1201 tgggaaccgg agctgaatga agccatacca aacgacgagc gtgacaccac gatgcctgta
+     1261 gcaatggcaa caacgttgcg caaactatta actggcgaac tacttactct agcttcccgg
+     1321 caacaattaa tagactggat ggaggcggat aaagttgcag gaccacttct gcgctcggcc
+     1381 cttccggctg gctggtttat tgctgataaa tctggagccg gtgagcgtgg gtctcgcggt
+     1441 atcattgcag cactggggcc agatggtaag ccctcccgta tcgtagttat ctacacgacg
+     1501 gggagtcagg caactatgga tgaacgaaat agacagatcg ctgagatagg tgcctcactg
+     1561 attaagcatt ggtaactgtc agaccaagtt tactcatata tactttagat tgatttaaaa
+     1621 cttcattttt aatttaaaag gatctaggtg aagatccttt ttgataatct catgaccaaa
+     1681 atcccttaac gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga
+     1741 tcttcttgag atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg
+     1801 ctaccagcgg tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact
+     1861 ggcttcagca gagcgcagat accaaatact gtccttctag tgtagccgta gttaggccac
+     1921 cacttcaaga actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg
+     1981 gctgctgcca gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg
+     2041 gataaggcgc agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga
+     2101 acgacctaca ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc
+     2161 gaagggagaa aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg
+     2221 agggagcttc cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc
+     2281 tgacttgagc gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc
+     2341 agcaacgcgg cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt
+     2401 cctgcgttat cccctgattc tgtggataac cgtattaccg cctttgagtg agctgatacc
+     2461 gctcgccgca gccgaacgac cgagcgcagc gagtcagtga gcgaggaagc ggaagagcgc
+     2521 ccaatacgca aaccgcctct ccccgcgcgt tggccgattc attaatgcag ctggcacgac
+     2581 aggtttcccg actggaaagc gggcagtgag cgcaacgcaa ttaatgtgag ttacctcact
+     2641 cattaggcac cccaggcttt acactttatg cttccggctc ctatgttgtg tggaattgtg
+     2701 agcggataac aatttcacac aggaaacagc tatgaccatg attacgccaa gcgcgcaatt
+     2761 aaccctcact aaagggaaca aaagctggag ctccggatgc aagggttcga atcccttagc
+     2821 tctcattatt ttttgctttt tctcttgagg tcacatgatc gcaaaatggc aaatggcacg
+     2881 tgaagctgtc gatattgggg aactgtggtg gttggcaaat gactaattaa gttagtcaag
+     2941 gcgccatcct catgaaaact gtgtaacata ataaccgaag tgtcgaaaag gtggcacctt
+     3001 gtccaattga acacgctcga tgaaaaaaat aagatatata taaggttaag taaagcgtct
+     3061 gttagaaagg aagtttttcc tttttcttgc tctcttgtct tttcatctac tatttccttc
+     3121 gtgtaataca gggtcgtcag atacatagat acaattctat tacccccatc catactctag
+     3181 aatggctaaa gaaagtacgg gattcaaacc aggctctgca aaaaagggtg ctacattgtt
+     3241 taaaacgagg tgtcagcagt gtcatacaat agaagagggt ggtcctaaca aagttggacc
+     3301 taatttacat ggtatttttg gtagacattc aggtcaggta aagggttatt cttacacaga
+     3361 tgcaaacatc aacaagaacg tcaaatggga tgaggatagt atgtccgagt acttgacgaa
+     3421 cccaaagaaa tatattcctg gtaccaagat ggcgtttgcc gggttgaaga aggaaaagga
+     3481 cagaaacgat ttaattactt atatgacaaa ggctgccaaa atcgataccg tcgacctcga
+     3541 catgtctaaa ggtgaagaat tattcactgg tgttgtccca attttggttg aattagatgg
+     3601 tgatgttaat ggtcacaaat tttctgtctc cggtgaaggt gaaggtgatg ctacttacgg
+     3661 taaattgacc ttaaaattta tttgtactac tggtaaattg ccagttccat ggccaacctt
+     3721 agtcactact ttcggttatg gtgttcaatg ttttgctaga tacccagatc atatgaaaca
+     3781 acatgacttt ttcaagtctg ccatgccaga aggttatgtt caagaaagaa ctattttttt
+     3841 caaagatgac ggtaactaca agaccagagc tgaagtcaag tttgaaggtg ataccttagt
+     3901 taatagaatc gaattaaaag gtattgattt taaagaagat ggtaacattt taggtcacaa
+     3961 attggaatac aactataact ctcacaatgt ttacatcatg gctgacaaac aaaagaatgg
+     4021 tatcaaagtt aacttcaaaa ttagacacaa cattgaagat ggttctgttc aattagctga
+     4081 ccattatcaa caaaatactc caattggtga tggtccagtc ttgttaccag acaaccatta
+     4141 cttatccact caatctgcct tatccaaaga tccaaacgaa aagagagacc acatggtctt
+     4201 gttagaattt gttactgctg ctggtattac ccatggtatg gatgaattgt acaaataact
+     4261 ggtcgagtca tgtaattagt tatgtcacgc ttacattcac gccctccccc cacatccgct
+     4321 ctaaccgaaa aggaaggagt tagacaacct gaagtctagg tccctattta tttttttata
+     4381 gttatgttag tattaagaac gttatttata tttcaaattt ttcttttttt tctgtacaga
+     4441 cgcgtgtacg catgtaacat tatactgaaa accttgcttg agaaggtttt gggacgctcg
+     4501 aaggctttaa tttgcggccg gtacccaatt cgccctatag tgagtcgtat tacgcgcgct
+     4561 cactggccgt cgttttacaa cgtcgtgact gggaaaaccc tggcgttacc caacttaatc
+     4621 gccttgcagc acatccccct ttcgccagct ggcgtaatag cgaagaggcc cgcaccgatc
+     4681 gcccttccca acagttgcgc agcctgaatg gcgaatggcg cgacgcgccc tgtagcggcg
+     4741 cattaagcgc ggcgggtgtg gtggttacgc gcagcgtgac cgctacactt gccagcgccc
+     4801 tagcgcccgc tcctttcgct ttcttccctt cctttctcgc cacgttcgcc ggctttcccc
+     4861 gtcaagctct aaatcggggg ctccctttag ggttccgatt tagtgcttta cggcacctcg
+     4921 accccaaaaa acttgattag ggtgatggtt cacgtagtgg gccatcgccc tgatagacgg
+     4981 tttttcgccc tttgacgttg gagtccacgt tctttaatag tggactcttg ttccaaactg
+     5041 gaacaacact caaccctatc tcggtctatt cttttgattt ataagggatt ttgccgattt
+     5101 cggcctattg gttaaaaaat gagctgattt aacaaaaatt taacgcgaat tttaacaaaa
+     5161 tattaacgtt tacaatttcc tgatgcggta ttttctcctt acgcatctgt gcggtatttc
+     5221 acaccgcata gggtaataac tgatataatt aaattgaagc tctaatttgt gagtttagta
+     5281 tacatgcatt tacttataat acagtttttt agttttgctg gccgcatctt ctcaaatatg
+     5341 cttcccagcc tgcttttctg taacgttcac cctctacctt agcatccctt ccctttgcaa
+     5401 atagtcctct tccaacaata ataatgtcag atcctgtaga gaccacatca tccacggttc
+     5461 tatactgttg acccaatgcg tctcccttgt catctaaacc cacaccgggt gtcataatca
+     5521 accaatcgta accttcatct cttccaccca tgtctctttg agcaataaag ccgataacaa
+     5581 aatctttgtc gctcttcgca atgtcaacag tacccttagt atattctcca gtagataggg
+     5641 agcccttgca tgacaattct gctaacatca aaaggcctct aggttccttt gttacttctt
+     5701 ctgccgcctg cttcaaaccg ctaacaatac ctgggcccac cacaccgtgt gcattcgtaa
+     5761 tgtctgccca ttctgctatt ctgtatacac ccgcagagta ctgcaatttg actgtattac
+     5821 caatgtcagc aaattttctg tcttcgaaga gtaaaaaatt gtacttggcg gataatgcct
+     5881 ttagcggctt aactgtgccc tccatggaaa aatcagtcaa gatatccaca tgtgttttta
+     5941 gtaaacaaat tttgggacct aatgcttcaa ctaactccag taattccttg gtggtacgaa
+     6001 catccaatga agcacacaag tttgtttgct tttcgtgcat gatattaaat agcttggcag
+     6061 caacaggact aggatgagta gcagcacgtt ccttatatgt agctttcgac atgatttatc
+     6121 ttcgtttcct gcaggttttt gttctgtgca gttgggttaa gaatactggg caatttcatg
+     6181 tttcttcaac actacatatg cgtatatata ccaatctaag tctgtgctcc ttccttcgtt
+     6241 cttccttctg ttcggagatt accgaatcaa aaaaatttca aagaaaccga aatcaaaaaa
+     6301 aagaataaaa aaaaaatgat gaattgaatt gaaaagctgt ggtatggtgc actctcagta
+     6361 caatctgctc tgatgccgca tagttaagcc agccccgaca cccgccaaca cccgctgacg
+     6421 cgccctgacg ggcttgtctg ctcccggcat ccgcttacag acaagctgtg accgtctccg
+     6481 ggagctgcat gtgtcagagg ttttcaccgt catcaccgaa acgcgcga
+//
