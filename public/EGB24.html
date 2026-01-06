@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>EGB24</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="mec"/><meta property="og:title" content="EGB24"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="EGB24"/><meta name="twitter:description" content="Design of the pTAx cloning vectors Background In the mec research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker’s yeast Saccharomyces cerevisiae."/><meta property="og:description" content="Design of the pTAx cloning vectors Background In the mec research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker’s yeast Saccharomyces cerevisiae."/><meta property="og:image:alt" content="Design of the pTAx cloning vectors Background In the mec research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker’s yeast Saccharomyces cerevisiae."/><meta property="twitter:domain" content="metabolicengineeringgroupcbma.github.io"/><meta property="og:url" content="https://metabolicengineeringgroupcbma.github.io/EGB24"/><meta property="twitter:url" content="https://metabolicengineeringgroupcbma.github.io/EGB24"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Design of the pTAx cloning vectors Background In the mec research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker’s yeast Saccharomyces cerevisiae."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvYmpvcm4vTWV0YWJvbGljRW5naW5lZXJpbmdHcm91cENCTUEuZ2l0aHViLmlvL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://metabolicengineeringgroupcbma.github.io/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://metabolicengineeringgroupcbma.github.io/EGB24-og-image.webp"/><meta property="og:image:url" content="https://metabolicengineeringgroupcbma.github.io/EGB24-og-image.webp"/><meta name="twitter:image" content="https://metabolicengineeringgroupcbma.github.io/EGB24-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="EGB24"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">mec</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-54"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-54" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>EGB24</a></div></nav><h1 class="article-title">EGB24</h1><p show-comma="true" class="content-meta"><time datetime="2026-01-02T08:35:41.223Z">Jan 02, 2026</time><span>19 min read</span></p></div></div><article class="popover-hint"><p><a href="https://www.instagram.com/spettsart/?hl=en" class="external"><img src="./EGB24-20240705161734646.jpeg" width="698" height="auto" alt/><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="design-of-the-ptax-cloning-vectors">Design of the pTAx cloning vectors<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#design-of-the-ptax-cloning-vectors" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="background">Background<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#background" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>In the <a href="https://metabolicengineeringgroupcbma.github.io/" class="external">mec<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker’s yeast <a href="https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae" class="external">Saccharomyces cerevisiae<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p>Genetic engineering of complex traits require the simultaneous deletion and/or expression of multiple genes. This is a challenging problem as genetic engineering is time consuming. To solve this problem, we developed a protocol for the assembly of metabolic pathways that we call the <strong><a href="./The-Yeast-Pathway-Kit" class="internal alias" data-slug="The-Yeast-Pathway-Kit">Yeast Pathway Kit</a></strong> (see our <a href="https://pubmed.ncbi.nlm.nih.gov/26916955" class="external">publication<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> in <em>ACS Synthetic Biology</em>). We use this protocol for construction and expression of large metabolic pathways in baker’s yeast <em><a href="https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae" class="external">S. cerevisiae<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></em> such as <a href="https://www.sciencedirect.com/science/article/pii/S221403012300007X" class="external">this<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> heterologous fatty acid synthesis pathway. Read more about the Yeast Pathway Kit <a href="./The-Yeast-Pathway-Kit" class="internal alias" data-slug="The-Yeast-Pathway-Kit">here</a>.</p>
+<p>The first part of the protocol is assembling a <strong>single gene expression cassette</strong> or <strong>TU</strong> (transcriptional unit). Briefly, single genes are cloned between a promoter and a terminator by <em>in-vivo</em> homologous recombination as in Figure 1 below:</p>
+<h4 id="figure-1">Figure 1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#figure-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./TU_plasmid_yeast_pathway_kit.png" width="auto" height="auto" alt/></p>
+<p>The three linear fragments (<strong>promoter</strong>, <strong>gene</strong> and <strong>terminator</strong> are typically PCR products while the long, curved fragment is a <strong>linearized plasmid</strong>. This plasmid is important since it provides elements for <strong>replication</strong> and <strong>selection</strong> in both <em>E. coli</em> and <em>S. cerevisiae</em>. The first plasmid we used for this purpose was called pYPKpw and it has the following functional parts (Table#1):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#1</th><th>part</th><th>function</th></tr></thead><tbody><tr><td></td><td><a href="https://en.wikipedia.org/wiki/Beta-lactamase" class="external">ampR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td><a href="https://en.wikipedia.org/wiki/Selectable_marker" class="external">selection marker<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for <em>E. coli</em></td></tr><tr><td></td><td><a href="https://en.wikipedia.org/wiki/PUC19" class="external">pUC<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td><a href="https://blog.addgene.org/plasmid-101-origin-of-replication" class="external">origin of replication<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for <em>E. coli</em></td></tr><tr><td></td><td><a href="http://www.sci.sdsu.edu/~smaloy/MicrobialGenetics/topics/plasmids/yeast-plasmid.html" class="external">2µ<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>multicopy origin of replication for <em>S. cerevisiae</em> from the natural <a href="https://www.sciencedirect.com/science/article/abs/pii/S0147619X13000292" class="external">2µ plasmid<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td></tr><tr><td></td><td><a href="https://en.wikipedia.org/wiki/URA3" class="external">URA3<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td><a href="https://en.wikipedia.org/wiki/URA3" class="external">selection marker<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for for <em>S. cerevisiae</em></td></tr><tr><td></td><td>ΔCRP</td><td>a <strong>partial, inactive</strong> <em>E. coli</em> cyclic AMP receptor protein or <a href="https://en.wikipedia.org/wiki/CAMP_receptor_protein" class="external">CRP<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> gene</td></tr></tbody></table></div>
+<p>The ΔCRP gene is inactive and only provide a recombination site for the promoter and terminator. The pathways that we make are functional in <em>Saccharomyces cerevisiae</em>, but we often need to <strong>transfer the pathway to <em>E. coli</em></strong> so we can obtain larger amounts of higher quality DNA for analysis or transformation. The pUC origin of replication (ORI) results in a <strong>high copy number</strong> of the vector in <em>E. coli</em>. We have observed genetic <strong>instability</strong> in <em>E coli</em> for large pathways that we suspect is linked to high copy number.</p>
+<h3 id="ptax-vectors">pTAx vectors<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ptax-vectors" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>We conceived a series of plasmid vectors called pTAx where x is a number from 1 to 11 (at the moment) made from five functional elements (Table #2). Each element is a distinct segment from a particular source plasmid. The pTAx vectors are similar, but differ in the selection markers and yeast ORI.</p>
+<p>We typically assemble pTA plasmids from five PCR products, see (<a href="./pTAx-assembly-strategy" class="internal alias" data-slug="pTAx-assembly-strategy">pTAx assembly strategy</a>). The pTAx plasmids should have a lower copy number in <em>E. coli</em> than pUC based plasmids since they have the pBR origin of replication including the <a href="https://en.wikipedia.org/wiki/Rop_protein" class="external">ROP<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> gene.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#2</th><th>Name</th><th><em>E. coli</em> marker</th><th><em>E. coli</em> ORI</th><th>yeast ORI</th><th>yeast marker</th><th>MCS</th><th>Constructed by:</th><th>Enzyme</th><th>🥶 freezer list numbers</th><th>Sequenced?</th><th>Date</th></tr></thead><tbody><tr><td></td><td>pTA1</td><td>ampR</td><td>pBR</td><td>2µ</td><td>LEU2</td><td>ΔCRP</td><td>Tatiana Pozdniakova</td><td>AatII, ZraI, FspAI</td><td>µ828, µ928, µ929</td><td>✅</td><td>2019-10-xx</td></tr><tr><td></td><td>pTA2</td><td>-”-</td><td>-“-</td><td>CEN/ARS</td><td>LEU2</td><td>-”-</td><td>EGB2023</td><td>AatII, ZraI, FspAI</td><td>µ1814 , µ1815, µ1817</td><td></td><td>2023-06-01</td></tr><tr><td></td><td>pTA3</td><td>-”-</td><td>-“-</td><td>2µ</td><td>HIS3</td><td>-”-</td><td>Tatiana Pozdniakova</td><td>AatII, ZraI, FspAI, EcoRV</td><td>µ1271</td><td></td><td>2021-07-09</td></tr><tr><td></td><td>pTA4</td><td>-”-</td><td>-“-</td><td>CEN/ARS</td><td>HIS3</td><td>-”-</td><td>EGB2023</td><td>AatII, ZraI, FspAI, EcoRV</td><td>µ1816, µ1818, µ1819</td><td></td><td>2023-06-01</td></tr><tr><td></td><td>pTA5</td><td>-”-</td><td>-“-</td><td>2µ</td><td>KanMX4</td><td>-”-</td><td>Paulo Silva, Julio Freire</td><td>AatII, ZraI, FspAI, EcoRV</td><td>µ1652</td><td>✅</td><td></td></tr><tr><td></td><td>pTA6</td><td>-”-</td><td>-“-</td><td>CEN/ARS</td><td>KanMX4</td><td>-”-</td><td>GMB20</td><td>AatII, ZraI, FspAI, EcoRV</td><td>µ520</td><td></td><td>2020-12-23</td></tr><tr><td></td><td>pTA7</td><td>-”-</td><td>-“-</td><td>2µ</td><td>TRP1</td><td>-”-</td><td></td><td>AatII, ZraI, FspAI</td><td></td><td></td><td></td></tr><tr><td></td><td>pTA8</td><td>-”-</td><td>-“-</td><td>CEN/ARS</td><td>TRP1</td><td>-”-</td><td>GMB20</td><td>AatII, ZraI, FspAI</td><td>µ521, µ522</td><td></td><td>2020-12-23</td></tr><tr><td></td><td>pTA9</td><td>-”-</td><td>-“-</td><td>2µ</td><td>URA3</td><td>-”-</td><td>Tatiana Pozdniakova</td><td>AatII, ZraI, FspAI</td><td>µ1272</td><td></td><td>2021-07-09</td></tr><tr><td></td><td>pTA10</td><td>-”-</td><td>-“-</td><td>CEN/ARS</td><td>URA3</td><td>-”-</td><td>GMB20</td><td>AatII, ZraI, FspAI</td><td>µ523</td><td></td><td>2020-12-23</td></tr><tr><td>🔥</td><td><strong>pTA11</strong></td><td>-”-</td><td>-“-</td><td>2µ</td><td>LEU2d</td><td>-”-</td><td>EGB2024</td><td>AatII, ZraI, FspAI</td><td>µ542</td><td>✅</td><td>2024-05-23</td></tr></tbody></table></div>
+<p>During the 2024 lab course, we will try to make the plasmid <strong>pTA11</strong> from five PCR products made by the students.</p>
+<h3 id="the-pta11-vector">The pTA11 vector<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-pta11-vector" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>We would sometimes like to have a greater number of copies which can be achieved by substitution of the URA3 marker for a marker called LEU2d. The LEU2d marker has a very short promoter and a resulting weak expression. This means that the plasmid copy number has to increase for the marker to work. The LEU2d marker was first described by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC217876/" class="external">Erhart &amp; Hollenberg 1983<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and is still used to increase expression levels. For instance <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2588579" class="external">Ro et al. 2008<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> used this marker to produce artemisinic acid in <em>S. cerevisiae</em> and deposited the sequence of the <a href="https://www.addgene.org/20120" class="external">pESC-leu2d<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> vector with this selectable marker.</p>
+<p>The lab course is divided into nine practical classes and one final class with all students. Each student attends three of the nine classes.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>LAB</th><th></th><th></th><th></th><th>Task</th></tr></thead><tbody><tr><td>1️⃣</td><td>PL3</td><td></td><td></td><td>Prepare plasmid DNA from plasmids (miniprep)</td></tr><tr><td>2️⃣</td><td></td><td>PL1</td><td></td><td>Analyze plasmid DNA by agarose gel | Prepare PCR reactions for each plasmid element</td></tr><tr><td>3️⃣</td><td></td><td></td><td>PL2</td><td>Analyze PCR products by agarose gel | Inoculate S. cerevisiae for transformation</td></tr><tr><td>4️⃣</td><td>PL3</td><td></td><td></td><td><em>S. cerevisiae</em> transformation</td></tr><tr><td>5️⃣</td><td></td><td>PL1</td><td></td><td><em>S. cerevisiae</em> colony PCR</td></tr><tr><td>6️⃣</td><td></td><td></td><td>PL2</td><td>Analyze Colony PCR products by agarose gel</td></tr><tr><td>7️⃣</td><td>PL3</td><td></td><td></td><td><em>E. coli</em> transformation (Plasmid rescue to <em>E. coli</em>)</td></tr><tr><td>8️⃣</td><td></td><td>PL1</td><td></td><td>Plasmid alkaline lysis miniprep</td></tr><tr><td>9️⃣</td><td></td><td></td><td>PL2</td><td>Restriction digestion, agarose gel</td></tr><tr><td>🔟</td><td>PL3</td><td>PL1</td><td>PL2</td><td>Analysis &amp; discussion</td></tr></tbody></table></div>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-1️⃣--pl3-miniprep1">LAB 1️⃣  PL3 miniprep#1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-1️⃣--pl3-miniprep1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><img src="./pTAx/EGB2420240305153851385.jpeg" width="auto" height="auto" alt/></p>
+<p><a href="./material#lab1" class="internal alias" data-slug="material">LAB1</a></p>
+<p>Summary:</p>
+<ul>
+<li>Plasmid miniprep using alkaline lysis</li>
+</ul>
+<h4 id="miniprep">Miniprep<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#miniprep" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#3</th><th>Group</th><th>Plasmid</th><th>Objective</th></tr></thead><tbody><tr><td></td><td>1</td><td>pBR322</td><td>amp &amp; pBR</td></tr><tr><td></td><td>2</td><td>pYPKpw</td><td>ΔCRP</td></tr><tr><td></td><td>3</td><td>YIplac128</td><td>LEU2d</td></tr><tr><td></td><td>4</td><td>YEplac195</td><td>2µ</td></tr></tbody></table></div>
+<p>Preparation of 4 plasmids using alkaline lysis mini prep (see Table#3).</p>
+<p>We will use the a homemade alkaline lysis <a href="./alkaline-lysis-plasmid-mini-prep" class="internal alias" data-slug="alkaline-lysis-plasmid-mini-prep">plasmid miniprep</a> protocol.</p>
+<p>The teacher has prepared <em>E. coli</em> cultures in liquid or on solid medium beforehand.</p>
+<p>Cultures with each plasmid were grown in or on <a href="./LB" class="internal" data-slug="LB">LB</a> with <a href="./antibiotics" class="internal" data-slug="antibiotics">antibiotics</a> for selection of the plasmids.</p>
+<p>Here is a <a href="./snik-short" class="internal alias" data-slug="snik-short">short</a> protocol for printing. The objective states why we need each particular plasmid.</p>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-2️⃣-pl1-gel1-pcr1">LAB 2️⃣ PL1 gel#1, PCR#1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-2️⃣-pl1-gel1-pcr1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab2" class="internal alias" data-slug="material">LAB2</a></p>
+<p>Summary:</p>
+<ul>
+<li>gel#1 on plasmid DNA</li>
+<li>Plasmid DNA dilution</li>
+<li>Preparation of a PCR reaction</li>
+<li>Make liquid YPD medium for LAB3</li>
+</ul>
+<h4 id="agarose-gel-electrophoresis-of-plasmid-dna">Agarose gel electrophoresis of plasmid DNA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#agarose-gel-electrophoresis-of-plasmid-dna" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./pTAx/EGB2420240301092228756.jpeg" width="auto" height="auto" alt/></p>
+<ol>
+<li>Add 10 µL <a href="./6x-DNA-loading-buffer" class="internal alias" data-slug="6x-DNA-loading-buffer">6 x loading buffer</a> to your plasmid DNA.</li>
+<li>If necessary, spin the tube for ~2-3 seconds to collect the liquid at the bottom.</li>
+<li>Put the gel in the gel tray in a <a href="./square-petri-dish" class="internal alias" data-slug="square-petri-dish">square petri dish</a>. The gel should have at least one well per group number and one extra for the marker.</li>
+<li>Add 5 µL of the plasmid DNA to an empty well, start with the leftmost well (Figure#2).</li>
+<li>All group members should load their plasmid.</li>
+<li>Take note of where your samples are.</li>
+<li>The teacher will help you to put the gel in the electrophoresis chamber.</li>
+<li>The teacher will load the molecular weight marker.</li>
+<li>Apply the electrical field as soon as you are done.</li>
+<li>The electrophoresis last around 15 min at 200 volts in the <a href="./Bachman" class="internal" data-slug="Bachman">Bachman</a> gel tank using a homemade <a href="./rectifier" class="internal" data-slug="rectifier">rectifier</a>.</li>
+<li>When the gel run is completed, the teacher with take a picture using a <a href="./GenoSmart" class="internal alias" data-slug="GenoSmart">transilluminator</a>.</li>
+</ol>
+<h4 id="figure-2">Figure 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#figure-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./empty_agarose_gel.jpg" width="auto" height="auto" alt/></p>
+<h4 id="post-stain-the-instructor-does-this">Post stain (The instructor does this)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#post-stain-the-instructor-does-this" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Put the gel in TAE + Midori Green, incubate 15-30 min</li>
+<li>Take picture</li>
+</ul>
+<h4 id="dilution-of-plasmid-dna">Dilution of plasmid DNA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dilution-of-plasmid-dna" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Pipette 1000 µL (1 mL) ultra-pure water into a clean 1.5 mL <a href="./Eppendorf-tube" class="internal alias" data-slug="Eppendorf-tube">Eppendorf tube</a></li>
+<li><strong>Mark this tube well</strong> so that you can identify it.</li>
+<li>Transfer 5 µL of the plasmid DNA to the tube with 1 mL water This will make a 5 µL/1000 µL = x 200 dilution.</li>
+<li>Vortex the tube with the x 200 plasmid dilution so that the content is well mixed.</li>
+<li>Put the tube with concentrated plasmid DNA back <strong>into the freezer.</strong></li>
+<li>Leave the tube with your diluted plasmid DNA on the bench and continue with the next step: “Preparation of a PCR reaction”.</li>
+</ol>
+<h4 id="preparation-of-a-pcr-reaction">Preparation of a PCR reaction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preparation-of-a-pcr-reaction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Each student should prepare one PCR reaction. Add the reagents in the order given below in a 200 µL PCR tube. <strong>Pipette very carefully, there is only a limited amount of reagent which is expensive.</strong></p>
+<p>PCR amplification (50 µL):</p>
+<ul>
+<li>33 µL <a href="./2x-PCR-mastermix" class="internal alias" data-slug="2x-PCR-mastermix">2x PCR mastermix</a> with <a href="./6x-DNA-loading-buffer" class="internal alias" data-slug="6x-DNA-loading-buffer">6x loading buffer</a> mixture (This is a green solution that has both PCR master mix and loading buffer)</li>
+<li>5 µL primer 1 (5 µM, check the google sheet for your primer number)</li>
+<li>5 µL primer 2 ”</li>
+</ul>
+<p>Transfer 7 µL of the x 200 diluted plasmid to the PCR tube.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#4</th><th>PCR template for</th><th>Primer1</th><th>Primer2</th><th>Template</th></tr></thead><tbody><tr><td></td><td>amp</td><td>1113</td><td>987</td><td>pBR322</td></tr><tr><td></td><td>pBR</td><td>1196</td><td>1195</td><td>pBR322</td></tr><tr><td></td><td>2µ</td><td>984</td><td>983</td><td>YEplac195</td></tr><tr><td></td><td>LEU2d</td><td>982</td><td>979</td><td>YIplac128</td></tr><tr><td></td><td>ΔCRP</td><td>978</td><td>977</td><td>pYPKpw</td></tr></tbody></table></div>
+<p>See see <a href="./pTAx-assembly-strategy" class="internal alias" data-slug="pTAx-assembly-strategy">pTAx assembly strategy</a> fro</p>
+<h4 id="run-pcr1">Run PCR#1<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#run-pcr1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>The teacher will take the tubes to the BioRad T100 thermal cycler of the LGM laboratory:
+<img src="./t100.jpg" alt="Biorad T100"/></p>
+<h4 id="make-liquid-ypd-medium-for-lab3">Make liquid YPD medium for LAB3<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#make-liquid-ypd-medium-for-lab3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Each <strong>group</strong> should make ~100 mL liquid <a href="./YPD" class="internal" data-slug="YPD">YPD</a> medium in a 250 mL <a href="./glassware" class="internal alias" data-slug="glassware">Schott</a> flask. Put a small piece of autoclave tape in the lid. Label the flask properly.</p>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-3️⃣-pl2-gel2">LAB 3️⃣ PL2 gel#2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-3️⃣-pl2-gel2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab3" class="internal alias" data-slug="material">LAB3</a></p>
+<p>Summary:</p>
+<ul>
+<li>Analyze PCR products from LAB2 on gel#2</li>
+<li>Inoculate <em>S. cerevisiae</em> in liquid YPD cultures with from LAB2</li>
+</ul>
+<h4 id="agarose-gel-electrophoresis-of-pcr-product-dna-gel2">Agarose gel electrophoresis of PCR product DNA (gel#2)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#agarose-gel-electrophoresis-of-pcr-product-dna-gel2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./pTAx/EGB2420240301092228756.jpeg" width="auto" height="auto" alt/></p>
+<p>It is critical that you keep track of <strong>your</strong> PCR tube. They are very small and have nothing written on them. We need them for the transformation later.</p>
+<ol>
+<li>Put the gel in the gel tray in a <a href="./square-petri-dish" class="internal alias" data-slug="square-petri-dish">square petri dish</a>. The gel should have at least one well per group number and one extra for the marker.</li>
+<li>Add 5 µL of the PCR product DNA to an empty well, start with the leftmost well.</li>
+<li>All group members should load their PCR product.</li>
+<li>Take note of where your PCR product is.</li>
+<li>The teacher will help you to put the gel in the electrophoresis chamber.</li>
+<li>The teacher will then load the molecular weight marker.</li>
+<li>Apply the electrical field as soon as you are done.</li>
+<li>The electrophoresis last around 15 min at 200 volts in the <a href="./Bachman" class="internal" data-slug="Bachman">Bachman</a> gel tank using a homemade <a href="./rectifier" class="internal" data-slug="rectifier">rectifier</a>.</li>
+<li>When the gel run is completed, the teacher with take a picture using a <a href="./GenoSmart" class="internal alias" data-slug="GenoSmart">transilluminator</a>.</li>
+</ol>
+<h4 id="inoculate-yeast-culture-one-per-group">Inoculate yeast culture (one per group)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#inoculate-yeast-culture-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./EGB24-20240301073303406.png" width="auto" height="auto" alt/></p>
+<p>The first task is to measure the optical density of the culture. We do this by diluting the culture ten times
+in the same medium and measuring the OD640 nm against the medium as blank.</p>
+<ol>
+<li>Add some YPD medium to a plastic <a href="./weighing-boat" class="internal alias" data-slug="weighing-boat">weighing boat</a>. This medium does not need to be sterile.</li>
+<li>Add 900 µL YPD from the weighing boat to a <a href="./cuvette" class="internal" data-slug="cuvette">cuvette</a>.</li>
+<li>Mix cell culture and add 100 µL to the cuvette.</li>
+<li>Measure OD640 with a <a href="./GENESYS20" class="internal alias" data-slug="GENESYS20">spectrophotometer</a>.</li>
+<li>Calculate the optical density of the culture.</li>
+<li>Calculate the volume of cells from the pre-culture that needs to be added to 40 mL of YPD medium to attain an OD640 = 0.17 (OD640 = 0.17 = 5 x 106 cells/ml using a spectrophotometer <a href="./GENESYS20" class="internal" data-slug="GENESYS20">GENESYS20</a>.)</li>
+</ol>
+<p>We can calculate the culture volume we need to add by the equation below:</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mord mathnormal" style="margin-right:0.02778em;">D</span><span class="mord">640</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">Va</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.17</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">40</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">Va</span><span class="mclose">)</span></span></span></span></p>
+<ul>
+<li>OD640 is the optical density calculated for the culture.</li>
+<li>Va is the volume we should add to the culture (mL).</li>
+<li>The culture volume before inoculating is 40 mL.</li>
+<li>The final optical density we want is 0.17.</li>
+</ul>
+<p>If we rearrange the equation with <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">Va</span></span></span></span> isolated on the left side, we get: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">Va</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.2484em;vertical-align:-0.4033em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">O</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">D</span><span class="mord mtight">640</span><span class="mbin mtight">−</span><span class="mord mtight">0.17</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6.80</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4033em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<ol>
+<li>Wipe down the bench with ethanol and light the <a href="./lamp" class="internal" data-slug="lamp">lamp</a> to create a sterile environment.</li>
+<li>Add 40 mL of YPD medium to a 50 mL <a href="./FALCON" class="internal" data-slug="FALCON">FALCON</a> tube.</li>
+<li>Add <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">Va</span></span></span></span> mL of pre-culture to your tube.</li>
+<li>Mix and measure the OD640 by removing one mL to an empty cuvette</li>
+<li>If the OD640 is ok, pour all the contents of the tube into a sterile <a href="./Erlenmeyer" class="internal" data-slug="Erlenmeyer">Erlenmeyer</a> flask.</li>
+<li>Incubate until cells have grown for two generations i.e. final OD640 should be 0.17 * 2 * 2 = 0.68</li>
+<li>Pour the cells into a sterile 50 mL FALCON tube and store on ice.</li>
+</ol>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-4️⃣-pl3-yeast-transformation">LAB 4️⃣ PL3 yeast transformation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-4️⃣-pl3-yeast-transformation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab4" class="internal alias" data-slug="material">LAB4</a></p>
+<p>Summary:</p>
+<ul>
+<li>Wash competent yeast cells</li>
+<li>Preparation of DNA mixture</li>
+<li>Yeast transformation</li>
+<li>Plate transformants on solid SD medium from LAB3</li>
+</ul>
+<h4 id="wash-competent-yeast-cells-one-per-group">Wash competent yeast cells (One per group)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#wash-competent-yeast-cells-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li><a href="https://youtu.be/dml5dQdTaUI?t=195" class="external">Decant<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> the supernatant slowly without disturbing the cells.</li>
+<li>Pour the content of the yeast culture into a 1.5 mL Eppendorf tube</li>
+<li>Spin for 20 s in a micro-centrifuge at top speed</li>
+<li>Remove supernatant by decanting (pipette not needed).</li>
+<li>Add 1 mL <strong>ultra pure water</strong>.</li>
+<li>Resuspend cells by pipetting slowly with a P1000 pipette (slowly, don’t make <a href="https://en.wikipedia.org/wiki/Sea_foam#/media/File:Sea_foam_at_Ocean_Beach_in_San_Francisco_-1_on_3-25-11.jpg" class="external">froth<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>).</li>
+<li>Spin for 20 s in a micro-centrifuge at top speed</li>
+<li>Remove supernatant by decanting (pipette not needed).</li>
+<li>Add 800 µL <strong>ultra pure water</strong>.</li>
+<li>Resuspend cells by pipetting slowly with a P1000 pipette (slowly!).</li>
+<li>Put the tube on ice.</li>
+</ol>
+<h4 id="preparation-of-dna-mixture-one-per-class">Preparation of DNA mixture (One per class)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#preparation-of-dna-mixture-one-per-class" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>We need two mixtures, one complete that we call ”➕” and one that lacks the pBR fragment that we call ”🔺” (delta)”, see Table #5.
+The ∆ mix is a negative control where we would expect few transformants.
+The plan is for 12 students to transform with the ”➕” mix and 4 students with the ”🔺” mix.</p>
+<ol>
+<li>Pool all successful PCR products together <strong>except</strong> the tubes with the pBR fragment.</li>
+<li>Measure the volume using a pipette ( for example 380 µL)</li>
+<li>Divide the mixture 3/4 (➕) and 1/4 (🔺) (285 µL and 95 µL)</li>
+<li>Add the pBR fragment to the ➕ mix (70 µL)</li>
+<li>Add an equal portion of water to the 🔺 mix (70/3 = 23 µL)</li>
+<li>Add 500 µL water to the ➕ mix (to have enough volume for 12 x 60 µL)</li>
+<li>Add 167 µL water to the 🔺 mix (to have enough volume for 4 x 60 µL)</li>
+<li>Mix by <a href="./vortex" class="internal" data-slug="vortex">vortex</a>ing.</li>
+<li>Divide ➕ mix into 3 tubes, 285 µL in each (one for each group).</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#5</th><th>PCR product</th><th>➕ mix (12 student)</th><th>🔺 mix (4 students)</th></tr></thead><tbody><tr><td></td><td>amp</td><td>✅</td><td>✅</td></tr><tr><td></td><td>2µ</td><td>✅</td><td>✅</td></tr><tr><td></td><td>LEU2d</td><td>✅</td><td>✅</td></tr><tr><td></td><td>ΔCRP</td><td>✅</td><td>✅</td></tr><tr><td></td><td>pBR</td><td>✅</td><td>❌</td></tr><tr><td></td><td><strong>ddH2O</strong></td><td>❌</td><td>✅</td></tr></tbody></table></div>
+<h4 id="yeast-transformation-one-per-student">Yeast transformation (One per student)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#yeast-transformation-one-per-student" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./pTAx/EGB24-20240304090601962.jpeg" width="auto" height="auto" alt/></p>
+<p>Each student should make one transformation. This protocol is described in detail <a href="./High-Efficiency-Yeast-Transformation-Protocol" class="internal alias" data-slug="High-Efficiency-Yeast-Transformation-Protocol">here</a>.</p>
+<ol>
+<li>Mix washed cells by inverting the tube.</li>
+<li>Transfer 100 µL of the cell suspension to a clean 1.5 mL Eppendorf tube per group member (If the group has four members, you need four tubes.). Mark the tubes.</li>
+<li>Centrifuge the cells for 20s at the highest speed.</li>
+<li>Remove supernatant with a P200 pipette. Leave the cell pellet at the bottom of the tube, do <strong>not</strong> resuspend.</li>
+<li>Add 60 µL of ➕ <strong>or</strong> 🔺 DNA mix to the tube with cells.</li>
+<li>Add 300 µL <a href="./PEG-LiAc-ssDNA" class="internal alias" data-slug="PEG-LiAc-ssDNA">PLS</a> (PEG-LiAc-ssDNA). Be careful and pipette <strong>slowly</strong> as PLS is sticky. Use a P1000 pipette with blue tip.</li>
+<li><a href="./vortex" class="internal alias" data-slug="vortex">Vortex</a> the tubes until cells are well resuspended and no clumps visible.</li>
+<li>Put the tubes in a floating tube rack at 42°C.</li>
+<li>Incubate for <strong>40 min</strong>.</li>
+<li>Mark a Petri dish with the <a href="./SD" class="internal alias" data-slug="SD">appropriate solid medium</a> with your group number and name. Write on the back side, not on the lid.</li>
+<li>Add about 1/2 mL glass spheres (~10-15 spheres) to the Petri dish.</li>
+<li>Time for ☕ break.</li>
+<li>Remove tube from water bath after 40 min and <strong>put tube on ice for at least 2 min</strong>.</li>
+<li>Spin tube for 20s at highest speed.</li>
+<li>Remove supernatant with a P200 pipette. Leave the cell pellet at the bottom of the tube.</li>
+<li>Add 300 µL YPD medium and resuspend with the pipette by <strong>slowly</strong> pipetting up and down. Be careful as the cells are sensitive</li>
+<li>Transfer 100 µL of the cell suspension to your Petri dish.</li>
+<li>Spread the cells by shaking the glass spheres (The <a href="https://www.youtube.com/watch?v=ArWRREJl1Rw&amp;t=39s" class="external">samba<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> method).</li>
+<li>Give the rest of the cell suspension to the instructor</li>
+<li>Incubate the plates upside down for 2-4 days at 30°C.</li>
+</ol>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-5️⃣-pl1-colony-pcr">LAB 5️⃣ PL1 colony pcr<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-5️⃣-pl1-colony-pcr" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab5" class="internal alias" data-slug="material">LAB5</a></p>
+<p>Summary:</p>
+<ul>
+<li>Colony PCR on yeast transformants</li>
+</ul>
+<h4 id="colony-pcr-one-per-student">Colony PCR (One per student)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#colony-pcr-one-per-student" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Each student should have a plate with colonies. Do not contaminate this plate before you need the cells.</p>
+<p><img src="./pTAx/EGB24-20240311180844739.png" width="auto" height="auto" alt/></p>
+<ol>
+<li>Add <strong>15 µL</strong> of PCR mix to a new PCR tube.</li>
+<li>Put the PCR tube on ice (put a dot on the lid with a marker so you do not lose the tube in the ice).</li>
+<li>Watch this <a href="https://youtu.be/_aAQofQHnss" class="external">YouTube<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> video (2 min) describing the colony PCR technique.</li>
+<li>Add 20 µL 20 mM NaOH to a clean Eppendorf tube.</li>
+<li>Pick a small amount of cells from your plate with a yellow tip. It is important not to take too much and <strong>no</strong> agarose (see at 52 s in the video).</li>
+<li>Add the cells to the solution and swirl to mix (see at 59 s in the video).</li>
+<li>Incubate tubes at 95°C for <strong>ten</strong> minutes. While you wait, <strong>continue</strong> to the next step.</li>
+<li>When the 95°C incubation is over, add 160 µL <a href="./TE" class="internal" data-slug="TE">TE</a> buffer x 0.5 to the Eppendorf tube with cells.</li>
+<li>Vortex the tube with cells for 30s.</li>
+<li>Spin at max speed in a micro-centrifuge.</li>
+<li>Add 5 µL of the supernatant to the PCR tube.</li>
+<li>Put tubes in PCR machine (or freeze the tubes at -20°C for later).</li>
+<li>Run this PCR program:</li>
+</ol>
+<pre><code>Taq DNA pol
+|95°C  |95°C               |    |tmf:54.8
+|______|_____          72°C|72°C|tmr:52.8
+|10min |30s  \ 53.8°C _____|____|45s/kb
+|      |      \______/ 0:30|5min|GC 42%
+|      |          30s      |    |386bp
+</code></pre>
+<p>The <strong>PCR mix</strong> contains these two PCR primers:</p>
+<pre><code>>1222_2954fw 29-mer
+GAAATTTCAGCCACTTCACAGGCGGTTTT
+
+>1779_pUCmu_bb_R 24-mer
+actcttcctttttcaatattattg
+</code></pre>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-6️⃣--pl2-gel-on-colony-pcr-products-gel3">LAB 6️⃣  PL2 gel on colony pcr products (gel#3)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-6️⃣--pl2-gel-on-colony-pcr-products-gel3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab6" class="internal alias" data-slug="material">LAB6</a></p>
+<p>Summary:</p>
+<ul>
+<li>Load gel#3 with colony PCR products from LAB5</li>
+<li>Inoculate 1 mL yeast cultures for plasmid rescue from liquid medium.</li>
+<li>Prepare solid <a href="./LB" class="internal" data-slug="LB">LB</a> Lennox medium with ampicillin medium for LAB7</li>
+</ul>
+<h4 id="gel3-gel-on-colony-pcr-products-one-per-group">Gel#3 gel on colony pcr products (One per group)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gel3-gel-on-colony-pcr-products-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Add 7µL of <a href="./6x-DNA-loading-buffer" class="internal alias" data-slug="6x-DNA-loading-buffer">6x DNA loading buffer</a> to the PCR tube and vortex.</li>
+<li>Load 6µL of the the mixture on an agarose gel.</li>
+<li>Run the gel for 15 min in the using the <a href="./rectifier" class="internal" data-slug="rectifier">rectifier</a> in the <a href="./Bachman" class="internal" data-slug="Bachman">Bachman</a> electrophoresis apparatus with <a href="./TAE" class="internal" data-slug="TAE">TAE</a> buffer.</li>
+</ol>
+<p>While the gel is running, each group should prepare 250 mL solid <a href="./LB" class="internal" data-slug="LB">LB</a> Lennox medium in a 500 mL <a href="./glassware" class="internal alias" data-slug="glassware">Schott</a> bottle.</p>
+<p>Inoculate 1 mL YPD medium in a 2 mL Eppendorf tube from the yeast plate. This culture is for plasmid rescue next week.</p>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-7️⃣-pl3-plasmid-rescue-e-coli-transformation">LAB 7️⃣ PL3 plasmid rescue, <em>E. coli</em> transformation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-7️⃣-pl3-plasmid-rescue-e-coli-transformation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab7" class="internal alias" data-slug="material">LAB7</a></p>
+<p>Summary:</p>
+<ul>
+<li>Prepare crude yeast DNA from cells with glass beads and an <em>E. coli</em> plasmid miniprep kif</li>
+<li>Transform <em>E. coli</em> with crude yeast DNA</li>
+<li>Plate E. coli on Petri dishes with solid LB-amp medium from LAB6</li>
+</ul>
+<h4 id="plasmid-preparation-from-s-cerevisiae-one-per-group">Plasmid preparation from <em>S. cerevisiae</em>, one per group<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#plasmid-preparation-from-s-cerevisiae-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Yeast cells from selective medium plates ~10 mL YPD were cultured o/n in 50 mL FALCON tubes.</li>
+<li>Pour two mL of yeast culture into a 2 mL Eppendorf tube.</li>
+<li>Spin for 20 s in a microcentrifuge.</li>
+<li>Remove supernatant by decanting.</li>
+<li>Add the amount of resuspension solution to the cells indicated by the kit (For example <a href="./mb010_ifu_en_v2401.pdf" class="internal alias" data-slug="mb010_ifu_en_v2401.pdf">NZYMiniprep</a>.).</li>
+<li>Add 200 µl of glass or zirconium beads (about one full 0.2 mL PCR tube).</li>
+<li>Resuspend cells by <a href="./vortex" class="internal" data-slug="vortex">vortex</a>ing briefly.</li>
+<li>Vortex the tubes for 5 minutes using a <a href="./disruptor-genie" class="internal alias" data-slug="disruptor-genie">disruptor genie</a>.</li>
+<li>Add the lysis buffer <strong>as soon as possible</strong>, the disruption of the cells liberate nucleases that can damage the DNA.</li>
+<li>Follow the rest of the alkaline lysis mini-prep kit protocol. For example <a href="./mb010_ifu_en_v2401.pdf" class="internal alias" data-slug="mb010_ifu_en_v2401.pdf">NZYMiniprep</a>.</li>
+<li>If the kit has an optional wash step to get rid of nucleases, use that.</li>
+<li>Elute in DNA in 50 µL of the kit elution buffer.</li>
+</ol>
+<h4 id="e-coli-transformations-one-per-group">E. coli transformations, one per group<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#e-coli-transformations-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><img src="./ecoligfp.png" width="auto" height="auto" alt/></p>
+<p>This protocol is described in greater detail <a href="./Transforming-Frozen-Competent-E.-coli" class="internal alias" data-slug="Transforming-Frozen-Competent-E.-coli">here</a>.</p>
+<ol>
+<li>Add the 10 µL of the plasmid DNA to the tube with competent cells, flick the tube a few times to mix. Do <strong>NOT</strong> vortex the cells at this point.</li>
+<li>Incubate for 20-30 min on ice.</li>
+<li>Heat shock in water bath at 42°C during <strong>EXACTLY</strong> 45s.</li>
+<li>Cool the tube  for 2 min in a water/ice slurry for fast heat transfer.</li>
+<li>Add 1 mL pre-warmed liquid <a href="./LB" class="internal" data-slug="LB">LB</a> medium to one and let cells recover at <strong>37°C</strong> for 30 min - 1 h.</li>
+<li>Centrifuge cells for 30 s.</li>
+<li>Take out 1 mL medium and discard.</li>
+<li>Resuspend cells in the remaining liquid (200-300 µL).</li>
+<li>Plate by adding 10-20 sterile glass beads to an LB ampicillin and swirl the plate to spread the liquid.</li>
+<li>Incubate inverted at 37°C for 12-24 hours.</li>
+</ol>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-8️⃣-pl1-miniprep2-gel4">LAB 8️⃣ PL1 Miniprep#2, gel#4<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-8️⃣-pl1-miniprep2-gel4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab8" class="internal alias" data-slug="material">LAB8</a></p>
+<p>Summary:</p>
+<ul>
+<li>Plasmid miniprep</li>
+<li>Load &amp; run agarose gel#4 on plasmid preparations.</li>
+</ul>
+<h4 id="miniprep-one-per-student">Miniprep (One per student)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#miniprep-one-per-student" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>Preparation of 16 plasmids (One per student) using alkaline lysis mini prep. We will use the a alkaline lysis <a href="./alkaline-lysis-plasmid-mini-prep" class="internal alias" data-slug="alkaline-lysis-plasmid-mini-prep">plasmid miniprep</a> protocol. The teacher has prepared <em>E. coli</em> cultures in liquid or on solid medium beforehand. Cultures with each plasmid were grown in or on <a href="./LB" class="internal" data-slug="LB">LB</a> with <a href="./antibiotics" class="internal" data-slug="antibiotics">antibiotics</a> for selection of the plasmids. Here is a <a href="./snik-short" class="internal alias" data-slug="snik-short">short</a> protocol for printing.</p>
+<h4 id="agarose-gel-electrophoresis-of-plasmid-dna-1">Agarose gel electrophoresis of plasmid DNA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#agarose-gel-electrophoresis-of-plasmid-dna-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Add 10 µL <a href="./6x-DNA-loading-buffer" class="internal alias" data-slug="6x-DNA-loading-buffer">6 x loading buffer</a> to your plasmid DNA.</li>
+<li>If necessary, spin the tube for ~2-3 seconds to collect the liquid at the bottom.</li>
+<li>Put the gel in the gel tray.</li>
+<li>Add more buffer (if needed) until the gel is just submerged.</li>
+<li>Add 8 µL of the plasmid DNA to an empty well, start with the leftmost well.</li>
+<li>All group members should load their plasmid.</li>
+<li>Take note of where your samples are.</li>
+<li>The teacher will help you to put the gel in the electrophoresis chamber.</li>
+<li>The teacher will load the molecular weight marker.</li>
+<li>Apply the electrical field as soon as you are done.</li>
+<li>The electrophoresis last around 15 - 20 min in the <a href="./Bachman" class="internal" data-slug="Bachman">Bachman</a> gel unit powered by the homemade <a href="./rectifier" class="internal" data-slug="rectifier">rectifier</a>.</li>
+<li>When the gel run is completed, the teacher with take a picture using a <a href="./GenoSmart" class="internal alias" data-slug="GenoSmart">transilluminator</a>.</li>
+</ol>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-9️⃣--pl2-restriction-digestion-gel5">LAB 9️⃣  PL2 restriction digestion, gel#5<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-9️⃣--pl2-restriction-digestion-gel5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="./material#lab9" class="internal alias" data-slug="material">LAB9</a></p>
+<p>Summary:</p>
+<ul>
+<li>cut DNA with restriction enzymes</li>
+<li>run agarose gel#5</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Table#6</th><th>Group</th><th>Enzyme</th><th>Buffer</th></tr></thead><tbody><tr><td></td><td>1</td><td><a href="http://rebase.neb.com/cgi-bin/reb_get.pl?enzname=BspTI" class="external">BspTI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td><a href="https://www.thermofisher.com/order/catalog/product/BR5" class="external">Buffer R<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td></tr><tr><td></td><td>2</td><td><a href="http://rebase.neb.com/cgi-bin/reb_get.pl?enzname=Eco32I" class="external">Eco32I<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Buffer R</td></tr><tr><td></td><td>3</td><td><a href="http://rebase.neb.com/cgi-bin/reb_get.pl?enzname=HindIII" class="external">HindIII<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Buffer R</td></tr><tr><td></td><td>4</td><td><a href="http://rebase.neb.com/cgi-bin/reb_get.pl?enzname=XagI" class="external">XagI<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Buffer R</td></tr></tbody></table></div>
+<h4 id="restriction-digestion-one-per-group">Restriction digestion (One per group)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#restriction-digestion-one-per-group" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Unfreeze the plasmid solution.</li>
+<li>Pipette 8 µL of the plasmid solution into a new Eppendorf tube.</li>
+<li>Mark the Eppendorf tube</li>
+<li>Ask your teacher to add 1 µL of Restriction enzyme buffer and 1 µL enzyme (Table#6) to your tube.</li>
+<li>Spin and incubate for one hour at 37°C. Continue to assemble the plasmid <em>in-silico</em>.</li>
+<li>Add 2 µL <a href="./6x-DNA-loading-buffer" class="internal alias" data-slug="6x-DNA-loading-buffer">6x DNA loading buffer</a> to your tube</li>
+<li>Load all of the tube content on an agarose gel</li>
+</ol>
+<h4 id="in-silico-pcr-simulation"><em>In-Silico</em> PCR simulation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#in-silico-pcr-simulation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>The objective of this task is to simulate each of the five PCR product used to make the vector.</p>
+<ol>
+<li>The template plasmids that <em>you</em> used can be found in Table#3 above.</li>
+<li>The template sequences are available through links in <a href="./pTAx-assembly-strategy#table-1-plasmid-links" class="internal alias" data-slug="pTAx-assembly-strategy">Table 1</a>.</li>
+<li>The primer numbers can be found in <a href="./pTAx-assembly-strategy#table-2-pcr-strategies" class="internal alias" data-slug="pTAx-assembly-strategy">Table 2</a></li>
+<li>The primer sequences can be found in <a href="./pTAx-assembly-strategy#table-3-primer-sequences" class="internal alias" data-slug="pTAx-assembly-strategy">Table 3</a>.</li>
+<li>Use <a href="http://pydna.pythonanywhere.com" class="external">WebPCR<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> to simulate your PCR products.</li>
+<li>Add the size and cdseguid to the pTA11 sheet in the Course Google Sheet</li>
+</ol>
+<h4 id="in-silico-assembly"><em>In-Silico</em> Assembly<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#in-silico-assembly" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>Use the <a href="https://pydna.pythonanywhere.com/assembly" class="external">Assembly<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> simulator to join the sequences</li>
+<li>Add your sequence to the Google sheet</li>
+<li>Annotate your sequence with <a href="http://plannotate.barricklab.org" class="external">pLannotate<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ol>
+<p><img src="./pTAx/colored.png" width="auto" height="auto" alt/></p>
+<h3 id="lab-pl123">LAB🔟 PL123<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lab-pl123" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Summary:</p>
+<ul>
+<li>Interpretation of results. Did we succeed?</li>
+<li>Q&amp;A session</li>
+</ul>
+<p><img src="./EGB24-20240531080621957.png" width="auto" height="auto" alt/></p>
+<h3 id="results">Results<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#results" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>We used the whole plasmid sequencing service provided by  <a href="https://eurofinsgenomics.eu" class="external">Eurofins<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p><img src="./EGB24-20240516063746372.png" width="369" height="auto" alt/></p>
+<p><img src="./EGB24-20240516063752609.png" width="370" height="auto" alt/></p>
+<p>The company returned this <a href="./11108899267_25KB_WPS00060222_0.zip" class="internal alias" data-slug="11108899267_25KB_WPS00060222_0.zip">zip</a> file containing the sequencing data and some additional information.
+The file <code>pTA11_12_pontinho.plasmid_annotations.gbk</code> contain the final sequence.</p>
+<p>Some students assembled pTA11 <em>in-silico</em> and got a circular sequence of 5805 bp with <code>cdseguid=0GjyH9MjuULyh8ratXzL5y8ZVz0</code>.</p>
+<p>The two sequences show a number of differences and a size difference. The <code>pTA11_12_pontinho.plasmid_annotations.gbk</code> is 5793 bp while
+the in-silico assembled sequence is 5805 bp which is 12 bp longer than the sequencing indicated.</p>
+<p><img src="./EGB24-20240516151409790.png" width="auto" height="auto" alt/>
+Aligning the two sequences in ApE produces the result above. The sequence <code>ATGTCTGCCCCT</code> seems to be repeated twice in the In-silico assembled sequence.</p>
+<p>The vector YIplac128 (<a href="https://www.ncbi.nlm.nih.gov/nucleotide/X75463.1" class="external">X75463.1<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>) was used as the source for both the <em>in-vivo</em> and <em>in-vitro</em> assembly and this sequence seems to have the repeated sequence.</p>
+<p><img src="./EGB24-20240516153150220.png" width="auto" height="auto" alt/></p>
+<p>Other sequences are available for the YIplac128 vector. The table below indicate that snapgene has a shorter sequence for the vector.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Source</th><th>Length (bp)</th><th>seguid</th></tr></thead><tbody><tr><td>genbank</td><td>4302</td><td>cdseguid=xBNkR1evJV1MuEP3bOW7rzSkH2Q</td></tr><tr><td>addgene</td><td>4302</td><td>cdseguid=xBNkR1evJV1MuEP3bOW7rzSkH2Q</td></tr><tr><td><a href="https://www.snapgene.com/plasmids/yeast_plasmids/YIplac128" class="external">snapgene<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>4293</td><td>cdseguid=Ch6Y7zxAoVN5PAGDHKdzT2AFmm8</td></tr></tbody></table></div>
+<p>The snapgene sequence has only a single repetition of the 12 bp sequence:
+<img src="./EGB24-20240516164845380.png" width="auto" height="auto" alt/></p>
+<p>The LEU2 sequence available in <a href="https://www.yeastgenome.org/locus/S000000523/sequence" class="external">SGD<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> has also only a single repetition:</p>
+<p><img src="./EGB24-20240516171026822.png" width="auto" height="auto" alt/></p>
+<p>It is likely that the YIplac128 genbank sequence is wrong. The sequencing was performed in 1993 and it was never updated.</p>
+<p>A simulation using the snapgene YIplac128 instead of the genbank sequence for YIplac128 results in a <a href="./pTA11.gb" class="internal alias" data-slug="pTA11.gb">pTA11</a> sequence of 5793 bp, the same size as from the sequencing result.
+The sequences still have differences, notably two pairs <a href="https://en.wikipedia.org/wiki/Indel" class="external">indels<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, one pair each sequence.</p>
+<p>The pTA11 needs to be sequenced again in order to completely resolve the differences.</p>
+<h4 id="storing-the-final-plasmid">Storing the final plasmid<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#storing-the-final-plasmid" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>The plasmid was stored in the department -80°C freezer.</p>
+<p><img src="./EGB24-20240523160751572.png" width="611" height="auto" alt/></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-8" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#design-of-the-ptax-cloning-vectors" data-for="design-of-the-ptax-cloning-vectors">Design of the pTAx cloning vectors</a></li><li class="depth-1"><a href="#background" data-for="background">Background</a></li><li class="depth-1"><a href="#ptax-vectors" data-for="ptax-vectors">pTAx vectors</a></li><li class="depth-1"><a href="#the-pta11-vector" data-for="the-pta11-vector">The pTA11 vector</a></li><li class="depth-1"><a href="#lab-1️⃣--pl3-miniprep1" data-for="lab-1️⃣--pl3-miniprep1">LAB 1️⃣  PL3 miniprep#1</a></li><li class="depth-1"><a href="#lab-2️⃣-pl1-gel1-pcr1" data-for="lab-2️⃣-pl1-gel1-pcr1">LAB 2️⃣ PL1 gel#1, PCR#1</a></li><li class="depth-1"><a href="#lab-3️⃣-pl2-gel2" data-for="lab-3️⃣-pl2-gel2">LAB 3️⃣ PL2 gel#2</a></li><li class="depth-1"><a href="#lab-4️⃣-pl3-yeast-transformation" data-for="lab-4️⃣-pl3-yeast-transformation">LAB 4️⃣ PL3 yeast transformation</a></li><li class="depth-1"><a href="#lab-5️⃣-pl1-colony-pcr" data-for="lab-5️⃣-pl1-colony-pcr">LAB 5️⃣ PL1 colony pcr</a></li><li class="depth-1"><a href="#lab-6️⃣--pl2-gel-on-colony-pcr-products-gel3" data-for="lab-6️⃣--pl2-gel-on-colony-pcr-products-gel3">LAB 6️⃣  PL2 gel on colony pcr products (gel#3)</a></li><li class="depth-1"><a href="#lab-7️⃣-pl3-plasmid-rescue-e-coli-transformation" data-for="lab-7️⃣-pl3-plasmid-rescue-e-coli-transformation">LAB 7️⃣ PL3 plasmid rescue, E. coli transformation</a></li><li class="depth-1"><a href="#lab-8️⃣-pl1-miniprep2-gel4" data-for="lab-8️⃣-pl1-miniprep2-gel4">LAB 8️⃣ PL1 Miniprep#2, gel#4</a></li><li class="depth-1"><a href="#lab-9️⃣--pl2-restriction-digestion-gel5" data-for="lab-9️⃣--pl2-restriction-digestion-gel5">LAB 9️⃣  PL2 restriction digestion, gel#5</a></li><li class="depth-1"><a href="#lab-pl123" data-for="lab-pl123">LAB🔟 PL123</a></li><li class="depth-1"><a href="#results" data-for="results">Results</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="./Teaching" class="internal">Teaching</a></li><li><a href="./broken-links-output" class="internal">broken links output</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/MetabolicEngineeringGroupCBMA">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="./postscript.js" type="module" data-persist="true"></script></html>
