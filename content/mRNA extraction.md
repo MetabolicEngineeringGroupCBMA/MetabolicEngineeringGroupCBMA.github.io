@@ -1,1 +1,0 @@
-Awesome protocol for RNA extraction :)

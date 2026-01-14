@@ -1,2 +1,0 @@
-
-![[FastPrep.jpg]]

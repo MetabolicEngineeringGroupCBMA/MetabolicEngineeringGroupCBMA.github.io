@@ -1,1 +1,0 @@
-![[minitron_002.png]]
