@@ -1,4 +1,4 @@
-![](The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpg)
+![[The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpg]]
 
 This is a collection of instructions for students starting work in our group. We call our group **mec** which is short for **M**etabolic **E**ngineering **C**BMA.
 
@@ -56,7 +56,7 @@ Some useful links:
 
 ![](eng.jpg)
 
-**English** is the language of science. Depending on your background you may have to improve your English.
+**English** is the language of science. Depending on your background you may need to improve your English.
 
 [[writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills.
 

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2026-01-06T07:37:54.182+00:00","modified":"2026-01-06T07:37:54.183+00:00","tags":["recep"],"cssclasses":""}
+{"publish":true,"created":"2026-01-06T07:37:54.182+00:00","modified":"2026-01-14T12:06:13.820+00:00","tags":["recept"],"cssclasses":""}
 ---
 
 
@@ -29,14 +29,14 @@ Forma smeten till bollar. Rulla i kokosflingor.
 Servera direkt eller förvara i kylskåpet.
 
 
-https://mykitchenstories.se/mina-basta-chokladbollar/
+<https://mykitchenstories.se/mina-basta-chokladbollar/>
 
 
 ---
 
 
 
-https://sv.wikibooks.org/wiki/Kokboken/Recept/Chokladboll
+<https://sv.wikibooks.org/wiki/Kokboken/Recept/Chokladboll>
 
 3 dl havregryn
 1 tsk vaniljsocker
