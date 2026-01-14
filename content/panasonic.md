@@ -1,0 +1,1 @@
+![[panasonic_001.png]]

@@ -1,0 +1,1 @@
+Regulated process by which a living organism can maintain stability by adjusting to a changing external environment.
