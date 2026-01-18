@@ -17,14 +17,14 @@ We use this protocol for rapid construction and expression of large metabolic pa
 
 Plasmids in the pTAx series are used to propagate these constructs in *E. coli* or *S. cerevisiae*.
 
+### The underlying problem we would like to solve
+
 In order to replicate in both *E.coli* and *S. cerevisiae*, a plasmid needs at least:
 
 - a selection marker for *E. coli*
 - an origin of replication for *E. coli*
 - a selection marker for *S. cerevisiae*.
 - an origin of replication for *S. cerevisiae*.
-
-### The underlying problem we would like to solve
 
 The first plasmid we used to express large pathways was called pYPKpw and it has the five functional parts indicated in Table#1:
 
@@ -39,7 +39,7 @@ The first plasmid we used to express large pathways was called pYPKpw and it has
 The last element in the table,  Δcrp is an *E. coli* gene which is inactive and only provide a recombination site. The pathways that we make are meant for _S. cerevisiae_, but we often need to **transfer the pathway to _E. coli_** so we can obtain larger amounts of higher quality DNA for analysis or transformation.
 
 The pUC origin of replication (ORI) results in a **high copy number** of the vector in *E. coli* which is an advantage for obtaining large amounts of DNA. However, we have observed genetic **instability** in *E. coli* for some large pathways that we suspect is linked to high copy number. Our experience is that a lower copy number provides more stability.
-### pTAx vectors for increases stability
+### pTAx vectors with increased stability
 
 We conceived a series of plasmid vectors called pTAx where x is a number from pTA1 .. pTA11 (at the moment). The pTAx vectors were designed to have a relatively **low copy number** in *E. coli* to try to solve the stability problems of pYPKpw.
 

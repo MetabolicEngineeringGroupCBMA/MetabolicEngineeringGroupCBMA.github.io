@@ -1,4 +1,4 @@
-pTA vectors are built from five PCR products (Figure 1).
+pTAx vectors are built from five PCR products (Figure 1).
 
 This [table](https://docs.google.com/spreadsheets/d/1KV2RtKb4NI7cfrAcmUzHkosKOWJPmzKwOHyGJeM2HlE/edit?usp=sharing) contain primer numbers and template plasmids for each of the five PCR products for all current pTAx vectors. Each PCR reaction is marked with a different color.
 
