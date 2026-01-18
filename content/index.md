@@ -1,5 +1,9 @@
 ---
-{"publish":true,"title":"Metabolic Engineering CBMA","created":"2026-01-08T12:03:47.148+00:00","modified":"2026-01-14T08:36:33.839+00:00","cssclasses":""}
+publish: true
+title: Metabolic Engineering CBMA
+created: 2026-01-08T12:03:47.148+00:00
+modified: 2026-01-14T08:36:33.839+00:00
+cssclasses: ""
 ---
 
 

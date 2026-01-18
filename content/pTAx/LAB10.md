@@ -435,4 +435,4 @@ tataaaaataggcgtatcacgaggcc==================aattcggtcgaaaaaagaaaaggagagggccaagag
 The YEplac112, YCplac22 and YIplac204 vectors all express the TRP1 gene. The sequences for these vectors are available from both Genbank and Snapgene
 (see [[pTAx assembly strategy]]).
 
-A peculiarity is that the YIplac204 TRP1 promoter seems to have an 18 bp deletion (marked by `==================`) compared to the sequences in YEplac112 YCplac22.
+A peculiarity is that the YIplac204 TRP1 promoter seems to have an 18 bp deletion (marked by ) compared to the sequences in YEplac112 YCplac22.

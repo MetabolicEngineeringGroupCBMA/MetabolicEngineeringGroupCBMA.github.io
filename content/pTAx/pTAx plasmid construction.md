@@ -8,6 +8,9 @@ The objective of this lab course is to construct a new plasmid cloning vector in
 
 In the [mec](https://metabolicengineeringgroupcbma.github.io/) research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker's yeast [*S. cerevisiae*](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae).
 
+![[pTAx/pTAx plasmid construction.png|540x304]]
+
+
 Genetic engineering of complex traits often require the simultaneous deletion and/or expression of multiple genes. This is a challenging problem as genetic engineering is time consuming. To solve this problem, we developed a protocol for the parallel assembly of metabolic pathways that we call the **[[The Yeast Pathway Kit\|Yeast Pathway Kit]]** (YPK). See our [publication](https://pubmed.ncbi.nlm.nih.gov/26916955) in *ACS Synthetic Biology* for more details.
 
 We use this protocol for rapid construction and expression of large metabolic pathways in baker's yeast _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_ such as the pTA1_FASIIb metabolic pathway expressing twelve genes from *E. coli* and *A. thaliana* [link](https://www.sciencedirect.com/science/article/pii/S221403012300007X) heterologous fatty acid synthesis pathway.

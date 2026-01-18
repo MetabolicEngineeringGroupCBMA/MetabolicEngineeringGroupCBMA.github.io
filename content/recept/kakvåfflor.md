@@ -1,5 +1,10 @@
 ---
-{"publish":true,"created":"2026-01-02T08:24:21.085+00:00","modified":"2026-01-02T08:24:21.085+00:00","tags":["recept"],"cssclasses":""}
+publish: true
+created: 2026-01-02T08:24:21.085+00:00
+modified: 2026-01-02T08:24:21.085+00:00
+tags:
+  - recept
+cssclasses: ""
 ---
 
 

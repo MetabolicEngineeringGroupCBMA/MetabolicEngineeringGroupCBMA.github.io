@@ -26,7 +26,7 @@ The accepted genetic nomenclature for chromosomal genes of the yeast *S. cerevis
 
 From [Sherman, Fred. 2002. “Getting Started with Yeast.” *Methods in Enzymology* 350: 3–41.](https://www.google.com/search?as_q=Sherman%2C+Fred.+2002.+%E2%80%9CGetting+Started+with+Yeast.%E2%80%9D+*Methods+in+Enzymology*+350%3A+3%E2%80%9341.&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=pdf&tbs=)
 
-Whenever possible, each gene, allele, or locus is designated by three *italicized* letters, e.g., *ARG*, which is usually a describer of the function, followed by a number, e.g., ARG2.
+Whenever possible, each gene, allele, or locus is designated by three *italicized* letters, e.g., *ARG*, which is usually a describe of the function, followed by a number, e.g., ARG2.
 
 Unlike most other systems of genetic nomenclature, dominant alleles are denoted by using UPPERCASE *italics* for all letters of the gene symbol, e.g., *ARG2*, whereas lowercase letters denote the **recessive** allele, e.g., the auxotrophic marker *arg2*. Wild-type genes are designated with a superscript "plus" (*sup6<sup>+</sup>* or *ARG2<sup>+</sup>*).
 
