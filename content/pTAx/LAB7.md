@@ -1,4 +1,4 @@
-# LAB7 Gel#3
+### Gel#3
 
 Summary:
 - Run gel with colony PCR products from LAB6
@@ -18,6 +18,3 @@ See if any of the previously prepared liquid YPD medium (LAB2) is still fresh? I
 This culture is for plasmid rescue next week.
 ![[pTAx/colored.png]]
 
-
-
-<div style="page-break-after: always;"></div>

@@ -461,7 +461,7 @@ Each student should make one transformation.
 The sequences share 30bp of flanking homologous sequences [[EGB23#Figure 5\|Figure 5]].
 You should manually joint the fragments for your plasmid (see Google spreadsheet, tab TRAFO_plan).
 
-Fragments are joined by [[homologous recombination]] between the 30bp flanking DNA sequences (s1-s5).
+Fragments are joined by [[homologous recombination]] between the 30 bp flanking DNA sequences (s1-s5).
 
 Replicating this process in ApE is very easy. Open two fragments that are next to each other. The order can be deduced from [[EGB23#Figure 3\|Figure 3]].
 

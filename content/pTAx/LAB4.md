@@ -1,4 +1,4 @@
-# LAB4 Yeast transformation
+### Yeast transformation
 
 ![[pTAx/EGB24-20240304090601962.jpeg]]
 
@@ -74,5 +74,3 @@ Each student should make one transformation. This protocol is described in detai
 20. Incubate the plates upside down for 2-4 days at 30°C.
 
 ![[pTAx/colored.png]]
-
-<div style="page-break-after: always;"></div>

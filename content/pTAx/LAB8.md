@@ -1,4 +1,4 @@
-# LAB8 Yeast DNA preparation & *E. coli* transformation
+### Plasmid rescue - Yeast DNA preparation & *E. coli* transformation
 
 [[material#LAB8]]
 Summary:

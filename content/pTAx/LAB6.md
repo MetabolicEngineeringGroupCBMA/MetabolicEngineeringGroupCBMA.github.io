@@ -1,4 +1,4 @@
-# LAB6 Colony PCR
+### Colony PCR
 
 [[material#LAB6]]
 
@@ -38,5 +38,3 @@ Taq DNA pol
 7. 25 * 1 µL = 25 µL 1779 (10 µM)
 
 ![[pTAx/colored.png]]
-
-<div style="page-break-after: always;"></div>

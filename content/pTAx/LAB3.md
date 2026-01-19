@@ -1,4 +1,4 @@
-# LAB3
+#### Gel#2, YEast cell culture & Media preparation  
 
 
 ![[pTAx/EGB25_001.jpeg]]
@@ -59,4 +59,3 @@ Each **group** should make 500 mL solid [[SD]] medium in a 1 L [[glassware\|Scho
 
 ![[pTAx/colored.png]]
 
-<div style="page-break-after: always;"></div>

@@ -1,4 +1,4 @@
-# LAB9 Yeast DNA preparation & *E. coli* transformation (II)
+### Yeast DNA preparation & *E. coli* transformation (II)
 
 - Prepare crude yeast DNA from cells with glass beads and an *E. coli* plasmid miniprep kif
 - Transform *E. coli* with crude yeast DNA

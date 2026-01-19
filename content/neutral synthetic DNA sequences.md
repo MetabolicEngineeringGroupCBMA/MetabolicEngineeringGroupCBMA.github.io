@@ -1,0 +1,136 @@
+The thirty three sequences below were designed with the [R2oDNA designer](https://pubmed.ncbi.nlm.nih.gov/24933158) tool to be biologically inert.
+
+```
+>s1 ❶
+AATCCAATCAGCGTAAGGTGTAGACTTTCT
+>s2 ❷
+ATCGTATCTGCTGCGTAAATAGTAGTCAAC
+>s3 ❸
+TAAAATCTCGTAAAGGAACTGTCTGCTCTG
+>s4 ❹
+AACTGTAAAATCAGGTATCTCGTAGTCCGT
+>s5 ❺
+GAAAAGCGTTTACCTCGGAACTCTATTGTA
+>6
+TTTACCTGTGGATTGATAGGAATACACCCA
+>7
+TTGAGATAGCAATAAATCCTGGTTCCGACT
+>8
+TAAACACAGTAACGGATTGCTTTCGTGCTA
+>9
+CTCGTGAATCTGGGAAATCCTTATCGTAAA
+>10
+AGTTATTACGAGTATTCAACCTGACGGCTA
+>11
+TGGTAACTGCGAACCTACTGTAAGATTCTA
+>12
+GTAGGTATTGAACCCGAAAATCGTATCTTC
+>13
+ATAATCTATCTGTAGGACCTGGTAGTCACA
+>14
+AAAGTATTCAGCGACTATTGGCTTCTACGA
+>15
+GTAGTTTCTTACAATAACGCCGATACAGGT
+>16
+AGGTAAAATCGGTCCCTTATCTACTGTGAA
+>17
+AAGATTGGTATCCCTCACGACTGTAGTAAT
+>18
+GTCGTAAATACAATCTCGGAATAGGCTCTT
+>19
+TGTAAAGTGGTAATCTTCAATCCAGAGCCT
+>20
+AATCTCTTCCTGGTGACACTGAATAAGGTA
+>21
+TGATAGCGAGTTGCCTCCAATAAAATCGTT
+>22
+CTTTATTTCGTAGACGCTATCAGAGACAGA
+>23
+ATAAGTGTCTCCCGTTGATTCTGAAAAGCA
+>24
+GTGAGTAGACTTATTGTTTACCCAACCGAA
+>25
+GAGAGTATTTACAACGCAGTCTTCGTCAAT
+>26
+AGGTGCTCTTATTATCGGACAGTCAATCAA
+>27
+GAAACTTATCGTTCAATAGGGTTCCCGTAA
+>28
+TCAGAAGTCTCCAATAAGGTTGTGATACTC
+>29
+AGAGGTTTTATTACAACAGGTCCACTTCAG
+>30
+ATCTGCGGTATCTCAGTAATAAGAATCGCT
+>31
+TAGGGCACTCTACAATAATCTTCTGGTAAG
+>32
+ATTATTGGGTGAACCACACGAGTAACCTTT
+>33
+TGGGTTCAACAATAAACTTTCGCAGGTATC
+```
+
+
+The text below was generated from the software tool:
+```
+ProjectName	
+JobID r2o_6389398447409610491
+Email bjorn_johansson@bio.uminho.pt
+Seqnum 6
+Format NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+ReverseMode false
+Evalue 1
+Genomes saccharomyces_cerevisiae_genome eschericichia_coli_k12_dh10b eschericichia_coli_k12_mg1655 eschericichia_coli_k12_w3110 bacillus_subtilis_168 igem_all_parts_082013 
+gc 0.4
+MinInterEnergy -9.0
+MinIntraEnergy -4.0
+FoldTemp 50.0
+MaxSWScore 90.0
+MaxSubMatch 10
+ForbSeq TTGACA	E.coli sig70 -35 site
+ForbSeq TATAAT	E.coli sig70 -10 site
+ForbSeq TTGNNNNNNNNNNNNNNNNNNNNTATNNT	E.coli sig70 promoter weak consensus
+ForbSeq TGGCACGNNNNTTGC	E.coli sig54 promoter consensus
+ForbSeq TCNCCCTTGAANNNNNNNNNNNNNNNNNCCCCATTTA	E.coli sig32 promoter consensus
+ForbSeq GAACTNNNNNNNNNNNNNNNNGTCNNA	E.coli sig24 promoter consensus
+ForbSeq AAAGA	RBS
+ForbSeq AGGAGG	Shine-Dalgarno sequence or 2xArg bad codon
+ForbSeq ATG	translation initiation sites
+ForbSeq TTATNCACA	DnaA binding sites
+ForbSeq TGTGANNNNNNTCACANT	CAP binding sites
+ForbSeq CTAG	IS5 insertion site
+ForbSeq CTAA	IS5 insertion site
+ForbSeq CAAA	IS5 insertion site
+ForbSeq CAAG	IS5 insertion site
+ForbSeq NGCTNAGCN	IS10 insertion site
+ForbSeq GGGNNNNNCCC	IS231 insertion site
+ForbSeq G{3,}[ATGC]{1,7}G{3,}[ATGC]{1,7}G{3,}[ATGC]{1,7}G{3,}	G-quadruplex
+ForbSeq GGGG	G-quadruplex
+ForbSeq GAATTC	EcoRI
+ForbSeq ACTAGT	SpeI
+ForbSeq TCTAGA	XbaI
+ForbSeq CTGCAG	PstI
+ForbSeq GGTCTC	BsaI
+ForbSeq AAAAA	run
+ForbSeq TTTTT	run
+ForbSeq GGGGG	run
+ForbSeq CCCCC	run
+ForbSeq ATATAT	run
+ForbSeq ACACAC	run
+ForbSeq AGAGAG	run
+ForbSeq TATATA	run
+ForbSeq TCTCTC	run
+ForbSeq TGTGTG	run
+ForbSeq CACACA	run
+ForbSeq CTCTCT	run
+ForbSeq CGCGCG	run
+ForbSeq GAGAGA	run
+ForbSeq GTGTGT	run
+ForbSeq GCGCGC	run
+ClusterID 4206134 
+
+
+sequencesStep1File.fa: 60	#after initial sequence generation
+sequencesStep1File_pf_self.fa: 60	#after folding and self-annealing energy filter
+sequencesStep2File.fa: 43	#after BLAST elimination
+sequencesFinalFile.fa: 33	#final orthogonal sequence count after network elimination
+```

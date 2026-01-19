@@ -22,8 +22,8 @@ Plasmids in the pTAx series are used to propagate these constructs in *E. coli* 
 In order to replicate in both *E.coli* and *S. cerevisiae*, a plasmid needs at least:
 
 - a selection marker for *E. coli*
-- an origin of replication for *E. coli*
 - a selection marker for *S. cerevisiae*.
+- an origin of replication for *E. coli*
 - an origin of replication for *S. cerevisiae*.
 
 The first plasmid we used to express large pathways was called pYPKpw and it has the five functional parts indicated in Table#1:
@@ -41,17 +41,17 @@ The last element in the table,  Δcrp is an *E. coli* gene which is inactive and
 The pUC origin of replication (ORI) results in a **high copy number** of the vector in *E. coli* which is an advantage for obtaining large amounts of DNA. However, we have observed genetic **instability** in *E. coli* for some large pathways that we suspect is linked to high copy number. Our experience is that a lower copy number provides more stability.
 ### pTAx vectors with increased stability
 
-We conceived a series of plasmid vectors called pTAx where x is a number from pTA1 .. pTA11 (at the moment). The pTAx vectors were designed to have a relatively **low copy number** in *E. coli* to try to solve the stability problems of pYPKpw.
+We conceived a series of plasmid vectors called pTAx where x is a number from pTA1..11 (at the moment). The pTAx vectors were designed to have a relatively **low copy number** in *E. coli* to try to solve the stability problems of pYPKpw.
 
-The pTAx plasmids should have a lower copy number in *E. coli* than pYPKpw since they have the intact **pBR** [[ori\|origin of replication]] (from plasmid pBR322) that includes the [ROP](https://en.wikipedia.org/wiki/Rop_protein) gene, while the pYPKpw has the high-copy pUC origin of replication from the pUC19 plasmid.
+The copy number in *E. coli* should be lower since they have the intact **pBR** [[ori\|origin of replication]] (from plasmid pBR322) that includes the [ROP](https://en.wikipedia.org/wiki/Rop_protein) gene, while the pYPKpw has the high-copy pUC origin of replication from the pUC19 plasmid.
 
 pTA1 was the first pTAx plasmid constructed by a former post-doc in the group, **T**atiana **A**ndrevna Pozdniakova, hence the name.
 
-The pTAx vectors are made from **five** genetic elements using in-vivo homologous recombination between five PCR products (Table #2 ➀ .. ➄).
+The pTAx vectors are made from **five** genetic elements using *in-vivo* homologous recombination between five PCR products (Table #2 ➀ .. ➄).
 
 See [[pTAx assembly strategy]] for details of how the five PCR products are assembled into a plasmid..
 
-Each element is a distinct segment from a particular source plasmid. The pTAx vectors are similar to each other, but differ in the selection markers (**yeast marker**) and yeast origin of replication (**yeast ORI**).
+The pTAx vectors are similar to each other, but differ in the selection markers (**yeast marker**) and yeast origin of replication (**yeast ORI**).
 
 | Table#2 | Name     | _E. coli_ marker | _E. coli_ ORI | yeast ORI | yeast marker | MCS  | Constructed by:           | Enzyme to linearize       | 🥶 freezer list number(s) | Sequenced? | Date       |
 | ------- | -------- | ---------------- | ------------- | --------- | ------------ | ---- | ------------------------- | ------------------------- | ------------------------- | ---------- | ---------- |
@@ -70,15 +70,15 @@ Each element is a distinct segment from a particular source plasmid. The pTAx ve
 
 This lab course is divided into nine practical classes, see below. Each student attends three of the nine classes. In each practical class, we advance the project towards the finished plasmid.
 
-| link      |       |       |       | Content                                                                                |
-| --------- | ----- | ----- | ----- | -------------------------------------------------------------------------------------- |
-| [[pTAx/LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).             |
-| [[pTAx/LAB2]]  |       | PL2   |       | Analyze plasmid DNA by agarose gel.<br>Prepare PCR reactions for each plasmid element. |
-| [[pTAx/LAB3]]  |       |       | PL3   | Analyze PCR products by agarose gel.<br>Inoculate *S. cerevisiae* for transformation.  |
-| [[pTAx/LAB4]]  | PL1   |       |       | Yeast (*S. cerevisiae*) transformation.                                                |
-| [[pTAx/LAB5]]  |       | PL2   |       | *In-silico* assembly of plasmid 💻                                                     |
-| [[pTAx/LAB6]]  |       |       | PL3   | Yeast colony PCR                                                                       |
-| [[pTAx/LAB7]]  | PL1   |       |       | Analyze colony PCR products by agarose gel<br>Prepare solid LB medium for LAB8         |
-| [[pTAx/LAB9]]  |       | PL2   |       | Yeast DNA preparation<br>*E. coli* transformation (Plasmid rescue)                     |
-| [[pTAx/LAB9]]  |       |       | PL3   | Plasmid alkaline lysis miniprep with commercial kit.                                   |
-| [[pTAx/LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA.                                       |
+| link      |       |       |       | Content                                                                      |
+| --------- | ----- | ----- | ----- | ---------------------------------------------------------------------------- |
+| [[pTAx/LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).   |
+| [[pTAx/LAB2]]  |       | PL2   |       | Plasmid DNA agarose gel. PCR reactions.                                      |
+| [[pTAx/LAB3]]  |       |       | PL3   | Gel (PCR products), Inoculate *S. cerevisiae* culture.                       |
+| [[pTAx/LAB4]]  | PL1   |       |       | Yeast (*S. cerevisiae*) transformation.                                      |
+| [[pTAx/LAB5]]  |       | PL2   |       | *In-silico* assembly of plasmid 💻                                           |
+| [[pTAx/LAB6]]  |       |       | PL3   | Yeast colony PCR                                                             |
+| [[pTAx/LAB7]]  | PL1   |       |       | Gel (colony PCR), Solid LB medium for LAB8                                   |
+| [[pTAx/LAB8]]  |       | PL2   |       | Plasmid rescue.                                                              |
+| [[pTAx/LAB9]]  |       |       | PL3   | Plasmid miniprep with commercial kit.                                        |
+| [[pTAx/LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA. Prepare DNA for sequencing. |

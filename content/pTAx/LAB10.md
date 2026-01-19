@@ -1,4 +1,4 @@
-# LAB10 Plasmid miniprep & restriction digestion
+### Plasmid miniprep with commercial kit & restriction digestion
 
 [[material#LAB10]]
 

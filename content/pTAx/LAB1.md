@@ -1,4 +1,4 @@
-# LAB1  PL1 Miniprep#1
+### Miniprep#1
 
 ![[pTAx/EGB2420240305153851385.jpeg|878x212]]
 
@@ -28,7 +28,3 @@ The teacher has prepared *E. coli* cultures in liquid or on solid medium beforeh
 Cultures with each plasmid were grown in or on [[LB]] with [[antibiotics]] for selection of the plasmids.
 
 These [videos](https://patharkar.com/2018/10/super-cheap-plasmid-miniprep-without-columns) show how to prepare plasmid DNA from E. coli using basically the same protocol.
-
-![[pTAx/colored.png]]
-
-<div style="page-break-after: always;"></div>

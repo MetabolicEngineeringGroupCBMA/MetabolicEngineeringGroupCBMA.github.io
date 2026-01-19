@@ -1,4 +1,4 @@
-# LAB2 Gel#1 & PCR#1
+#### Gel#1 & PCR#1
 
 ![[pTAx/EGB2420240301092228756.jpeg]]
 
@@ -61,4 +61,3 @@ Each **group** should make 100 mL liquid [[YPD]] medium in a 250 mL [[glassware\
 
 ![[pTAx/colored.png]]
 
-<div style="page-break-after: always;"></div>
