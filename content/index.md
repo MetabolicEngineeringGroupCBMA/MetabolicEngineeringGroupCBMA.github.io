@@ -2,7 +2,7 @@
 publish: true
 title: Metabolic Engineering CBMA
 created: 2026-01-08T12:03:47.148+00:00
-modified: 2026-01-14T08:36:33.839+00:00
+modified: 2026-01-19T12:02:28.567+00:00
 cssclasses: ""
 ---
 
@@ -11,7 +11,7 @@ We are the mec research group, a part of the research center [Centro de Biologia
 
 - [[Teaching\|Teaching]] material
 - [[people\|People & contacts]]
-- Protocols other lab [[lab\|information]]
+- Protocols & other lab [[lab\|information]]
 
 ## Our interests
 
