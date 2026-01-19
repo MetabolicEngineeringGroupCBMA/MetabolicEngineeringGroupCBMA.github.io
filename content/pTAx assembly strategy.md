@@ -1,39 +1,36 @@
-pTAx vectors are built from five PCR products (Figure 1).
+pTAx vectors are built from five PCR products. This [Google sheet](https://docs.google.com/spreadsheets/d/1KV2RtKb4NI7cfrAcmUzHkosKOWJPmzKwOHyGJeM2HlE/edit?usp=sharing) contain primer numbers and template plasmids and PCR target for each of the five PCR products for all current pTAx vectors. Each PCR reaction is marked with a different color. **All** further information needed to assemble a pTAx vector *in-silico* (sequences, etc.) is available on this page. Table 1 contain plasmid sequences and Table 2 all primer sequences (below).
 
-This [table](https://docs.google.com/spreadsheets/d/1KV2RtKb4NI7cfrAcmUzHkosKOWJPmzKwOHyGJeM2HlE/edit?usp=sharing) contain primer numbers and template plasmids for each of the five PCR products for all current pTAx vectors. Each PCR reaction is marked with a different color.
-
-All further information needed to assemble a pTAx vector *in-silico* is available on this page. Table 1 contain plasmid sequences and Table 2 all primer sequences.
-
-The plasmids can be assembled using the [Pydnaweb](https://pydnaweb.streamlit.app/) PCR and  assembly simulators.
-
+Each of the five PCR products is amplified using primers with tails (Figure 1), incorporating 30 bp flanking sequences ❶ and ❷.
 #### Figure 1
+![[pTAx assembly strategy.png]]
+
+
+Five different specific flanking sequences are added to the end of each of the PCR products, (❶..❺) in Figure 2.
+#### Figure 2
 ![[tailed_pcr_products.png]]
 
-The PCR products are made with primers that incorporate five different specific flanking sequences on each end of the PCR products, (❶..❺) in Figure 1. The extra sequence introduced by adding nucleotides to the 5' part of the primer that do not anneal to the template (a primer tail). These are indicated in Figure 2.
-
-#### Figure 2
-![[tailed_primer_pcr.png]]
-
-
-These flanking sequences will enable homologous recombination between the DNA fragments in a specific order. The vectors are assembled by homologous recombination between the❶..❺ sequences as shown in Figure 3.
+These flanking sequences enable homologous recombination between the DNA fragments in a specific order. The vectors are assembled by homologous recombination between the five sequences (❶..❺) as shown in Figure 3.
 #### Figure 3
 ![[pTA_vectors.png]]
 
+
+
+The plasmids can be assembled using the [Pydnaweb](https://pydnaweb.streamlit.app) PCR and assembly simulators. Use the links in the **Recommended sequence** column in Table 1 and the primer sequences in Table 2.
 
 
 #### Table 1 Plasmid links
 
 Links to sequences and references for each source plasmid.
 
-| Table 1 | Plasmid              | Freezer#         | Reference                                                                                                          | Genbank (Gb)                                                               | Snapgene (Sg)                                                                   | Gb vs. Sg                                     | 👌 Recommended sequence                                                                                                                  | seguid                               |
+| Table 1 | Plasmid              | Freezer#         | Reference                                                                                                          | Genbank (Gb)                                                               | Snapgene (Sg)                                                                   | Gb vs. Sg                                     | 👌 Recommended sequence                                                                                                                  | seguid checksum                      |
 | ------- | -------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 |         | pBR322               | µ831             | [link](https://pubmed.ncbi.nlm.nih.gov/344137)                                                                     | [J01749](https://www.ncbi.nlm.nih.gov/nuccore/J01749.1)                    | [link](https://www.snapgene.com/plasmids/basic_cloning_vectors/pBR322)          | Same size; 1 nt missense in Tc gene.          | Genbank                                                                                                                                  | cdseguid=H-FY2ZzvKeazrRW2dNeSeMikjoc |
 |         | pTA1                 | µ828, µ928, µ929 | [link](https://www.sciencedirect.com/science/article/pii/S221403012300007X)                                        | -                                                                          | -                                                                               |                                               | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pTA1.gb)                                 | cdseguid=MtltqcR0b0kVX_FJ4BYL-PjEAfg |
 |         | pYPKpw               | µ463             | [link](https://github.com/MetabolicEngineeringGroupCBMA/ypk-xylose-pathways?tab=readme-ov-file#pereira-et-al-2016) | -                                                                          | -                                                                               |                                               | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKpw.gb)                               | cdseguid=xj7evEO4h83-RGFeHu8q15tL_Qs |
 |         | p423GPD              | µ601             | [link](https://www.sciencedirect.com/science/article/pii/0378111995000377?via%3Dihub)                              | -                                                                          | -                                                                               |                                               | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/pydna-examples/blob/master/notebooks/mumberg_32_expression_vectors/p423GPD.gb) |                                      |
 |         | pFA6a-GFPS65T-kanMX6 | µ716             | [link](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-0061(19970915)13:11%3C1065::AID-YEA159%3E3.0.CO;2-K) | [AJ002682.1](https://www.ncbi.nlm.nih.gov/nucleotide/AJ002682.1)           | [link](https://www.snapgene.com/plasmids/yeast_plasmids/pFA6a-GFP(S65T)-kanMX6) |                                               |                                                                                                                                          | cdseguid=fisQRzPkD-XD07m2YQFOa2B1NdA |
-|         | pSH65                | µ853             | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC101367)                                                        | [AF298780.1](https://www.ncbi.nlm.nih.gov/nucleotide/AF298780.1) (partial) | -                                                                               | Gb has a1 nt insertion.                       | [EUROSCARF](http://www.euroscarf.de/plasmid_details.php?accno=P30122) (complete)                                                         |                                      |
-|         | pUG35                | µ762             | -                                                                                                                  | [AF298787.1](https://www.ncbi.nlm.nih.gov/nucleotide/AF298787.1)           | -                                                                               |                                               |                                                                                                                                          |                                      |
+|         | pSH65                | µ853             | [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC101367)                                                        | [AF298780.1](https://www.ncbi.nlm.nih.gov/nucleotide/AF298780.1) (partial) | -                                                                               | Genbank has a 1 nt insertion.                 | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/pSH65.gb)                                           | cdseguid=FEU5H5BV4yVTVCANkejX4c3kOVk |
+|         | pUG35                | µ762             | -                                                                                                                  | [AF298787.1](https://www.ncbi.nlm.nih.gov/nucleotide/AF298787.1)           | -                                                                               |                                               |                                                                                                                                          | cdseguid=4cVPUTb2zz_rtTp5F2mci2l09rQ |
 |         | YEplac112            | µ661             | [link](https://pubmed.ncbi.nlm.nih.gov/3073106/)                                                                   | [X75458.1](https://www.ncbi.nlm.nih.gov/nucleotide/X75458.1)               | [link](https://www.snapgene.com/plasmids/yeast_plasmids/YEplac112)              | 1 snp in pUC origin                           | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YEplac112_snapgene.gb)                              | cdseguid=MLKxSGFkZsuuiqozB87sVQQ0xaU |
 |         | YEplac195            | µ662             | [link](https://pubmed.ncbi.nlm.nih.gov/3073106/)                                                                   | [X75459.1](https://www.ncbi.nlm.nih.gov/nucleotide/X75459.1)               | [link](https://www.snapgene.com/plasmids/yeast_plasmids/YEplac195)              | 1 snp in pUC origin                           | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YEplac195_snapgene.gb)                              | cdseguid=nsxZh92qaUyjufyG0goiB3-Aq8c |
 |         | YEplac181            | µ663             | [link](https://pubmed.ncbi.nlm.nih.gov/3073106/)                                                                   | [X75460.1](https://www.ncbi.nlm.nih.gov/nucleotide/X75460.1)               | [link](https://www.snapgene.com/plasmids/yeast_plasmids/YEplac181)              | 12 bp deletion in end of LEU2 promoter in Gb. | [GitHub](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YEplac181_snapgene.gb)                              | cdseguid=gZjQlzVQtwNzfV1XOFu1psiO2Eo |
@@ -175,12 +172,12 @@ TACAATAGAGTTCCGAGGTAAACGCTTTTCGTTCTTGTCTCATTGCC
 
 ```
 
-| Table 3 | Icon | Designation | Recombination sequence (30 bp)   |
-| ------- | ---- | ----------- | -------------------------------- |
-|         | ❶    | s1          | `AATCCAATCAGCGTAAGGTGTAGACTTTCT` |
-|         | ❷    | s2          | `ATCGTATCTGCTGCGTAAATAGTAGTCAAC` |
-|         | ❸    | s3          | `TAAAATCTCGTAAAGGAACTGTCTGCTCTG` |
-|         | ❹    | s4          | `AACTGTAAAATCAGGTATCTCGTAGTCCGT` |
-|         | ❺    | s5          | `GAAAAGCGTTTACCTCGGAACTCTATTGTA` |
-|         | ❻    | s6          | `TTTACCTGTGGATTGATAGGAATACACCCA` |
+| Icon | Designation | Recombination sequence (30 bp)   |
+| ---- | ----------- | -------------------------------- |
+| ❶    | s1          | `AATCCAATCAGCGTAAGGTGTAGACTTTCT` |
+| ❷    | s2          | `ATCGTATCTGCTGCGTAAATAGTAGTCAAC` |
+| ❸    | s3          | `TAAAATCTCGTAAAGGAACTGTCTGCTCTG` |
+| ❹    | s4          | `AACTGTAAAATCAGGTATCTCGTAGTCCGT` |
+| ❺    | s5          | `GAAAAGCGTTTACCTCGGAACTCTATTGTA` |
+| ❻    | s6          | `TTTACCTGTGGATTGATAGGAATACACCCA` |
 Designed with the [R2oDNA designer](https://pubmed.ncbi.nlm.nih.gov/24933158) tool.
