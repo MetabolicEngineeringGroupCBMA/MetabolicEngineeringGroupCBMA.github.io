@@ -6,15 +6,14 @@ The documentation generated using this standard shows step-by step how a genetic
 while at the same time making it easier to *preserve* and *share* genetic material.
 
 A genetic construct can be for example:
-
 - a plasmid made from parts of other plasmids or chromosomal DNA fragments
 - DNA integrated in the genome of an organism by CRISPr
 
 The documentation for a genetic construct consists of a a collection of text files in a folder 📁 with optional sub folders.
-Each text file contains a description of a molecular biology [unit-operations](https://en.wikipedia.org/wiki/Unit_operation) consisting of sequences in FASTA format.
+Each text file contains a description of one molecular biology [unit-operations](https://en.wikipedia.org/wiki/Unit_operation) consisting of sequences in FASTA format.
 
-A very reduced, easy to remember collection of key words describe each unit-operation. Examples of unit operation are for
-example PCR and homologous recombination.
+A very reduced, easy to remember collection of key words describe each unit operation. Examples of unit operation are for
+example PCR or homologous recombination.
 
 A unit operation is delineated by a header (Table #1) and the next header or the end of the text file.
 
@@ -30,6 +29,7 @@ The file can (and should) also contain comments explaining the aim of the experi
 |         | `# assembly`   | Homologous recombination                                   |
 |         | `# fusion_pcr` | fusion PCR                                                 |
 |         | `# gateway`    | gateway cloning                                            |
+|         | `# objective`  | The end goal                                               |
 
 🔑 Additionally, there are some reserved key/value expressions (Table#2) with special meaning.
 
@@ -41,7 +41,7 @@ The file can (and should) also contain comments explaining the aim of the experi
 |         | `ldseguid=...`             | Checksum for a linear dsDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
 |         | `csseguid=...`             | Checksum for a circular ssDNA sequence | Implies a circular molecule even in the absence of `topology=...`                                 |     |
 |         | `lsseguid=...`             | Checksum for a linear ssDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
-|         | `alphabet=dsIUPAC`         | Symbols are [[dsIUPAC]].               | This is the default DNA symbol table. This is a super set of the extended [[IUPAC]] nomenclature. |     |
+|         | `alphabet=dsIUPAC`         | Symbols are [[dscode]].               | This is the default DNA symbol table. This is a super set of the extended [[IUPAC]] nomenclature. |     |
 |         | `topology=circular/linear` | Molecule is either circular or linear  |                                                                                                   |     |
 |         | `molecule=protein/DNA/RNA` | Indicating a protein sequence.         |                                                                                                   |     |
 
@@ -50,7 +50,7 @@ These reserved Key/Value should be placed after the identifier in the FASTA head
 ## Constraints
 
 1. All relevant files have to be in the same project folder tree.
-2. Unit-operation snippets must have a .md extension.
+2. Unit-operation snippets must have an `.md` file extension.
 3. A unit-operation starts with one of the reserved words from Table#1 or optionally yaml front matter.
 4. Sequences in the unit-operation files must be in FASTA [[GenBank\|format]].
 5. File names must be unique in the project folder tree.

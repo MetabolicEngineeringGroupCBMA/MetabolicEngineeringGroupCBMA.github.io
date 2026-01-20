@@ -3,7 +3,7 @@
 ![[pTAx/EGB2420240305153851385.jpeg|878x212]]
 
 
-![[pTAx/image.jpeg|874x272]]
+![[pTAx/ethoh_dna_precipitation.jpeg|874x272]]
 
 
 [[material#LAB1]]

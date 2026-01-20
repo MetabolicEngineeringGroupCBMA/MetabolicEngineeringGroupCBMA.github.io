@@ -2,7 +2,7 @@
 publish: true
 title: Metabolic Engineering CBMA
 created: 2026-01-08T12:03:47.148+00:00
-modified: 2026-01-19T12:02:28.567+00:00
+modified: 2026-01-19T16:46:32.042+00:00
 cssclasses: ""
 ---
 
@@ -12,6 +12,7 @@ We are the mec research group, a part of the research center [Centro de Biologia
 - [[Teaching\|Teaching]] material
 - [[people\|People & contacts]]
 - Protocols & other lab [[lab\|information]]
+- [[software]] 
 
 ## Our interests
 
@@ -48,14 +49,13 @@ It relies on one library of promoters and another for terminators. Pathways are 
 ![[pydna_logo_resized.png]]
 
 
-[`pydna`](https://github.com/BjornFJohansson/pydna#-pydna) is a python package that facilitate "programming with DNA" or expressing cloning strategies as a computer program. This can be used for automating cloning in a high throughput environment. It can also be used to produce a automatically verifiable, complete description of virtually any deterministic genetic design procedure.
+[pydna](https://github.com/pydna-group/pydna#-pydna) is a python package that facilitate "programming with DNA" or expressing cloning strategies as a computer program. This can be used for automating cloning in a high throughput environment. It can also be used to produce a automatically verifiable, complete description of virtually any deterministic genetic design procedure.
 
-This can be powerful for high quality documentation in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker
-Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
+This can be powerful for high quality documentation in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
+
+
 
 ![pydna](saat_cloning_animation.gif)
-
-See our [software](https://github.com/MetabolicEngineeringGroupCBMA/MetabolicEngineeringGroupCBMA.github.io/wiki/software) wiki page for more information.
 
 ### Funding
 
