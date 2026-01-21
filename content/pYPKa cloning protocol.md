@@ -154,7 +154,7 @@ gtgataAATCAGTCTGCGCCACATCG
 
 ```
 
-Primers binding to the pYPKa are available [here](standard_primers).
+Primers binding to the pYPKa are available [here](standard%20primers.md).
 
 ### Common mistakes or errors
 

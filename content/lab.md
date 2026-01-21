@@ -31,7 +31,7 @@ Protocols and other information mostly of interest to our research group.
 - [[The Yeast Pathway Kit]]
 - [[pYPKa cloning protocol]]
 - [[Transcription Unit cloning protocol]]
-- [[standard_primers]]
+- [[standard primers]]
 - [[primer design]]
 - [[in silico assembly of pYPKa_A_ATF1]]
 - [[in silico assembly of pTA1_TDH3_ATF1_PGI1]]

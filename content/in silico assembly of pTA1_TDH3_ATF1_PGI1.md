@@ -20,7 +20,7 @@ The first step is to collect all sequences needed for the assembly. For a Yeast 
 
 ### 1. Linearize vector
 
-The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pTA1.gb). It should be linearized using the [[ypk_restriction_enzymes\|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector to find the
+The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pTA1.gb). It should be linearized using the [[ypk restriction enzymes\|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector to find the
 cut location of this enzyme. The linear plasmid sequence can be obtained by using the ApE Edit>"_Linearize @ insert site_" [[ApE#How to linearize a circular sequence at a specific location.\|function]].
 
 ### 2. Obtain PCR product sequences
@@ -34,7 +34,7 @@ The PCR products can be obtained using [WebPCR](https://pydna.pythonanywhere.com
 | Promoter   | [pYPKa_Z_TDH3](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKa_Z_TDH3.gb) | 577            | 567            |
 | Gene       | [pYPKa_A_ATF1](in%20silico%20assembly%20of%20pYPKa_A_ATF1)                                                             | 468            | 467            |
 | Terminator | [pYPKa_E_PGI1](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKa_E_PGI1.gb) | 568            | 578            |
-All primer sequences are available [here](standard_primers).
+All primer sequences are available [here](standard%20primers.md).
 
 Collect the linear vector sequence and the three PCR product sequences in [[GenBank#fasta format\|FASTA format]] in a text editor such as Notepad like so:
 
