@@ -65,7 +65,7 @@ The lab course is divided into nine practical classes and one final class with a
 | 9️⃣ |     |     | PL2 | Restriction digestion, agarose gel                                                   |
 | 🔟  | PL3 | PL1 | PL2 | Analysis & discussion                                                                |
 
-![[pTAx/colored.png]]
+![[colored.png]]
 
 ### LAB 1️⃣  PL3 miniprep#1
 
@@ -94,7 +94,7 @@ Cultures with each plasmid were grown in or on [[LB]] with [[antibiotics]] for s
 
 Here is a [[snik-short\|short]] protocol for printing. The objective states why we need each particular plasmid.
 
-![[pTAx/colored.png]]
+![[colored.png]]
 
 ### LAB 2️⃣ PL1 gel#1, PCR#1
 
@@ -166,7 +166,7 @@ The teacher will take the tubes to the BioRad T100 thermal cycler of the LGM lab
 Each **group** should make ~100 mL liquid [[YPD]] medium in a 250 mL [[glassware\|Schott]] flask. Put a small piece of autoclave tape in the lid. Label the flask properly.
 
 
-![[pTAx/colored.png]]
+![[colored.png]]
 
 ### LAB 3️⃣ PL2 gel#2
 [[material#LAB3]]
@@ -224,7 +224,7 @@ If we rearrange the equation with $Va$ isolated on the left side, we get: $Va = 
 6. Incubate until cells have grown for two generations i.e. final OD640 should be 0.17 * 2 * 2 = 0.68
 7. Pour the cells into a sterile 50 mL FALCON tube and store on ice.
 
-![[pTAx/colored.png]]
+![[colored.png]]
 
 ### LAB 4️⃣ PL3 yeast transformation
 [[material#LAB4]]
@@ -299,7 +299,7 @@ Each student should make one transformation. This protocol is described in detai
 19. Give the rest of the cell suspension to the instructor
 20. Incubate the plates upside down for 2-4 days at 30°C.
 
-![[pTAx/colored.png]]
+![[colored.png]]
 
 ### LAB 5️⃣ PL1 colony pcr
 [[material#LAB5]]
@@ -346,7 +346,7 @@ actcttcctttttcaatattattg
 
 
 
-![[pTAx/colored.png]]
+![[colored.png]]
 ### LAB 6️⃣  PL2 gel on colony pcr products (gel#3)
 [[material#LAB6]]
 
@@ -364,7 +364,7 @@ While the gel is running, each group should prepare 250 mL solid [[LB]] Lennox m
 
 Inoculate 1 mL YPD medium in a 2 mL Eppendorf tube from the yeast plate. This culture is for plasmid rescue next week.
 
-![[pTAx/colored.png]]
+![[colored.png]]
 ### LAB 7️⃣ PL3 plasmid rescue, *E. coli* transformation
 [[material#LAB7]]
 
@@ -402,7 +402,7 @@ This protocol is described in greater detail [[Transforming Frozen Competent E. 
 9. Plate by adding 10-20 sterile glass beads to an LB ampicillin and swirl the plate to spread the liquid.
 10. Incubate inverted at 37°C for 12-24 hours.
 
-![[pTAx/colored.png]]
+![[colored.png]]
 ### LAB 8️⃣ PL1 Miniprep#2, gel#4
 [[material#LAB8]]
 
@@ -429,7 +429,7 @@ Preparation of 16 plasmids (One per student) using alkaline lysis mini prep. We 
 11. The electrophoresis last around 15 - 20 min in the [[Bachman]] gel unit powered by the homemade [[rectifier]].
 12. When the gel run is completed, the teacher with take a picture using a [[GenoSmart\|transilluminator]].
 
-![[pTAx/colored.png]]
+![[colored.png]]
 ### LAB 9️⃣  PL2 restriction digestion, gel#5
 [[material#LAB9]]
 
@@ -462,7 +462,7 @@ The objective of this task is to simulate each of the five PCR product used to m
 2. The template sequences are available through links in [[pTAx assembly strategy#Table 1 Plasmid links\|Table 1]].
 3. The primer numbers can be found in [[pTAx assembly strategy#Table 2 PCR strategies\|Table 2]]
 4. The primer sequences can be found in [[pTAx assembly strategy#Table 3 Primer sequences\|Table 3]].
-5. Use [WebPCR](http://pydna.pythonanywhere.com) to simulate your PCR products.
+5. Use [WebPCR](https://pydnaweb.streamlit.app/pcr) to simulate your PCR products.
 6. Add the size and cdseguid to the pTA11 sheet in the Course Google Shee
 #### *In-Silico* Assembly
 
@@ -471,7 +471,7 @@ The objective of this task is to simulate each of the five PCR product used to m
 3. Annotate your sequence with [pLannotate](http://plannotate.barricklab.org)
 
 
-![[pTAx/colored.png]]
+![[colored.png]]
 ### LAB🔟 PL123
 
 Summary:

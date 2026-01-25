@@ -8,7 +8,7 @@ Does your gene have introns?  S. cerevisiae has a limited capacity to process in
 
 ## Design primers automatically with the Primer designer tool of Pydnaweb.
 
-Go to [Pydnaweb](http://pydna.pythonanywhere.com) and click in the "Primer designer" button. Replace the default sequence with your sequence, be sure to use use proper [[GenBank\|FASTA or GenBank]] format. In this example, the gene for *S. cerevisiae* xylulokinase [XKS1/YGR194C](https://www.yeastgenome.org/locus/S000003426) is used as an example below.
+Go to [Pydnaweb](https://pydnaweb.streamlit.app) and click in the "Primer designer" button. Replace the default sequence with your sequence, be sure to use use proper [[GenBank\|FASTA or GenBank]] format. In this example, the gene for *S. cerevisiae* xylulokinase [XKS1/YGR194C](https://www.yeastgenome.org/locus/S000003426) is used as an example below.
 
 ![](primer_design.png)
 
@@ -83,7 +83,7 @@ tctgcaataatgggtTTGTGTTCAGTAATTCAGAGA
 ```
 
 The primer above has the K528 Kozak sequence, a start codon and a glycine codon followed
-by the new primer sequence. The Pydnaweb [WebPCR](https://pydna.pythonanywhere.com/pcr) simulator can be used to find a suitable
+by the new primer sequence. The Pydnaweb [WebPCR](https://pydnaweb.streamlit.app/pcr) simulator can be used to find a suitable
 PCR program for two kinds of DNA polymerases:
 
 

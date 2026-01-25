@@ -27,7 +27,7 @@ cut location of this enzyme. The linear plasmid sequence can be obtained by usin
 
 ![[in silico assembly of pTA1_TDH3_ATF1_PGI1-20240926080600744.png]]
 
-The PCR products can be obtained using [WebPCR](https://pydna.pythonanywhere.com/pcr) and the PCR primers indicated in the table below.
+The PCR products can be obtained using [WebPCR](https://pydnaweb.streamlit.app/pcr) and the PCR primers indicated in the table below.
 
 | Target     | Template                                                                                                               | Forward primer | Reverse primer |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------- | -------------- | -------------- |

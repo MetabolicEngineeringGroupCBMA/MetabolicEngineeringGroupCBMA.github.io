@@ -17,7 +17,7 @@ This protocol is based on the protocol specified by Michael Lisby at University 
 
     Leave the PCR mixture on ice.
 
-3. Program the PCR machine. It can be an advantage to add a 10 min pause at 95°C to further lyse the cells. If you have the sequences of the primers and the template, use the [WebPCR](https://pydna.pythonanywhere.com) simulator and use the program that is given, but use 35 cycles instead of 30.
+3. Program the PCR machine. It can be an advantage to add a 10 min pause at 95°C to further lyse the cells. If you have the sequences of the primers and the template, use the [WebPCR](https://pydnaweb.streamlit.app/pcr) simulator and use the program that is given, but use 35 cycles instead of 30.
 
         For example:
 

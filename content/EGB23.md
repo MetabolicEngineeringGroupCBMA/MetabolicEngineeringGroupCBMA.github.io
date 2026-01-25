@@ -133,7 +133,7 @@ In the figure above the crosses (X) indicate homologous recombination. This happ
 because identical sequences are present in two different DNA fragments.
 
 
-![[pTAx/colored.png|--------------------separator---------------------------------]]
+![[colored.png\|--------------------separator---------------------------------]]
 
 
 
@@ -315,7 +315,7 @@ Material para todas as turmas:
 Não é necessário preparar P1, P2 ou P3, temos no LGM.
 
 
-![[pTAx/colored.png|--------------------separator---------------------------------]]
+![[colored.png\|--------------------separator---------------------------------]]
 
 
 ### LAB2 (3h, Week 2)
@@ -370,7 +370,7 @@ The class should make 350 mL 0.8 % [w/v](https://chem.libretexts.org/Courses/Ore
 1. The template sequence is in the course dropbox
 2. The primer numbers used can be found in the course Google Spreadsheet (same as used in LAB1)
 3. The primer sequences can be found in the table above.
-4. Use [WebPCR](http://pydna.pythonanywhere.com) to simulate your PCR product .
+4. Use [WebPCR](https://pydnaweb.streamlit.app/pcr) to simulate your PCR product .
 
 
 
@@ -394,7 +394,7 @@ Material (Por turma, 1 turma por semana x 3 semanas):
 - Barquinhos de pesagem (plástico, LGM)
 
 
-![[pTAx/colored.png|--------------------separator---------------------------------]]
+![[colored.png\|--------------------separator---------------------------------]]
 
 
 

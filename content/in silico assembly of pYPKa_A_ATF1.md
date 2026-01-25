@@ -30,7 +30,7 @@ gcaataATGGGTAATGAAATCGATGAGAAAAATCA
 TTAAGGGCCTAAAAGGA
 ```
 
-Use the [WebPCR](https://pydna.pythonanywhere.com/pcr) tool to simulate the PCR reaction using the primer sequences and the *ATF1* sequence from GenBank.
+Use the [WebPCR](https://pydnaweb.streamlit.app/pcr) tool to simulate the PCR reaction using the primer sequences and the *ATF1* sequence from GenBank.
 Place the primer sequences before the *ATF1* gene as indicated in the figure below.
 
 ![[in silico assembly of pYPKa_A_ATF1-20240709175312224.png]]
