@@ -34,7 +34,10 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 ## Alkaline lysis
 
-4. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!**
+4. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
+
+
+![[alkaline lysis plasmid mini prep.png|207x168]]
 
 5. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
 
