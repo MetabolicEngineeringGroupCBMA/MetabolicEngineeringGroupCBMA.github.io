@@ -34,43 +34,43 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 ## Alkaline lysis
 
-4. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
+1. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
 
 
 ![[alkaline lysis plasmid mini prep.png|207x168]]
 
-5. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
+1. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
 
 ## Neutralization
 
-6. Add 250 µL buffer P3, mix by inversion about ten times, **do not vortex** for the same reason as before.
+1. Add 250 µL buffer P3, mix by inversion about ten times, **do not vortex** for the same reason as before.
 
-7. Centrifuge at top speed for 5-10 min. While centrifuge is running, add 1 ml of 96% - 99,5% ethanol
+2. Centrifuge at top speed for 5-10 min. While centrifuge is running, add 1 ml of 96% - 99,5% ethanol
    to a new clean 1.5 ml Eppendorf tube for each plasmid prep. 750 µL of Isopropanol can be used instead of ethanol.
 
 ## Ethanol precipitation
 
-8. Add 500 µL of the supernatant from the centrifugation to the ethanol and mix by inversion. If isopropanol is used, add as much as possible without touching the precipitate.
+1. Add 500 µL of the supernatant from the centrifugation to the ethanol and mix by inversion. If isopropanol is used, add as much as possible without touching the precipitate.
 
-9. Centrifuge at top speed for 10 min.
+2. Centrifuge at top speed for 10 min.
 
-10. Pour away supernatant by opening and inverting the tube. The plasmid should be visible as a small white spot in the bottom of the tube.
+3. Pour away supernatant by opening and inverting the tube. The plasmid should be visible as a small white spot in the bottom of the tube.
 
-11. Add 1 mL 70% ethanol. Some protocols specify cold ethanol (-20°C) but ethanol at room temperature works fine.
+4. Add 1 mL 70% ethanol. Some protocols specify cold ethanol (-20°C) but ethanol at room temperature works fine.
 
-12. Centrifuge 1 min at top speed.
+5. Centrifuge 1 min at top speed.
 
 ## Dry plasmid DNA
 
-13. Pour away supernatant by opening and inverting the tube. Be sure to remove as much of the liquid as as possible. If nececessary, spin the tubes a second time ad remove the remaining liquid with a micropipette.
+1. Pour away supernatant by opening and inverting the tube. Be sure to remove as much of the liquid as as possible. If nececessary, spin the tubes a second time ad remove the remaining liquid with a micropipette.
 
-14. Let tubes dry on the bench for 10-15 min with the lid open or at 50°C for 5 min . A [[speedvac]] can also be used if available.
+2. Let tubes dry on the bench for 10-15 min with the lid open or at 50°C for 5 min . A [[speedvac]] can also be used if available.
 
 ![[alkaline lysis plasmid mini prep_003.png]]
 
 ## Reconstitution of plasmid DNA
 
-15. Dissolve pellet in 30-50 µL buffer such as:
+1. Dissolve pellet in 30-50 µL buffer such as:
 
 | Buffer                                        | Tris-HCl(mM) | EDTA(mM) | pH          |
 | --------------------------------------------- | ------------ | -------- | ----------- |
@@ -82,7 +82,7 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 Any resuspension buffer from a commercial plasmid miniprep kit is probably fine for this.
 
-16. Done! Store your DNA in fridge (4-8°C) or freezer (-20°C).
+1. Done! Store your DNA in fridge (4-8°C) or freezer (-20°C).
 
 
 A [[snik-short\|short]] protocol for printing.

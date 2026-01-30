@@ -1,20 +1,17 @@
-# Summary: T10 - Sequence alignment
+# Sequence alignment
 
+This lecture introduces the principles of sequence alignment as a fundamental
+tool in bioinformatics and molecular biology. 
 
-## Main Components
+It explains the rationale for comparing DNA, RNA, and protein sequences to identify similarity, infer
+homology, and predict function and evolutionary relationships. 
 
-
-## Assessment Overview
-
-
-## Skills Developed
-
-
-## Key Take-Home Message
-
-
-## Literature
-
-### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-- Chapter 13 Studying Transcriptomes and Proteomes [video](https://youtu.be/bRFy1w1j86E?si=HvDYUUjjfVI_fCOK)
+The lecture covers pairwise sequence alignment, including global and local alignment
+approaches, scoring schemes based on matches, mismatches, and gaps, and the
+use of substitution matrices for protein sequences. It also introduces
+heuristic alignment algorithms and database searching, with emphasis on tools
+such as BLAST, their underlying concepts, and their practical interpretation.
+Finally a note on the limitations of sequence alignment and the
+importance of biological context when drawing conclusions from alignment
+results.
 

@@ -1,44 +1,26 @@
-# Summary: T4 - Cloning Vectors and Host Organisms
+# DNA structure and manipulation
 
-This class focuses on how DNA fragments are maintained, replicated, and selected inside living cells.
+This class covers how purified DNA is cut, joined, modified, and analysed *in vitro*.
 
-## Core Concepts
-- Cloning vectors are DNA molecules that carry foreign DNA.
-- Essential vector features include an origin of replication, a selectable marker, and a cloning site.
-- Common vectors include plasmids, bacteriophages, and yeast artificial chromosomes.
+## Core Techniques
+- Restriction endonucleases
+- DNA ligase
+- DNA-modifying enzymes
+- Agarose gel electrophoresis
 
-## Host Organisms
-- Escherichia coli: fast growth and easy genetic manipulation.
-- Saccharomyces cerevisiae: eukaryotic host with efficient homologous recombination.
-
-## Selection and Screening
-- Antibiotic resistance markers in bacteria.
-- Auxotrophic markers in yeast.
-- Reporter genes for screening.
+## Key Concepts
+- Sticky ends vs blunt ends
+- Restriction maps
+- DNA fragment size determination
+- DNA recovery from gels
 
 ## Key Take-Home Message
-Successful cloning depends on matching the right vector with the right host.
+DNA manipulation relies on enzyme specificity and molecular complementarity.
 
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-- Chapter 02 Vectors for Gene Cloning: Plasmids and Bacteriophages
-- Chapter 05 Introduction of DNA into Living Cells
-- Chapter 06 Cloning Vectors for E. coli
-- Chapter 07 Cloning Vectors for Eukaryotes
+- Chapter 04 Manipulation of Purified DNA
 
 
-Plasmids, Episomes
-Selection markers 
-Copy Number & Compatibility
-Conjugation, mapping
-pBR322 - cloning by insertional inactivation
-pUC18 and 19 - blue/white screening
-M13 - phage display & DNA origami
-Phagemids 
-Lambda
-In-vitro packaging of Lambda / Cosmids
-Yeast plasmids and Yeast Artificial Chromosomes
-Agrobacterium / Ti plasmid
-Transformation of E. coli
-Mechanisms of Ampicillin Kanamycin and Tetracyclin
+

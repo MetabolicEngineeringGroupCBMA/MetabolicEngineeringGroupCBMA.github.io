@@ -1,10 +1,12 @@
 ### Description
 
-Notes from the "*Cloning documentation workshop*" held on 11th of April 2025. Of the twelve participants, two were PhD students, two third-year students and eight second-year students of the Bachelor in Applied Biology and in Chemical and Biological Engineering of the University of Minho. Instructors were [Manuel Ramirez](https://github.com/manulera) attending remotely and [Björn Johansson](https://github.com/BjornFJohansson) attending in person.
+Notes from the "*Cloning documentation workshop*" held on 11th of April 2025. Of the twelve participants, two were PhD students, two third-year students and eight second-year students of the Bachelor in Applied Biology and in Chemical and Biological Engineering of the University of Minho.
 
-![[Open Cloning FAIRification exercise_001.png.jpg|318x98]]
+Instructors were [Manuel Ramirez](https://github.com/manulera) attending remotely and [Björn Johansson](https://github.com/BjornFJohansson) attending in person.
 
-![[Open Cloning FAIRification exercise_002.png.jpg|320x116]]
+![[Open Cloning FAIRification exercise_001.png|931x286]]
+
+![[Open Cloning FAIRification exercise_002.png|932x337]]
 
 ### Objective
 
@@ -68,8 +70,8 @@ Hi all,
 The *Cloning Documentation Workshop* will happen tomorrow at 15:00 and last for a maximum of two hours. The exercise will be held in the Dept of Biology library (Ed6 1.94) just next to my office.
 
 1. Please bring your computer
-2. Please sign up for a free **GitHub** account [here](https://github.com/). This is needed to fill in some forms at the end of the exercise.
-2. Bookmark this [link](https://etherpad.wikimedia.org/p/OpenCloningExercise). It goes to an online shared text editor where we can share information.
+2. Please sign up for a free **GitHub** account [here](https://github.com/). This is needed to fill in some forms at the end of the exercise.
+3. Bookmark this [link](https://etherpad.wikimedia.org/p/OpenCloningExercise). It goes to an online shared text editor where we can share information.
 
 The participants will be given a scientific **journal article** that depends on a genetic construct (such as a plasmid).
 
