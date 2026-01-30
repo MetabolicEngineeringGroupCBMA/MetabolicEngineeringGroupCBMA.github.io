@@ -1,6 +1,6 @@
 The first ***Cloning documentation workshop*** was held on 11th of April 2025 in the Department of Biology at the University of Minho. Of the twelve participants, two were PhD students, two third-year students and eight second-year students of the Bachelor in Applied Biology and in Chemical and Biological Engineering of the University of Minho.
 
-![[Cloning documentation workshop 2025.png|center|483x164]]
+![[Cloning documentation workshop 2025.png|577x196]]
 
 Instructors were [Manuel Ramirez](https://github.com/manulera) attending remotely and [Björn Johansson](https://github.com/BjornFJohansson) instructing in person.
 
@@ -49,11 +49,9 @@ and restriction simulation among other helpful techniques.
 [pLannotate](http://plannotate.barricklab.org) re-annotates plasmids and indicate functional sub units.
 # Method
 
-The most productive workflow consisted of identifying genetic constructs (mostly plasmids) mentioned prominently in the beginning of the results section of the publication. Subsequently, the materials section was scanned for descriptions of the plasmid construction strategy. Potential supplementary data was also scanned for primer and vectors sequences.
+Here is a link to [detailed](https://github.com/OpenCloning/cloning_workshop) instructions for the workshop. The most productive workflow consisted of identifying genetic constructs (mostly plasmids) mentioned prominently in the beginning of the results section of the publication. Subsequently, the materials section was scanned for descriptions of the plasmid construction strategy. Potential supplementary data was also scanned for primer and vectors sequences.
 
 The students filled in a Github issue template (a google doc version [here](https://docs.google.com/document/d/1UqExPvMSS4n3aRx2gxNs2EZGUYXgzVtKbGp2uvQ4pFg/edit?usp=drive_link)) detailing their findings together with a JSON file produced by OpenCloning.
-
-Here is a link to [detailed](https://github.com/OpenCloning/cloning_workshop) instructions for the workshop.
 
 ---
 
