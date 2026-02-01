@@ -1,4 +1,4 @@
-# Sequencing Genes and Genomes, Studying Transcriptomes and Proteomes 
+# Sequencing Genes and Genomes, Studying Transcriptomes and Proteomes
 
 This lecture covers DNA sequencing
 strategies, from traditional Sanger sequencing to high-throughput next-

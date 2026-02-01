@@ -1,7 +1,7 @@
 # Polymerase Chain Reaction (PCR)
 
 ## What is PCR?
-PCR is a technique that amplifies a specific DNA sequence exponentially in vitro. This class will cover 
+PCR is a technique that amplifies a specific DNA sequence exponentially in vitro. This class will cover
 exactly how and why PCR works in detail. Primer design. Engineering DNA fragments with PCR, overlap extension PCR.
 
 ## Core Components

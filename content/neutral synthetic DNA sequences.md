@@ -74,12 +74,12 @@ The text below was generated from the software tool:
 ```
 ProjectName	
 JobID r2o_6389398447409610491
-Email bjorn_johansson@bio.uminho.pt
+Email bjorn_johansson@bio.uminho.p
 Seqnum 6
 Format NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ReverseMode false
 Evalue 1
-Genomes saccharomyces_cerevisiae_genome eschericichia_coli_k12_dh10b eschericichia_coli_k12_mg1655 eschericichia_coli_k12_w3110 bacillus_subtilis_168 igem_all_parts_082013 
+Genomes saccharomyces_cerevisiae_genome eschericichia_coli_k12_dh10b eschericichia_coli_k12_mg1655 eschericichia_coli_k12_w3110 bacillus_subtilis_168 igem_all_parts_082013
 gc 0.4
 MinInterEnergy -9.0
 MinIntraEnergy -4.0
@@ -126,7 +126,7 @@ ForbSeq CGCGCG	run
 ForbSeq GAGAGA	run
 ForbSeq GTGTGT	run
 ForbSeq GCGCGC	run
-ClusterID 4206134 
+ClusterID 4206134
 
 
 sequencesStep1File.fa: 60	#after initial sequence generation

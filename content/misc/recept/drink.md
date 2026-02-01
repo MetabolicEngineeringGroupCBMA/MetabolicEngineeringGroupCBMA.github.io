@@ -1,14 +1,14 @@
-Kom precis på att jag glömt posta det där drinkreceptet som nämndes för ett tag sen. Här kommer det (källa: Berkeley hang gliding club). Skål! 
+Kom precis på att jag glömt posta det där drinkreceptet som nämndes för ett tag sen. Här kommer det (källa: Berkeley hang gliding club). Skål!
 
-Mr. Pimm’s Saturday Afternoon Affair 
-Ingredients: 
+Mr. Pimm’s Saturday Afternoon Affair
+Ingredients:
 
-- 1 oz vodka 
-- 0.5 oz Pimm’s Cup No. 1 
-- 0.5 oz Cointreau 
-- 1 lemon 
-- 4 shakes Angostura Bitters 
-- 3 shakes Fee Brothers West Indies Orange Bitters Ginger Beer (Bundaberg, Reed’s, or Cock & Bull) (optional) 
+- 1 oz vodka
+- 0.5 oz Pimm’s Cup No. 1
+- 0.5 oz Cointreau
+- 1 lemon
+- 4 shakes Angostura Bitters
+- 3 shakes Fee Brothers West Indies Orange Bitters Ginger Beer (Bundaberg, Reed’s, or Cock & Bull) (optional)
 - Tea bag (black, chai, or Bengal Spice) (1 oz = 30 ml)
 
 

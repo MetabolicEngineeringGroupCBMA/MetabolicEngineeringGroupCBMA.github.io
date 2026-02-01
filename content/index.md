@@ -1,8 +1,8 @@
 ---
 publish: true
 title: Metabolic Engineering CBMA - mec@CBMA
-created: 2026-01-08T12:03:47.148+00:00
-modified: 2026-01-21T15:54:54.165+00:00
+created: 2026-02-01T09:08:30.665+00:00
+modified: 2026-02-01T09:08:30.666+00:00
 cssclasses: ""
 ---
 
@@ -12,7 +12,7 @@ We are the mec research group, a part of the research center [Centro de Biologia
 - [[Teaching\|Teaching]] material
 - [[people\|People & contacts]]
 - Protocols & other lab [[lab\|information]]
-- [[software]] 
+- [[software]]
 
 ## Our interests
 
@@ -36,7 +36,7 @@ The process could potentially be used for the green production of fuels or speci
 
 As the genetic modifications performed in the scope of metabolic engineering grow more complex, there is a need for new tools to facilitate different aspects of the overall process to increase throughput and maintain precision.
 
-### Yeast Pathway Kit
+### Yeast Pathway Ki
 
 We have developed a metabolic pathway assembly method we call the [**Yeast Pathway Kit**](https://pubmed.ncbi.nlm.nih.gov/26916955), that produces compact metabolic pathways for a given number of genes compared to other methods.
 

@@ -1,4 +1,4 @@
-#### Gel#2, YEast cell culture & Media preparation  
+#### Gel#2, YEast cell culture & Media preparation
 
 
 ![[pTAx/EGB25_001.jpeg]]

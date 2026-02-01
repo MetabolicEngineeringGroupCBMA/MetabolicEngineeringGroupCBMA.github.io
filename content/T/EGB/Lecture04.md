@@ -8,13 +8,13 @@ This class focuses on how DNA fragments are maintained, replicated, and selected
 - Common vectors include plasmids, bacteriophages, and yeast artificial chromosomes.
 
 - Plasmids, Episomes
-- Selection markers 
+- Selection markers
 - Copy Number & Compatibility
 - Conjugation, mapping
 - pBR322 - cloning by insertional inactivation
 - pUC18 and 19 - blue/white screening
 - M13 - phage display & DNA origami
-- Phagemids 
+- Phagemids
 - Lambda - phage vector with high capacity
 - In-vitro packaging of Lambda / Cosmids
 - Yeast plasmids and Yeast Artificial Chromosomes
@@ -29,6 +29,3 @@ This class focuses on how DNA fragments are maintained, replicated, and selected
 - Chapter 05 Introduction of DNA into Living Cells
 - Chapter 06 Cloning Vectors for E. coli
 - Chapter 07 Cloning Vectors for Eukaryotes
-
-
-

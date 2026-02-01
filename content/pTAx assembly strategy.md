@@ -15,7 +15,7 @@ These flanking sequences enable homologous recombination between the DNA fragmen
 
 
 
-The plasmids can be assembled using the [Pydnaweb](https://pydnaweb.streamlit.app) PCR and assembly simulators. Use the links in the **Recommended sequence** column in Table 1 and the primer sequences in Table 2. Fragments are joined by [[homologous recombination]] between the 30 bp flanking DNA sequences (s1-s5; [[neutral synthetic DNA sequences\|table]]). 
+The plasmids can be assembled using the [Pydnaweb](https://pydnaweb.streamlit.app) PCR and assembly simulators. Use the links in the **Recommended sequence** column in Table 1 and the primer sequences in Table 2. Fragments are joined by [[homologous recombination]] between the 30 bp flanking DNA sequences (s1-s5; [[neutral synthetic DNA sequences\|table]]).
 
 
 #### Table 1 Plasmid links

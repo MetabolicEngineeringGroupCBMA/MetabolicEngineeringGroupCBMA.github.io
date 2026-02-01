@@ -1,13 +1,13 @@
 # Studying Gene Expression and Function
 
-This lecture introduces the principal experimental approaches used to analyse gene expression and gene function. 
-It covers methods for studying RNA, including Northern hybridization and techniques for mapping transcript structure 
-such as S1 nuclease mapping, primer extension, and 5′ and 3′ RACE. The lecture also addresses the analysis of DNA–protein 
-interactions involved in transcriptional regulation, presenting methods such as gel retardation assays, DNase I footprinting, 
-modification interference assays, and functional analysis of regulatory regions using deletion analysis and reporter 
-genes. Approaches for identifying and characterizing the protein product of a cloned gene, including hybrid-arrest 
-and hybrid-release translation, are discussed. The lecture concludes with an introduction to protein engineering 
-and site-directed mutagenesis, including overlap extension PCR, whole-plasmid mutagenesis, and synthetic gene design, 
+This lecture introduces the principal experimental approaches used to analyse gene expression and gene function.
+It covers methods for studying RNA, including Northern hybridization and techniques for mapping transcript structure
+such as S1 nuclease mapping, primer extension, and 5′ and 3′ RACE. The lecture also addresses the analysis of DNA–protein
+interactions involved in transcriptional regulation, presenting methods such as gel retardation assays, DNase I footprinting,
+modification interference assays, and functional analysis of regulatory regions using deletion analysis and reporter
+genes. Approaches for identifying and characterizing the protein product of a cloned gene, including hybrid-arres
+and hybrid-release translation, are discussed. The lecture concludes with an introduction to protein engineering
+and site-directed mutagenesis, including overlap extension PCR, whole-plasmid mutagenesis, and synthetic gene design,
 highlighting their use in investigating protein structure–function relationships.
 
 

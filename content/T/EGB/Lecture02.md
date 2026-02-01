@@ -21,6 +21,3 @@ DNA manipulation relies on enzyme specificity and molecular complementarity.
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
 - Chapter 04 Manipulation of Purified DNA
-
-
-

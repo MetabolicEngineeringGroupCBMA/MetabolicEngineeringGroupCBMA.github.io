@@ -2,7 +2,7 @@
 
 At a glance:
 
-- Presentation 
+- Presentation
 - Why Gene Cloning and DNA Analysis are Important (Brown Ch01)
 - The circular Bio economy
 - Exciting examples of the application of molecular genetics
@@ -17,25 +17,25 @@ Course Structure:
 - **PL (Laboratory)** classes — **mandatory**
 
 This course introduces and integrates **molecular biology** and
-**molecular biotechnology** with a 
-practical introduction to **bioinformatics**. 
+**molecular biotechnology** with a
+practical introduction to **bioinformatics**.
 
-The goal is to understand how and why DNA is manipulated in the lab and how 
+The goal is to understand how and why DNA is manipulated in the lab and how
 biological data are analysed and interpreted using bioinformatics tools.
 
 The TP classes focus on searching for, comparing and interpreting sequences
 from databases and *in-silico* simulation of widely used cloning methods.
 
 The laboratory class is a plasmid construction project that demonstrate both
- molecular biology techniques as well as the strategy needed for the construction 
-of a new plasmid vector. The laboratory course is divided into nine sessions of 
+ molecular biology techniques as well as the strategy needed for the construction
+of a new plasmid vector. The laboratory course is divided into nine sessions of
 which each student takes part in three.
 
 👉 The course emphasizes **why and when** to use techniques, not just **how**.
 
 A **personal laptop** is required for TP work.
 
-## Assessment
+## Assessmen
 
 Final grade comprises:
 
@@ -67,10 +67,10 @@ By the end of the course, you should be able to:
 - Integrate lab results with computational analysis
 
 
-# Why Gene Cloning and DNA Analysis Are Important
+# Why Gene Cloning and DNA Analysis Are Importan
 
-Brown chapter 01 explains why gene cloning and DNA analysis are central to modern biology, 
-medicine, and biotechnology. Seminal experiments in genetics. The advent of restriction enzymes 
+Brown chapter 01 explains why gene cloning and DNA analysis are central to modern biology,
+medicine, and biotechnology. Seminal experiments in genetics. The advent of restriction enzymes
 and gene cloning. DNA topology, sequence file formats. Primary vs secondary databases.
 
 ## Core Ideas
@@ -93,8 +93,8 @@ Understanding biology at the molecular level requires the ability to clone and a
 
 # The circular bio economy
 
-A **circular bioeconomy** is an economic model that uses **renewable biological resources** (plants, algae, microbes, organic residues, 
-food waste, manure, forestry/agri by-products) to produce **food, materials, chemicals, and energy**, while keeping resources in use 
+A **circular bioeconomy** is an economic model that uses **renewable biological resources** (plants, algae, microbes, organic residues,
+food waste, manure, forestry/agri by-products) to produce **food, materials, chemicals, and energy**, while keeping resources in use
 for as long as possible through **reuse, cascading use, and recycling** to minimize waste and fossil fuel inputs.
 
 ### Key ideas
@@ -123,5 +123,5 @@ How we can use checksums to keep track of sequences.
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-- Chapter 01 Why Gene Cloning and DNA Analysis are Important
+- Chapter 01 Why Gene Cloning and DNA Analysis are Importan
 

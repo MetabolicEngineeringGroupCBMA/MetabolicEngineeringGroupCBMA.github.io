@@ -121,7 +121,7 @@ punctuation = ! # $ % & * + ( ) < = > @ /: ' , - . ; ? [ \ ] ^ _ ` { | } ~ "
 >format1 alphabet=dscode
 PEXIGULAOCQFZJ
 
->format2 two strings & space 
+>format2 two strings & space
 GATCGUAAAC
     CAUTUGCTAG
 
