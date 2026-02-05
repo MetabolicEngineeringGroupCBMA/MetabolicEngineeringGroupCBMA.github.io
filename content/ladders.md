@@ -95,7 +95,7 @@ bp     ng/0.5µg  %
 
 
 bioron 1 kb DNA Ladder ready-to-use
-http://www.bioron.net/en/products/dna-and-dna-markers/dna-marker/1-kb-blue-dna-ladder/
+<http://www.bioron.net/en/products/dna-and-dna-markers/dna-marker/1-kb-blue-dna-ladder/>
 
 
 10000
@@ -120,7 +120,7 @@ file:/home/bjorn/myvault/files/bioron_1%20kb%20DNA%20Ladder.png
 
 
 GeneRuler 1 kb+
-https://docs.google.com/spreadsheets/d/1vN0y75ibxPrG6yJQjq1uF2FXP0L-qGSn_fzInUHeTs4/edit# gid=0
+<https://docs.google.com/spreadsheets/d/1vN0y75ibxPrG6yJQjq1uF2FXP0L-qGSn_fzInUHeTs4/edit># gid=0
 [GeneRuler_1kb_Plus.png](<file:/home/bjorn/myvault/files/GeneRuler_1kb_Plus.png>)
 0.5 µg/µL
 
