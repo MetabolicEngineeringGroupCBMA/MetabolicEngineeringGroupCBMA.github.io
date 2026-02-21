@@ -1,4 +1,4 @@
-The first ***Cloning documentation workshop*** was held on 11th of April 2025 in the Department of Biology at the University of Minho. Of the twelve participants, two were PhD students, two third-year students and eight second-year students of the Bachelor in Applied Biology and in Chemical and Biological Engineering of the University of Minho.
+The first **Workshop on Cloning Documentation** was held on 11th of April 2025 in the Department of Biology at the University of Minho. Of the twelve participants, two were PhD students, two third-year students and eight second-year students of the Bachelor in Applied Biology and in Chemical and Biological Engineering of the University of Minho.
 
 ![[Cloning documentation workshop 2025.png|577x196]]
 

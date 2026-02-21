@@ -63,7 +63,7 @@ Paste the PCR product sequence at the cut site of the pYPKa. See figure below.
 
 
 
-## 3. Analyze resul
+## 3. Analyze result
 
 Calculate the **size** and complete **seguid checksum** of the resulting plasmid.
 

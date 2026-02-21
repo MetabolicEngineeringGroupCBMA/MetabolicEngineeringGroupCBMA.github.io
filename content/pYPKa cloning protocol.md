@@ -8,7 +8,7 @@ It is easy to use, once you have learned to work with it. See the end of this pa
 The first step is to prepare the pYPKa vector. This cloning procedure is sensitive to nuclease contamination. The reason for this is that the vector loses its toxicity if it is not intact and this could facilitate the formation of empty clones.
 
 > [!WARNING]
-> Do not add phosphatase (such as SAP or FastAP for example) to the digestion. 5' phosphates on the vector are necessary to form a partial bond with the PCR produc
+> Do not add phosphatase (such as SAP or FastAP for example) to the digestion. 5' phosphates on the vector are necessary to form a partial bond with the PCR product
 
 Care should be taken to avoid nuclease contamination and leave as little time as possible for nucleases to act.
 Use a standard commercial miniprep kit to prepare the plasmid if available. The [NZYMiniprep](https://www.nzytech.com/en/mb010-nzyminiprep) works very well for this purpose in our hands.

@@ -17,7 +17,7 @@
 |      9 | fabH     | fabD     | fabG     | acpP         | fabF     | fabB     | fabA     | fabZ     | fabI     | FatA1     | FatB     | acpH     | acpS     |
 |     10 | fabH     | fabD     | fabG     | acpP         | fabF     | fabB     | fabA     | fabZ     | Mod1     | FatA1     |          | acpS     | acpH     |
 |     11 | fabH     | fabD     | fabG     | acpP         | fabF     | fabB     | fabA     | fabZ     | Mod1     | FatB      |          | acpS     | acpH     |
-| **12** | **fabH** | **fabD** | **fabG** | **[[acpP]]** | **fabF** | **fabB** | **fabA** | **fabZ** | **Mod1** | **FatA1** | **FatB** | **acpH** | **acpS** |
+| **12** | **fabH** | **fabD** | **fabG** | **[[EcacpP]]** | **fabF** | **fabB** | **fabA** | **fabZ** | **Mod1** | **FatA1** | **FatB** | **acpH** | **acpS** |
 |     13 | KASIII   | fabD     | fabG     | acpP         | KASII    | KASI     | fabA     | fabZ     | fabI     | FatA1     |          | acpS     | acpH     |
 |     14 | KASIII   | fabD     | fabG     | acpP         | KASII    | KASI     | fabA     | fabZ     | fabI     | FatB      |          | acpS     | acpH     |
 |     15 | KASIII   | fabD     | fabG     | acpP         | KASII    | KASI     | fabA     | fabZ     | fabI     | FatA1     | FatB     | acpH     | acpS     |

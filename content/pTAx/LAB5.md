@@ -2,7 +2,7 @@
 
 [[material#LAB5]]
 
-![[pTAx/EGB25_001-1.jpeg]]
+![[pTAx/EGB25_001-1.jpeg|506x395]]
 
 #### *In-Silico* PCR simulation
 

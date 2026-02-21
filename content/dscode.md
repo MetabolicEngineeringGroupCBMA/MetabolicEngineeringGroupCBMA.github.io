@@ -1,4 +1,4 @@
-This document defines `dscode`, an extension or a super set to the IUPAC DNA alphabet (IUPAC). This extension and allows unambiguous description of a double stranded DNA molecule with single stranded regions (such as "sticky" ends) using a single sequence of characters. This makes it directly applicable for sequence classes holding sequences as a string, such as the BioPython Seq objects. The `dscode` alphabet has been implemented in the Dseq class in pydna, a subclass of the Biopython Seq class. 
+This document defines `dscode`, an extension or a super set to the IUPAC DNA alphabet (IUPAC). This extension and allows unambiguous description of a double stranded DNA molecule with single stranded regions (such as "sticky" ends) using a single sequence of characters. This makes it directly applicable for sequence classes holding sequences as a string, such as the BioPython Seq objects. The `dscode` alphabet has been implemented in the Dseq class in pydna, a subclass of the Biopython Seq class.
 ## IUPAC
 
 The IUPAC DNA alphabet is a set of symbols designated by the International Union of Pure and Applied Chemistry (IUPAC)
@@ -24,7 +24,7 @@ at a particular position. The symbols and their meanings are listed below:
 10. **V** - Not T (A, C, or G)
 11. **N** - Any nucleotide (A, T, C, or G)
 
-These symbols allow representing DNA sequences, when there is uncertainty in base composition at specific positions. 
+These symbols allow representing DNA sequences, when there is uncertainty in base composition at specific positions.
 However, they do not address the single or double strandedness of DNA.
 
 ## dscode
@@ -90,8 +90,8 @@ The choice of symbols for the dscode extension facilitate intuitive recognition 
 
 ```
             ...QFZJ    PEXI...
-            
-			...  		 GATC...                   
+
+			...  		 GATC...
 		    ...CATG   	 ...
 ```
 
@@ -103,7 +103,7 @@ DNA molecules with compatible terminal 3'- single strand overhangs:
 QFZJaaaPEXI    QFZJaaaPEXI           representation using dscode
 
 	aaaGATC        aaaGATC           ad-hoc representation
-CTAGttt        CTAGttt
+CTAGttt        CTAG
 ```
 
 ## alphabets
