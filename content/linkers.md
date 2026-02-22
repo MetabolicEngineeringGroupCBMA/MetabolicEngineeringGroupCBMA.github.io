@@ -1,32 +1,26 @@
-## linker
+# Linker#1
 
-
-### Linker#1
-
-L1: GGGGSGGGGS
+GGGGSGGGGS
 
 GGAGGTGGAGGTTCTGGTGGAGGTGGTTCA
 
 Ref?? Rosana
+# Linker#2
 
-### Linker#2
-
-http://parts.igem.org/Protein_domains/Linker
+<http://parts.igem.org/Protein_domains/Linker>
 
 GlyGlyGlyGlyGlySer = GGT GGA GGT GGA GGA TCT
 
-"Several other types of flexible linkers, including KESGSVSSEQLAQFRSLD and EGKSSGSGSESKST"
+# Linker#3
 
+"Several other types of flexible linkers, including KESGSVSSEQLAQFRSLD and EGKSSGSGSESKST"
 ```
 Chen, Xiaoying, Jennica L. Zaro, and Wei-Chiang Shen. 2013. “Fusion Protein
 Linkers: Property, Design and Functionality.” Advanced Drug Delivery Reviews
 65 (10) (October): 1357–1369.
 ```
-
-
-EGKSSGSGSESKST    14 aa = 14 * 3 = 42 bp   <====<<<<   Good size
+EGKSSGSGSESKST    14 aa = 14 * 3 = 42 bp   <====   Good size
 ESGSVSSEQLAQFRSLD 18 aa = 18 * 3 = 54 bp
-
 
 The two linkers above are from:
 ```
@@ -36,12 +30,11 @@ Antigen-Binding Proteins.” Science 242 (4877) (October 21): 423–426.
 ```
 
 DNA sequence made:
-https://www.bioinformatics.org/sms2/rev_trans.html
-https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4932&aa=1&style=GCG
+<https://www.bioinformatics.org/sms2/rev_trans.html>
+<https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4932&aa=1&style=GCG>
 
 gaaggtaaatcttctggttctggttctgaatctaaatctac
 E  G  K  S  S  G  S  G  S  E  S  K  S  T
-
 
 ---
 
@@ -75,7 +68,7 @@ More information about fusion protein linkers:
 [https://www.ncbi.nlm.nih.gov/pubmed/23026637](https://www.ncbi.nlm.nih.gov/pubmed/23026637)
 
 
-https://www.researchgate.net/post/What_is_the_best_linker_for_a_fusion_protein
+<https://www.researchgate.net/post/What_is_the_best_linker_for_a_fusion_protein>
 
 There are linkers based on the same principle than the (GGGGS)n which I find
 superior as they don't have repeats that can lead to homologous recombination.

@@ -2,18 +2,9 @@
 
 
 
-The pYPKa_A_ATF1 is a cloning vector which has the *S. cerevisiae* alcohol acetyltransferase gene *[ATF1/YOR377W](https://www.yeastgenome.org/locus/S000005904)* gene, but no promoter or terminator.
+The pYPKa_A_ATF1 is a cloning vector which has the *S. cerevisiae* alcohol acetyltransferase gene *[ATF1/YOR377W](https://www.yeastgenome.org/locus/S000005904)* gene, but no promoter or terminator. The purpose of this plasmid is to serve as template for a subsequent PCR reaction. The plasmid is made by cloning a PCR product containing the *ATF1* gene into the *AjiI* restriction site of the pYPKa plasmid using the AjiI restriction enzyme and DNA ligase.
 
-The purpose of this plasmid is to serve as template for a subsequent PCR reaction.
-
-
-![](ATF1.png)
-
-The plasmid is made by cloning a PCR product containing the *ATF1* gene into the *AjiI* restriction site of the pYPKa plasmid using the AjiI restriction enzyme and DNA ligase.
-
-![[in silico assembly of pYPKa_A_ATF1-20240924080715125.png]]
-
-The  *AjiI* restriction site is blunt, so we do **not** need to digest the PCR product as has blunt ends already.
+The  *AjiI* restriction site is blunt, so we do **not** need to digest the PCR product as it has blunt ends already.
 
 Use the following in order to assemble the sequence for the **pYPKa_A_ATF1** plasmid *in-silico*:
 
@@ -30,8 +21,7 @@ gcaataATGGGTAATGAAATCGATGAGAAAAATCA
 TTAAGGGCCTAAAAGGA
 ```
 
-Use the [WebPCR](https://pydnaweb.streamlit.app/pcr) tool to simulate the PCR reaction using the primer sequences and the *ATF1* sequence from GenBank.
-Place the primer sequences before the *ATF1* gene as indicated in the figure below.
+Use the [WebPCR](https://pydnaweb.streamlit.app/pcr) tool to simulate the PCR reaction using the primer sequences and the *ATF1* sequence from GenBank. Place the primer sequences before the *ATF1* gene as indicated in the figure below.
 
 ![[in silico assembly of pYPKa_A_ATF1-20240709175312224.png]]
 Click "submit" to perform the simulation. the result should look like this:
@@ -48,9 +38,8 @@ dragging the sequence file to the empty ApE window. See the result below. The se
 
  ![[in silico assembly of pYPKa_A_ATF1-20240709173627486.png]]
 
-Find  The **[AjiI](http://rebase.neb.com/rebase/enz/AjiI.html)** has the same specificity as the enzymes ** [BtrI](http://rebase.neb.com/rebase/enz/BtrI.html) ** or **[BmgBI](http://rebase.neb.com/rebase/enz/BmgBI.html)**.
-Use the Enzymes>Enzyme selector option and try to find the AjiI restriction site.
-You can also use the Edit>Find or CTRL-F search to find the recognition sequence of the enzyme (CACGTC).
+Find  The **[AjiI](http://rebase.neb.com/rebase/enz/AjiI.html)** has the same specificity as the enzymes(or ** [BtrI](http://rebase.neb.com/rebase/enz/BtrI.html) ** or **[BmgBI](http://rebase.neb.com/rebase/enz/BmgBI.html)**). Use the Enzymes>Enzyme selector option and try to find the AjiI restriction site.
+You can also use the Edit>Find or CTRL-F search to find the recognition sequence of the enzyme (CACGTC). 
 
 If **AjiI** is not available in the enzyme selection of ApE, try to find  **BtrI** instead.
 
@@ -60,8 +49,6 @@ Paste the PCR product sequence at the cut site of the pYPKa. See figure below.
 
 > [!IMPORTANT]
 > Paste only the DNA sequence of the PCR product, do not include the FASTA header.
-
-
 
 ## 3. Analyze result
 
