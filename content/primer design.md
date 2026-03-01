@@ -69,19 +69,21 @@ The nucleotides immediately upstream of the start codon ([Kozak consensus sequen
 ```
 >f1800
 tctgcaataATGggtTTGTGTTCAGTAATTCAGAGA
---K528---
-        sta
-           gly
+
+--K528---   gly
+         sta
+
 ```
-The primer above has the K528 Kozak sequence, a start codon and a glycine codon followed by the new primer sequence. The Pydnaweb [WebPCR](https://pydnaweb.streamlit.app/pcr) simulator confirms the annealing of the primers (below) and also provides a suitable PCR program for two kinds of DNA polymerases (not shown).
+The primer above has the K528 Kozak sequence, a start codon and a glycine codon followed by the new primer sequence.
+The Pydnaweb [WebPCR](https://pydnaweb.streamlit.app/pcr) simulator confirms the annealing of the primers (below) and also provides a suitable PCR program for two kinds of DNA polymerases (not shown).
 
 ```
 			   5TTGTGTTCAGTAATTCAGAGA...TGGAAAAGACTCTCATCTAA3
 									 ||||||||||||||||||||
 									3ACCTTTTCTGAGAGTAGATT5
 5tctgcaataATGggtTTGTGTTCAGTAATTCAGAGA3
-               |||||||||||||||||||||
-			  3AACACAAGTCATTAAGTCTCT...ACCTTTTCTGAGAGTAGATT5
+                |||||||||||||||||||||
+		       3AACACAAGTCATTAAGTCTCT...ACCTTTTCTGAGAGTAGATT5
 ```
 
 
@@ -92,7 +94,7 @@ The primer above has the K528 Kozak sequence, a start codon and a glycine codon 
 Genes can be cloned by gap repair in the Yeast Pathway Kit system instead of cloning into pYPKa. The primer tails below provide the PCR product with flanking homology to the promoter and terminator.
 
 ```
-  
+
 <-- Forward tail 28 nt ---->
 actttctcactagtgacctgcagccGAC-(Kozak)-ATG...
                                      ---
@@ -102,16 +104,16 @@ actttctcactagtgacctgcagccGAC-(Kozak)-ATG...
 ctgatgcgtttgtctgcacagatggCAC...???
                             ---
                             stp
-                            
+
 ```
 	
 In our case the final primers will be (### = start, stop codons):
 
 ```
-actttctcactagtgacctgcagccGAC-tctgcaataATGggtTTG........
---------- tail-------------- ..kozak..###lys
-                                    
+actttctcactagtgacctgcagccGAC-tctgcaata-ATGggtTTG........
+--------- tail-------------- kozakk... ###lys
+
 ctgatgcgtttgtctgcacagatggCAC-TTAGATGAGAGTCTTTTCCA.......
---------- tail-------------- ###                            
+--------- tail-------------- ###
 ```
 

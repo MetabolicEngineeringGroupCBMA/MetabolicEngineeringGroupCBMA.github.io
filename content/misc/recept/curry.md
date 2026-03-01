@@ -1,5 +1,7 @@
 # Jaitinder's chickpea curry 
 
+![[misc/recept/curry.png|600x750]]
+
 - 3 onions, chopped    
 - 1 large paprika (bell pepper), chopped _(or 2 small)_    
 - 4 carrots, sliced    

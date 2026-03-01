@@ -140,7 +140,7 @@ Some alternative primers:
             >-TP-->           \     /           >-TP-->
              \   /             \   /             \   /
      517>     \ /               \ /               \ /
- p577>    1123>|p468>       <p567|p568>       <p467|<494        <p578    
+ p577>    1123>|p468>       <p567|p568>       <p467|<494        <p578
                |                 |                 |
                |                 |                 |
                |                 |                 |
@@ -196,7 +196,7 @@ cttcacaggcggttttcgcacgtacccatgcgctacgttcctggccctcttcaaacaggcccagttcgccaataaaatca
 *promoter=
          =mcs~
              ~gfp+
-                 +CYC1t•    
+                 +CYC1t•
 ```
 
 ~ = [[linkers]] (35 bp)

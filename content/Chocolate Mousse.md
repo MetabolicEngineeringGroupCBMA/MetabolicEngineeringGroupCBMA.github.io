@@ -1,11 +1,11 @@
 ![[Chocolate Mousse.jpg|646|646x817]]
 
 INGREDIENTS
-• 200 grams dark chocolate
-• 6 eggs (separated)
-• 6 tablespoons sugar (level tablespoons)
-• 1 tablespoons butter (level tablespoon)
-• 1 pinch pinch of salt
+- 200 grams dark chocolate
+- 6 eggs (separated)
+- 6 tablespoons sugar (level tablespoons)
+- 1 tablespoons butter (level tablespoon)
+- 1 pinch pinch of salt
 
 STEPS
 1. Melt the chocolate: Melt 200 grams dark chocolate in a bain-marie (double boiler) together with 1 tablespoons butter (level tablespoon).
