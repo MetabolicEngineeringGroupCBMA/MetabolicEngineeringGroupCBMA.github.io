@@ -5,3 +5,5 @@
 
 Spot contamination in a yeast culture with a microscope.
 
+![[microscope-1.png]]
+
