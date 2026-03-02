@@ -84,12 +84,12 @@ Do you need a short name for your plasmid to write on the Eppendorf tube? Record
 These primers were used by the Yeast Genome Deletion project. There are errors in this table, make sure
 to check primers before ordering [Yeast Genome Deletion Primers and PCR product Sizes](https://docs.google.com/spreadsheets/d/1pVlMkCKb6iX-w-2Q3OP2iP0UMH72PEHf9TuGM4SdRZk).
 
-### Checklis
+### Checklist
 
-- [ ] Joined WhatsApp "LGM Laboratory" group
-- [ ] ORCID
-- [ ] Gmail accoun
-- [ ] Joined the LGM Google spreadsheet (invite needed)
-- [ ] Joined the Google doc Primer lis
-- [ ] Joined the BIORAD T100 Google calendar
-- [ ] Github accoun
+- Joined WhatsApp "LGM Laboratory" group
+- ORCID
+- Gmail accoun
+- Joined the LGM Google spreadsheet (invite needed)
+- Joined the Google doc Primer lis
+- Joined the BIORAD T100 Google calendar
+- Github account
