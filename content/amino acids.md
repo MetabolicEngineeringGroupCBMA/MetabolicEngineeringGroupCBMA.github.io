@@ -1,5 +1,7 @@
 This is a wide table. Use the scroll bars to see the rightmost columns.
 
+[Codon usage](https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4932) for S. cerevisiae
+
 
 | Name           | Name            | NAME          | Three | THREE | One | KEGG                                       | Pubchem                                                  | Mw     | Mw-H2O | Solubility (g/100 mL H2O at 25°C) | UV Abs Log e (lmax)pH ~ 7.0 | Codons (S. cerevisiae) |     |     |     |     |     | S.cerevisiae | E.coli |
 | -------------- | --------------- | ------------- | ----- | ----- | --- | ------------------------------------------ | -------------------------------------------------------- | ------ | ------ | --------------------------------- | --------------------------- | ---------------------- | --- | --- | --- | --- | --- | ------------ | ------ |
@@ -35,3 +37,6 @@ Tobias et al. 1991 PMID: 1962196
 ![](Tobias1991.png)
 Bachmair & Varshavsky 1989 PMID: 2538246
 ![](Bachmair1989.png)
+
+
+![[Venn-diagram-showing-9-properties-of-the-20-amino-acids.png]]

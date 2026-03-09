@@ -2,9 +2,9 @@
 
 INGREDIENTS
 - 200 grams dark chocolate
-- 6 eggs (separated)
-- 6 tablespoons sugar (level tablespoons)
-- 1 tablespoons butter (level tablespoon)
+- 6 eggs
+- 6 tablespoons sugar
+- 1 tablespoons butter
 - 1 pinch pinch of salt
 
 STEPS
