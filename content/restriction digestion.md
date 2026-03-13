@@ -9,15 +9,14 @@ Return the enzymes to the -20 freezer as soon as you are done.
 
 In order to perform one restriction digestion, add the components in the table below together in the indicated order.
 
-| Component                      | Volume (µL) |
-|------------------------------- |-------------|
-| Sterile [[ddH2O]] water        | 16.5        |
-| Restriction Enzyme Buffer(10x) | 2           |
-| Plasmid DNA ~1-2 µg            | 1.0         |
-| Restriction enzyme (10 U/µL)   | 0.5         |
+| Component                      | Volume (µL) |                                            |
+| ------------------------------ | ----------- | ------------------------------------------ |
+| Sterile [[ddH2O]] water        | 16.5        |                                            |
+| Restriction Enzyme Buffer(10x) | 2           |                                            |
+| Plasmid DNA ~1-2 µg            | 1.0         | Add more if needed and reduce water volume |
+| Restriction enzyme (10 U/µL)   | 0.5         |                                            |
 
-Final volume should be 20 µL. Mix gently by pipetting, close the tube
-and centrifuge for a second to collect the liquid at the bottom of the tube.
+Final volume should be 20 µL. Mix gently by pipetting, close the tube and centrifuge for a second to collect the liquid at the bottom of the tube.
 
 Incubate at the enzyme's optimum temperature (usually 37°C) for 1 hour.
 
@@ -27,11 +26,10 @@ Gel electrophoresis of the DNA is necessary in order to find out if the digestio
 
 
 It is important to run an **undigested control** on the gel.
+
 Remember to always load an **equal amount of DNA** in each well of the agarose gel.
 
-
-The best way of making this control is to make an identical mix like the one above,
-but with water instead of the restriction enzyme. This control should be incubated at the same
+The best way of making this control is to make an identical mix like the one above, but with water instead of the restriction enzyme. This control should be incubated at the same
 temperature as the restriction digestion.
 
 If you suspect problems, add a control DNA that should be digested.
@@ -83,8 +81,7 @@ It is easier to add the mastermix in all the tubes first, since the DNA has a lo
 
 
 
-The volumes of this mastermix was calculated using
-[this](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787&range=A1:B1)
+The volumes of this mastermix was calculated using [this](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787&range=A1:B1)
 google spreadsheet (shown below). The green fields are variables you can change.
 
 
@@ -95,21 +92,16 @@ You can modify directly according to your needs or download it in excel format.
 
 
 
-### Restriction of unpurified PCR products
+### Restriction of un-purified PCR products
 
-| Component                 | Volume (µL) |
-|---------------------------|-------------|
-| Unpurified PCR product    | 25          |
-| Restriction enzyme        | 0.5         |
+No restriction buffer is added to the digestion of PCR products. This works for [enzymes that show activity in PCR buffers](https://international.neb.com/tools-and-resources/usage-guidelines/activity-of-restriction-enzymes-in-pcr-buffers)
 
-
-No restriction buffer is added to the digestion of PCR products.
-This works for [enzymes that show activity in PCR buffers](https://international.neb.com/tools-and-resources/usage-guidelines/activity-of-restriction-enzymes-in-pcr-buffers)
-
-This protocol i useful if you need to digest a PCR product for some analytical purpose.
-However, even after thermal cycling is complete, the thermostable DNA polymerase retains some activity,
-which could **fill in the sticky ends** generated during a subsequent restriction digestion.
-These blunt-ended products can result in reduced cloning efficiency.
+| Component              | Volume (µL) |
+| ---------------------- | ----------- |
+| Unpurified PCR product | 25          |
+| Restriction enzyme     | 0.5         |
+This protocol i useful if you need to digest a PCR product for some analytical purpose. However, even after thermal cycling is complete, the thermostable DNA polymerase retains some activity,
+which could **fill in the sticky ends** generated during a subsequent restriction digestion. These blunt-ended products can result in reduced cloning efficiency.
 
 ### Double digestions
 
@@ -133,11 +125,8 @@ Using an alkaline phosphatase to remove phosphates from the ends of linear DNA a
 
 These enzymes are active in restriction buffers, so you do not need to add any specific buffer. It also works well in PCR buffer. The enzymes can be inactivated by 5-15 min at 65 - 75 °C according to the manufacturers specification. It is important to perform this inactivation prior to ligation as the enzyme will otherwise remove phosphates from the insert as well, which inhibits ligation. See this BiteSize Bio [blog post](https://bitesizebio.com/26698/fix-bad-cloning-ratios) for more information on the use of phosphatases in cloning.
 
-
-
-
 ### Resources
 
 Find restriction sites in your sequence using [Restriction Analyzer](https://molbiotools.com/restrictionanalyzer.php) or [RestrictionMapper](http://www.restrictionmapper.org). Learn more about [Restriction Enzymes](https://pdb101.rcsb.org/motm/8), this site has very good general information from PDB.
 
-Learn how to identify Supercoils, Nicks and Circles in Plasmid Preps from this BiteSize Bio[blog post](https://bitesizebio.com/13524/how-to-identify-supercoils-nicks-and-circles-in-plasmid-preps).
+Learn how to identify Supercoils, Nicks and Circles in Plasmid Preps from this BiteSize Bio [blog post](https://bitesizebio.com/13524/how-to-identify-supercoils-nicks-and-circles-in-plasmid-preps).

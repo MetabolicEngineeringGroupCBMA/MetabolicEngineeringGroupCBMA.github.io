@@ -1,11 +1,10 @@
-
 ### Cultivating the yeast *Saccharomyces cerevisiae* for any purpose
 
 - [[Standard protocol for preparing yeast cells\|Standard protocol for preparing yeast cells for any purpose]]
 - [[microscope]]
 ### Gel electrophoresis
 
-- [[electrophoresis]]
+- [[Agarose electrophoresis]]
 
 ### Plasmid DNA from *E. coli*
 
@@ -18,9 +17,6 @@
 ### DNA
 
 - [[DNA]]
-
-
-
 ### PCR
 
 - [[PRIMERS]]

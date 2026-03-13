@@ -1,7 +1,6 @@
 # Telephone directory for the Department of Biology, University of Minho in Braga, Portugal
 
 Updated February 2018
-
 ## Lecturers
 
 | Room  | Ext    |Lecturers                                       | E-MAIL                        |

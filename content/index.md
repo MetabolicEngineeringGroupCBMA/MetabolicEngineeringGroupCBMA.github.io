@@ -2,7 +2,7 @@
 publish: true
 title: Metabolic Engineering CBMA - mec@CBMA
 created: 2026-02-01T09:08:30.665+00:00
-modified: 2026-02-01T09:08:30.666+00:00
+modified: 2026-03-12T18:56:01.609+00:00
 cssclasses: ""
 ---
 

@@ -24,13 +24,13 @@ as the yellow color. Orange G is preferred since it migrates faster.
 | Water                         | -       | to 50 mL          |                           | -             |
 | Total                         | 50 mL   |                   |                           |               |
 
-
+	
 Recipe for 50 mL 6x DNA loading buffer:
 
 - add 6.25g [FICOLL 400](https://www.sigmaaldrich.com/catalog/product/sigma/f2637) powder to a new 50 mL FALCON tube.
 - add [[ddH2O]] to about 30 mL, shake to dissolve. This may take time, heating the tube in a water bath helps.
 - add 7.5 mg Xylene Cyanol FF powder
-- add 7.2 mL Orange G (1% w/v) *OR* 900 µL of VAHINE yellow contains [Tartrazine](http://en.wikipedia.org/wiki/Tartrazine)
+- add 7.2 mL Orange G (1% w/v) ***OR*** 900 µL of VAHINE yellow contains [Tartrazine](http://en.wikipedia.org/wiki/Tartrazine)
 - add water to 50 mL
 
 The resulting solution is about the same colour as the GoTaq green flexi buffer commercialized
@@ -49,7 +49,7 @@ is not known, but could be measured using a spectrophotometer at the absorption
 maximum of 472 nm. The molar absorptivity of Tartrazine at 472 nm is 20,330 L mol-1 cm-1.
 
 
-### Development
+### Developmen
 
 #### FICOLL 400 (Density)
 
@@ -72,7 +72,7 @@ Kramer, M. F., & Coen, D. M. (2001). Enzymatic amplification of DNA by PCR: stan
 #### Xylene Cyanol FF (Blue)
 
 PCR mastermix can tolerate 0.0025% Xylene Cyanol FF in the final solution.
-For example, commercial https://international.neb.com/products/m0271-quick-load-taq-2x-master-mix#Product Information
+For example, commercial <https://international.neb.com/products/m0271-quick-load-taq-2x-master-mix#Product> Information
 yields 0.0025% XyleneCyanol FF in the final 1x PCR mixture:
 
 [![[1X_Quick-Load_Taq_Master_Mix.png]]](M0271Datasheet-Lot0211206.pdf)
@@ -115,7 +115,7 @@ VAHINE food coloring comes in a package with blue, red and yellow. It has the fo
 ### Links
 
 
-- http://www.wendychao.com/science/protocols/loading_buffer/
-- http://www.protocol-online.org/biology-forums-2/posts/12397.html
-- http://www.geneticorigins.org/pv92/recipes2.htm
-- https://www.researchgate.net/post/Which_dye_doesnt_inhibit_PCR_reaction
+- <http://www.wendychao.com/science/protocols/loading_buffer/>
+- <http://www.protocol-online.org/biology-forums-2/posts/12397.html>
+- <http://www.geneticorigins.org/pv92/recipes2.htm>
+- <https://www.researchgate.net/post/Which_dye_doesnt_inhibit_PCR_reaction>

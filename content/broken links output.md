@@ -40,7 +40,7 @@ Don't forget that creating the file from here may create the file in the wrong d
 - [[cuvete]] in [[catalase lab pt]]
 - [[água destilada]] in [[catalase lab pt]]
 - [[atividade enzimática]] in [[catalase lab pt]]
-- [[How many times can I reuse electrophoresis buffer?]] in [[electrophoresis]]
+- [[How many times can I reuse electrophoresis buffer?]] in [[Agarose electrophoresis]]
 - [[MB010_NZYMiniprep.pdf]] in [[pTAx/LAB10]]
 - [[NZYMiniprep]] in [[pTAx/LAB10]], [[pTAx/LAB9]]
 - [[black]] in [[misc/recept/Caesar salad - quick]]

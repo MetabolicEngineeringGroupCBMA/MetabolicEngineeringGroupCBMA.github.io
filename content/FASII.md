@@ -1,7 +1,3 @@
-### Markdown
-
-
-
 
 
 | #      | fabH     | fabD     | fabG     | acpP         | ----     | fabB     | ----     | fabZ     | fabI     | tesA      | ----     | acpS     | ----     |
