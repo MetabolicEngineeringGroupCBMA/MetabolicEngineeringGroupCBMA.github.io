@@ -1,9 +1,9 @@
 ---
 publish: true
-aliases: gel
+aliases:
+  - gel
 created: 2026-03-13T08:01:11.777+00:00
 modified: 2026-03-13T08:02:06.968+00:00
-cssclasses: ""
 ---
 
 

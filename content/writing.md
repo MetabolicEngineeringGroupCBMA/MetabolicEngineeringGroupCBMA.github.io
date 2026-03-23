@@ -48,7 +48,7 @@ W.S.C
 
 9th August, 1940.
 
-![](pTAx/colored.png)
+![](colored.png)
 
 # How English is different from Portuguese
 
@@ -100,10 +100,10 @@ George Orwell wrote an essay on writing called [Politics And The English Languag
 
 Listed below are some examples of good scientific writing. I hope to extend this list.
 
-![](pTAx/colored.png)
+![](colored.png)
 
 [![](kotter_ciriacy_1993.png)](https://link.springer.com/article/10.1007/BF00167144)
 
-![](pTAx/colored.png)
+![](colored.png)
 
 [![](botham_ratledge.png)](https://pubmed.ncbi.nlm.nih.gov/44315)

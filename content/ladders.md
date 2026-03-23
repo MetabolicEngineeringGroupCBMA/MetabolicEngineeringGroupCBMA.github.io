@@ -1,7 +1,6 @@
-### GeneRuler 1 kb DNA Ladder
-Catalog Number SM0311, SM0312
+### GeneRuler 1 kb DNA Ladder Catalog Number SM0311, SM0312
 
-![](GeneRuler_1_kb_DNA_Ladder.png)
+![[GeneRuler_1_kb_DNA_Ladder.png]]
 
 - 10000
 - 8000
@@ -20,36 +19,11 @@ Catalog Number SM0311, SM0312
 
 [MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf](MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf)
 
-Gene Ruler 1 kb DNA Ladder
+### Penn State Ladder
 
-![[GeneRuler_1_kb_DNA_Ladder.png]]
-
-10000
-8000
-**6000**
-5000
-4000
-3500
-**3000**
-2500
-2000
-1500
-**1000**
-750
-500
-250
-
-<https://github.com/MetabolicEngineeringGroupCBMA/MetabolicEngineeringGroupCBMA.github.io/wiki/ladders># generuler-1-kb-dna-ladder
+[[Penn State ladder]]
 
 
-
-[MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf](<file:/home/bjorn/myvault/files/MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf>)
-
-
-0.5 µg/µl
-
-<http://www.fermentas.com/en/products/all/dna-electrophoresis/generuler-dna-ladders/sm033-generuler-mix>
-[generuler-mix2.png](<file:/home/bjorn/myvault/files/generuler-mix2.png>)
 bp     ng/0.5µg  %
 -----  --------  ---
 10000  18        3.6
@@ -74,10 +48,11 @@ bp     ng/0.5µg  %
 200    20        4
 100    20        4
 
+### For smaller fragments:
 
+[[Bioron_100_bp_plus_DNA_Ladder.pdf]]
 
-[Bioron_100_bp_plus_DNA_Ladder.pdf](<file:/home/bjorn/myvault/files/Bioron_100_bp_plus_DNA_Ladder.pdf>)
-[Bioron_100_bp_plus_DNA_Ladder.jpeg](<file:/home/bjorn/myvault/files/Bioron_100_bp_plus_DNA_Ladder.jpeg>)
+![[files/Bioron_100_bp_plus_DNA_Ladder.jpeg]]
 
 
 1500
@@ -92,11 +67,7 @@ bp     ng/0.5µg  %
 200
 100
 
-
-
 bioron 1 kb DNA Ladder ready-to-use
-<http://www.bioron.net/en/products/dna-and-dna-markers/dna-marker/1-kb-blue-dna-ladder/>
-
 
 10000
 8000
@@ -113,7 +84,7 @@ bioron 1 kb DNA Ladder ready-to-use
 250
 
 
-file:/home/bjorn/myvault/files/bioron_1%20kb%20DNA%20Ladder.png
+
 
 
 

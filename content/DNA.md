@@ -1,6 +1,6 @@
 - [[ethanol precipitation]]
 - [[ligation]]
-- [[Restriction digestion]]
+- [[restriction digestion]]
 - [[ladders]]
 
 ![[DNA_001.png.jpg]]

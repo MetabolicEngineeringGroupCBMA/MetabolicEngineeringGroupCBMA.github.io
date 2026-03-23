@@ -30,7 +30,7 @@ ATGTTGTGTTCAGTAATTCAG
 ```
 ## The N-end rule
 
-The first amino acid in the protein in *Saccharomyces cerevisiae* is coded by the codon immediately after the start codon as the start codon is not translated. The first amino acid in the xylulokinase gene is **Leucine** which destabilizes the protein according to the N-end rule with a half-life of around 3 min. See [[Amino acids\|this table]] for amino acid properties including stabilization and preferred codons in _S. cerevisiae_.
+The first amino acid in the protein in *Saccharomyces cerevisiae* is coded by the codon immediately after the start codon as the start codon is not translated. The first amino acid in the xylulokinase gene is **Leucine** which destabilizes the protein according to the N-end rule with a half-life of around 3 min. See [[amino acids\|this table]] for amino acid properties including stabilization and preferred codons in _S. cerevisiae_.
 
 A stabilizing amino acid such as glycine would on the other hand give a half life of >30 h.
 

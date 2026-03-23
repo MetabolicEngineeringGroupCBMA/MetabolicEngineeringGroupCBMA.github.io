@@ -1,6 +1,6 @@
 ![[Chocolate Mousse.jpg|646|646x817]]
 
-INGREDIENTS
+INGREDIENTS 🇬🇧🇺🇸
 - 200 grams dark chocolate
 - 6 eggs
 - 6 tablespoons sugar
@@ -17,3 +17,22 @@ STEPS
 7. Beat the egg whites until stiff.
 8. Gently fold the whipped egg whites into the chocolate mixture until fully incorporated.
 9. Chill: Refrigerate for 4–5 hours before serving.
+
+
+INGREDIENSER 🇸🇪
+
+- 200 gram mörk choklad
+- 6 ägg
+- 6 matskedar socker
+- 1 matsked smör
+- 1 nypa salt
+
+Smält 200 gram mörk choklad i vattenbad tillsammans med 1 matsked smör (struken matsked).
+Separera gulor och vitor från sex ägg.
+Vispa äggulorna tills de är släta.
+Tillsätt 3 matskedar socker till äggulorna och rör tills du inte längre känner sockerkornen.
+Tillsätt långsamt den smälta chokladen till ägguleblandningen och rör försiktigt tills allt är blandat.
+Tillsätt 1 krm salt till äggvitorna.
+Vispa äggvitorna till ett fast skum.
+Vänd försiktigt ner de vispade äggvitorna i chokladblandningen tills allt är helt blandat.
+Kyl: Ställ i kylskåp i 4–5 timmar före servering.
