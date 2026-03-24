@@ -19,7 +19,7 @@ This is important for your future academic career. Get it [here](https://orcid.o
 
 You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp) if you do not have one already. You also need this to access the primer and freezer lists and for booking the PCR machine.
 
-### Get a Github accoun
+### Get a GitHub account
 
 ![[github-octocat.png]]
 We keep public genetic constructs in the [Metabolic Engineering Group at CBMA](https://github.com/MetabolicEngineeringGroupCBMA) Github organization. We keep private (not yet published) constructs in this private Github [repository](https://github.com/MetabolicEngineeringGroupCBMA/genetic-work-in-progress).
