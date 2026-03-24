@@ -1,17 +1,19 @@
 ![[The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpg]]
 
-This is a collection of instructions for students starting work in our group. We call our group **mec** which is short for **M**etabolic **E**ngineering **C**BMA.
+This is a collection of instructions for students starting work in our group, **mec** which is short for **M**etabolic **E**ngineering **C**BMA.
 
-Carrying out a MSc or PhD project is probably fundamentally different from anything that you have done previously. It is important to understand this difference to make the most out of your project.
+Carrying out a MSc or PhD project is probably fundamentally different from anything that you have done before. It is important to understand why in order to make most out of your project and your time in the group.
 
-There are a number of ways you can prepare yourself for your project in order to get up to speed. Please read [[practical considerations]].
+There are a number of ways you can prepare yourself for your project in order to get up to speed. 
+
+Please read [[practical considerations]]. Verify the checklist at the end.
 
 It is now **your** responsibility to:
 
 - **understand** your project.
-- **find** and **read** relevant literature.
 - think **ahead** on the next step of your work.
-- know how your project **fits** into the big picture.
+- **find** and **read** relevant literature.
+- The wider **why**, how your project **fits** into the big picture.
 
 The importance of **initiative** has been dealt with many times in the literature. It is very applicable to MSc or PhD students. For example:
 
@@ -19,7 +21,7 @@ The importance of **initiative** has been dealt with many times in the literatur
 
 _Stephen R. Covey, [The 7 Habits of Highly Effective People](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People)_
 
-Use your time well. Many people live out their lives doing boring repetitive tasks. We are privileged to work in a university, which is perhaps the only place where truth is sought for it own sake and where people are willing to share their knowledge. Your results and the way you report them affects the body of science as a whole.
+Use your time well. Many people live out their lives doing boring repetitive tasks. We are privileged to work in a university, which is perhaps the only place where truth is sought for it own sake and where people are willing to share their knowledge. Understand that your results and the way you report them affects the body of science as a whole.
 
 Famous physicist [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman) suggested the five rules below that I reformulated a somewhat:
 
@@ -34,11 +36,19 @@ Famous physicist [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman)
 ![](meet.png)
 
 
-You should meet with your supervisor regularly by **your own** initiative. This is not the time to sit silent and wait for the supervisor to speak. Be prepared and organized. Write down a list of issues you want to discuss and prioritize the most pressing. Come prepared with solutions.
+Meet with your supervisor regularly by **your own** initiative. 
+
+- Don't wait for the supervisor to speak. 
+- Be prepared and organized. 
+- Write down a list of issues you want to discuss and prioritize. 
+- Come prepared with suggestions for solutions.
+- Take notes during the meeting.
+- Ask a lot of questions.
+- Learn to disagree and disagree to learn.
 
 If you have repeated an experiment a number of times, your supervisor will want to know which variables were changed and what the results were. If you made several similar experiments trying to troubleshoot, name your experiment like **PCR-GeneX-1-feb** (some name/date combinations) in order to make it easier to identify and reference.
 
-Doing good science is hard for everyone. Your supervisor might disagree with you or criticize your work. Do not take this personally. Make sure you understand the criticism. If you disagree with your supervisor, find arguments for your point and use them.
+Doing good science is hard. This is true for everyone. Your supervisor might disagree with you or criticize your work. Do not take this personally. Make sure you understand the criticism. If you disagree with your supervisor, find arguments for your point and use them. Remember, that you might have information that the supervisor does not have. 
 
 This is an important time to start building your own scientific self-confidence.
 

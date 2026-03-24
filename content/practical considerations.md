@@ -86,10 +86,12 @@ to check primers before ordering [Yeast Genome Deletion Primers and PCR product 
 
 ### Checklist
 
-- Joined WhatsApp "LGM Laboratory" group
-- ORCID
-- Gmail accoun
-- Joined the LGM Google spreadsheet (invite needed)
-- Joined the Google doc Primer lis
-- Joined the BIORAD T100 Google calendar
-- Github account
+- [ ] Joined WhatsApp "LGM Laboratory" group
+- [ ] ORCID
+- [ ] CIÊNCIA ID
+- [ ] Gmail account
+- [ ] Joined the LGM Google spreadsheet (invite needed)
+- [ ] Joined the Google doc Primer list
+- [ ] Joined the BIORAD T100 Google calendar
+- [ ] Created a Github account
+- [ ] Sent me your GitHub ID so I can add you to our [organization](https://github.com/MetabolicEngineeringGroupCBMA)

@@ -1,6 +1,7 @@
-![hemmingway](shit.png)
+![hemingway](shit.png)
 
-Many of today's students have been subjected to writing essays with minimum word counts with the implicit encouragement that writing **more** is *better* and will give you a higher grade.
+Many of today's students have been subjected to writing essays with minimum word counts with the implicit 
+encouragement that writing **more** is *better* and will give you a higher grade.
 
 In my humble opinion, minimum word counts teach bad habits and get in the way of good communication. They also make writers lazy.
 
@@ -43,12 +44,10 @@ Most of these woolly phrases are mere padding, which can be left out altogether,
 Reports drawn up on the lines I propose may first seem rough as compared with the flat surface of officialese jargon. But the saving in time will be great, while the discipline of setting out the real points concisely will prove an aid to clearer thinking.
 
 W.S.C
-
 10, Downing Street.
-
 9th August, 1940.
 
-![](colored.png)
+***
 
 # How English is different from Portuguese
 
@@ -64,7 +63,7 @@ I have highlighted the longest sentence on the page for both books, 74 words vs 
 ### 1984
 ![orwell](orwell.png)
 
-It should be evident that the English text is made up of mostly short sentences compared to longer ones in Portuguese.
+The English text is made up of mostly short sentences compared to longer ones in Portuguese.
 
 Most sentences in English conveys a single message or idea while sentences in Portuguese often contains several.
 
@@ -100,10 +99,9 @@ George Orwell wrote an essay on writing called [Politics And The English Languag
 
 Listed below are some examples of good scientific writing. I hope to extend this list.
 
-![](colored.png)
+
 
 [![](kotter_ciriacy_1993.png)](https://link.springer.com/article/10.1007/BF00167144)
 
-![](colored.png)
 
 [![](botham_ratledge.png)](https://pubmed.ncbi.nlm.nih.gov/44315)
