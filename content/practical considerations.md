@@ -14,7 +14,7 @@ We start work at **09:00** _sharp_, This makes the lab work more efficient as it
 This is important for your future academic career. Get it [here](https://orcid.org). [This](https://en.wikipedia.org/wiki/ORCID) wikipedia entry explains what an ORCID is.
 
 
-### Get a Google accoun
+### Get a Google account
 ![](google.jpg)
 
 You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp) if you do not have one already. You also need this to access the primer and freezer lists and for booking the PCR machine.
