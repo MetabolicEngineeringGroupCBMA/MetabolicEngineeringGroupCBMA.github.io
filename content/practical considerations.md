@@ -21,7 +21,7 @@ You will need a [google account](https://accounts.google.com/signup/v2/webcreate
 
 ### Get a Github accoun
 
-![](github-octocat.png)
+![[github-octocat.png]]
 We keep public genetic constructs in the [Metabolic Engineering Group at CBMA](https://github.com/MetabolicEngineeringGroupCBMA) Github organization. We keep private (not yet published) constructs in this private Github [repository](https://github.com/MetabolicEngineeringGroupCBMA/genetic-work-in-progress).
 
 ### Get organized
