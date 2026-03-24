@@ -4,7 +4,7 @@ This is a collection of instructions for students starting work in our group, **
 
 Carrying out a MSc or PhD project is probably fundamentally different from anything that you have done before. It is important to understand why in order to make most out of your project and your time in the group.
 
-There are a number of ways you can prepare yourself for your project in order to get up to speed. 
+There are a number of ways you can prepare yourself for your project in order to get up to speed.
 
 Please read [[practical considerations]]. Verify the checklist at the end.
 
@@ -36,11 +36,11 @@ Famous physicist [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman)
 ![](meet.png)
 
 
-Meet with your supervisor regularly by **your own** initiative. 
+Meet with your supervisor regularly by **your own** initiative.
 
-- Don't wait for the supervisor to speak. 
-- Be prepared and organized. 
-- Write down a list of issues you want to discuss and prioritize. 
+- Don't wait for the supervisor to speak.
+- Be prepared and organized.
+- Write down a list of issues you want to discuss and prioritize.
 - Come prepared with suggestions for solutions.
 - Take notes during the meeting.
 - Ask a lot of questions.
@@ -48,7 +48,7 @@ Meet with your supervisor regularly by **your own** initiative.
 
 If you have repeated an experiment a number of times, your supervisor will want to know which variables were changed and what the results were. If you made several similar experiments trying to troubleshoot, name your experiment like **PCR-GeneX-1-feb** (some name/date combinations) in order to make it easier to identify and reference.
 
-Doing good science is hard. This is true for everyone. Your supervisor might disagree with you or criticize your work. Do not take this personally. Make sure you understand the criticism. If you disagree with your supervisor, find arguments for your point and use them. Remember, that you might have information that the supervisor does not have. 
+Doing good science is hard. This is true for ==everyone==. Your supervisor might disagree with you, but don't not take this personally. Make sure you understand the criticism. If you disagree with your supervisor, find arguments for your point and use them. Remember, that you might have information that the supervisor does not have.
 
 This is an important time to start building your own scientific self-confidence.
 

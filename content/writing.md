@@ -1,6 +1,6 @@
 ![hemingway](shit.png)
 
-Many of today's students have been subjected to writing essays with minimum word counts with the implicit 
+Many of today's students have been subjected to writing essays with minimum word counts with the implici
 encouragement that writing **more** is *better* and will give you a higher grade.
 
 In my humble opinion, minimum word counts teach bad habits and get in the way of good communication. They also make writers lazy.
