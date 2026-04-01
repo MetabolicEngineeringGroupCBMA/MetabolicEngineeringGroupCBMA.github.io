@@ -5,12 +5,14 @@ A comprehensive overview of common strategies is presented and how the strategy 
 be selected based on what is known about the gene beforehand.
 
 ## Approaches
+
 - Genomic libraries
 - cDNA libraries
 - PCR-based cloning
 - Hybridisation-based screening
 
 ## Screening Methods
+
 - Colony hybridisation
 - PCR screening
 - Functional complementation
@@ -18,6 +20,6 @@ be selected based on what is known about the gene beforehand.
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
+
 - Chapter 08 How to Obtain a Clone of a Specific Gene
 - Optional [video](https://youtu.be/Mwgi8LehP98?si=q601KvSBjUbjBKFX)
-

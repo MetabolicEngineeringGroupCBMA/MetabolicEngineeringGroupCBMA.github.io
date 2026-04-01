@@ -4,12 +4,9 @@ This electrophoresis container works well with 90 v for 45 min using 1x TAE or 1
 
 Base buffer volume	~270 ml
 
-
 ![[Mini-Sub-Cell-GT-System.JPG]]
 
 There are two different combs, 8 or 15 wells.
-
-
 
 Mini-Sub Cell GT Cell
 

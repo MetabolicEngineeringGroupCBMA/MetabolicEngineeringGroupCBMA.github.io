@@ -1,5 +1,4 @@
-Example acknoledgement section updated on 2022-02-16:
-
+Example # Acknowledgement section updated on 2022-02-16:
 
 We thank Professors Jin Hou, Xiaoming Bao and colleagues for sending us the malonyl-CoA sensor.
 

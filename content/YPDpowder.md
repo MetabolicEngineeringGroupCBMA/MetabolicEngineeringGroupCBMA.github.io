@@ -7,6 +7,6 @@ For 2.5 L final medium:
 - 50 g glucose
 
 For 500 ml liquid medium, take 25 g of the mix and dissolve in 500 mL tap water add 10g  agar for plates.
-Use a 1 L Schott bottle and run for 10 min at full power in a microwave oven with the cap shut *tightly*.
+Use a 1 L Schott bottle and run for 10 min at full power in a microwave oven with the cap shut _tightly_.
 
 Protect the powder from moisture or the glucose will turn it into a solid paste.

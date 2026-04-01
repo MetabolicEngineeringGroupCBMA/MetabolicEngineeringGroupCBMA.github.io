@@ -69,8 +69,8 @@ ATTATTGGGTGAACCACACGAGTAACCTTT
 TGGGTTCAACAATAAACTTTCGCAGGTATC
 ```
 
-
 The text below was generated from the software tool:
+
 ```
 ProjectName	
 JobID r2o_6389398447409610491

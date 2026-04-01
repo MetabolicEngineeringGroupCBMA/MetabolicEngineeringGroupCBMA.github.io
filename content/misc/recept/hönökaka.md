@@ -1,5 +1,3 @@
-
-
 http://tidningenhembakat.se/recept/honokaka-2/
 
 50 g jäst

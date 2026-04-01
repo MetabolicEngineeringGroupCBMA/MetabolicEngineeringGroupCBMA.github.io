@@ -1,6 +1,4 @@
-
-
-Eliasson, A, E Boles, B Johansson, M Österberg, J M Thevelein, I Spencer-Martins, H Juhnke, and B Hahn-Hägerdal. 2000. “Xylulose Fermentation by Mutant and Wild-Type Strains of Zygosaccharomyces and Saccharomyces Cerevisiae.” _Appl. Microbiol. Biotechnol._ 53 (4): 376–82. [https://doi.org/10.1007/s002530051629](https://doi.org/10.1007/s002530051629).
+Eliasson, A, E Boles, B Johansson, M Österberg, J M Thevelein, I Spencer-Martins, H Juhnke, and B Hahn-Hägerdal. 2000. “Xylulose Fermentation by Mutant and Wild-Type Strains of Zygosaccharomyces and Saccharomyces Cerevisiae.” _Appl. Microbiol. Biotechnol._ 53 (4): 376–82. <https://doi.org/10.1007/s002530051629>.
 
 The XK reaction was coupled with the pyruvate kinase reaction as follows:
 
@@ -32,7 +30,7 @@ The Beer-Lambert Law describes the linear relationship between the absorbance of
 
 The equation is given by:
 
-**A = ε * c * l**
+**A = ε \* c \* l**
 
 where:
 
@@ -50,10 +48,7 @@ where:
 
 The Beer-Lambert Law is often used in spectrophotometry to determine the concentration of a solute in a solution by measuring the absorbance.
 
-
 The concentration of protein in the extract was 2.6 mg/mL.
-
-
 
 ![[Enzyme activity exercise-20241104162037988.png]]U / mg of protein
 

@@ -6,12 +6,11 @@ Catalase is an enzyme that catalyzes the breakdown of hydrogen peroxide to water
 
 Figure 1
 
-The aim of this practical class is to measure the activity of catalase in permeabilized [*Saccharomyces cerevisiae*](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae) yeast cells.
+The aim of this practical class is to measure the activity of catalase in permeabilized [_Saccharomyces cerevisiae_](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae) yeast cells.
 
 ## Background
 
 Acyl-CoA oxidase is the first enzyme in the peroxisomal β-oxidation pathway, responsible for catalyzing the oxidation of acyl-CoA, a process that breaks down fatty acids.
-
 
 ![[catalase lab-20241030065447199.png]]
 
@@ -54,15 +53,13 @@ This enzyme catalyzes the reduction of H₂O₂ to water, using glutathione as t
 1. **Reduction of Hydrogen Peroxide**: Glutathione peroxidase uses two molecules of reduced glutathione (GSH) to convert hydrogen peroxide into water. GSH is oxidized to form glutathione disulfide (GSSG).
 2. **Regeneration of Glutathione**:  To maintain a steady supply of reduced glutathione (GSH), **glutathione reductase (GR)** recycles GSSG back to GSH using NADPH as a reducing agent:
 
-
 ### The catalase tes
 
-[![catalase](<catalase lab-20241031103259320.png>)](https://youtu.be/SBmL2vg-IN0?si=g4FuyzAxANuq77Rm&t=124)
+[![catalase](catalase lab-20241031103259320.png)](https://youtu.be/SBmL2vg-IN0?si=g4FuyzAxANuq77Rm\&t=124)
 
 Figure 6
 
-The catalase test is a simple biochemical assay used to identify organisms capable of producing the enzyme catalase. All known aerobic microorganisms produce catalase. In the test (Figure 6), a small amount of bacterial culture is exposed to hydrogen peroxide, and the presence of bubbles indicates a **positive** result, signifying catalase activity. This test is commonly used to differentiate between catalase-positive organisms, like *Staphylococcus* spp., and catalase-negative organisms, such as *Streptococcus* spp. in clinical microbiology.
-
+The catalase test is a simple biochemical assay used to identify organisms capable of producing the enzyme catalase. All known aerobic microorganisms produce catalase. In the test (Figure 6), a small amount of bacterial culture is exposed to hydrogen peroxide, and the presence of bubbles indicates a **positive** result, signifying catalase activity. This test is commonly used to differentiate between catalase-positive organisms, like _Staphylococcus_ spp., and catalase-negative organisms, such as _Streptococcus_ spp. in clinical microbiology.
 
 ## Assay
 
@@ -72,12 +69,9 @@ and an assay for peroxide using cobalt ions described by [Hadwan 2018](https://b
 After the cells have been permeabilized, substrate such as H<sub>2</sub>O<sub>2</sub> can more easily reach the catalase enzyme and the products (H<sub>2</sub>O and O<sub>2</sub>) can
 more easily leave (Figure 7).
 
-
 ![[permyeast2.png]]
 
 Figure 7
-
-
 
 The permeabilization protocol is very simple. The yeast cells are incubated with ethanol for 20 min in a phosphate buffer.
 
@@ -96,17 +90,19 @@ Streak the two strains below on solid YPD medium and incubate at 30 °C for ~48 
 | Strain number | Strain designation | Plasmid vector        |                                                                  | box     | pos |
 | ------------- | ------------------ | --------------------- | ---------------------------------------------------------------- | ------- | --- |
 | µ1886         | CENPK111-32D       | pTA1                  | empty vector                                                     | Björn12 | 35  |
-| µ1885         | "                  | pTA1_TDH3_ScCTT1_PGI1 | [CTT1](https://www.yeastgenome.org/locus/CTT1) expression vector | ""      | 34  |
+| µ1885         | "                  | pTA1\_TDH3\_ScCTT1\_PGI1 | [CTT1](https://www.yeastgenome.org/locus/CTT1) expression vector | ""      | 34  |
+
 # Day 3 pre-culture
 
 Inoculate two 50 mL glass tubes os small Erlenmeyers with ~5 mL of SD medium and incubate at 30 °C with shaking for ~48 h.
 Label the tubes 1885 and 1886, respectively. These cultures can be kept at 4-8°C in a fridge for for ~3-4 weeks.
+
 # Day 7 preparation
 
 This should be done in the morning the day before the class. Inoculate two 50 mL glass tubes with 5 mL of the same medium using 100 µL of each pre-culture.
 Label the tubes with 1885 and 1886.
 
-#  Day 8 class
+# Day 8 class
 
 Prepare 10 mL Hydrogen peroxide solution (10 mM) by adding 12 µL of 30% hydrogen peroxide to 10 ml of 50 mM phosphate buffer (pH 7.0). Pour ~1 mL of the Hydrogen peroxide solution in four Eppendorf tubes, one for each group.
 
@@ -121,8 +117,6 @@ Prepare 50 mL **Working solution**. The order in which these components are adde
 Pour 5-10 mL of working solution into four 50 mL FALCON tubes, one for each group.
 This solution should be stored at room temperature in the **dark**.
 
-
-
 <div style="page-break-after: always;"></div>
 
 ## Protocol for permeabilization of yeast with ethanol.
@@ -131,14 +125,14 @@ This solution should be stored at room temperature in the **dark**.
 | ----- | ------------- | ------------------ | --------------------- |
 | 1     | µ1886         | CENPK111-32D       | pTA1 (empty vector)   |
 | 2     | "             | "                  | "                     |
-| 3     | µ1885         | "                  | pTA1_TDH3_ScCTT1_PGI1 |
+| 3     | µ1885         | "                  | pTA1\_TDH3\_ScCTT1\_PGI1 |
 | 4     | "             | "                  | "                     |
 
 1. Each group (G1, G2, G3 and G4) should take out 1 mL of the culture indicated in the table above in an empty 1.5 mL Eppendorf tube.
 2. Centrifuge 🌀 the culture for 20 s in a microcentrifuge.
 3. Remove supernatant with a P1000 pipette.
 4. Add 1 mL 5 mM phosphate buffer.
-5. Resuspend cells by pipetting up&down with the same tip.
+5. Resuspend cells by pipetting up\&down with the same tip.
 6. Centrifuge 🌀 culture for 20 s.
 7. Remove supernatant.
 8. Add 1 mL 5 mM phosphate buffer.
@@ -149,14 +143,14 @@ This solution should be stored at room temperature in the **dark**.
 13. Mix the content of the tube by vortexing for ~30s.
 14. Incubate for 20 min @ room temperature on the bench.
 15. Mark nine empty Eppendorf tubes with a marker, **Sa**,  **Sb**, **Sc**, **T1a**, **T1b**, **T1c**, **T2a**, **T2b**, and **T2c**
-16. Mark nine empty plastic [[cuvette\|cuvettes]] in the same way.
+16. Mark nine empty plastic [[cuvette|cuvettes]] in the same way.
 17. [☕](https://youtu.be/TwY6Hp5RYvI) break until cells are ready. The timing is not critical.
 
 <div style="page-break-after: always;"></div>
 
 ## Protocol for measuring catalase activity
 
-18.  Add the components in the table to the marked tubes. Volumes are indicated in micro liters (µL). Prepare the tubes in the **indicated** order top to bottom, add components in the indicated order, left to right. Remember that after the addition of Peroxide, the reaction starts, so make this addition rapidly for all tubes.
+18. Add the components in the table to the marked tubes. Volumes are indicated in micro liters (µL). Prepare the tubes in the **indicated** order top to bottom, add components in the indicated order, left to right. Remember that after the addition of Peroxide, the reaction starts, so make this addition rapidly for all tubes.
 
 | Label | Sample   | Water | Cells | Peroxide | Total |
 | ----- | -------- | ----- | ----- | -------- | ----- |
@@ -172,7 +166,6 @@ This solution should be stored at room temperature in the **dark**.
 | T2a   | Test 2a  | 35    | 35    | 140      | 210   |
 | T2b   | Test 2b  | 35    | 35    | 140      | 210   |
 | T2c   | Test 2c  | 35    | 35    | 140      | 210   |
-
 
 19. Incubate Eppendorf tubes at 🌡️37 °C in a water bath 🛁 for 10 min. ⏱️ **This timing is critical!**
 20. Add 800 µL working solution to each tube.
@@ -196,7 +189,6 @@ Biotechnology, Biotechnological Equipment, 29(1), 72–77. [link](https://www.nc
 Hadwan, M. H. (2018). Simple spectrophotometric assay for measuring catalase
 activity in biological tissues. BMC Biochemistry, 19(1), 7. [link](https://bmcbiochem.biomedcentral.com/articles/10.1186/s12858-018-0097-5)
 
-
 ## Other references of interest:
 
 Kaplan, J. G. (1963). THE REVERSION OF CATALASE DURING GROWTH OF YEAST IN ANAEROBIOSIS.
@@ -205,13 +197,12 @@ The Journal of General Physiology, 47, 103–115. [link](https://pubmed.ncbi.nlm
 Martins, D., & English, A. M. (2014). Catalase activity is stimulated by H(2)O(2) in rich culture medium and
 is required for H(2)O(2) resistance and adaptation in yeast. Redox Biology, 2, 308–313. [link](https://pubmed.ncbi.nlm.nih.gov/24563848/)
 
-
 ## How to calculate catalase activity
 
-All absorbance values are taken with a spectrophotometer calibrated against air *without* a [[cuvette]] (Figure 10).
+All absorbance values are taken with a spectrophotometer calibrated against air _without_ a [[cuvette]] (Figure 10).
 
 The **S**tandard reaction in Figure 9 contains only hydrogen peroxide and and cobalt(II) carbonate. All of the available peroxide should oxidize cobalt(II) to cobalt(III). The **T**est reactions contain H<sub>2</sub>O<sub>2</sub> and cells. Some of the peroxide should have been consumed by the catalase in the cells, so the absorbance value at 440 nm should be lower than for the **S**tandard reaction.
-$$\Delta A =  \boldsymbol{S}tandard_{Abs440nm} - \boldsymbol{T}est_{Abs440nm}$$
+$$\Delta A =  \boldsymbol{S}tandard\_{Abs440nm} - \boldsymbol{T}est\_{Abs440nm}$$
 The absorbance that we should have observed for the consumed H₂O₂ is the absorbance for the **S**tandard reaction minus the absorbance of the **T**est reaction. We would expect a higher absorbance for the Test 2 reaction, since less cells should have consumed less peroxide.
 
 ![[catalase lab-20241030134016670.png]]
@@ -219,22 +210,26 @@ The absorbance that we should have observed for the consumed H₂O₂ is the abs
 Figure 9
 
 We use a standard curve (Figure 10) to calculate the actual concentration of the samples. The activity is then calculated from the concentration difference between the Standard and the sample divided by the reaction time.
+
 ## Calibration curve
+
 ![Figure-11](Concentration_as_a_function_of_absorbance_at_440_nm.png)
 Figure 10
 
 A 10 mM hydrogen peroxide solution was [serially diluted](https://microbenotes.com/serial-dilution/#serial-dilution-formulacalculations) (Figure 11) by first preparing twelve Eppendorf tubes with 300 µL of [[ddH2O]]. One milliliter hydrogen peroxide was transferred to the first tube, the contents were mixed by pipetting up and down 5-6 times followed by transferring 1 mL to the next tube. This means that the last tube (12) eventually had a final volume of 1.3 ,L while all preceding tubes had 300 µL.
 
-The hydrogen peroxide concentration in the first tube is 1 mL * 10 mM/1.3 mL = 7.6923 mM. The dilution factor is the same for all tubes (1/1.3) so the concentration of each tube can be calculated using the formula $10 \times (\frac{1}{1.3})^n$ where n is 1..12.
+The hydrogen peroxide concentration in the first tube is 1 mL \* 10 mM/1.3 mL = 7.6923 mM. The dilution factor is the same for all tubes (1/1.3) so the concentration of each tube can be calculated using the formula $10 \times (\frac{1}{1.3})^n$ where n is 1..12.
 
 ![Figure-6](serial_dilution.png)
 
 Figure 11
 
 Cuvettes with  210 µL of each dilution were prepared, twelve in total. Working solution (800 µL)  (Series#1 and #2 below, Figure 12) was added to each cuvette followed by 10 min incubation at room temperature under darkness. Two replicates were prepared and the absorbance at 440 nm was measured with a [[GENESYS20]] spectrophotometer.
+
 ## Series#1
 
 ![Series1](Series1-catalase.jpg)
+
 ## Series#2
 
 ![Series2](Series2-catalase.jpg)
@@ -259,55 +254,52 @@ The absorbance readings were collected in the table below.
 | 12   | 0.429         | 0.113    | 0.095    |
 
 The average absorbance was plotted against the hydrogen peroxide concentration resulting in a reasonably linear relationship (Figure 10). The graph follows the linear relationship between Concentration (mM) and A<sub>440</sub>:
-$$C _{mm} = 20.8  \times A _{440} - 1.95$$
+$$C \_{mm} = 20.8  \times A \_{440} - 1.95$$
 
-
-At this point, we have absorbance change or ∆A per 10 min. What we want is µmol / min which is the definition of the [[enzyme activity\|classical unit]].
-
-
+At this point, we have absorbance change or ∆A per 10 min. What we want is µmol / min which is the definition of the [[enzyme activity|classical unit]].
 
 ## Linearity
 
-
-The protocol specifies two experiments (Figure 6), **T**est**1** and **T**est**2**, where the latter contain half as much cells. If the assay is [[enzyme activity\|linear]], **T**est**1** should produce twice the absorbance compared to **T**est**2**.
+The protocol specifies two experiments (Figure 6), **T**est**1** and **T**est**2**, where the latter contain half as much cells. If the assay is [[enzyme activity|linear]], **T**est**1** should produce twice the absorbance compared to **T**est**2**.
 
 ![[catalase-assay-linearity.png]]
 
 Figure 13
-
-
-
-
-
-
 
 ## Material 🇬🇧
 
 dH2O 4 x 40 mL
 
 ### 100 mL liquid SD (Synthetic Defined) medium
+
 - 6.7 g/L Yeast Nitrogen Base (YNB) WITHOUT AMINO ACIDS
 - 20  g/L glucose
 
 10 x 50 mL glass culture tubes with cotton stopper or aluminium cap
 
-25 mL Ethanol 95-99% (2 courses * 3 shifts * 4 groups  * 0.5 mL = 12 mL)
+25 mL Ethanol 95-99% (2 courses \* 3 shifts \* 4 groups  \* 0.5 mL = 12 mL)
 
 Six empty new FALCON tubes 50 mL
 
-
-
 ### 250 mL 50 mM phosphate buffer (pH 7.0)
+
 This buffer can be prepared by by mixing two solutions in ultrapure water:
+
 - 100 mL 6.81 g/L KH2PO4
 - 100 mL 8.90 g/L K2HPO4
 
 ### 300 mL [Sodium bicarbonate (NaHCO3)](https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Bicarbonate) solution
+
 Prepared by dissolving 24 g (MW 84.01 g/mol) in 300 ml ultrapure water. This solution should be stored at **room** temperature.
+
 ### 25 mL Cobalt (II) solution
+
 Prepared by dissolving 0.51 g of [Co(NO3)2 x 6H2O](https://pubchem.ncbi.nlm.nih.gov/compound/Cobalt_II_-nitrate-hexahydrate) in 25 ml of distilled water. This solution should be stored at **room** temperature in the **dark**.
+
 ### 25 mL Graham salt (Sodium hexametaphosphate) solution
+
 Prepared by dissolving 0.25 g of (NaPO3)6 in 25 ml of distilled water. This solution should be stored at **room** temperature.
+
 ### 0.5 mL Hydrogen peroxide solution 30%
 
 - Eppendorf tubes 1.5 mL (new, not sterile)
@@ -316,6 +308,7 @@ Prepared by dissolving 0.25 g of (NaPO3)6 in 25 ml of distilled water. This solu
 - Plastic cuvettes
 
 ## Equipmen
+
 - 37 °C water bath
 - boat for cuvettes
 - microcentrifuge
@@ -323,8 +316,8 @@ Prepared by dissolving 0.25 g of (NaPO3)6 in 25 ml of distilled water. This solu
 - P1000 pipettes
 - P200 pipettes
 
-
 ## Preparação 🇵🇹
+
 # Dia 1 Cultivo de estirpes em meio sólido
 
 Estriar as duas estirpes abaixo em meio sólido YPD e incubar a 30 °C por ~48 h.
@@ -332,7 +325,7 @@ Estriar as duas estirpes abaixo em meio sólido YPD e incubar a 30 °C por ~48 h
 | Número da Estirpe | Designação da Estirpe | Vetor Plasmídeo          |                                                                  | caixa   | pos |
 | ----------------- | --------------------- | ------------------------- | ---------------------------------------------------------------- | ------- | --- |
 | µ1886             | CENPK111-32D          | pTA1                      | vetor vazio                                                      | Björn12 | 35  |
-| µ1885             | "                     | pTA1_TDH3_ScCTT1_PGI1     | vetor de expressão [CTT1](https://www.yeastgenome.org/locus/CTT1) | ""      | 34  |
+| µ1885             | "                     | pTA1\_TDH3\_ScCTT1\_PGI1     | vetor de expressão [CTT1](https://www.yeastgenome.org/locus/CTT1) | ""      | 34  |
 
 # Pré-cultura do Dia 3
 
@@ -346,26 +339,35 @@ Esta etapa deve ser realizada na manhã do dia anterior à aula. Inocular dois t
 ## Material 🇵🇹
 
 ### 100 mL de meio líquido SD (Synthetic Defined)
+
 - 6,7 g/L de Base de Nitrogénio de Levedura (YNB) SEM AMINOÁCIDOS
 - 20 g/L de glicose
 
 10 x 50 mL tubos de cultura de vidro com rolha de algodão ou tampa de alumínio
 
-25 mL de Etanol 95-99% (2 cursos * 3 turnos * 4 grupos * 0,5 mL = 12 mL)
+25 mL de Etanol 95-99% (2 cursos \* 3 turnos \* 4 grupos \* 0,5 mL = 12 mL)
 
 Seis tubos FALCON novos e vazios de 50 mL
 
 ### 250 mL de tampão fosfato 50 mM (pH 7,0)
+
 Este tampão pode ser preparado misturando duas soluções em água ultrapura:
+
 - 100 mL de 6,81 g/L de KH2PO4
 - 150 mL de 8,90 g/L de Na2HPO4
 
 ### 300 mL de solução de [Bicarbonato de Sódio (NaHCO3)](https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Bicarbonate)
+
 Preparada dissolvendo 24 g (PM 84,01 g/mol) em 300 mL de água ultrapura. Esta solução deve ser armazenada à **temperatura ambiente**.
+
 ### 25 mL de solução de Cobalto (II)
+
 Preparada dissolvendo 0,51 g de [Co(NO3)2 x 6H2O](https://pubchem.ncbi.nlm.nih.gov/compound/Cobalt_II_-nitrate-hexahydrate) em 25 mL de água destilada. Esta solução deve ser armazenada à **temperatura ambiente** no **escuro**.
+
 ### 25 mL de solução de sal de Graham (Hexametafosfato de Sódio)
+
 Preparada dissolvendo 0,25 g de (NaPO3)6 em 25 mL de água destilada. Esta solução deve ser armazenada à **temperatura ambiente**.
+
 ### 0,5 mL de solução de Peróxido de Hidrogénio a 30%
 
 - Tubos Eppendorf de 1,5 mL (novos, não estéreis)

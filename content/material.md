@@ -12,7 +12,7 @@
 - 4 caixas de esferovite para gelo.
 - 5 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P1 (marcados "**P1**").
 - 5 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P2 (marcados "**P2**")
-- 5 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P3 (marcados "**P3")
+- 5 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P3 (marcados "\*\*P3")
 - 4 tubos Falcon 50 mL com ~20 mL etanol seco 99% (qualidade **pura** para DNA, marcados **EtOH 99%**)
 - 4 tubos Falcon 50 mL com ~20 mL etanol 70% (qualidade **pura** para DNA, marcados **EtOH 70%**)
 - 4 tubos Falcon 50 mL com ~20 mL Agua ultrapura estéril (4 tubos no total, marcados **ddH2O**)
@@ -27,27 +27,33 @@ Não é necessário preparar P1, P2 ou P3 de novo. Temos no LGM.
 Dez novos tubos Eppendorf com 95 µL de água ultrapura estéril, marcados com:
 
 - 977
+
 - 978
+
 - 983
+
 - 984
+
 - 987
+
 - 1113
+
 - 1195
+
 - 1196
+
 - 1347
+
 - 1804
 
 - 1.66 x colored PCR mastermix: 🟢
 
-20 students * 25 µL [[2x PCR mastermix]] * 1.2 =  600 µL
-20 * 8 µL 6x [[6x DNA loading buffer]]  * 1.2 = 192µL
-20 * 33 * 1.2 = 792 µL (33 µL for each 50 µL PCR reaction)
+20 students \* 25 µL [[2x PCR mastermix]] \* 1.2 =  600 µL
+20 \* 8 µL 6x [[6x DNA loading buffer]]  \* 1.2 = 192µL
+20 \* 33 \* 1.2 = 792 µL (33 µL for each 50 µL PCR reaction)
 
-
-
-
- - 6x [[6x DNA loading buffer]] 🟢
- - DNA ladder🟢
+- 6x [[6x DNA loading buffer]] 🟢
+- DNA ladder🟢
 - 1 tina de eletroforese (Bachman, LGM) 🟢
 - Fonte de eletricidade 🟢
 - 4 placas Petri quadrados🟢
@@ -76,7 +82,7 @@ Dez novos tubos Eppendorf com 95 µL de água ultrapura estéril, marcados com:
 # LAB3
 
 - 25 mL YPD culture with S. cerevisiae `CEN.PK113-3C` (µ881) 🟢
-- ~5-10 mL YPD for spectrophotometer 🟢
+- \~5-10 mL YPD for spectrophotometer 🟢
 - cuvettes usados
 - 4 Erlenmeyer **estereis** 250 - 500 mL com algodão
 - 4 Schotts 500 mL com tampa, não estereis
@@ -89,33 +95,35 @@ Dez novos tubos Eppendorf com 95 µL de água ultrapura estéril, marcados com:
 - 1 proveta 1L (plastico)
 - 1 copo 2L (plastico)
 
-
 # LAB4
 
 - banho maria 42°C
+
 - 4 barcos para tubos eppendorf
+
 - Schott com 1/2 L agua ultrapura autoclavado
+
 - (1 saco com tubos FALCON 50 mL novos, estéreis)
+
 - PLS 300 µL x 20= 6 mL 🟢 LGM
+
 - 1 tubo FALCON com ~10-20 mL de esferas de vidro (~5 mm) estéreis.
+
 - YPD medium ~30 mL 🟢
+
 - Tubos Eppendorf **novos**
+
 - Pontas azuis, amarelas estéreis
 
 - suportes para tubos eppendorf
+
 - suportes para tubos FALCON 50 mL
+
 - microcentrífuga
+
 - Pipetas P1000, P200, P20
+
 - 4 caixas de esferovite
-
-
-
-
-
-
-
-
-
 
 #### Preparation of an agarose gel (one for all groups)
 
@@ -124,15 +132,15 @@ Dez novos tubos Eppendorf com 95 µL de água ultrapura estéril, marcados com:
 1. The four groups should make **one** 350 mL 0.8 % [w/v](https://chem.libretexts.org/Courses/Oregon_Institute_of_Technology/OIT%3A_CHE_101_-_Introduction_to_General_Chemistry/06%3A_Concentrations/6.05%3A_Weight_by_Volume_and_Molarity) agarose gel in 1 x [TAE](https://en.wikipedia.org/wiki/TAE_buffer) buffer together.
 2. Use the balance to weigh agarose in a small plastic [[weighing boat]].
 3. Dilute 1x TAE buffer from the stock (x50) if necessary.
-4. Add agarose and 300 mL 1 x TAE buffer to an 1 L glass [[glassware\|beaker]].
+4. Add agarose and 300 mL 1 x TAE buffer to an 1 L glass [[glassware|beaker]].
 5. Heat the cup in a microwave oven for 5 x 1 min, stir with a glass pipette in between.
 6. Check so that the gel appears like water with no suspended particles.
 7. Wait for the gel to cool down.
 8. Pour the gel in the gel tray indicated by the teacher.
+
 #### Make solid medium for transformation on LAB4 (one per group)
 
-
-Each group should make 300 mL solid [[SD]] medium in a 500 mL [[glassware\|Schott]] flask.
+Each group should make 300 mL solid [[SD]] medium in a 500 mL [[glassware|Schott]] flask.
 
 - 6.7 g/L Yeast Nitrogen Base (YNB) **WITHOUT AMINOACIDS**
 - 20  g/L glucose
@@ -145,33 +153,45 @@ Each group should make 300 mL solid [[SD]] medium in a 500 mL [[glassware\|Schot
 
 - 20 placas de Petri vazios (1 pacote)
 
-
 ## LAB5
 
 Sterile toothpicks.
 
 ## LAB6
 
-1. 20 * 10 = 200 µL 2xmastermix
-2. 20 * 3 µL = 60 µL 6xLB
-3. 20 * 1 µL = 20 µL 1222 (10 µM)
-4. 20 * 1 µL = 20 µL 1779 (10 µM)
+1. 20 \* 10 = 200 µL 2xmastermix
+2. 20 \* 3 µL = 60 µL 6xLB
+3. 20 \* 1 µL = 20 µL 1222 (10 µM)
+4. 20 \* 1 µL = 20 µL 1779 (10 µM)
 
 - 4 mL 20 mM NaOH  in four Eppendorf tubes
+
 - 95°C heat block or water boiler.
+
 - 4~5 mL [[TE]] buffer
+
 - PCR tubes
+
 - Eppendorf tubes (New)
+
 - blue, yellow tips
 
 - Agarose gel ~20 wells
+
 - 6x DNA loading buffer
+
 - Tryptone or Peptone
+
 - Yeast extrac
+
 - NaCl
+
 - Agar
+
 - Eppendorf tubes 2 mL (New)
+
 - blue, yellow tips
+
 - 4x  Schott bottles (500 mL) w lid
 
 ## LAB7
@@ -194,7 +214,7 @@ Sterile toothpicks.
 - 4 caixas de esferovite para gelo 🟢
 - 4 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P1 (marcados "**P1**") 🟢
 - 4 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P2 (marcados "**P2**") 🟢
-- 4 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P3 (marcados "**P3") 🟢
+- 4 tubos Eppendorf 2 mL com 1.8-2.0 mL tampão P3 (marcados "\*\*P3") 🟢
 - 4 tubos Falcon 50 mL com ~20 mL etanol seco 99% (qualidade **pura** para DNA, marcados **EtOH 99%**) 🟢
 - 4 tubos Falcon 50 mL com ~20 mL etanol 70% (qualidade **pura** para DNA, marcados **EtOH 70%**) 🟢
 - 4 tubos Falcon 50 mL com ~20 mL Agua ultrapura estéril (4 tubos no total, marcados **ddH2O**) 🟢
@@ -203,6 +223,5 @@ Sterile toothpicks.
 - Microcentrifuga para tubos Eppendorf
 - banho maria 42°C
 - 30–40 mL de meio LB líquido num tubo FALCON de 50 mL
-
 
 ## LAB9

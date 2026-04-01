@@ -10,5 +10,4 @@ We use this water for:
 
 For most applications deionized water [[dH2O]] is pure enough.
 
-
 998.2 g/L at 20°C

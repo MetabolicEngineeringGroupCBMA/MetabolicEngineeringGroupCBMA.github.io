@@ -25,4 +25,3 @@
 | CHI     | chi     | χ   | 03c7   | X   | 03a7   |     |
 | PSI     | psi     | ψ   | 03c8   | Ψ   | 03a8   |     |
 | OMEGA   | omega   | ω   | 03c9   | Ω   | 03a9   |     |
-

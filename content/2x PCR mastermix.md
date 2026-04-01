@@ -14,7 +14,7 @@ used, for example 25 µL 2x PCR mastermix for a 50 µL PCR reaction. Scale up or
 
 See [[standard pcr protocol]].
 
-###  1.5x Green PCR mastermix (mastermix with PCR compatible loading buffer)
+### 1.5x Green PCR mastermix (mastermix with PCR compatible loading buffer)
 
 The 2xPCR mastermix can be combined with a PCR compatible loading buffer such as the in described in the table below. This saves time if you have many samples as they can be loaded directly on a gel. Use 33 µL of the 1.5x Green PCR mastermix for a 50 µL PCR reaction. Scale up or down as needed.
 
@@ -23,14 +23,11 @@ The 2xPCR mastermix can be combined with a PCR compatible loading buffer such as
 | 2x PCR mastermix                                                | 25  |
 | [[6x DNA loading buffer\|6 x DNA loading buffer (PCR compatible)]] | 8   |
 | Total                                                           | 33  |
+
 ### For MEC lab members:
 
 This [google sheet](https://docs.google.com/spreadsheets/d/1KWIgyq6alo-SgLN6TYQieGoHQNPxkIb1-JcRGnsbUoc/edit#gid=849990250) contains the recipe above. Create a new tab named after the date of preparation in [ISO 8601](https://xkcd.com/1179) format.
 Copy paste an old recipe and modify if necessary.
-
-
-
-
 
 ### Testing
 
@@ -41,7 +38,7 @@ Since we make our own mastermix, we need a standardized test. We use the followi
 - 10 µL Primer 18
 - 2 µL Chromosomal DNA from yeas
 
-The primers amplify a 1288 bp PCR product from the DFR1 locus in *S. cerevisiae*
+The primers amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_
 using this program consisting of initial denaturation for 4 min at 94 °C, followed by 30 cycles of 94 °C for 30s, 50 °C for 30s, and 72 °C for 45 s, and a final extension at 72 °C for 5 min. [Source](https://link.springer.com/book/10.1007/978-1-0716-3358-8)
 
 ```
@@ -56,5 +53,6 @@ using this program consisting of initial denaturation for 4 min at 94 °C, follo
 This PCR reaction is very robust and gives a high yield.
 
 Primers
-- 19_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC
-- 18_A-DFR1 CAAAGGTTTGGTTTTCAGTTAAGAA
+
+- 19\_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC
+- 18\_A-DFR1 CAAAGGTTTGGTTTTCAGTTAAGAA

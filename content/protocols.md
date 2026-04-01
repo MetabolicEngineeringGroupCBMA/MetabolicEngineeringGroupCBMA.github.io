@@ -1,25 +1,27 @@
-### Cultivating the yeast *Saccharomyces cerevisiae* for any purpose
+### Cultivating the yeast _Saccharomyces cerevisiae_ for any purpose
 
-- [[Standard protocol for preparing yeast cells\|Standard protocol for preparing yeast cells for any purpose]]
+- [[Standard protocol for preparing yeast cells|Standard protocol for preparing yeast cells for any purpose]]
 - [[microscope]]
+
 ### Gel electrophoresis
 
 - [[Agarose electrophoresis]]
 
-### Plasmid DNA from *E. coli*
+### Plasmid DNA from _E. coli_
 
-- [[boiling miniprep\|Boiling miniprep]]
-- [[alkaline lysis plasmid mini prep\|CAVAN low cost plasmid miniprep protocol without kit (super snik)]]
+- [[boiling miniprep|Boiling miniprep]]
+- [[alkaline lysis plasmid mini prep|CAVAN low cost plasmid miniprep protocol without kit (super snik)]]
 - [[Merlin]]
-- [[midiprep\|Plasmid midiprep protocol]]
-- [[plasmid rescue\|Plasmid rescue from yeast to E. coli with plasmid miniprep kit]]
+- [[midiprep|Plasmid midiprep protocol]]
+- [[plasmid rescue|Plasmid rescue from yeast to E. coli with plasmid miniprep kit]]
 
 ### DNA
 
 - [[DNA]]
+
 ### PCR
 
-- [[PRIMERS]]
+- [[primers]]
 - [[standard pcr protocol]]
 - [[PCR clean up]]
 - [[10X Taq Buffer with (NH4)2SO4]]
@@ -38,13 +40,13 @@ Test the protocol with a positive and negative control if you can.
 
 ### Transformation
 
-#### *E. coli*
+#### _E. coli_
 
 - [[Calcium Competent Cells]]
 - [[SEM (Inoue) competent cells]]
 - [[Transforming Frozen Competent E. coli]]
 
-#### *S. cerevisiae*
+#### _S. cerevisiae_
 
 - [[High Efficiency Yeast Transformation Protocol]]
 - [[trafo prepare frozen competent yeast]]
@@ -63,16 +65,16 @@ Test the protocol with a positive and negative control if you can.
 
 - [[bradford]]
 - [[sequencing]]
-- [[Taq purification\|Taq DNA polymerase purification from E. coli]]
+- [[Taq purification|Taq DNA polymerase purification from E. coli]]
 - [[Yeast cell fixation with formaldehyde]]
 
-### *E. coli* strains
+### _E. coli_ strains
 
 - [[XL1-blue]]
 - [[DH5α]]
 - [[MG7α]]
 
-### *E. coli* media
+### _E. coli_ media
 
 - [[LB]]
 - [[LBpowder]]

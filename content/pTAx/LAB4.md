@@ -5,6 +5,7 @@
 [[material#LAB4]]
 
 Summary:
+
 - Wash competent yeast cells
 - Preparation of DNA mixture
 - Yeast transformation
@@ -23,6 +24,7 @@ Summary:
 9. Add 800 µL **ultra pure water**.
 10. Resuspend cells by pipetting slowly with a P1000 pipette (slowly!).
 11. Put the tube on ice.
+
 #### Preparation of DNA mixture (One per class)
 
 We need two mixtures, one complete that we call "➕" and one that lacks the pBR fragment that we call "🔺" (delta)", see Table #5.
@@ -50,18 +52,18 @@ The plan is for 12 students to transform with the "➕" mix and 4 students with 
 
 #### Yeast transformation (One per student)
 
-Each student should make one transformation. This protocol is described in detail [[High Efficiency Yeast Transformation Protocol\|here]].
+Each student should make one transformation. This protocol is described in detail [[High Efficiency Yeast Transformation Protocol|here]].
 
 1. Mix washed cells by inverting the tube.
 2. Transfer 67 µL of the cell suspension to a clean 1.5 mL Eppendorf tube per group member (If the group has four members, you need four tubes.). Mark the tubes with your initials.
 3. Centrifuge the cells for 20s at the highest speed of the microcentrifuge.
 4. Remove supernatant with a P200 pipette. Leave the cell pellet at the bottom of the tube, do **not** resuspend.
 5. Add 40 µL of ➕ **or** 🔺 DNA mix to the tube with cells.
-6. Add 200 µL [[PEG LiAc ssDNA\|PLS]] (PEG-LiAc-ssDNA). Be careful and pipette **slowly** as PLS is sticky. Use a P1000 pipette with blue tip.
-7. [[vortex\|Vortex]] the tubes until cells are well resuspended and no clumps visible.
+6. Add 200 µL [[PEG LiAc ssDNA|PLS]] (PEG-LiAc-ssDNA). Be careful and pipette **slowly** as PLS is sticky. Use a P1000 pipette with blue tip.
+7. [[vortex|Vortex]] the tubes until cells are well resuspended and no clumps visible.
 8. Put the tubes in a floating tube rack at 42°C.
 9. Incubate for **40 min**.
-10. Mark a Petri dish with the [[SD\|appropriate solid medium]] with your group number and name. Write on the back side of th eplate, not on the lid.
+10. Mark a Petri dish with the [[SD|appropriate solid medium]] with your group number and name. Write on the back side of th eplate, not on the lid.
 11. Add about 1/2 mL glass spheres (~10-15 spheres) to the Petri dish.
 12. Time for ☕ break.
 13. Remove tube from water bath after 40 min and **put tube on ice for at least 2 min**.
@@ -69,7 +71,7 @@ Each student should make one transformation. This protocol is described in detai
 15. Remove supernatant with a P200 pipette. Leave the cell pellet at the bottom of the tube.
 16. Add 300 µL YPD medium and resuspend with the pipette by **slowly** pipetting up and down. Be careful as the cells are sensitive
 17. Transfer 100 µL of the cell suspension to your Petri dish.
-18. Spread the cells by shaking the glass spheres (The [samba](https://www.youtube.com/watch?v=ArWRREJl1Rw&t=39s) method).
+18. Spread the cells by shaking the glass spheres (The [samba](https://www.youtube.com/watch?v=ArWRREJl1Rw\&t=39s) method).
 19. Give the rest of the cell suspension to the instructor
 20. Incubate the plates upside down for 2-4 days at 30°C.
 

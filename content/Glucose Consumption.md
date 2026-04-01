@@ -12,7 +12,6 @@ Under aerobic conditions in in mammals, pyruvate is turned into Acetyl-CoA and d
 
 Acetyl-CoA is is oxidized to CO<sub>2</sub> in the citric acid cycle with the production of reducing power in the form of NADH and FADH<sub>2</sub> and small amounts of GTP.
 
-
 ![[Untitled-20240910175258470.png]]
 
 The potential energy of the electrons in NADH and FADH<sub>2</sub> are used to pump protons out of the mitochondria and ultimately used to reduce O<sub>2</sub> to water.
@@ -22,7 +21,7 @@ Under anaerobic conditions pyruvate is instead converted into lactic acid, incre
 
 ![[Glucose Consumption-20240911080746088.png]]
 
-Yeasts are unicellular organisms widely used in industrial processes. *Saccharomyces cerevisiae* is responsible for fermentation during the production of fermented beverages such as wine and beer, as well as in baking.
+Yeasts are unicellular organisms widely used in industrial processes. _Saccharomyces cerevisiae_ is responsible for fermentation during the production of fermented beverages such as wine and beer, as well as in baking.
 
 ![[Glucose Consumption-20240911081313910.png]]
 
@@ -46,7 +45,7 @@ At high glucose concentrations, the glycolytic rate increases, forming more pyru
 
 The central carbon metabolism pathways are essentially identical among different yeast species. However, the mechanisms for nutrient absorption, the isoenzymes involved, and the regulation of respiratory and fermentative processes differ substantially.
 
-For *S. cerevisiae*, high glucose concentrations increase pyruvate decarboxylase activity 3-4 times and decrease acetaldehyde dehydrogenase activity, favoring alcoholic fermentation and thus ethanol formation. Conversely, at low glucose concentrations, pyruvate is primarily converted to acetyl-CoA by the PDH complex.
+For _S. cerevisiae_, high glucose concentrations increase pyruvate decarboxylase activity 3-4 times and decrease acetaldehyde dehydrogenase activity, favoring alcoholic fermentation and thus ethanol formation. Conversely, at low glucose concentrations, pyruvate is primarily converted to acetyl-CoA by the PDH complex.
 
 The acetyl-CoA formed in the PDH complex or the PDH bypass is the link between glycolysis and the tricarboxylic acid (TCA) cycle. The main function of the TCA cycle is to provide reducing equivalents to the respiratory chain (see above). However, the TCA cycle also functions in biosynthetic pathways and, as such, may be partially active even under anaerobic conditions.
 
@@ -86,15 +85,12 @@ Yeast cells will be incubated for a short time (up to 15 min). This means that w
 
 | Group | Respiratory Condition | Yeast            | Container                          | PBS (µL) | 10% Glucose (µL) | Cell suspension (µL) |
 | ----- | --------------------- | ---------------- | ---------------------------------- | -------- | ---------------- | -------------------- |
-| 1     | Anaerobic             | *S. cerevisiae*  | Closed [[Eppendorf tube]] (1.5 mL) | 400      | 80               | 200                  |
-| 2     | "                     | *T. delbrueckii* | "                                  | "        | "                | "                    |
-| 3     | Aerobic               | *S. cerevisiae*  | Open culture plate                 | "        | "                | "                    |
-| 4     | "                     | *T. delbrueckii* | "                                  | "        | "                | "                    |
-
+| 1     | Anaerobic             | _S. cerevisiae_  | Closed [[Eppendorf tube]] (1.5 mL) | 400      | 80               | 200                  |
+| 2     | "                     | _T. delbrueckii_ | "                                  | "        | "                | "                    |
+| 3     | Aerobic               | _S. cerevisiae_  | Open culture plate                 | "        | "                | "                    |
+| 4     | "                     | _T. delbrueckii_ | "                                  | "        | "                | "                    |
 
 ![[Glucose Consumption-20240918084950293.png]]
-
-
 
 #### Experimental Protocol: Groups 1 and 2 - Anaerobic
 
@@ -111,6 +107,7 @@ Yeast cells will be incubated for a short time (up to 15 min). This means that w
 9. At each time point, remove a tube from the bath and put it on ice.
 10. When the last incubation is over, centrifuge all tubes at >10,000 rpm for 5 minutes.
 11. Transfer the supernatant from each tube to a clean, labeled Eppendorf tube and freeze at -20°C.
+
 #### Experimental Protocol: Groups 3 and 4 - Aerobic
 
 ![[Glucose Consumption-20240918120623419.png]]
@@ -125,13 +122,10 @@ Yeast cells will be incubated for a short time (up to 15 min). This means that w
 8. When the last incubation is over, centrifuge all tubes at >10,000 rpm for 5 minutes.
 9. Transfer the supernatant from each tube to a clean, labeled Eppendorf tube and freeze at -20°C.
 
-
-
-
 ## Material
 
-- 30 mL *S. cerevisiae*  cell suspension (15 g/100 mL) in PBS
-- 30 mL  *T. delbrueckii* cell suspension (15 g/100 mL) in PBS
+- 30 mL _S. cerevisiae_  cell suspension (15 g/100 mL) in PBS
+- 30 mL  _T. delbrueckii_ cell suspension (15 g/100 mL) in PBS
 
 Freeze 5 mL in six different tubes.
 
@@ -144,7 +138,7 @@ Freeze 5 mL in six different tubes.
 - Freezer box for storing Eppendorf tubes with supernatants
 - 4 Iceboxes
 - 4 culture plates with 6 wells
-- >24  Eppendorf tubes (2 mL)
+- > 24  Eppendorf tubes (2 mL)
 - 100 Eppendorf tubes
 - Incubator at 37°C
 - Water batch at 37°C

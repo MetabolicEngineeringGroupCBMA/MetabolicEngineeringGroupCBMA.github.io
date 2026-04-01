@@ -1,5 +1,6 @@
 # TBE
-[protocol:]
+
+\[protocol:]
 Revised 2012-02-01
 
 Composition of 1x TBE buffer
@@ -17,6 +18,6 @@ Composition of 1x TBE buffer
 27.5 g of boric acid   (CAS# 11280)
 20 ml of 0.5 M EDTA solution (pH 8.0) (CAS# 60004)
 
-http://en.wikipedia.org/wiki/TBE_buffer
+http://en.wikipedia.org/wiki/TBE\_buffer
 
-B6768-1KG 1000g 67 euros   =>  (137.5/1000)*67 = 9 euro/L
+B6768-1KG 1000g 67 euros   =>  (137.5/1000)\*67 = 9 euro/L

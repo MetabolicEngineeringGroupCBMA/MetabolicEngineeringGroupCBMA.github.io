@@ -10,4 +10,3 @@ We use 4 mm beads, slightly smaller than the ones in the video above, I have fou
 The beads can be stored in 70% ethanol, washed and reused.
 
 [Worthington, M. T., R. Q. Luo, and J. Pelo. “Copacabana Method for Spreading E. Coli and Yeast Colonies.”](https://www.ncbi.nlm.nih.gov/pubmed/11314254)
-

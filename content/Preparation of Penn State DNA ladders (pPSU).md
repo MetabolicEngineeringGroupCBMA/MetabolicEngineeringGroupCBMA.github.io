@@ -33,19 +33,6 @@ Ladder preparation:
 - Inactivate restriction enzymes by incubating 30 min at 80ºC
 - In a 2 mL tube, mix 250 µL of EcoRV digested pPSU1, 250 µL of EcoRV digested pPSU2,250 µL of NcoI(or BglII) digested pPSU1 and 250 µL of NcoI(or BglII) digested pPSU2. Add 1 mL of loading buffer (2X or of greater concentration)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Plasmids [pPSU1](http://www.addgene.org/89439) (10kb) and [pPSU2](https://www.addgene.org/89566) (7.75kb) are
 two plasmids that can be used to create DNA molecular weight markers
 (DNA ladders) for size comparisons on agarose or polyacrylamide gels.
@@ -55,19 +42,16 @@ Molecular Weight Markers. Sci Rep 2017;7:2438.](https://www.nature.com/articles/
 
 A mixture of both plasmids cut with PstI produces a 100 bp ladder while digestion with EcoRV yields a 1 kb ladder.
 
-![penn_state_ladders](penn_state_ladders.png)
+![penn\_state\_ladders](penn_state_ladders.png)
 
-![penn_state](penn_state.jpg)
+![penn\_state](penn_state.jpg)
 
-![PSU_DNA_Ladders-01](PSU_DNA_Ladders-01.png)
+![PSU\_DNA\_Ladders-01](PSU_DNA_Ladders-01.png)
 
 [Preparation-of-Penn-State-DNA-ladders](Preparation-of-Penn-State-DNA-ladders.pdf)
-
-
 
 ![](Preparation-of-Penn-State-DNA-ladders-1.png)
 
 ![](Preparation-of-Penn-State-DNA-ladders-2.png)
 
 ![](Preparation-of-Penn-State-DNA-ladders-3.png)
-

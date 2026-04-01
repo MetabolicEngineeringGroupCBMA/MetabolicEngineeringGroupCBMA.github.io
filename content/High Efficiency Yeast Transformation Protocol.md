@@ -14,11 +14,10 @@ Inoculate the yeast strain into ~5 ml of liquid medium ([[YPD]] or [[SD]] select
 
 1. Determine the titer of the yeast pre-culture by pipetting 50 µL of the pre-culture into 1.0 ml of water in a spectrophotometer [[cuvette]] and measuring the OD at 640 nm (OD<sub>640 pre-culture</sub> in the equation below). You can use pure water as blank, the OD increase due to the medium is negligible.  Transfer 50 mL of the pre-warmed YPD to the pre-warmed culture flask and add $2.5 \times 10^{8}$ cells to give  $5 \times 10^{6}$ cells/mL (OD<sub>640</sub> = 0.17 using a  [[GENESYS20]] spectrophotometer). **Usually**, this means adding **1 - 4 mL** of the pre-culture to a 50 mL culture. Use the formula below to calculate the inoculation volume:
 
-$$ Volume _{(inoculation, mL)} =  \frac {50 _{(mL)} \times 0.17} {OD640 _{pre-culture} \times \frac{1050} {50}}$$
+$$ Volume \_{(inoculation, mL)} =  \frac {50 \_{(mL)} \times 0.17} {OD640 \_{pre-culture} \times \frac{1050} {50}}$$
 
 > [!IMPORTANT]
-> Follow the instructions for OD measurements [[Spectrophotometer\|here]].
-
+> Follow the instructions for OD measurements [[Spectrophotometer|here]].
 
 1. Incubate the flask on an orbital shaker at 30°C and 200 rpm. It is important to allow the cells to complete at least two divisions. This will take 3 to 5 hours, depending on the strain. Final OD640 should be mor than $0.17 \times 2 \times 2 = 0.689$ .  This final OD640 corresponds to   $2 \times 10^{7}$  cells/mL. Transformation efficiency (transformants/ µg plasmid/`1.0e8` cells) remains constant for 3 to 4 cell divisions. This means that a 50 mL culture with a final OD640 of  $0.17 \times 2 \times 2 \times 2 \times 2 = 2.72$ is sufficient for forty transformations.
 
@@ -30,12 +29,11 @@ $$ Volume _{(inoculation, mL)} =  \frac {50 _{(mL)} \times 0.17} {OD640 _{pre-cu
 
 5. Transfer $10^{8}$ cells into a 1.5 ml Eppendorf tubes, **one for each transformation**, centrifuge at top speed for 20 sec and remove the supernatant. If the final OD640 was significantly different from 0.689 then increase or decrease the volume transferred using the formula below or else transfer 100 µL which should contain $10^{8}$ cells.
 
+$$ Volume \_{(transfer, \mu L)} =  100 \_{(\mu L)} \times \frac {4 \_{(generations)} \times 0.17} {OD640 \_{fineal} }$$
 
-$$ Volume _{(transfer, \mu L)} =  100 _{(\mu L)} \times \frac {4 _{(generations)} \times 0.17} {OD640 _{fineal} }$$
+1. Thaw 300 µL frozen PEG/LiAc/ssDNA ([[PEG LiAc ssDNA|PLS]]) for each transformation. Keep the mix on ice.
 
-1. Thaw 300 µL frozen PEG/LiAc/ssDNA ([[PEG LiAc ssDNA\|PLS]]) for each transformation. Keep the mix on ice.
-
- 2. Add 300 µl of PLS to each transformation tube. Do not mix the cells yet.
+2. Add 300 µl of PLS to each transformation tube. Do not mix the cells yet.
 
 3. Add 60 µL DNA + water and resuspend the cells by vortex mixing vigorously.
 
@@ -51,14 +49,9 @@ $$ Volume _{(transfer, \mu L)} =  100 _{(\mu L)} \times \frac {4 _{(generations)
 
 9. Add about 1/2 mL 5-8 mm glass spheres (~10-15 spheres) to the Petri dish with the appropriate selective medium. Pre-warming these plates to 30ºC increase efficiency.
 
-10. Spread the cells by shaking the glass spheres (the [samba](https://www.youtube.com/watch?v=ArWRREJl1Rw&t=39s) method).
+10. Spread the cells by shaking the glass spheres (the [samba](https://www.youtube.com/watch?v=ArWRREJl1Rw\&t=39s) method).
 
 11. Incubate the plates at 30°C for 2 to 4 days.
-
-
-
-
-
 
 ## General info
 
@@ -244,7 +237,6 @@ Dan  Gietz
 
 
 ```
-
 
 ```
 

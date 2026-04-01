@@ -1,8 +1,7 @@
-This protocol is similar to [[Extraction of chromosomal DNA with PCA (phenol:chloroform:isoamylalcohol)\|this]] one, but incorporates an ethanol precipitation at the end. This has been extensively used and usually works very well.
+This protocol is similar to [[Extraction of chromosomal DNA with PCA (phenol:chloroform:isoamylalcohol)|this]] one, but incorporates an ethanol precipitation at the end. This has been extensively used and usually works very well.
 At one point, PCR was not possible using the undiluted DNA as template, but PCR products appeared from x10 dilutions. Possibly due to oxidized phenol.
 
-Hoffman, Charles S. 2001. “Preparation of Yeast DNA.” In *Current Protocols in Molecular Biology*. John Wiley & Sons, Inc.
-
+Hoffman, Charles S. 2001. “Preparation of Yeast DNA.” In _Current Protocols in Molecular Biology_. John Wiley & Sons, Inc.
 
 The DNA preparation described in the Basic Protocol can be easily scaled up to
 prepare chromosomal DNA for use in Southern hybridization analysis (UNIT 2.9A),
@@ -72,12 +71,11 @@ Mix by inversion.
 and dry pellet.
 
 11.Resuspend DNA in 100 - 200 ul TE buffer. Yields of ~20 ug of chromosomal DNA
-should be obtained. This DNA is ready to use for ++Digestion_ (UNIT
+should be obtained. This DNA is ready to use for ++Digestion\_ (UNIT
 3.1), in vitro PCR amplification (UNIT 15.1), or Southern blot analysis (UNIT
 2.9). For Southern blots, best results are obtained when 5 ul DNA (~1 ug) is
 digested in a total volume of 20 ul. To amplify by PCR, 2 ul of DNA should be
 used in a 50 ul reaction.
-
 
 Breaking Buffer
 2% (v/v) Triton X-100

@@ -1,7 +1,4 @@
-
-
-Ingredienser
-------------
+## Ingredienser
 
 0,5 dl balsamvinäger
 0,5 dl ljus japansk soja typ Kikkoman

@@ -8,15 +8,13 @@ Mix the dry components in a bottle and add water. All components can be autoclav
 
 Plain [[YNB]] has Histidine Methionine and Tryptophan added. This may or not interfere with the experiment.
 
-
 > [!IMPORTANT]
 > Use the correct Yeast Nitrogen Base!
 
-
 Alternatively, the medium can be made by combining sterile stock solutions (1L):
 
-- 100 mL [[YNB\|10x YNB]]
-- 40 mL [[Glucose\|50% Glucose]]
+- 100 mL [[YNB|10x YNB]]
+- 40 mL [[Glucose|50% Glucose]]
 - Water and optionally agar to 1L
 
 ### Adding amino acids

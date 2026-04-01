@@ -3,7 +3,7 @@
 Every piece of material put in a common incubator or other common equipment has to be identifiable. Therefore mark all material with:
 
 - Your name or Initials
-- Lab (for example *LGM*)
+- Lab (for example _LGM_)
 - Date
 - What it is (for example E. coli or plasmid name and medium)
 

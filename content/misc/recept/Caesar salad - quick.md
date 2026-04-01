@@ -17,6 +17,7 @@ Cut chicken breast into strips or use "stroganoff" chicken.
 Grill on high heat with olive or sunflower oil.
 Cut the chicken in 1-2 cm pieces.
 Season with som combination of:
+
 - smoked paprika
 - black pepper
 - brown sugar

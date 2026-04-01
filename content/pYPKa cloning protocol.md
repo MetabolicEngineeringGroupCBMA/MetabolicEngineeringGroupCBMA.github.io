@@ -1,6 +1,6 @@
-The pYPKa vector is a [positive selection vector](https://www.tandfonline.com/doi/abs/10.1080/07388550290789504) for rapid cloning in *E. coli*.
+The pYPKa vector is a [positive selection vector](https://www.tandfonline.com/doi/abs/10.1080/07388550290789504) for rapid cloning in _E. coli_.
 It is a derivative of the [pCAPs](https://pubmed.ncbi.nlm.nih.gov/9514792) vector.
-The pYPKa vector is lethal in most *E. coli* strains unless a fragment is cloned so that the toxic `crpS` gene in pYPKa is disrupted.
+The pYPKa vector is lethal in most _E. coli_ strains unless a fragment is cloned so that the toxic `crpS` gene in pYPKa is disrupted.
 The advantage of this vector is that PCR products can be cloned without purification or digestion with restriction enzymes.
 
 It is easy to use, once you have learned to work with it. See the end of this page for trouble shooting.
@@ -15,7 +15,7 @@ Use a standard commercial miniprep kit to prepare the plasmid if available. The 
 
 ![[pYPKa cloning protocol-20240710075733703.png]]
 
-Use the clone in the *E. coli* [DHM1](https://journals.asm.org/doi/10.1128/jb.187.7.2233-2243.2005) background (µ378 or µ379) as this has an *recA1 endA* genotype which improves plasmid stability and quality..
+Use the clone in the _E. coli_ [DHM1](https://journals.asm.org/doi/10.1128/jb.187.7.2233-2243.2005) background (µ378 or µ379) as this has an _recA1 endA_ genotype which improves plasmid stability and quality..
 
 Use an optional wash step for nuclease removal if your kit includes one. Optionally, **heat the eluted plasmid solution to 80°C for 20 minutes** in order to remove all traces of nuclease.
 
@@ -66,21 +66,17 @@ We routinely use the T4 DNA ligase from [thermofisher](https://www.thermofisher.
 |         |                       | 0.5      | T4 DNA ligase enzyme                                                        |
 |         | total                 | 10       |                                                                             |
 
-
-
-
-
 Since the mix has so many components, it is practical to mix buffer, water and enzyme together in a Ligation mix (LM).
 
 #### Ligation mix (LM)
 
-Use a ligation buffer containing PEG or add PEG as per the ligase manufacturers instructions. The [[Ligase buffer\|homemade ligase buffer]] works very well.
+Use a ligation buffer containing PEG or add PEG as per the ligase manufacturers instructions. The [[Ligase buffer|homemade ligase buffer]] works very well.
 Mix the following on ice in the indicated order for EACH ligation reaction:
 
 **LM**
 
 - 1 µL water or acetylated BSA (10 mg/ml, BSA can help [speed up ligation](http://se.promega.com/resources/pubhub/enotes/shorten-the-ligation-time-for-the-pgem-t-vector-systems/))
-- 2 µL 5x [[Ligase buffer\|LIGATION buffer]]
+- 2 µL 5x [[Ligase buffer|LIGATION buffer]]
 - 0.5 µL T4 DNA ligase (5 U/µL) (Keep on **ice** until use).
 
 Thus, for ten reactions (with 10 % extra volume margin) the ligation mix will be:
@@ -100,14 +96,15 @@ Ligation simplifies to:
 Ligation at 37°C for one hour or in the fridge overnight or over a weekend seems to work well. Ligation at 37°C for ~15 min is used in many protocols.
 
 > [!WARNING]
-> Do *not* heat inactivate the ligase prior to transformation. Heat inactivation of PEG-containing reactions will cause your transformations to fail.
+> Do _not_ heat inactivate the ligase prior to transformation. Heat inactivation of PEG-containing reactions will cause your transformations to fail.
 
- The ligation mix can be transformed right away or stored in fridge or freezer.
+The ligation mix can be transformed right away or stored in fridge or freezer.
 
 ### Transformation
 
-We usually transform with all of the mixture (10 µL) using [[Transforming Frozen Competent E. coli\|this]] protocol. We use prewarmed (37°C) LB medium for recover (1h) and prewarmed LB plates for plating.
+We usually transform with all of the mixture (10 µL) using [[Transforming Frozen Competent E. coli|this]] protocol. We use prewarmed (37°C) LB medium for recover (1h) and prewarmed LB plates for plating.
 We add the ampicillin to the cells before plating.
+
 ### Colony Picking and Colony PCR
 
 A successful cloning should have (far) fewer colonies on the negative control plate (ligation with water) than on the ligation with insert. Click on the image for a larger picture.
@@ -169,6 +166,6 @@ Primers binding to the pYPKa are available [here](standard%20primers.md).
 
 Expect four out of five clones with insert, perhaps five out of ten for long or difficult inserts. **Make sure to include a negative ligation control, at least in the beginning of adopting the pYPKa cloning protocol**. This control is made by excluding the insert and replacing it with water.
 
-If the insert is a PCR product that originated from an *E. coli* plasmid with ampicillin marker, there is a risk of carry over plasmid contamination from the PCR product. Avoid this by using very little template in your PCRs or including a control with insert but without linear pYPKa. Check this by transformation with insert only. There is also plasmid contamination (ampicillin resistance) in our homemade Taq polymerase.
+If the insert is a PCR product that originated from an _E. coli_ plasmid with ampicillin marker, there is a risk of carry over plasmid contamination from the PCR product. Avoid this by using very little template in your PCRs or including a control with insert but without linear pYPKa. Check this by transformation with insert only. There is also plasmid contamination (ampicillin resistance) in our homemade Taq polymerase.
 
-Learn more about ligation [[ligation\|here]].
+Learn more about ligation [[ligation|here]].

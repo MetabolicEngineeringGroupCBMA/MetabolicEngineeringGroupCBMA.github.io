@@ -6,7 +6,6 @@ created: 2026-03-13T08:01:11.777+00:00
 modified: 2026-03-13T08:02:06.968+00:00
 ---
 
-
 ## Purpose
 
 Agarose gel electrophoresis separates DNA fragments based on size. It is commonly used to verify:
@@ -17,6 +16,7 @@ Agarose gel electrophoresis separates DNA fragments based on size. It is commonl
 - DNA fragment sizes
 
 DNA migrates through agarose toward the positive electrode because DNA is negatively charged. Smaller fragments move faster than larger ones.
+
 # Preparing DNA Samples for Loading
 
 DNA samples should be mixed with a **loading buffer** before loading into the gel in most cases.
@@ -44,11 +44,11 @@ You can add loading buffer to PCR by substituting some of the water added. For e
 PCR reaction mix, substitute 17 µL of water with [[6x DNA loading buffer]].
 
 You can also prepare [[2x PCR mastermix]] with loading buffer. For each 100 µL of 2x mastermix, substitute
-17 * 2 = 34 µL of water with [[6x DNA loading buffer]].
+17 \* 2 = 34 µL of water with [[6x DNA loading buffer]].
 
 > [!WARNING]
->Not all loading buffers are PCR compatible. Do not use other loading buffers in the lab without verifying tha
->the buffer is compatible with PCR
+> Not all loading buffers are PCR compatible. Do not use other loading buffers in the lab without verifying tha
+> the buffer is compatible with PCR
 
 # Using 6× Loading Buffer
 
@@ -72,7 +72,6 @@ For example, if you digested 2 µL plasmid DNA in a total of 10 µL and you want
 If you have several, samples, spot the loading buffer on a piece of parafilm as shown below. Add water if needed
 and then the DNA just before loading the gel. This saves a lot of time and plastic tubes.
 
-
 ![[GEL-1.png]]
 
 # Typical Agarose Gel Percentages
@@ -86,16 +85,12 @@ and then the DNA just before loading the gel. This saves a lot of time and plast
 
 Higher agarose concentrations resolve smaller fragments better.
 
-
 <http://www.gelanalyzer.com/index.html>
 <http://sourceforge.net/projects/pyelph/files/releases/>
 
-
-
-
 - [[How many times can I reuse electrophoresis buffer?]]
 - [[TAE]]
-- [[FatVal]]
+- [[fatval]]
 - [[Turner]]
 - [[Bachman]]
 - [[Midori Green DNA loading buffer (LBx2wMidori)]]

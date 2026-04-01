@@ -16,9 +16,10 @@
 
 The [text-table](https://senseful.github.io/text-table) tool can convert free text to a table in mysql format.
 
-Extract tables from PDF/Images [docsumo]](https://www.docsumo.com/free-tools/extract-tables-from-pdf-images)
+Extract tables from PDF/Images \[docsumo]]\(https://www.docsumo.com/free-tools/extract-tables-from-pdf-images)
 
 Markdown Table Formatter [Markdown Table Formatter](http://markdowntable.com/)
+
 # Lists
 
 De-duplicate and sort lines [here](https://dedupelist.com/)
@@ -30,7 +31,6 @@ De-duplicate and sort lines [here](https://dedupelist.com/)
 - [pdfjoiner](https://pdfjoiner.com)
 - [pdfstandalone](https://pdfstandalone.com/?gclid=CjwKCAjwyryUBhBSEiwAGN5OCIrQNCt0ez9eYcFUaGcC9kSU4eelcSKTW7FSEuKGOVZuWJ0RBYApKxoCeqoQAvD_BwE#/merge)
 - [ilovepdf](https://www.ilovepdf.com)
-
 
 # File conversion
 

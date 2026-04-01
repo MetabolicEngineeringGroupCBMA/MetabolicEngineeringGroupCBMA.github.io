@@ -1,5 +1,3 @@
-
-
 Tid ca 15 minuter
 
 Cirka 500 g
@@ -17,5 +15,5 @@ en liten nypa havssalt
 Låt alla ingredienser bli rumstempererade. Använd elvisp eller mixer och blanda
 successivt in 1 dl kallpressad rapsolja. Tillsätt vattnet lite i taget och
 blanda allt ordentligt till en något lösare konsistens än ni önskar, det
-stelnar ju något i kylskåpet. Nu har du eget [[misc/recept/bregott]] som är bredbart direkt
+stelnar ju något i kylskåpet. Nu har du eget [[Bregott]] som är bredbart direkt
 från kylskåpsförvaring. Det går också bra att frysa och göra dubbel sats.

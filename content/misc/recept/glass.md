@@ -1,11 +1,8 @@
-
-
 http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html
 
 http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html
 
 http://karlstein.nu/hemgjord-chokladglass/
-
 
 Hemgjord chokladglass eller Gelato al cioccolato – ytterligare en
 efterrättsfavorit som ständigt konkurrerar med vaniljpannacottan om sin plats
@@ -16,7 +13,7 @@ som man kan komma. Den hemgjorda glassen är mer krämig, åt mjukglasshållet o
 inte lika hård i konsistensen, varför den smälter mot gommen. Den äts med
 fördel direkt efter att ha lämnat glassmaskinen och gärna lite hastigare än den
 köpta glassen. Det råder dock ingen brådska, man hinner absolut njuta. Kanske
-är det italienska namnet för [[misc/recept/glass]] – gelato mer beskrivande för denna
+är det italienska namnet för [[glass]] – gelato mer beskrivande för denna
 uppenbarelse och närmast onomatopoetisk ur ett vridet matälskarperspektiv.
 Gelato al cioccolato – känn på den! Jag rör ihop ägg, kakao, choklad och socker
 i ett varmt vattenbad tills det att massan är slät. Vaniljstången rensas på det

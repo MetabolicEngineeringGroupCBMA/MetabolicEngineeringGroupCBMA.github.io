@@ -1,17 +1,19 @@
 # Antibiotics
+
 Final concentrations generally recommended.
 
-- 100  µg/mL Ampicillin (*E. coli*)
-- 12.5 µg/mL Tetracycline (*E. coli*)
-- 50 µg/ml Kanamycin (*E. coli*)
-- 100 µg/mL G418 (*S. cerevisiae*)
-- 250 µg/mL Hygromycin B (*S. cerevisiae*)
-- 100 μg/ml clonNAT (*S. cerevisiae*)
+- 100  µg/mL Ampicillin (_E. coli_)
+- 12.5 µg/mL Tetracycline (_E. coli_)
+- 50 µg/ml Kanamycin (_E. coli_)
+- 100 µg/mL G418 (_S. cerevisiae_)
+- 250 µg/mL Hygromycin B (_S. cerevisiae_)
+- 100 μg/ml clonNAT (_S. cerevisiae_)
 
 > [!IMPORTANT]
 > Note the difference between mg and µg. 1 mg = 1000 µg
 
 # Ampicillin stock solution (100 mg/ml = 1000X concentrated)
+
 How to prepare Protocol for ampicillin 100 mg/ml stock solution stock (x 1000).
 
 - Weigh ~1 g ampicillin sodium sulfate powder (Fisher 1760-25) in a Falcon 50 mL tube.
@@ -36,7 +38,7 @@ aliquots marked with a capital **"K"** at -20°C in the box marked **"Antibiotic
 
 # Geneticin (G418) stock solution (200 mg/ml = 1000X concentrated)
 
-Geneticin (Gibco's brand name) or G418 (generic name) is used to select for yeast that have the *Kan*MX resistance marker.
+Geneticin (Gibco's brand name) or G418 (generic name) is used to select for yeast that have the _Ka&#x6E;_&#x4D;X resistance marker.
 
 - Weigh ~2g G418  powder in a Falcon 50 mL tube.
 - Add water to the 10 mL mark and vortex. Adjust the volume with water if necessary.
@@ -55,9 +57,10 @@ The stock solution is stored in 1 mL aliquots marked with a capital **"G"** at -
 - Aliquot 1 mL per tube and store at -20°C.
 
 It is not necessary to sterile filter this solution since it is made in 70% Ethanol. For E. coli XL1-Blue, use 12.5 µg/mL Tetracycline. The stock solution is stored in 1 mL aliquots marked with a capital **"T"** at -20°C in the box marked **"Antibiotics"** in the -20 freezer.
+
 # Hygromycin B stock solution (250 mg/ml = 1000X concentrated)
 
-Standard concentration for selection in *S. cerevisiae* is 300 µg/ml, we use 250 µg/ml. Stock solution is 250 mg/mL (x 1000):
+Standard concentration for selection in _S. cerevisiae_ is 300 µg/ml, we use 250 µg/ml. Stock solution is 250 mg/mL (x 1000):
 
 - Weigh 2.5 g Hygromycin B powder in a Falcon 15 mL tube.
 - Add water to the 10 mL mark and vortex. Add more water if necessary.
@@ -89,10 +92,8 @@ Werner Bioagents recommended:
 | Cryptococcus neoformans  | 100          |
 | Arabidopsis thaliana     | 100          |
 
-
-
-
 # ATCC recommendations
+
 [![[atcc.png]]](atcc_recommendations_antibiotic_concentrations.pdf)
 
 ![[antibiotics_001.png]]

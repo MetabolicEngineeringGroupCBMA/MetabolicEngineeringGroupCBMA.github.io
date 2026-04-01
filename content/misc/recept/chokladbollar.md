@@ -4,8 +4,6 @@ created: 2026-01-06T07:37:54.182+00:00
 modified: 2026-01-30T10:33:55.796+00:00
 ---
 
-
-
 Camilla Hamid - Mina bästa chokladbollar
 Portioner: 30
 
@@ -22,7 +20,6 @@ kokosflingor att rulla chokladbollarna i
 
 Dela recepte
 
-
 Lägg alla ingredienser förutom kokosflingorna i en matberedare. Mixa ihop till en krämig smet.
 
 Har du ingen matberedare så kan du först mixa havregrynen i en mixer och sedan mosa ihop ingredienserna med händerna.
@@ -30,13 +27,9 @@ Har du ingen matberedare så kan du först mixa havregrynen i en mixer och sedan
 Forma smeten till bollar. Rulla i kokosflingor.
 Servera direkt eller förvara i kylskåpet.
 
-
 <https://mykitchenstories.se/mina-basta-chokladbollar/>
 
-
 ---
-
-
 
 <https://sv.wikibooks.org/wiki/Kokboken/Recept/Chokladboll>
 

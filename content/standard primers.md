@@ -1,6 +1,3 @@
-
-
-
 ```
 >577_crp585-557 (29-mer)
 gttctgatcctcgagcatcttaagaattc

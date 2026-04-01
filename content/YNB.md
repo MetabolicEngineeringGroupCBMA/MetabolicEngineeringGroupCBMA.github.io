@@ -16,21 +16,21 @@ YNB has:
 
 YNB w ammonium sulfate has 5 g/L ammonium sulfate.
 
-
 ### 10 x YNB w ammonium sulfate w amino acids
 
 Dissolve 13.4 g YNB w (NH4)2SO4 in 200 mL water. Sterilize by autoclaving.
-
 
 ### 10 x YNB w/o ammonium sulfate
 
 Dissolve 13.4 g YNB w/o (NH4)2SO4 in 200 mL water. Sterilize by autoclaving.
 
 ---
+
 # Composition
 
-- [oww](http://www.openwetware.org/wiki/Composition_of_Yeast_Nitrogen_Base_(YNB)) [oww](https://openwetware.org/wiki/YNB_media)
-# Yeast_Nitrogen_Base_(YNB),_per_liter
+- [oww](http://www.openwetware.org/wiki/Composition_of_Yeast_Nitrogen_Base_\(YNB\)) [oww](https://openwetware.org/wiki/YNB_media)
+
+# Yeast\_Nitrogen\_Base\_(YNB),\_per\_liter
 
 6.7 g/L
 
@@ -38,7 +38,7 @@ L-His
 LD Me
 LD Trp
 
-[[YNB]] has HMT *Histidine Methionine Tryptophan*
+[[YNB]] has HMT _Histidine Methionine Tryptophan_
 
 ## [[Yeast]] Nitrogen Base (YNB), per liter
 
@@ -50,13 +50,13 @@ Calcium chloride 100 mg
 
 - [[Inositol]]                   2000 μg
 - Calcium [[pantothenate]]          400 μg
-- [[Nicotinic acid\|niacin]]                        400 μg
+- [[Nicotinic acid|niacin]]                        400 μg
 - [[Pyridoxine]] hydrochloride      400 μg
 - [[Thiamine]] hydrochloride        400 μg
 - [[p-aminobenzoic acid]]           200 μg
-- [[YNB\|Riboflavin]]                    200 μg
-- [[YNB\|Folic acid]]                      2 μg
-- [[biotin]]                          2 μg
+- \[\[|Riboflavin]]                    200 μg
+- \[\[|Folic acid]]                      2 μg
+- [[Biotin]]                          2 μg
 
 Boric acid 500 μg
 Copper sulfate 40 μg

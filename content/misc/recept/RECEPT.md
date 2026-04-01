@@ -1,6 +1,6 @@
 <https://www.koket.se/lax-i-ugn-med-lime-och-cashewtacke>
-[[misc/recept/köttbullar]]
-[[misc/recept/snickerskaka]]
+[[köttbullar]]
+[[snickerskaka]]
 
 <https://foodbydrygast.com/sv/recipe/burger_sauce>
 
@@ -27,91 +27,7 @@ Mixa allt i en bunke, spara 0,5 dl rapsolja och späd bara om peston är för tj
 Smaka av med salt och peppar.
 Blanda ner i den varma pastan och servera genast.
 
-
-![pastapesto.jpg](<file:/home/bjorn/myvault/files/pastapesto.jpg>)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![pastapesto.jpg](file:/home/bjorn/myvault/files/pastapesto.jpg)
 
 DJ 25-35 min
 

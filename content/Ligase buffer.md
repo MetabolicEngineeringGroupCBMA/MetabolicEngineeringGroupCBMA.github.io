@@ -6,7 +6,6 @@
 - 5  mM DTT (1 mM final)
 - 25% (w/v) PEG 8000 (5% final)
 
-
 https://www.thermofisher.com/order/catalog/product/B69?SID=srch-srp-B69
 
 10X Buffer Composition
@@ -21,14 +20,15 @@ It is practical to make this buffer from 1M Tris-HCl (4x) and 500 mM MgCl2 (10x)
 into a solution twice as strong as the one above and mix with an equal volume of 50% PEG.
 The PEG 8000 can be substituted for PEG600 or PEG3350 that is used for yeast transformation.
 vortex vigorously at room temperature after thawing before use.
+
 ### background information
 
 10X Buffer Composition (pH 7.8 at 25°C) from ThermoFisher Scientific
 
--  400 mM Tris-HCl (40 mM final)
--  100 mM MgCl2 (10 mM final)
--  5 mM ATP (0.5 mM final)
--  100 mM DTT (10 mM final)
+- 400 mM Tris-HCl (40 mM final)
+- 100 mM MgCl2 (10 mM final)
+- 5 mM ATP (0.5 mM final)
+- 100 mM DTT (10 mM final)
 
 PEG 8000 at 5%(w/v) in the ligase buffer has been shown to improve the ligation
 efficiency of blunt end DNAs. The reference is a 1986 BRL Focus "optimizing DNA ligations for transformation"
@@ -52,7 +52,6 @@ were the following:
 vector/insert molar ratio =3 ( up to you to change it )
 4 hours at room temp (23-26C)
 Dilute 3 to 5 fold before adding DNA to competent cells.
-
 
 [link](http://www.labtimes.org/labtimes/trick/tricks/2013_07.lasso)
 [link](http://www.benchfly.com/video/61/make-your-own-rapid-ligation-kit/)

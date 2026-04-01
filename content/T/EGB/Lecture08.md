@@ -14,10 +14,10 @@ integration of genomic, transcriptomic, and proteomic data is emphasized as
 a means to obtain a systems-level understanding of gene function, regulation,
 and cellular processes.
 
-
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
+
 - Chapter 10 Sequencing Genes and Genomes [video](https://youtu.be/nxuW8DZkIog?si=J4QUSi487oKNaOAR)
 - Chapter 12 Studying Genomes
 - Chapter 13 Studying Transcriptomes and Proteomes

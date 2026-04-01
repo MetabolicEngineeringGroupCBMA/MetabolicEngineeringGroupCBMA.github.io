@@ -1,4 +1,4 @@
-http://stanxterm.aecom.yu.edu/wiki/index.php?page=Cracking_gel_method
+http://stanxterm.aecom.yu.edu/wiki/index.php?page=Cracking\_gel\_method
 
 Sucrose 25 g
 ddH2O 40 ml (Dissolve sucrose at 65 deg C)

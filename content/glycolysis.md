@@ -19,7 +19,7 @@ Both molecules (dihydroxyacetone phosphate and glyceraldehyde-3-phosphate) can e
 
 Aldehydes have very low redox potentials(around -600 to -500 mV). Oxidation of glyceraldehyde-3-phosphate by NAD+ (E0=-320 mV) is therefore quite spontanteous. Indeed, it is so exergonic that it can be used to produce ATP (ATP production from ADP and Pi can be performed if coupled to a two-electron redox reaction with a potential difference of at least 160 mV). ATP production happens through two consecutive steps: in the first step, gliceraldehyde-3-phosphate oxidation to a carboxylic acid is coupled to the phosphorylation of the produced carboxylic acid.
 
-----
+---
 
 Phosphorilated acids (as well as phosphoenols and phosphoguanidines) contain very energetic phosphate groups: hydrolysis of these phosphate groups yields with very significant resonance stabilization. Therefore, the phosphate group attached to carbon 1 in 1,3-bisphosphoglycerate can be easily transferred to ADP, in order to produce ATP.
 

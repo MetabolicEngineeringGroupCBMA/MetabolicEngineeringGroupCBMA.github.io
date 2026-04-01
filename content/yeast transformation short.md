@@ -1,11 +1,12 @@
 ### LAB3 (3h, Week 3)
+
 ![[10000001000001F600000190492E49BB8EC7AF88.png]]
 
 This practical class consists of three separate tasks.
 
-1.  Prepare a DNA mixture.
-2.  Yeast transformation using the DNA mix
-3.  Assemble the final plasmid on your computer.
+1. Prepare a DNA mixture.
+2. Yeast transformation using the DNA mix
+3. Assemble the final plasmid on your computer.
 
 ### Preparation of DNA mixes
 
@@ -15,31 +16,31 @@ reaction in their respective
 categories:
 ![](100000000000021200000212B5A626992F307D65.png)
 
-1.  ampR
-2.  pBR
-3.  ΔCRP
-4.  CEN\_ARS / 2µ
-5.  LEU2 / TRP1 / HIS3 / TRP1
+1. ampR
+2. pBR
+3. ΔCRP
+4. CEN\_ARS / 2µ
+5. LEU2 / TRP1 / HIS3 / TRP1
 
-The specific PCR reactions used can be found in the \"**DNA\_pool**\"
+The specific PCR reactions used can be found in the "**DNA\_pool**"
 tab of the **Google sheet**. There is one 1.5 mL Eppendorf tube with
 each component. There is \*\*only one\*\* tube of each kind, so share
 the tubes in a **practical** way between groups.
 
 Each student should prepare the DNA mixture outlined in the
-\"**TRAFO\_plan**\" tab of the Google sheet. Note that some students
+"**TRAFO\_plan**" tab of the Google sheet. Note that some students
 prepare a mix with **five** components (we call this the "+" mix) and
 some with **four** components and **water** (we call this the ∆ mix).
-The delta (∆) mix has all the components *except the pBR* fragment.
+The delta (∆) mix has all the components _except the pBR_ fragment.
 
-1.  Calculate how much is needed of the + and ∆ mixes (count the number
-    of students with each mix)
-2.  Each student need 40 µL of mixture = 5 components \* 8 µL
-3.  Prepare the mixture in a fresh Eppendorf tube and mix well.
-4.  Prepare one fresh Eppendorf tube for each student.
-5.  Mark these tubes with the \"TRAFO\#\" numbers. These numbers can be
-    read from the Google sheet, tab \"TRAFO\_plan\"
-6.  Divide 40 µL mix into the correct tubes with the correct numbers.
+1. Calculate how much is needed of the + and ∆ mixes (count the number
+   of students with each mix)
+2. Each student need 40 µL of mixture = 5 components \* 8 µL
+3. Prepare the mixture in a fresh Eppendorf tube and mix well.
+4. Prepare one fresh Eppendorf tube for each student.
+5. Mark these tubes with the "TRAFO#" numbers. These numbers can be
+   read from the Google sheet, tab "TRAFO\_plan"
+6. Divide 40 µL mix into the correct tubes with the correct numbers.
 
 This is the **only** material available, so be **sure** to pipette the
 correct volumes and do **not** contaminate the tubes as other students
@@ -55,7 +56,7 @@ Each student should make one transformation.
 ice. Cold water is needed later in the protocol.
 
 3\. Transfer 50 µL of the cell suspension to the other tube. Mark this
-tube with your \"TRAFO\#\" number.
+tube with your "TRAFO#" number.
 
 4\. Centrifuge the cells for 20s at the highest speed.
 
@@ -76,9 +77,9 @@ is sticky. Using a P1000 pipette might be easier than using a P200.
 11\. During this time you should do the DNA assembly on your computer.
 
 12\. Mark a Petri dish with the appropriate solid medium with your
-\"TRAFO\#\" number and name. Write on the back side, not on the lid.
+"TRAFO#" number and name. Write on the back side, not on the lid.
 
-13\. Add about 1/2 mL glass spheres (\~10-15 spheres) to one empty Petri
+13\. Add about 1/2 mL glass spheres (~10-15 spheres) to one empty Petri
 dishes with solid medium.
 
 14\. Remove tube from water bath after 40 min and put on ice for at

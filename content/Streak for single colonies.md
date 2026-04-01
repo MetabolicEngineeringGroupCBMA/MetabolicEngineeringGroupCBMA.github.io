@@ -9,11 +9,6 @@
 
 [Based on this addgene protocol](https://www.addgene.org/protocols/streak-plate/)
 
-
 ![[Streak for single colonies-20240531100815970.png]]
-
-
-
-
 
 [![[Streak for single colonies-20240531100657638.png]]](https://youtu.be/P6HlqmYEcZM)

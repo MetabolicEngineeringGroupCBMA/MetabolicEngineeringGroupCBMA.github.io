@@ -1,5 +1,4 @@
-This is a wide table. Use the scroll bars to see the rightmost columns. [Codon usage](https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4932) for *S. cerevisiae*. Google doc with editable [table](https://docs.google.com/spreadsheets/d/12uem2ylfLvgNbsBN3HYOcjgVODG--HNb2HJ_8bKjce4/edit?usp=sharing)
-
+This is a wide table. Use the scroll bars to see the rightmost columns. [Codon usage](https://www.kazusa.or.jp/codon/cgi-bin/showcodon.cgi?species=4932) for _S. cerevisiae_. Google doc with editable [table](https://docs.google.com/spreadsheets/d/12uem2ylfLvgNbsBN3HYOcjgVODG--HNb2HJ_8bKjce4/edit?usp=sharing)
 
 | Name           | Name            | NAME          | Three | THREE | One | KEGG                                       | Pubchem                                                  | Mw     | Mw-H2O | Solubility (g/100 mL H2O at 25°C) | UV Abs Log e (lmax)pH ~ 7.0 | Codons (S. cerevisiae) |     |     |     |     |     | S.cerevisiae | E.coli |
 | -------------- | --------------- | ------------- | ----- | ----- | --- | ------------------------------------------ | -------------------------------------------------------- | ------ | ------ | --------------------------------- | --------------------------- | ---------------------- | --- | --- | --- | --- | --- | ------------ | ------ |
@@ -23,11 +22,7 @@ This is a wide table. Use the scroll bars to see the rightmost columns. [Codon u
 | Tryptophan     | L-Tryptophan    | TRYPTOPHAN    | Trp   | TRP   | W   | [C00078](https://www.kegg.jp/entry/C00078) | [6305](https://pubchem.ncbi.nlm.nih.gov/compound/6305)   | 204.23 | 186.21 | 1.136                             | 4.67(219 nm)3.75(280 nm)    | TGG                    |     |     |     |     |     | 3 min        | 2 min  |
 | Tyrosine       | L-Tyrosine      | TYROSINE      | Tyr   | TYR   | Y   | [C00082](https://www.kegg.jp/entry/C00082) | [6057](https://pubchem.ncbi.nlm.nih.gov/compound/6057)   | 181.19 | 163.18 | 0.0453                            | 3.90(222 nm)3.15(274 nm)    | TAT                    | TAC |     |     |     |     | 10 min       | 2 min  |
 | **Valine**     | L-Valine        | VALINE        | VAL   | VAL   | V   | [C00183](https://www.kegg.jp/entry/C00183) | [6287](https://pubchem.ncbi.nlm.nih.gov/compound/6287)   | 117.15 | 99.13  | 8.85                              |                             | GTT                    | GTC | GTA | GTG |     |     | **>30 h**    | >10 h  |
-| Stop           | Stop            | Stop          | End   | END   | *   | -                                          |                                                          | -      | -      | -                                 | -                           | TAA                    | TGA | TAG |     |     |     | -            | -      |
-
-
-
-
+| Stop           | Stop            | Stop          | End   | END   | \*   | -                                          |                                                          | -      | -      | -                                 | -                           | TAA                    | TGA | TAG |     |     |     | -            | -      |
 
 Varshavsky 1996 PMID: 8901547
 ![](Varshavsky1996.png)
@@ -35,6 +30,5 @@ Tobias et al. 1991 PMID: 1962196
 ![](Tobias1991.png)
 Bachmair & Varshavsky 1989 PMID: 2538246scr
 ![](Bachmair1989.png)
-
 
 ![[Venn-diagram-showing-9-properties-of-the-20-amino-acids.png]]

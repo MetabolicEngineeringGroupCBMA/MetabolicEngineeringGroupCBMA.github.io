@@ -19,6 +19,7 @@ Rödvinsglögg
 1 dl vatten
 
 Gör så här:
+
 1. Lägg kanelstänger, kryddnejlikor och kardemummakärnor i en kastrull. Häll i vattnet.
 2. Koka upp blandningen och sänk sedan värmen så att vattnet sjuder.
 3. Häll i socker och rör runt tills sockret har löst upp sig.
@@ -26,4 +27,3 @@ Gör så här:
 5. Ta kastrullen av värmen och sila bort kanel, kardemumma och nejlikor. Lagen är nu färdig.
 6. Blanda lagen och vinet och värm upp tills det nästan kokar.
 7. Serveras rykande het tillsammans med russin och mandel.
-

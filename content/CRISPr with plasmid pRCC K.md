@@ -13,7 +13,7 @@ I want:
 - kanMX4 selection marker
 - cas9 and sgRNA in the same plasmid
 
-I made a search on [addgene](https://www.addgene.org/search/advanced/?q=Cas9&depositor=&article=&gene=&vector=&tags=&advanced_query=&results_per_page=20&page=2&selected_facets=vector_types_exact%3Ayeast-expression&sort_type=popularity):
+I made a search on [addgene](https://www.addgene.org/search/advanced/?q=Cas9\&depositor=\&article=\&gene=\&vector=\&tags=\&advanced_query=\&results_per_page=20\&page=2\&selected_facets=vector_types_exact%3Ayeast-expression\&sort_type=popularity):
 
 I found these two:
 
@@ -26,10 +26,9 @@ This system has a nuclease that is different from cas9, so the scaffold sequence
 Among them, the nuclease produces sticky ends.
 
 Of the two alternatives above pRCC-K seem more interesting to me. It is based
-on *in-vivo* gap repair between two primer tails of a PCR product made from the
+on _in-vivo_ gap repair between two primer tails of a PCR product made from the
 plasmid and a donor DNA 80-mer oligonucleotide. The pML104-KanMx4 is made for
 ligating the sgRNA encoding DNA, which I think is less practical.
-
 
 The pRCC-K is described in Generoso 2016 ([pubmed](https://www.ncbi.nlm.nih.gov/pubmed/27327211), [pdf](https://www.sciencedirect.com/science/article/pii/S016770121630149X?via%3Dihub)) supplementary [material](https://ars.els-cdn.com/content/image/1-s2.0-S016770121630149X-mmc1.pdf)
 
@@ -80,7 +79,7 @@ TGTTCTCCCTTCACAAAGTC
 
 ```
 
-For targeting the ILV1, primers CC-Ilv1_Fw  and CC-Ilv1_Rv were used to amplify the pRCC-K:
+For targeting the ILV1, primers CC-Ilv1\_Fw  and CC-Ilv1\_Rv were used to amplify the pRCC-K:
 
 They bind to the circular template in this way:
 
@@ -121,6 +120,7 @@ sequence necessary for the recognition by cas9. This part is always the same.
 The tails of the primers is the spacer sequence needed for the recognition of
 the gene by the sgRNA molecule. We can find this in the ILV1 sequence below (in
 CAPS):
+
 ```
 
 >ILV1 YER086W SGDID:S000000888
@@ -157,7 +157,6 @@ The cas9 needs there to be a PAM sequence (NGG for cas9) immediately after the
 spacer sequence. in the sequence above, we can spot "tgg" after the spacer
 sequence.
 
-
 #### Donor DNA
 
 The donor DNA for the ILV1 gene is the following 80-mer oligonucleotide.
@@ -193,7 +192,6 @@ ORIGIN
        61 AATTTACGCA ACAACTTGTT
 //
 ```
-
 
 The features marked corresponds to 40 nucelotides before and 40 nucleotides
 after the ILV1 open reading frame, marked by features in the sequence below.
@@ -273,11 +271,13 @@ ORIGIN
 The constant parts of the primers were extracted below, the tail1 and tail2
 needs to be replaced by a spacer sequence specific for ScFAA1.
 
-    >CC-FAA1_Fw
-    tail1-gttttagagctagaaatagcaagttaaaataagg
+```
+>CC-FAA1_Fw
+tail1-gttttagagctagaaatagcaagttaaaataagg
 
-    >CC-FAA1_Rv
-    tail2-gatcatttatctttcactgcggag
+>CC-FAA1_Rv
+tail2-gatcatttatctttcactgcggag
+```
 
 The paper suggests a web based tool for selecting spacer sequences (https://www.dna20.com/eCommerce/cas9/input).
 There is now a redirection to this url (https://www.atum.bio/eCommerce/cas9/input) which i used.
@@ -290,9 +290,10 @@ The best result was ATCCCTGGTGGCGGCGCCTT , according to the scoring (100).
 The spacer was incorporated
 with the rest of the primer like this:
 
-    >CC-FAA1_Fw 54-mer
-    ATCCCTGGTGGCGGCGCCTTgttttagagctagaaatagcaagttaaaataagg
+```
+>CC-FAA1_Fw 54-mer
+ATCCCTGGTGGCGGCGCCTTgttttagagctagaaatagcaagttaaaataagg
 
-    >CC-FAA1_Rv 44-mer
-    AAGGCGCCGCCACCAGGGATgatcatttatctttcactgcggag
-
+>CC-FAA1_Rv 44-mer
+AAGGCGCCGCCACCAGGGATgatcatttatctttcactgcggag
+```

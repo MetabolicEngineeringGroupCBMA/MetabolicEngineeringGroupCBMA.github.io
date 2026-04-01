@@ -1,8 +1,8 @@
-http://www.labtimes.org/labtimes/trick/tricks/2013_07.lasso
+http://www.labtimes.org/labtimes/trick/tricks/2013\_07.lasso
 
-[rel://files/experiments/ligation.ods]
-[rel://files/LigaFast Rapid DNA Ligation System Protocol.ashx]
-[rel://files/PCR Cloning Kit (blunt end)%0A1939645a.pdf]
+\[rel://files/experiments/ligation.ods]
+\[rel://files/LigaFast Rapid DNA Ligation System Protocol.ashx]
+\[rel://files/PCR Cloning Kit (blunt end)%0A1939645a.pdf]
 Standard Ligation:
 Prepare a ligation mix:
 vector+buffer mix
@@ -12,7 +12,7 @@ Digested vector 		1
 total 					13
 
 Divide vector+buffer mix into two Eppendorf tubes +/-:
-								+		-
+\+		-
 Vector+buffer					5		5		µL
 insert 							5		0		µL
 water							0		5		µL
@@ -54,16 +54,14 @@ vector/insert molar ratio =3 ( up to you to change it )
 4 hours at room temp (23-26C)
 Dilute 3 to 5 fold before adding DNA to competent cells.
 
-
-
 ++Fermentas
-http://www.fermentas.com/techinfo/modifyingenzymes/protocols/p_dnainslig.htm
+http://www.fermentas.com/techinfo/modifyingenzymes/protocols/p\_dnainslig.htm
 DNA Insert Ligation into Vector DNA (with T4 DNA Ligase)
 
 In a microcentrifuge tube prepare the following reaction mixture:
 
 50-400 ng	Linear vector DNA
-			Insert DNA (use a 1:1 up to a 3:1 molar ratio of insert DNA termini to vector DNA)
+Insert DNA (use a 1:1 up to a 3:1 molar ratio of insert DNA termini to vector DNA)
 2 µl		10X ligation buffer for T4 DNA Ligase
 2 µl		50% PEG 4000 solution (for blunt ends only)
 to 20µl		Water, nuclease-free
@@ -74,10 +72,10 @@ Incubate the mixture for 1 hour at 22°C (on the bench).
 Use the mixture for transformation.
 
 Note:
-* If the yield of ligation product is insufficient, prolong the reaction time (overnight).
-* DNA can be dissolved in nuclease-free water or TE buffer: 10 mM Tris-HCl, 1 mM EDTA (pH 7.8).
-* An excess of ligation mixture with respect to competent cells may decrease the transformation efficiency.
 
+- If the yield of ligation product is insufficient, prolong the reaction time (overnight).
+- DNA can be dissolved in nuclease-free water or TE buffer: 10 mM Tris-HCl, 1 mM EDTA (pH 7.8).
+- An excess of ligation mixture with respect to competent cells may decrease the transformation efficiency.
 
 http://www.benchfly.com/video/61/make-your-own-rapid-ligation-kit/
 
@@ -167,7 +165,6 @@ In our case, we used plasmids "insert plasmids' names" that were digested by Hin
 
 **Gel 1** - From left to Right: EcoRI digested plasmid - non-digested plasmid - HindIII digested plasmid Sk1B (pos µ1117) - **molecular weight ruler** - EcoRI digested plasmid ligated with homemade buffer - non-digested plasmid ligated with homemade buffer - HindIII digested plasmid Sk1B (pos µ1117) ligated with homemade buffer - EcoRI digested plasmid ligated with TheromoFisher provided  buffer - non-digested plasmid ligated with TheromoFisher provided  buffer - HindIII digested plasmid Sk1B (pos µ1117) ligated with TheromoFisher provided  buffer
 
-
 Ligase activity of T4 ligase at 1U/uL seemed to be enough to re-ligate a sticky end plasmid by using either home made or commercial buffer.
 
 2 - Test ligase activity by ligating insert with blunt-end digested plasmid.
@@ -175,18 +172,16 @@ Ligase activity of T4 ligase at 1U/uL seemed to be enough to re-ligate a sticky 
 In our case, we used a GFP expression cassete amplified by PCR from P2 plasmid by primers 407 and 509 as insert. We used pYPKa digested with AjiI as the blunt-end digested plasmid.
 
 The product was amplified by either supreme NZYTech polymerase or a commercial Taq polymerase (Gel 2).
+
 - The supreme NZYTech polymerase PCR product was ligated to linear pYPKa by using 1 uL T4 ligase at 5U/uL with commercial Thermofisher buffer (Final ligation volume 20uL).
 - The commercial Taq polymerase PCR product was ligated to linear pYPKa by using 1 uL T4 ligase at 1U/uL with commercial Thermofisher buffer (Final ligation volume 20uL).
-The PCR buffer was also different for each polymerisation reaction. Supreme NZYTech polymerase used the manufacturer provided buffer, while commercial Taq polymerase used and home made taq buffer.
-
+  The PCR buffer was also different for each polymerisation reaction. Supreme NZYTech polymerase used the manufacturer provided buffer, while commercial Taq polymerase used and home made taq buffer.
 
 ![CC069528](https://user-images.githubusercontent.com/28505266/172183625-e11712e2-d45e-47f6-aa68-c7b2e2b57769.png)
 
 **Gel 2** - From left to Right: Supreme PCR product - **molecular weight ruler** - Taq PCR product
 
-
 The supreme NZYTech polymerase PCR product ligated with T4 ligase at 5U/uL proved to be the successful approach (Gel 3). Apart from the already stated differences, the insert seemed to have been used in greater amounts.
-
 
 ![CC068985](https://user-images.githubusercontent.com/28505266/172074862-8c88c642-c90f-4739-b27c-c128f0a16f7b.png)
 
@@ -194,13 +189,11 @@ The supreme NZYTech polymerase PCR product ligated with T4 ligase at 5U/uL prove
 
 The same total quantity of DNA of each type was used for each well.
 
-
 After transformation in E.coli competent cell, we were able to confirm the presence of ligated plasmids by colony PCR using primers 577 and 578 (Gels 4 and 5)
 
 ![CC069215](https://user-images.githubusercontent.com/28505266/172075174-e8a8fb35-7885-476e-a869-5ab639d81881.png)
 
 **Gel 4** - From left to Right: colonies 1 to 12 - **molecular weight ruler** - colonies 13 to 24
-
 
 ![CC069226](https://user-images.githubusercontent.com/28505266/172075190-d6dea4d1-4a4f-40e5-9315-3d1db78b3cfb.png)
 

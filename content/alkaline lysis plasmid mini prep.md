@@ -14,10 +14,9 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 ![pico](pico.jpeg)
 
-
 ## Collect cells from liquid culture
 
-1. Grow 1 ml of *E. coli* in a 1.5 - 2 ml Eppendorf tube at 37°C o/n. Larger 2 mL tubes might be better, since mixing seems more efficient. Tubes can be incubated sideways at 200 rpm.
+1. Grow 1 ml of _E. coli_ in a 1.5 - 2 ml Eppendorf tube at 37°C o/n. Larger 2 mL tubes might be better, since mixing seems more efficient. Tubes can be incubated sideways at 200 rpm.
 
 2. Centrifuge at top speed for 30 s to recover cells.
 
@@ -31,11 +30,9 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 3. Resuspend the cells in 200 µL buffer P1. If the cells are hard to resuspend, try to decant as much as possible of the cells to another tube and leave behind the sticky biomass..
 
-
 ## Alkaline lysis
 
 1. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
-
 
 ![[alkaline lysis plasmid mini prep.png|207x168]]
 
@@ -84,9 +81,7 @@ Any resuspension buffer from a commercial plasmid miniprep kit is probably fine 
 
 1. Done! Store your DNA in fridge (4-8°C) or freezer (-20°C).
 
-
-A [[snik-short\|short]] protocol for printing.
-
+A [[snik-short|short]] protocol for printing.
 
 ## Usage
 
@@ -99,8 +94,6 @@ This procedure is based on the alkaline lysis procedure described in [Birnboim, 
 
 The procedure takes advantage of the fact that plasmids are relatively small super coiled DNA
 molecules and bacterial chromosomal DNA is much larger and less supercoiled. This difference in topology allows for selective precipitation of the chromosomal DNA and cellular proteins from plasmids and RNA molecules. The cells are lysed under alkaline conditions, which denatures both nucleic acids and proteins, and when the solution is neutralized by the addition of Potassium Acetate, chromosomal DNA and proteins precipitate because it is impossible for them to renature correctly (they are so large). Plasmids renature correctly and stay in solution, effectively separating them from chromosomal DNA and proteins.
-
-
 
 ## Solutions
 
@@ -141,7 +134,7 @@ There are two ways to prepare this solution.
 
 Glacial or anhydrous acetic acid is essentially water free acetic acid.
 It has a density of 1.05 g/mL.
-For one liter, add 3 * 60.05 = 180.15 g glacial acetic acid in a 1 L beaker.
+For one liter, add 3 \* 60.05 = 180.15 g glacial acetic acid in a 1 L beaker.
 Add water to about 500 mL.
 Add KOH pellets until pH is 5.5.
 Be careful not to overshoot the pH, it may be safe to use a 3M KOH solution just before the right pH.
@@ -167,14 +160,16 @@ Thus plasmid DNA remains in solution while proteins and other DNA molecules prec
 ### Further reading
 
 - [The Basics: How Alkaline Lysis Works](https://bitesizebio.com/180/the-basics-how-alkaline-lysis-works)
+
 - [How to Identify Supercoils, Nicks and Circles in Plasmid Preps](https://bitesizebio.com/13524/how-to-identify-supercoils-nicks-and-circles-in-plasmid-preps)
+
 - [Plasmid vs. Genomic DNA Extraction: The Difference](https://bitesizebio.com/1660/plasmid-v-genomic-dna-extractionthe-difference)
+
 - [Alkaline lysis - Wikipedia](https://en.wikipedia.org/wiki/Alkaline_lysis)
 
 - [![](http://img.youtube.com/vi/8xEDEJ0DHFA/0.jpg)](http://www.youtube.com/watch?v=8xEDEJ0DHFA "Isolating_Plasmid_DNA.png")
+
 - [![](http://img.youtube.com/vi/pw5jgvKn6dw/0.jpg)](http://www.youtube.com/watch?v=pw5jgvKn6dw "Isolating_Plasmid_DNA.png")
-
-
 
 ### Lista de materiais em Português
 
@@ -208,17 +203,9 @@ No dia da aula:
 - Fonte de eletricidade
 - Barquinhos de pesagem (plástico)
 
-
-
-
-
-
 ### Notes
 
-
-
 CAVAN plasmid miniprep: This procedure is based on the alkaline lysis procedure developed by Birnboim and Doly (Nucleic Acids Research 7:1513, 1979).
-
 
 Procedure:
 
@@ -242,7 +229,7 @@ Procedure:
 - Repeat washing step
 - Dry pellet with speedvac for 30 min (or overnight to the air)
 - Add 50 µl of TE-buffer
-(no guanidine hydrochloride to permanently inactivate nucleases in nuclease rich species)
+  (no guanidine hydrochloride to permanently inactivate nucleases in nuclease rich species)
 
 Solutions:
 Resuspension solution: 50 mM Tris-HCl (121,14 g/mol), 10 mM EDTA (292,248 g/mol), 100 µg/mL RNase A, pH 8.0
@@ -279,8 +266,8 @@ precipitates because they bind to each other in a large aggregate but the plasmi
 and don't become part of the large multi-molecule aggregates. Thus plasmid DNA remains in solution while proteins and other DNA molecules precipitate.
 
 TE-buffer (1X): 1mM EDTA (292,248 g/mol), 10 mM Tris (121,14 g/mol); HCl pH 8.0
-  	1L (10X): 3,722 g EDTA .2H2O  ;  12,114 g Tris
- 	100 mL (10X): 0,3722 g EDTA .2H2O  ;  1,2114 g Tris
+1L (10X): 3,722 g EDTA .2H2O  ;  12,114 g Tris
+100 mL (10X): 0,3722 g EDTA .2H2O  ;  1,2114 g Tris
 
 TE buffer is commonly used to redissolve DNA because it contains EDTA. The EDTA will chelate magnesium ions, which are a
 cofactor for most nucleases (enzymes which degrade nucleic acids). If your DNA prep becomes contaminated with a nuclease

@@ -6,7 +6,7 @@ There is an on-line web service called WebPCR that can do this for you. This ser
 
 Go the web page: [http://pydna.pythonanywhere.com](http://pydna.pythonanywhere.com/). You should see a window like Fig 1.
 
-![](Aspose.Words.4251c487-aece-4357-8a81-438040fec7ac.002.png)*
+![](Aspose.Words.4251c487-aece-4357-8a81-438040fec7ac.002.png)\*
 ![](Aspose.Words.4251c487-aece-4357-8a81-438040fec7ac.001.png)
 
 Click on the **PCR simulator** button You should now see a site similar to the one in Fig 2.
@@ -26,20 +26,19 @@ CGATGTCGACTTAGATCTCACAGGCTTTTTTCAAG
 
 GATCGGCCGGATCCAAATGACTGAATTCAAGGCCG
 
-
 LOCUS       YJR048W\_\_Chr\_10\_        2330 bp ds-DNA     linear       05-JUN-2012
 
 DEFINITION  .
 
-ACCESSION   
+ACCESSION
 
-VERSION     
+VERSION
 
 SOURCE      .
 
 `  `ORGANISM  .
 
-COMMENT     >YJR048W  Chr 10   from 525335 to 527664  
+COMMENT     >YJR048W  Chr 10   from 525335 to 527664
 
 COMMENT     ApEinfo:methylated:1
 
@@ -210,7 +209,7 @@ Taq DNA polymerase
 
 |3min|30s  \ 48.7°C \_\_\_\_\_|\_\_\_\_|45s/kb
 
-|    |      \\_\_\_\_\_\_/ 0:30|5min|GC 47%
+|    |      \\\_\_\_\_\_\_/ 0:30|5min|GC 47%
 
 |    |       30s         |    |48bp
 
@@ -222,7 +221,7 @@ Pfu-Sso7d DNA polymerase
 
 |30s |10s  \ 56.8°C \_\_\_\_\_|\_\_\_\_|15s/kb
 
-|    |      \\_\_\_\_\_\_/ 0:10|5min|GC 47%
+|    |      \\\_\_\_\_\_\_/ 0:10|5min|GC 47%
 
 |    |       10s         |    |48bp
 
@@ -236,14 +235,8 @@ The first five characters of the SEGUID are **ifnuA**
 
 What are the last five?
 
-
-
-
 **Question 2:**
 
-This is an individual question for each student. Follow this [link](https://docs.google.com/spreadsheets/d/1OOtGomVp87Gkpmb7xopV3nXIOigW5tXQo6ZxHf5ziTY/edit?usp=sharing) that points to a Google Spreadsheet.   You should find your name in the leftmost column. Three columns called **primer1,2** and **template** contains DNA sequences representing primers and a template. Your task is to use the WebPCR service to simulate the PCR. Put your result  in the indicated cell for forward primer (**product**). **Please answer with a raw DNA sequence as indicated for the first example student "*Max Maximus*"**. This will speed up correction. If your name is **\*not\*** in the list, please inform your instructor.
-
-
-
+This is an individual question for each student. Follow this [link](https://docs.google.com/spreadsheets/d/1OOtGomVp87Gkpmb7xopV3nXIOigW5tXQo6ZxHf5ziTY/edit?usp=sharing) that points to a Google Spreadsheet.   You should find your name in the leftmost column. Three columns called **primer1,2** and **template** contains DNA sequences representing primers and a template. Your task is to use the WebPCR service to simulate the PCR. Put your result  in the indicated cell for forward primer (**product**). **Please answer with a raw DNA sequence as indicated for the first example student "_Max Maximus_"**. This will speed up correction. If your name is **\*not\*** in the list, please inform your instructor.
 
 © Björn Johansson 2020

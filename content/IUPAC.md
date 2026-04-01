@@ -13,6 +13,7 @@ K --> G T (keto)          N --> A G C T (any)
 ```
 
 The IUPAC amino acid codes are:
+
 ```
 A ALA alanine                         P PRO proline
 B ASX aspartate or asparagine         Q GLN glutamine
@@ -28,4 +29,3 @@ L LEU leucine                         X     any
 M MET methionine                      *     translation stop
 N ASN asparagine                      -     gap of indeterminate length
 ```
-

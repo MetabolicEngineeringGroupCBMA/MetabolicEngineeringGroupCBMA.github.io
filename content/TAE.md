@@ -8,4 +8,3 @@ This stock solution can be diluted 49:1 with water to make a 1× working solutio
 | [acetic acid](https://en.wikipedia.org/wiki/Acetic_acid "Acetic acid")    | 57.1 ml/L  | 1 M          | 57.1 ml/L  | 20 mM       |
 | [EDTA](https://en.wikipedia.org/wiki/EDTA "EDTA") disodium salt dihydrate | 372.24 g/L | 50 mM        | 18.612 g/L | 1 mM        |
 **IMPORTANT!** Use Tris base, **not** Tris-HCl.
-

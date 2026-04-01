@@ -10,5 +10,4 @@ We use this water for:
 
 For some applications double deionized water [[ddH2O]] may be necessary.
 
-
 998.2 g/L at 20°C

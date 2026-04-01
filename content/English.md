@@ -2,7 +2,9 @@
 
 Many consider [reading and listening](https://www.digitalbook.io/blog/read-and-listen-at-the-same-time) to an audiobook to be an effective way to improve vocabulary. I collected free audio books and pdfs of
 three short stories below that are examples of good English writing or good writing in general in the case of Franz Kafka.
+
 ## The Old Man and the Sea (Ernest Hemingway)
+
 ![[oldmansea.png]]
 
 [audiobook](https://youtu.be/9b8s_Fqr79g) [pdf](https://www.arvindguptatoys.com/arvindgupta/oldmansea.pdf)
@@ -21,18 +23,14 @@ A mako shark.
 ![[tiller.png]]
 A tiller used to steer the boat.
 
-
-
 ## Animal Farm by (George Orwell)
+
 ![[animalfarm.jpg]]
 
 [audiobook](https://www.youtube.com/watch?v=iosHzNmVYbA) [pdf](https://www.glossopdale.derbyshire.sch.uk/Learning_Experiences/Revision/Animal_Farm_Whole_Text.pdf)
 
-
-
-
-
 ## The Metamorphosis (Franz Kafka)
+
 ![[metamorphosis.jpg]]
 
 [LibriVox audiobook](https://youtu.be/nitvuBfHWJY)
@@ -44,7 +42,6 @@ A tiller used to steer the boat.
 [Audiobook: same translation as pdf](https://www.youtube.com/watch?v=rVYLp3MBdEg)
 
 [pdf](http://giove.isti.cnr.it/demo/eread/Libri/calm/Metamorphosis.pdf)
-
 
 ## Free online English courses
 

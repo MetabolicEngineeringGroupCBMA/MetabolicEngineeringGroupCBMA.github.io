@@ -1,11 +1,14 @@
-### Plasmid rescue - Yeast DNA preparation & *E. coli* transformation
+### Plasmid rescue - Yeast DNA preparation & _E. coli_ transformation
 
 [[material#LAB8]]
 Summary:
+
 - Prepare crude yeast DNA from cultures prepared in LAB7.
-- Transform *E. coli* with crude yeast DNA.
+- Transform _E. coli_ with crude yeast DNA.
 - Plate E. coli on Petri dishes with solid LB medium from LAB7
-#### Plasmid preparation from *S. cerevisiae*, one per student
+
+#### Plasmid preparation from _S. cerevisiae_, one per student
+
 1. Each student has at least one Eppendorf tube with S. cerevisiae frozen cells from LAB7.
 2. Add 200 µL **P1** solution to the frozen cells
 3. Add 200 µl of glass beads (about one full 0.2 mL PCR tube).
@@ -28,7 +31,9 @@ Summary:
 20. Dry the DNA for 5 min at **50°C**.
 21. Add 50 µL of **TE buffer** to the precipitated DNA and vortex briefly to dissolve.
 22. Label your tube with the number in the Google sheet next to your name.
+
 #### E. coli transformations, one per student
+
 1. Add the 10 µL of the plasmid DNA to the tube with competent cells, flick the tube a few times to mix. Do **NOT** vortex the cells at this point.
 2. prepare a cup with ice/water slurry.
 3. Incubate for 5-10 min on ice.
@@ -39,5 +44,5 @@ Summary:
 8. Mix cells by pipetting slowly up and down.
 9. Plate 200 µL by adding 20 - 30 sterile glass beads to an LB plate and swirl to spread the cells.
 10. Incubate inverted at 37°C for 18 - 24 hours.
-This protocol is described in greater detail [[Transforming Frozen Competent E. coli\|here]].
-![[pTAx/colored.png]]
+    This protocol is described in greater detail [[Transforming Frozen Competent E. coli|here]].
+    ![[pTAx/colored.png]]

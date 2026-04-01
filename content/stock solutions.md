@@ -9,11 +9,11 @@
 - 0.5 M [[EDTA]] stock solution, pH 8
 - 1.0 M [[TrisHCl]], pH 8
 - 1M [[IPTG]] stock solution
-- 200 mg/mL [[antibiotics\|Ampicillin]] solution (x1000)
-- 200 mg/mL [[ampicillin\|Geneticin]] solution (x1000)
-- 12.5 mg/mL [[antibiotics\|Tetracycline]] solution (x1000)
+- 200 mg/mL [[antibiotics|Ampicillin]] solution (x1000)
+- 200 mg/mL [[ampicillin|Geneticin]] solution (x1000)
+- 12.5 mg/mL [[antibiotics|Tetracycline]] solution (x1000)
 - 10 mM [[dNTPs]] solution
 - 5x [[Ligase buffer]]
-- DNA [[6x DNA loading buffer\|DNA loading-buffer]] with FICOLL and two dyes.
+- DNA [[6x DNA loading buffer|DNA loading-buffer]] with FICOLL and two dyes.
 - [[PBS]]
-- [[antibiotics]]
+- [[Antibiotics]]

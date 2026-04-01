@@ -1,4 +1,4 @@
-## Transforming Frozen Calcium Competent or [[SEM (Inoue) competent cells\|SEM]] E. coli cells
+## Transforming Frozen Calcium Competent or [[SEM (Inoue) competent cells|SEM]] E. coli cells
 
 1. Remove one tube of competent cells from -80°C freezer for each transformation. Let cells defrost on ice (~5-15 min).
 2. Add the DNA (up to 10 µL for each 200 µL cells), flick the tube a few times to mix. Do **NOT** vortex the cells at this point.
@@ -16,6 +16,7 @@
 2. Make sure cells have settled to a pellet. Discard ~900 µL of the supernatant, so that 200-300 µL remains.
 3. Resuspend pellet with the remaining liquid with a pipette.
 4. Add all of the cells to the  the middle of a plate.
+
 ### Plating
 
 1. Add 20 µL of a 1000 x antibiotic to the puddle with cells. Do this rapidly so that cells do no
@@ -23,6 +24,5 @@
 3. Dry the plates opened in a [Laminar air flow bench](https://en.wikipedia.org/wiki/Laminar_flow_cabinet) if necessary.
 4. Incubate plates inverted at 37°C over-night. No [[parafilm]] is needed.
 
-
 Reference:
-Inoue, H, H Nojima, and H Okayama. 1990. “High Efficiency Transformation of Escherichia Coli with Plasmids.” _Gene_ 96 (1): 23–28. [https://doi.org/10.1016/0378-1119(90)90336-p](https://doi.org/10.1016/0378-1119\(90\)90336-p).
+Inoue, H, H Nojima, and H Okayama. 1990. “High Efficiency Transformation of Escherichia Coli with Plasmids.” _Gene_ 96 (1): 23–28. <https://doi.org/10.1016/0378-1119(90)90336-p>.

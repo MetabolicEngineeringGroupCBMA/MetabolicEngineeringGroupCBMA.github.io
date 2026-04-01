@@ -14,4 +14,3 @@ such as BLAST, their underlying concepts, and their practical interpretation.
 Finally a note on the limitations of sequence alignment and the
 importance of biological context when drawing conclusions from alignmen
 results.
-

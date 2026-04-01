@@ -4,7 +4,7 @@ Yeast or bacterial biomass from a range of sources can be mixed with glycerol to
 
 > [!IMPORTANT]
 > Each student should freeze important strains along his or her stay in the laboratory. Strains received from other labs should be frozen
-within two weeks of arrival.
+> within two weeks of arrival.
 
 The simplest way to freeze a strain is to inoculate a plate of solid medium and incubate it for one or two days at the optimal temperature of the strain.
 This medium has to be selective if the strain requires it.
@@ -29,14 +29,11 @@ Ideally,  at least three to four different successful clones of each new constru
 
 All further work should be done with the first clone. The pooled clone is useful if at some point further clones need to be studied.
 
-
-
 ### Reviving yeast or bacterial frozen stocks.
 
 Prepare an ice box with ice, sterile toothpicks, solid medium and somewhere to work before removing the tubes from the freezer.
 
 Open the tube near a flame and scrape off some of the solid cells with a sterile toothpick. Transfer the cells to solid medium and return the tube to the freezer as soon as possible and without ever letting the culture melt.
-
 
 Reference:
 Sherman, F, et al. (1986) The laboratory course manual for methods in yeast genetics. Cold spring harbor press, cold spring harber, NY, P179.

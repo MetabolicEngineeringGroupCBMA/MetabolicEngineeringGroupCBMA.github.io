@@ -35,7 +35,6 @@ Famous physicist [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman)
 
 ![](meet.png)
 
-
 Meet with your supervisor regularly by **your own** initiative.
 
 - Don't wait for the supervisor to speak.
@@ -68,9 +67,10 @@ Some useful links:
 
 **English** is the language of science. Depending on your background you may need to improve your English.
 
-[[writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills.
+[[Writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills.
 
-I have collected some free resources for learning English [[English\|here]].
+I have collected some free resources for learning English [[English|here]].
+
 ### Misc
 
 [10 Things Every Molecular Biologist Should Know](https://resources.bitesizebio.com/resource-page/10-things-every-molecular-biologist-should-know)

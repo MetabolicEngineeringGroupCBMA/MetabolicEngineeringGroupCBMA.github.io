@@ -1,4 +1,5 @@
 # Tant Harriets pepparkakor
+
 - Aunt Harriet's gingerbread cookies
 - Bolachas de Gengibre à moda da tia Harriet
 
@@ -18,6 +19,7 @@
 - 1,5 liter vetemjöl
 
 GÖR SÅ HÄR:
+
 1. Rör smör, socker och sirap smidigt.
 2. Tillsätt vatten, kryddor, bikarbonat och mjöl.
 3. Arbeta degen smidig i matberedare eller på bakbordet. Degen ska vara ganska lös.
@@ -25,7 +27,6 @@ GÖR SÅ HÄR:
 5. Kavla ut degen tunt och tag ut kakor med mått.
 6. Grädda kakorna mitt i ugnen, 4-5 minuter i 225 graders värme.
 7. Låt kallna på plåten.
-
 
 > [!observera]
 > Det är viktigt att knåda degen ordentligt (3) annars håller inte pepparkakorna ihop. Jag kör med elvisp och degkrokar i 10 - 15 min.
@@ -80,7 +81,5 @@ COMO FAZER:
 7. Deixe arrefecer no tabuleiro.
 
 É importante amassar bem (3). Eu uso um batedor elétrico e ganchos de massa (10 a 15 minutos), caso contrário, as as bolachas de gengibre não ficarão firmes antes de as pôr no forno. Contudo, referindo-me à receita original, penso que seja 1 colher de sopa de cravo inteiro, e não cravinho moído. Podem utilizar o dobro da quantidade de canela e gengibre, ficará melhor nos bolos. Eu costumo utilizar duas colheres de sopa de gengibre, quatro colheres de sopa de canela e uma colher de sopa de cravinho moído.
-
-
 
 ![[misc/recept/pepparkakor_007.png]]

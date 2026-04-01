@@ -24,7 +24,6 @@ Note: Overnight digestions are usually unnecessary.
 
 Gel electrophoresis of the DNA is necessary in order to find out if the digestion was successful.
 
-
 It is important to run an **undigested control** on the gel.
 
 Remember to always load an **equal amount of DNA** in each well of the agarose gel.
@@ -39,9 +38,7 @@ If you suspect problems, add a control DNA that should be digested.
 If you need to digest more than one or two different DNA preparation, it is better to prepare a
 restriction digestion master mix in analogy of a PCR mastermix.
 
-
 Imagine if you would like to set up ten digestions of 20 µL with 4 µL of DNA in each.
-
 
 In this example, your restriction enzyme has 10 U/µL and you would like to have 2 U per reaction.
 The restriction buffer is x10 concentrated and you would like to make ten percent more than you
@@ -59,9 +56,7 @@ The table below lists the initial relevant variables.
 |     10 | Buffer concentration (x concentrated)    |
 |    10% | extra volume (%)                         |
 
-
 Prepare the Mastermix like so:
-
 
 | Volume (µL) | Component         |
 |-----------:|:-------------------|
@@ -73,24 +68,17 @@ Prepare the Mastermix like so:
 Use the mastermix as described in the table below.
 It is easier to add the mastermix in all the tubes first, since the DNA has a low volume.
 
-
 | Volume (µL) | Component              |
 |-----------:|:------------------------|
 | 16.0       | Mastermix per digestion |
 | 4          | DNA per reaction        |
 
-
-
-The volumes of this mastermix was calculated using [this](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787&range=A1:B1)
+The volumes of this mastermix was calculated using [this](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787\&range=A1:B1)
 google spreadsheet (shown below). The green fields are variables you can change.
 
-
-[![](restriction_mix.png)](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787&range=A1:B1)
-
+[![](restriction_mix.png)](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=525851787\&range=A1:B1)
 
 You can modify directly according to your needs or download it in excel format.
-
-
 
 ### Restriction of un-purified PCR products
 
@@ -107,7 +95,6 @@ which could **fill in the sticky ends** generated during a subsequent restrictio
 
 Digesting a DNA substrate with two restriction enzymes simultaneously (double digestion) can save a lot of time.
 Some restriction enzymes come with a universal buffer such as the FastDigest from Thermo Scientific. If you are using enzymes with specific buffer buffers, there are online tools such as [NEBcloner](https://nebcloner.neb.com/#!/redigest) that will guide you to select conditions.
-
 
 ### Star activity
 

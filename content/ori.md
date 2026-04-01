@@ -10,7 +10,6 @@ Both pBR322 and pUC-class plasmids use the **same basic mechanism** to replicate
 
 ![[ori_001.png]]
 
-
 ## pBR322 origin: lower/moderate copy with stronger negative control (Rop present)
 
 - **Rop is a small plasmid-encoded protein** that _stabilizes_ the interaction between RNAI and RNAII (it helps the RNAs form the inhibitory complex more efficiently).
@@ -24,6 +23,7 @@ The pUC series (pUC18/19, etc.) were engineered for cloning convenience and **ve
 ### (A) **Deletion of rop**
 
 pUC plasmids **lack the rop gene**, removing the protein that boosts RNAI–RNAII inhibitory complex formation. That weakens negative regulation and pushes copy number upward.
+
 ### (B) **A point mutation in RNAII**
 
 The pUC high-copy is also driven by **a single point mutation in the RNAII primer region**, which alters how well RNAI can inhibit RNAII.

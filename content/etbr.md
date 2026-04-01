@@ -74,4 +74,3 @@ References
 - https://groups.google.com/forum/#!topic/bionet.molbio.methds-reagnts/fzpPmQwmPUw
 
 - http://www.paralog.com/wiki/?EthidiumBromide
-

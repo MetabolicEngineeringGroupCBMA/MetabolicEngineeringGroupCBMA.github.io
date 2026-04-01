@@ -1,6 +1,4 @@
-
-
-http://www.tasteline.com/Recept/potatisgratang_2
+http://www.tasteline.com/Recept/potatisgratang\_2
 
 10 st  potatis(ar)
 1,5 st  gul lök(ar)

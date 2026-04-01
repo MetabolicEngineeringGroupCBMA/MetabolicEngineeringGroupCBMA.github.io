@@ -8,7 +8,7 @@ The method used was described by Miller (1959). This method is based on the form
 
 ## Reducing sugars
 
-All monosaccharides (Figure 1) and *some* polysaccharides are reducing sugars, for example:
+All monosaccharides (Figure 1) and _some_ polysaccharides are reducing sugars, for example:
 
 - ✅ Glucose
 - ✅ Fructose
@@ -34,17 +34,16 @@ Figure 3
 
 Some sugars have only acetals and are therefore **not** reducing (Figure 4).
 
-
 ![[Pasted image 20241120064559-1.png]]
 Figure 4
 
-
-[![Pasted image 20241120065101-1.png](<Pasted image 20241120065101-1.png>)](https://www.youtube.com/watch?v=UPTR-j4S17Q)
+[![Pasted image 20241120065101-1.png](Pasted image 20241120065101-1.png)](https://www.youtube.com/watch?v=UPTR-j4S17Q)
 Figure 5 - A nice YouTube video on reducing sugars (5 min)
 
 The concentration of this colored complex is proportional to the concentration of reducing sugars in the sample.
 
 From known values of glucose concentration, it is possible to draw a calibration curve, such as the one shown in the following figure, illustrating the absorbance (OD at 540 nm) as a function of glucose concentration in reducing sugar equivalents.
+
 ## Calibration Curve for Reducing Sugars in Glucose Equivalents by the DNS Method
 
 The equation of the line obtained by linear regression is as follows:
@@ -58,10 +57,10 @@ Figure 6
 
 | Group / Bench | Experimental Condition |           | Samples (min) | Volume of Sample | Volume of DNS |
 | ------------- | ---------------------- | --------- | ------------- | ---------------- | ------------- |
-| 1             | *S. cerevisiae*        | aerobic   | 0, 5, 10, 15  | 0.5 mL           | 0.5 mL        |
-| 2             | *S. cerevisiae*        | anaerobic | "             | "                | "             |
-| 3             | *T. delbrueckii*       | aerobic   | "             | "                | "             |
-| 4             | *T. delbrueckii*       | anaerobic | "             | "                | "             |
+| 1             | _S. cerevisiae_        | aerobic   | 0, 5, 10, 15  | 0.5 mL           | 0.5 mL        |
+| 2             | _S. cerevisiae_        | anaerobic | "             | "                | "             |
+| 3             | _T. delbrueckii_       | aerobic   | "             | "                | "             |
+| 4             | _T. delbrueckii_       | anaerobic | "             | "                | "             |
 
 2. Incubate for 5 minutes in a boiling water bath.
 3. Cool under running water (tap).
@@ -82,8 +81,6 @@ Miller, G. (1959). Use of DNS acid reagent for determination of reducing sugar. 
 3. Using only the results obtained in this practical class, can you conclude anything about the Pasteur effect?
 
 4. Explain the differences found in glucose levels quantified by the HPLC and DNS methods. What are the advantages of each?
-
-
 
 <!--
 

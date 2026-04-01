@@ -7,7 +7,6 @@ Transilluminator with 768 x 582 pixel camera.
 Using a GenoSmart you can produce images of electrophoresis gels stained
 with any of these dyes:
 
-
 • Coomassie Blue
 • Silver Stain
 • SYBR® Gold • SYBR® Green • SYBR® Safe • GelStar®

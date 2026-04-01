@@ -4,11 +4,9 @@ It is not necessary to install ApE to use it, you can use it from a folder on yo
 
 Go [here](https://jorgensen.biology.utah.edu/wayned/ape) to get ApE, click on the link for your OS as indicated below.
 
-
 [![[ape_download.png]]](https://jorgensen.biology.utah.edu/wayned/ape)
 
 ## Introduction to ApE
-
 
 [![[ApE-20240924104257314.png]]](https://youtu.be/HTq91gJDSqk?si=5oT0bDhj6QIf4JwW)
 
@@ -20,20 +18,15 @@ Go [here](https://jorgensen.biology.utah.edu/wayned/ape) to get ApE, click on th
 
 1. Locate the cursor at the desired location where you want to cut the vector. Make sure sequence is circular.
 
-
 ![[ApE_locate_linearization_site.png]]
 
 2. Select ApE Edit>"Linearize @ insert site" (see below).
-
 
 ![[ApE_linearize_insertion_site.png]]
 
 The sequence is now linear beginning at the location of the cursor.
 
 ![[ApE_linearized_sequence.png]]
-
-
-
 
 ### More info
 

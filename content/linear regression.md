@@ -6,9 +6,7 @@ Spreadsheets like Excel or Google Spreadsheet has similar capabilities, but may 
 
 For example, a line can be fitted to the data in the table below.
 
-
 ![LinearRegr1.png](LinearRegr1.png)
-
 
 | X  |
 |----|
@@ -22,7 +20,6 @@ For example, a line can be fitted to the data in the table below.
 | 8  |
 | 9  |
 | 10 |
-
 
 | Y    |
 |------|
@@ -39,18 +36,17 @@ For example, a line can be fitted to the data in the table below.
 
 Paste the X and Y data into the X-values and Y-values text windows.
 
-
-
 Click the "Calculate the Regression Equation" button at the end of the page.
 
 You will get a linear equation, in this case:
 
-    y = 1.02424x + 0.48667
+```
+y = 1.02424x + 0.48667
+```
 
 A diagram showing the fitted line and the datapoints:
 
 ![LinearRegr2.png](LinearRegr2.png)
-
 
 And some statistics regarding the fit of the line:
 

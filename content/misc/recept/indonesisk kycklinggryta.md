@@ -4,8 +4,6 @@ created: 2026-01-06T07:37:54.297+00:00
 modified: 2026-01-30T10:34:04.663+00:00
 ---
 
-
-
 Ett recept ur boken Nya Annas Mat av Anna Bergenström.
 
 1 stor kyckling på ca 1 kg

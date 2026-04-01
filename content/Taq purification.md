@@ -25,17 +25,20 @@ This can be resolved by always including a negative control without template.
 19. Dispense the mixture in Eppendorf tubes and store at -20 C.
 
 ### Superbroth (SB) (1L)
+
 - 32 g tryptone
 - 20 g yeast extrac
 - 5 g NaCl
 - 1.25 ml 4M NaOH
 
 ### Buffer A
+
 - 50 mM Tris-HCl, pH 8
 - 50 mM dextrose
 - 1 mM EDTA
 
 ### Buffer B
+
 - 10 mM Tris-HCl, pH 8
 - 50 mM KCl, 1 mM EDTA
 - 0.5% Tween 20
@@ -43,6 +46,7 @@ This can be resolved by always including a negative control without template.
 - 1 mM PMSF
 
 ### Storage buffer
+
 - 50 mM Tris-HCl, pH 8
 - 100 mM NaCl
 - 0.1 mM EDTA
@@ -51,6 +55,7 @@ This can be resolved by always including a negative control without template.
 - 50% glycerol OR 75% glycerol
 
 ### Stock solutions:
+
 - 1M Tris-HCl pH 8
 - 500mM EDTA pH 8
 - Glycerol 50% v/v
@@ -60,6 +65,5 @@ This can be resolved by always including a negative control without template.
 - Nonidet P40 (if you do not have Nonidet P40, take twice of the Tween)
 
 ### References and resources:
-
 
 http://mama.indstate.edu/pfaffle/ptaq

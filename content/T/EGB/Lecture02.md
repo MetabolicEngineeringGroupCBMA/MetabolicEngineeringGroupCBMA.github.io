@@ -1,23 +1,27 @@
 # DNA structure and manipulation
 
-This class covers how purified DNA is cut, joined, modified, and analysed *in vitro*.
+This class covers how purified DNA is cut, joined, modified, and analysed _in vitro_.
 
 ## Core Techniques
+
 - Restriction endonucleases
 - DNA ligase
 - DNA-modifying enzymes
 - Agarose gel electrophoresis
 
 ## Key Concepts
+
 - Sticky ends vs blunt ends
 - Restriction maps
 - DNA fragment size determination
 - DNA recovery from gels
 
 ## Key Take-Home Message
+
 DNA manipulation relies on enzyme specificity and molecular complementarity.
 
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
+
 - Chapter 04 Manipulation of Purified DNA

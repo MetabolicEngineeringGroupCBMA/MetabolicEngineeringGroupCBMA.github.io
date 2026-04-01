@@ -14,6 +14,7 @@ This is a compilation of general guidelines for PCR. Most of it was lifted from 
 |Template DNA			  |	10 pg-1 µg          |
 
 Note the concentrations of the stock solutions.
+
 ## Mastermix
 
 Normally, we do not prepare the PCR mix for each PCR, but we use a frozen [[2x PCR mastermix]] with 2x concentration.
@@ -69,14 +70,13 @@ recommended.
 Melting temperature (Tm):
 
 Melting temperatures for oligonucleotides can be calculated from simple formulae
-(e.g. Tm = 2[A+T] + 4[G+C]), or determined by software programs developed
+(e.g. Tm = 2\[A+T] + 4\[G+C]), or determined by software programs developed
 specifically for this purpose. It is unclear which is the best method to mos
 accurately calculate Tm. Optimal annealing temperature (Ta):
 
 A general rule of thumb is to use a temperature approximately 5 °C lower than
 the Tm of the primers. Alternatively, there are more complex equations to
 calculate Ta (Rychlik et al., Nucleic Acids Research 18:6409-6412).
-
 
 ## Stock solutions:
 
@@ -88,7 +88,7 @@ MgCl2 stock solutions are typically 25mM or 50mM.
 
 Primers: 	10uM (10x dilution of the MWG standard conc)
 dNTPs		1 mM (10x dilution of the normal stock)
-[rel://protocols/Screenshot-Java-applet for PCR or qPCR reaction mixture setup - Mozilla Firefox.png]
+\[rel://protocols/Screenshot-Java-applet for PCR or qPCR reaction mixture setup - Mozilla Firefox.png]
 
 Volume calculators: http://primerdigital.com/Tools/ReactionMixture.html
 Troubleshoot PCR:    http://www.med.yale.edu/genetics/ward/tavi/Trblesht.html
@@ -96,6 +96,7 @@ Troubleshoot PCR:    http://www.med.yale.edu/genetics/ward/tavi/Trblesht.html
 ## Additives
 
 may improve results:
+
 - DMSO (up to 10%)
 - Detergents (NP40, Triton X-100, Tween® 20) up to 1%
 
@@ -104,14 +105,13 @@ See links below for more suggestions.
 See [here](http://bitesizebio.com/24/pcr-problems-try-an-additive/)
 and [here](http://bitesizebio.com/2592/better-than-betaine-pcr-additives-that-actually-work/)
 
-
-
 ## Buffer
 
 Fermentas (now ThermoFisher) describe a buffer that works very well in our hands. The recipe is taken
 from this [website](https://www.thermofisher.com/order/catalog/product/B33).
 
 10x Taq Buffer with (NH4)2SO4 w/o MgCl2:
+
 - 750 mM Tris-HCl (pH 8.8 at 25°C)
 - 200 mM (NH4)2SO4
 - 0.1% (v/v) Tween 20
@@ -126,7 +126,6 @@ This buffer can be prepared in this way (100 mL):
 6. Mix, aliquot and freeze. Autoclaving is not needed.
 
 This buffer has no MgCl2.
-
 
 ## MgCl2
 

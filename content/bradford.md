@@ -2,7 +2,6 @@
 
 Microplate analysis.
 
-
 - Dilute 1mL of Bradford reagent in a total volume of 5mL with dH2O.
 - Prepare a 1mg/mL BSA solution.
 - Use the following concentrations for 6 wells.
@@ -15,8 +14,6 @@ Microplate analysis.
 | 4    | 5             | 5           | 10           |
 | 5    | 10            | 10          | 5            |
 | 6    | 15            | 15          | 0            |
-
-
 
 - Use the rest of the wells for your samples, use 1uL of your sample and add 14 uL of dH2O (you may use duplicates/ triplicates)
 

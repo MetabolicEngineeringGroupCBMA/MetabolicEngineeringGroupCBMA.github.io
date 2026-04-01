@@ -17,15 +17,16 @@
 - 500
 - 250
 
-[MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf](MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf)
+[MAN0013004\_GeneRuler\_1kb\_DNALadder\_250ug\_UG.pdf](MAN0013004_GeneRuler_1kb_DNALadder_250ug_UG.pdf)
 
 ### Penn State Ladder
 
 [[Penn State ladder]]
 
-
 bp     ng/0.5µg  %
------  --------  ---
+
+---
+
 10000  18        3.6
 8000   18        3.6
 6000   18        3.6
@@ -53,7 +54,6 @@ bp     ng/0.5µg  %
 [[Bioron_100_bp_plus_DNA_Ladder.pdf]]
 
 ![[files/Bioron_100_bp_plus_DNA_Ladder.jpeg]]
-
 
 1500
 1000
@@ -83,20 +83,15 @@ bioron 1 kb DNA Ladder ready-to-use
 500
 250
 
-
-
-
-
-
-
-
 GeneRuler 1 kb+
 <https://docs.google.com/spreadsheets/d/1vN0y75ibxPrG6yJQjq1uF2FXP0L-qGSn_fzInUHeTs4/edit># gid=0
-[GeneRuler_1kb_Plus.png](<file:/home/bjorn/myvault/files/GeneRuler_1kb_Plus.png>)
+[GeneRuler\_1kb\_Plus.png](file:/home/bjorn/myvault/files/GeneRuler_1kb_Plus.png)
 0.5 µg/µL
 
 bp    ng/µL    fmol/0.5 µg
------ -------- ---
+
+---
+
 20000 20       1.5
 10000 20       3.1
 7000  20       4.4

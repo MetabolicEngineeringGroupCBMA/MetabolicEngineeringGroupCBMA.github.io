@@ -10,9 +10,10 @@ with two volumes of water (for example 20 µL ). Mix well and put 4 µL drops of
 This mixture will have the right fraction of loading buffer.
 
 ## Preparation
+
 The table below contain the components of a 6x loading buffer used in the lab. It has two colors
 one bluish that migrates slowly and one yellow that migrates rapidly. This loading buffer should be
-compatible with PCR (see below). Note that the buffer should contain either Orange G *or* Tartrazine
+compatible with PCR (see below). Note that the buffer should contain either Orange G _or_ Tartrazine
 as the yellow color. Orange G is preferred since it migrates faster.
 
 | Component                     |Quantity |Concentration (w/v)| Final concentration       |Function       |
@@ -24,30 +25,25 @@ as the yellow color. Orange G is preferred since it migrates faster.
 | Water                         | -       | to 50 mL          |                           | -             |
 | Total                         | 50 mL   |                   |                           |               |
 
-	
 Recipe for 50 mL 6x DNA loading buffer:
 
 - add 6.25g [FICOLL 400](https://www.sigmaaldrich.com/catalog/product/sigma/f2637) powder to a new 50 mL FALCON tube.
 - add [[ddH2O]] to about 30 mL, shake to dissolve. This may take time, heating the tube in a water bath helps.
 - add 7.5 mg Xylene Cyanol FF powder
-- add 7.2 mL Orange G (1% w/v) ***OR*** 900 µL of VAHINE yellow contains [Tartrazine](http://en.wikipedia.org/wiki/Tartrazine)
+- add 7.2 mL Orange G (1% w/v) _**OR**_ 900 µL of VAHINE yellow contains [Tartrazine](http://en.wikipedia.org/wiki/Tartrazine)
 - add water to 50 mL
 
 The resulting solution is about the same colour as the GoTaq green flexi buffer commercialized
 by [Promega](https://worldwide.promega.com/products/pcr/endpoint-pcr/gotaq-reaction-buffers/?catNum=M7911).
 The gel below shows GoTaq green flexi buffer loaded on gel.
 
-
 ![[gotaq.jpg]]
 
-
 This loading buffer is be compatible with PCR, add it to 16% (v/v) of the final PCR (8 µL in a 50 µL reaction) volume. This can be added to the [[2x PCR mastermix]].
-
 
 The yellow food coloring contain Tartrazine (E102). In this case, exact concentration
 is not known, but could be measured using a spectrophotometer at the absorption
 maximum of 472 nm. The molar absorptivity of Tartrazine at 472 nm is 20,330 L mol-1 cm-1.
-
 
 ### Developmen
 
@@ -55,7 +51,9 @@ maximum of 472 nm. The molar absorptivity of Tartrazine at 472 nm is 20,330 L mo
 
 From invitrogens website I found the following information:
 
-    Xylene Cyanol (0.02%), Tartrazine and Ficoll (2.5%) do not inhibit this enzyme (recombinant Taq).
+```
+Xylene Cyanol (0.02%), Tartrazine and Ficoll (2.5%) do not inhibit this enzyme (recombinant Taq).
+```
 
 The information was avaliable thorugh this [link](http://www.invitrogen.com/site/us/en/home/Products-and-Services/Applications/PCR/pcr-enzymes-master-mixes/taq-dna-polymerase-enzymes/taq_dna_polymerase.html).
 
@@ -65,9 +63,11 @@ This suggests that 2.5% ficoll could be added to a PCR reaction.
 
 Kramer 2001 suggests to add 0.5 - 1% Ficoll 400. Surpisingly they refer to v/v:
 
-    add Ficoll 400 to a final concentration of 0.5% to 1% (v/v)
+```
+add Ficoll 400 to a final concentration of 0.5% to 1% (v/v)
+```
 
-Kramer, M. F., & Coen, D. M. (2001). Enzymatic amplification of DNA by PCR: standard procedures and optimization. Current Protocols in Molecular Biology / Edited by Frederick M. Ausubel... [et Al.], Chapter 15, Unit 15.1.
+Kramer, M. F., & Coen, D. M. (2001). Enzymatic amplification of DNA by PCR: standard procedures and optimization. Current Protocols in Molecular Biology / Edited by Frederick M. Ausubel... \[et Al.], Chapter 15, Unit 15.1.
 
 #### Xylene Cyanol FF (Blue)
 
@@ -78,8 +78,8 @@ yields 0.0025% XyleneCyanol FF in the final 1x PCR mixture:
 [![[1X_Quick-Load_Taq_Master_Mix.png]]](M0271Datasheet-Lot0211206.pdf)
 
 The final loading buffer should have 0.0025% (w/v) dye.
-The loading buffer is 6x concentrated, so the loading buffer should have 0.0025 * 6 = 0.015% (w/v).
-If we assume a density of 1 g/mL (the final buffer is denser), we should add (0.015/100) * 50000 = 7.5 mg of dye to 50 mL.
+The loading buffer is 6x concentrated, so the loading buffer should have 0.0025 \* 6 = 0.015% (w/v).
+If we assume a density of 1 g/mL (the final buffer is denser), we should add (0.015/100) \* 50000 = 7.5 mg of dye to 50 mL.
 
 #### Orange G
 
@@ -101,7 +101,6 @@ The [[mccormick-food-coloring.jpg|McCormick food coloring]] seem equivalent to t
 VAHINE available in Portugal (see above). In our
 recipe the final concentration is (0.9 mL / 50 mL ) / 6 = 0.3 % (v/v).
 
-
 ### Misc
 
 VAHINE food coloring comes in a package with blue, red and yellow. It has the following components:
@@ -113,7 +112,6 @@ VAHINE food coloring comes in a package with blue, red and yellow. It has the fo
 | yellow | [E102  Tartrazine](http://en.wikipedia.org/wiki/Tartrazine) |  |
 
 ### Links
-
 
 - <http://www.wendychao.com/science/protocols/loading_buffer/>
 - <http://www.protocol-online.org/biology-forums-2/posts/12397.html>

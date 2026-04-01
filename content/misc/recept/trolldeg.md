@@ -1,5 +1,3 @@
-
-
 Trolldeg
 Här är ett par receptet på helt vanlig trolldeg att använda som leklera eller att göra figurer som sedan kan torkas.
 Alt 1
@@ -17,18 +15,16 @@ Alt 2
 
 Lös saltet i varmt vatten. Rör i mjölet och knåda ihop till en smidig det. Torka figurerna i 100 grader i ugnen i minst 2 timmar. Låt figurerna sedan torka i rumstemperatur i minst ett dygn.
 
-
 ---
 
-Play-do och [[misc/recept/trolldeg]] – recept och tips
-trolldegs-älgDet går snabbt och lätt att göra hemlagad [[misc/recept/trolldeg]] och egen play-do. Nästan allt som behövs finns hemma i skafferiet. Modelleringen blir till en lek med barnen samtidigt som ni fixar fina dekorationer till jul och påsk.
+Play-do och [[trolldeg]] – recept och tips
+trolldegs-älgDet går snabbt och lätt att göra hemlagad [[trolldeg]] och egen play-do. Nästan allt som behövs finns hemma i skafferiet. Modelleringen blir till en lek med barnen samtidigt som ni fixar fina dekorationer till jul och påsk.
 
 Till trolldegen har man för det mesta allt som behövs i skafferiet, medan play-don kräver en sväng till Apoteket. Men den lilla burken alun räcker till massor av hemgjord majsig play-do med en oslagbart klämvänlig och smidig konsistens.
 
 Trolldeg
 
-
-Ingredienser till [[misc/recept/trolldeg]]
+Ingredienser till [[trolldeg]]
 3 delar vetemjöl
 1 del salt
 1-1½ del vatten
@@ -37,7 +33,7 @@ Om man vill kan man lägga till en dryg matsked matolja per 1 dl salt. Då blir 
 
 Så gör du degen: Blanda mjöl och salt i en skål, blanda och knåda ner litet vatten i taget tills du fått en smidig deg.
 
-Om man vill kan man färga degen med karamellfärg, men [[misc/recept/trolldeg]] går också bra att måla. Innan målning behöver  figurerna torka över natten, eller i ugnen i 100 grader i ca ½-1 timme.
+Om man vill kan man färga degen med karamellfärg, men [[trolldeg]] går också bra att måla. Innan målning behöver  figurerna torka över natten, eller i ugnen i 100 grader i ca ½-1 timme.
 
 Tips för bättre resultat
 – Trolldeg torkar ganska snabbt, men håller ca ett dygn i plastpåse i kylen. Medan man arbetar med degen är det bra att ha en skål med vatten bredvid och fukta degen emellanåt så att den inte spricker.

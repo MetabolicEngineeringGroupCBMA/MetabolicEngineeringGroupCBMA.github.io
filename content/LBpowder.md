@@ -1,5 +1,5 @@
 ++LBpowder
-[protocol:]
+\[protocol:]
 Revised 2012-02-06
 
 A practical way of storing a LB stock in dry form (1).
@@ -28,5 +28,4 @@ This protocol works very well for LB-amp media, it seems that heating in
 microwave oven does not inactivate the antibiotic.
 
 1. Iacoviello M. P., and S. A. Rubin. 2001. Sterile preparation of antibiotic-
-  selective LB agar plates using a microwave oven. BioTechniques 30:963-965.
-
+   selective LB agar plates using a microwave oven. BioTechniques 30:963-965.

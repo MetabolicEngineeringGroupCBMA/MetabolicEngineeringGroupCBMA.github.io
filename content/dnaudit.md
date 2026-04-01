@@ -3,9 +3,10 @@ This document describes the _dnaudit_ standard for documentation of genetic cons
 The goal of this standard is to facilitate documentation that is clear and unambiguous, yet with minimal markup.
 
 The documentation generated using this standard shows step-by step how a genetic construct was made so that it can be reproduced
-while at the same time making it easier to *preserve* and *share* genetic material.
+while at the same time making it easier to _preserve_ and _share_ genetic material.
 
 A genetic construct can be for example:
+
 - a plasmid made from parts of other plasmids or chromosomal DNA fragments
 - DNA integrated in the genome of an organism by CRISPr
 
@@ -52,15 +53,14 @@ These reserved Key/Value should be placed after the identifier in the FASTA head
 1. All relevant files have to be in the same project folder tree.
 2. Unit-operation snippets must have an `.md` file extension.
 3. A unit-operation starts with one of the reserved words from Table#1 or optionally yaml front matter.
-4. Sequences in the unit-operation files must be in FASTA [[GenBank\|format]].
+4. Sequences in the unit-operation files must be in FASTA [[Genbank|format]].
 5. File names must be unique in the project folder tree.
-6. Sequences are identified by their name (This is *not* necessarily the same as the file name of a sequence file).
+6. Sequences are identified by their name (This is _not_ necessarily the same as the file name of a sequence file).
 7. There can be only one identifier for a certain DNA sequence in the project folder.
 
 The [PydnaWeb](https://pydna.pythonanywhere.com) simulation tools can be helpful when preparing unit-operation snippets.
+
 ## Examples:
-
-
 
 ```
 ---
@@ -84,8 +84,6 @@ gaacgcggccgccagctgaagcttcgtacgctgcaggtcgacggatccccgggttaattaaggcgcgccagatctgttta
 GCGCCATATCATATATATTTATACAGATTAGACGTACTCAAAATGCAGCTGAAGCTTCGTACGCTGCAGGTCGACGGATCCCCGGGTTAATTAAGGCGCGCCAGATCTGTTTAGCTTGCCTCGTCCCCGCCGGGTCACCCGGCCAGCGACATGGAGGCCCAGAATACCCTCCTTGACAGTCTTGACGTGCGCAGCTCAGGGGCATGATGTGACTGTCGCCCGTACATTTAGCCCATACATCCCCATGTATAATCATTTGCATCCATACATTTTGATGGCCGCACGGCGCGAAGCAAAAATTACGGCTCCTCGCTGCAGACCTGCGAGCAGGGAAACGCTCCCCTCACAGACGCGTTGAATTGTCCCCACGCCGCGCCCCTGTAGAGAAATATAAAAGGTTAGGATTTGCCACTGAGGTTCTTCTTTCATATACTTCCTTTTAAAATCTTGCTAGGATACAGTTCTCACATCACATCCGAACATAAACAACCATGGGTAAGGAAAAGACTCACGTTTCGAGGCCGCGATTAAATTCCAACATGGATGCTGATTTATATGGGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGATTGTATGGGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATGTTACAGATGAGATGGTCAGACTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCAAGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCCGGCAAAACAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGGCAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACAGCGATCGCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGATGCGAGTGATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAGCTTTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTATTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACCGATACCAGGATCTTGCCATCCTATGGAACTGCCTCGGTGAGTTTTCTCCTTCATTACAGAAACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCATTTGATGCTCGATGAGTTTTTCTAATCAGTACTGACAATAAAAAGATTCTTGTTTTCAAGAACTTGTCATTTGTATAGTTTTTTTATATTGTAGTTGTTCTATTTTAATCAAATGTTAGCGTGATTTATATTTTTTTTCGCCTCGACATCATCTGCCCAGATGCGAAGTTAAGTGCGCAGAAAGTAATATCATGCGTCAATCGTATGTGAATGCTGGTCGCTATACTGCTGTCGATTCGATACTAACGCCGCCATCCAGTGTCGAAAACGAGCTCGAATTCATCGATGATATCAGATCCACTAGTGGCCTATGCTGATTACGTTCTGCGATTTTCTCATGATCTTTTTCATAAAATACA
 
 ```
-
-
 
 ```
 
@@ -125,10 +123,6 @@ PEXIgatcctcgtattatcgta
 
 ```
 
-
-
-
-
 ```
 # ligate
 
@@ -166,7 +160,6 @@ actcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacataacgcgtcgcgaggcca
 >pUCmuK_pwpwq3_sticky cdseguid=sdtvgK1IVf-Jtc6rzS0WJpLG4C0 (this is the resulting vector)
 actcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacataacgcgtcgcgaggccatatgggttaacccatggccaagcttgcatgcctgcaggtcgactctagagGATCCATGAACTCATATCACATTTGCTTCAACGACTGCCGCCTTCGCTGTATCCCTAGACACTCAACATAAgatcccgggtaccgagctcgaattcggatatcctcgagactagtgggcccgtttaaacacatgtgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttgccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcgggcttcccatacaatcgatagattgtcgcacctgattgcccgacattatcgcgagcccatttatacccatataaatcagcatccatgttggaatttaatcgcggcctcgaaacgtgagtcttttccttaccca
 ```
-
 
 ### homologous recombination
 
@@ -306,31 +299,29 @@ actg...
 ...
 ```
 
-
-
 ## More examples
 
-A lactose metabolic [pathway](https://github.com/MetabolicEngineeringGroupCBMA/Lactose-Pathway) for *S. cerevisiae* was formulated using this method. The pathway contains two expression cassettes with the Kluyveromyces lactis beta-D-galactosidase `LAC4` and  the `LAC12` Kluyveromyces lactis LAC12 gene for lactose permease. You can download the files by using the `Code` button and then the `Download ZIP` button:
+A lactose metabolic [pathway](https://github.com/MetabolicEngineeringGroupCBMA/Lactose-Pathway) for _S. cerevisiae_ was formulated using this method. The pathway contains two expression cassettes with the Kluyveromyces lactis beta-D-galactosidase `LAC4` and  the `LAC12` Kluyveromyces lactis LAC12 gene for lactose permease. You can download the files by using the `Code` button and then the `Download ZIP` button:
 
 ![[dlzip.png]]
 
 Briefly:
 
 1. LAC4 was pcr amplified from chromosomal DNA.
-2. The PCR product was cloned in the pYPKa vector in the *Aji*I site.
-3. A DNA fragment was pcr amplified from the pYPKa_A_LAC4 vector
-4. A promoter was amplified from the pYPKa_Z_PDC1 plasmid
-5. A terminator was amplified from the pYPKa_E_PGI1 plasmid
-6. The promoter gene and terminator and the vector pYPKpw digested with *Zra*I was joined by recombination to form the `pYPK0_PDC1_KlLAC4_PGI1` circular plasmid.
+2. The PCR product was cloned in the pYPKa vector in the _Aj&#x69;_&#x49; site.
+3. A DNA fragment was pcr amplified from the pYPKa\_A\_LAC4 vector
+4. A promoter was amplified from the pYPKa\_Z\_PDC1 plasmid
+5. A terminator was amplified from the pYPKa\_E\_PGI1 plasmid
+6. The promoter gene and terminator and the vector pYPKpw digested with _Zr&#x61;_&#x49; was joined by recombination to form the `pYPK0_PDC1_KlLAC4_PGI1` circular plasmid.
 
 The same procedure was performed for the LAC12 but with the `pYPKa_Z_PGI1` vector for the promoter and `pYPKa_E_TPI1` for terminator. The resulting vector is called `pYPK0_PGI1_KlLAC12_TPI1`.
 
-The two expression cassettes were pcr amplified and joined by homologous recombination with a pYPKpw vector digested with *Zra*I resulting in the
+The two expression cassettes were pcr amplified and joined by homologous recombination with a pYPKpw vector digested with _Zr&#x61;_&#x49; resulting in the
 `pYPK0_PDC1_KlLAC4_PGI1_KlLAC12_TPI1` vector expressing both genes.
 
 In this example, each file contain only one snippet, but all snippets could be put in one file.
 
 The advantage of separate files is that they can be reused.
 
-Each file name starts with the header of the snippet, like "pcr_...".
+Each file name starts with the header of the snippet, like "pcr\_...".
 This is optional, but makes it easier to sort the files.

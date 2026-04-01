@@ -1,53 +1,53 @@
-
 ![[pTAx/EGB24-20240705161734646.jpeg]]
 
 [original artwork](https://www.instagram.com/spettsart/?hl=en)
 
-The objective of this lab course is to construct a new plasmid cloning vector in the pTAx series. This vector will be an *[E. coli](https://en.wikipedia.org/wiki/Escherichia_coli)* /  _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_ [shuttle vector](https://en.wikipedia.org/wiki/Shuttle_vector). This vector will be useful for cloning genes and pathways using the Yeast Pathway Kit, see the next section "**Background**" "for more details.
+The objective of this lab course is to construct a new plasmid cloning vector in the pTAx series. This vector will be an _[E. coli](https://en.wikipedia.org/wiki/Escherichia_coli)_ /  _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_ [shuttle vector](https://en.wikipedia.org/wiki/Shuttle_vector). This vector will be useful for cloning genes and pathways using the Yeast Pathway Kit, see the next section "**Background**" "for more details.
+
 ### Background
 
-In the [mec](https://metabolicengineeringgroupcbma.github.io/) research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker's yeast [*S. cerevisiae*](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae).
+In the [mec](https://metabolicengineeringgroupcbma.github.io/) research group, we are interested in understanding and engineering the biosynthesis of fatty acids and related products by the unicellular fungi known as baker's yeast [_S. cerevisiae_](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae).
 
 ![[pTAx/pTAx plasmid construction.png|540x304]]
 
+Genetic engineering of complex traits often require the simultaneous deletion and/or expression of multiple genes. This is a challenging problem as genetic engineering is time consuming. To solve this problem, we developed a protocol for the parallel assembly of metabolic pathways that we call the **[[The Yeast Pathway Kit|Yeast Pathway Kit]]** (YPK). See our [publication](https://pubmed.ncbi.nlm.nih.gov/26916955) in _ACS Synthetic Biology_ for more details.
 
-Genetic engineering of complex traits often require the simultaneous deletion and/or expression of multiple genes. This is a challenging problem as genetic engineering is time consuming. To solve this problem, we developed a protocol for the parallel assembly of metabolic pathways that we call the **[[The Yeast Pathway Kit\|Yeast Pathway Kit]]** (YPK). See our [publication](https://pubmed.ncbi.nlm.nih.gov/26916955) in *ACS Synthetic Biology* for more details.
+We use this protocol for rapid construction and expression of large metabolic pathways in baker's yeast _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_ such as the pTA1\_FASIIb metabolic pathway expressing twelve genes from _E. coli_ and _A. thaliana_ [link](https://www.sciencedirect.com/science/article/pii/S221403012300007X) heterologous fatty acid synthesis pathway.
 
-We use this protocol for rapid construction and expression of large metabolic pathways in baker's yeast _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_ such as the pTA1_FASIIb metabolic pathway expressing twelve genes from *E. coli* and *A. thaliana* [link](https://www.sciencedirect.com/science/article/pii/S221403012300007X) heterologous fatty acid synthesis pathway.
-
-Plasmids in the pTAx series are used to propagate these constructs in *E. coli* or *S. cerevisiae*.
+Plasmids in the pTAx series are used to propagate these constructs in _E. coli_ or _S. cerevisiae_.
 
 ### The underlying problem we would like to solve
 
-In order to replicate in both *E.coli* and *S. cerevisiae*, a plasmid needs at least:
+In order to replicate in both _E.coli_ and _S. cerevisiae_, a plasmid needs at least:
 
-- a selection marker for *E. coli*
-- a selection marker for *S. cerevisiae*.
-- an origin of replication for *E. coli*
-- an origin of replication for *S. cerevisiae*.
+- a selection marker for _E. coli_
+- a selection marker for _S. cerevisiae_.
+- an origin of replication for _E. coli_
+- an origin of replication for _S. cerevisiae_.
 
 The first plasmid we used to express large pathways was called pYPKpw and it has the five functional parts indicated in Table#1:
 
 | Table#1, pYPKpw | part                                                      | function                                                                                                                                                   |
 | --------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                 | [ampR](https://en.wikipedia.org/wiki/Beta-lactamase)      | [selection marker](https://en.wikipedia.org/wiki/Selectable_marker) for *E. coli*.                                                                         |
-|                 | [pUC](https://en.wikipedia.org/wiki/PUC19)                | [origin of replication](https://blog.addgene.org/plasmid-101-origin-of-replication) for *E. coli*.                                                         |
+|                 | [ampR](https://en.wikipedia.org/wiki/Beta-lactamase)      | [selection marker](https://en.wikipedia.org/wiki/Selectable_marker) for _E. coli_.                                                                         |
+|                 | [pUC](https://en.wikipedia.org/wiki/PUC19)                | [origin of replication](https://blog.addgene.org/plasmid-101-origin-of-replication) for _E. coli_.                                                         |
 |                 | [2µ](https://blog.addgene.org/plasmids-101-yeast-vectors) | multicopy origin of replication for _S. cerevisiae_ from the natural [2µ plasmid](https://www.sciencedirect.com/science/article/abs/pii/S0147619X13000292) |
 |                 | [URA3](https://en.wikipedia.org/wiki/URA3)                | [selection marker](https://en.wikipedia.org/wiki/URA3) for for _S. cerevisiae_.                                                                            |
-|                 | Δcrp                                                      | a **partial, inactive** *E. coli* cyclic AMP receptor protein or [CRP](https://en.wikipedia.org/wiki/CAMP_receptor_protein) gene.                          |
+|                 | Δcrp                                                      | a **partial, inactive** _E. coli_ cyclic AMP receptor protein or [CRP](https://en.wikipedia.org/wiki/CAMP_receptor_protein) gene.                          |
 
-The last element in the table,  Δcrp is an *E. coli* gene which is inactive and only provide a recombination site. The pathways that we make are meant for _S. cerevisiae_, but we often need to **transfer the pathway to _E. coli_** so we can obtain larger amounts of higher quality DNA for analysis or transformation.
+The last element in the table,  Δcrp is an _E. coli_ gene which is inactive and only provide a recombination site. The pathways that we make are meant for _S. cerevisiae_, but we often need to **transfer the pathway to _E. coli_** so we can obtain larger amounts of higher quality DNA for analysis or transformation.
 
-The pUC origin of replication (ORI) results in a **high copy number** of the vector in *E. coli* which is an advantage for obtaining large amounts of DNA. However, we have observed genetic **instability** in *E. coli* for some large pathways that we suspect is linked to high copy number. Our experience is that a lower copy number provides more stability.
+The pUC origin of replication (ORI) results in a **high copy number** of the vector in _E. coli_ which is an advantage for obtaining large amounts of DNA. However, we have observed genetic **instability** in _E. coli_ for some large pathways that we suspect is linked to high copy number. Our experience is that a lower copy number provides more stability.
+
 ### pTAx vectors with increased stability
 
-We conceived a series of plasmid vectors called pTAx where x is a number from pTA1..11 (at the moment). The pTAx vectors were designed to have a relatively **low copy number** in *E. coli* to try to solve the stability problems of pYPKpw.
+We conceived a series of plasmid vectors called pTAx where x is a number from pTA1..11 (at the moment). The pTAx vectors were designed to have a relatively **low copy number** in _E. coli_ to try to solve the stability problems of pYPKpw.
 
-The copy number in *E. coli* should be lower since they have the intact **pBR** [[ori\|origin of replication]] (from plasmid pBR322) that includes the [ROP](https://en.wikipedia.org/wiki/Rop_protein) gene, while the pYPKpw has the high-copy pUC origin of replication from the pUC19 plasmid.
+The copy number in _E. coli_ should be lower since they have the intact **pBR** [[ori|origin of replication]] (from plasmid pBR322) that includes the [ROP](https://en.wikipedia.org/wiki/Rop_protein) gene, while the pYPKpw has the high-copy pUC origin of replication from the pUC19 plasmid.
 
 pTA1 was the first pTAx plasmid constructed by a former post-doc in the group, **T**atiana **A**ndrevna Pozdniakova, hence the name.
 
-The pTAx vectors are made from **five** genetic elements using *in-vivo* homologous recombination between five PCR products (Table #2 ➀ .. ➄).
+The pTAx vectors are made from **five** genetic elements using _in-vivo_ homologous recombination between five PCR products (Table #2 ➀ .. ➄).
 
 See [[pTAx assembly strategy]] for details of how the five PCR products are assembled into a plasmid..
 
@@ -72,13 +72,13 @@ This lab course is divided into nine practical classes, see below. Each student 
 
 | link      |       |       |       | Content                                                                      |
 | --------- | ----- | ----- | ----- | ---------------------------------------------------------------------------- |
-| [[pTAx/LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).   |
-| [[pTAx/LAB2]]  |       | PL2   |       | Plasmid DNA agarose gel. PCR reactions.                                      |
-| [[pTAx/LAB3]]  |       |       | PL3   | Gel (PCR products), Inoculate *S. cerevisiae* culture.                       |
-| [[pTAx/LAB4]]  | PL1   |       |       | Yeast (*S. cerevisiae*) transformation.                                      |
-| [[pTAx/LAB5]]  |       | PL2   |       | *In-silico* assembly of plasmid 💻                                           |
-| [[pTAx/LAB6]]  |       |       | PL3   | Yeast colony PCR                                                             |
-| [[pTAx/LAB7]]  | PL1   |       |       | Gel (colony PCR), Solid LB medium for LAB8                                   |
-| [[pTAx/LAB8]]  |       | PL2   |       | Plasmid rescue.                                                              |
-| [[pTAx/LAB9]]  |       |       | PL3   | Plasmid miniprep with commercial kit.                                        |
-| [[pTAx/LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA. Prepare DNA for sequencing. |
+| [[LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).   |
+| [[LAB2]]  |       | PL2   |       | Plasmid DNA agarose gel. PCR reactions.                                      |
+| [[LAB3]]  |       |       | PL3   | Gel (PCR products), Inoculate _S. cerevisiae_ culture.                       |
+| [[LAB4]]  | PL1   |       |       | Yeast (_S. cerevisiae_) transformation.                                      |
+| [[LAB5]]  |       | PL2   |       | _In-silico_ assembly of plasmid 💻                                           |
+| [[LAB6]]  |       |       | PL3   | Yeast colony PCR                                                             |
+| [[LAB7]]  | PL1   |       |       | Gel (colony PCR), Solid LB medium for LAB8                                   |
+| [[LAB8]]  |       | PL2   |       | Plasmid rescue.                                                              |
+| [[LAB9]]  |       |       | PL3   | Plasmid miniprep with commercial kit.                                        |
+| [[LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA. Prepare DNA for sequencing. |

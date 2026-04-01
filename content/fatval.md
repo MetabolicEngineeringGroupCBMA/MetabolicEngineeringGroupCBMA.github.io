@@ -1,6 +1,5 @@
 ![[fatval.jpg]]
 
-
 - 1.4 - 1.5 L TAE buffer 1x
 - 160 - 180 volts
 - about 15 - 20 min
@@ -16,12 +15,8 @@ A Schott bottle with 50x TAE should be on the shelf.
 
 This is a [Synmaxi](https://www.syngene.com/product/synmaxi/) electrophoresis system.
 
-
 ## How to interpret an agarose gel
 
-
 ![[fatval_001.png.jpg]]
-
-
 
 ![[fatval_002.png.jpg]]

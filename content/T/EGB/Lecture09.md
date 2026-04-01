@@ -17,9 +17,9 @@ improvement. Ethical, environmental, and regulatory considerations
 associated with agricultural biotechnology are introduced to contextualize
 these applications.
 
-
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
+
 - Chapter 14 Production of Protein from Cloned Genes [video](https://youtu.be/bRFy1w1j86E?si=HvDYUUjjfVI_fCOK)
 - Chapter 16 Gene Cloning and DNA Analysis in Agriculture [video](https://youtu.be/uZcxaex2Esc?si=xaKJJ4NfGzFaNE4L)

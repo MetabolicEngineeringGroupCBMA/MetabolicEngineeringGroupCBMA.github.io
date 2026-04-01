@@ -14,7 +14,7 @@ Your notebook is a permanent chronological record of what you planned, did and o
 3. Useful only if it is understandable by someone else than yourself.
 
 The first point cannot be stressed enough. You should record all mistakes and difficulties performing an
- experiment. You may learn more from these failures, and your attempts to correct them, than from experimen
+experiment. You may learn more from these failures, and your attempts to correct them, than from experimen
 that works perfectly the first time.
 
 ### Use ISO 8601 date forma
@@ -22,7 +22,6 @@ that works perfectly the first time.
 Record dates in ISO 8601 format:
 
 [![ISO8601](iso8601-dates.png)](https://xkcd.com/1179).
-
 
 ### Record early
 
@@ -70,7 +69,7 @@ a couple of lines about the motivation and a simple outline of it, even if it se
 at the time.
 
 Invent a title for the project (one that may run over several days or weeks!) a good title
-might be plasmid_name_ISO 8601_date such as for example pGOI_2019-01-04 for the construction of the fictional
+might be plasmid\_name\_ISO 8601\_date such as for example pGOI\_2019-01-04 for the construction of the fictional
 "pGOI" plasmid that was started on the third of March in 2017.
 
 This title should have no white space, this is makes it easier to make internal links.
@@ -86,14 +85,12 @@ Generally, if a protocol exists on the MEC protocol wiki, refer to this by a hyp
 On day three, The plasmid stock strain was observed to have grown normally and plasmid prep is performed using the cells on the plate. A picture was taken with a cell phone
 to document the plate. A link to
 
-On the page defined by the chosen title, the *mecplugins/here* function can be used to list all pages where the title was used.
-
+On the page defined by the chosen title, the _mecplugins/here_ function can be used to list all pages where the title was used.
 
 ### Continuation pages
 
 What if you need more than one page for a project? The paper notebooks we use have one A4 page per day.
 Simply add dated (ISO 8601!) blank pages to the notebook if needed.
-
 
 ### New procedures
 

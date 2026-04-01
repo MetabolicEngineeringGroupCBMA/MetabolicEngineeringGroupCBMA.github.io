@@ -1,11 +1,6 @@
 ## Yeast two-hybrid library screen by mating
 
-
-
-
 <http://protocols.mmml.nl/protocols/yeast/Y2H_mating.php>
-
-
 
 This protocol assumes using yeast strains Y8800/Y8930. If using a different strains, adapt 3-AT concentrations and/or phenotypic assays.
 

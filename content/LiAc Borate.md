@@ -15,9 +15,8 @@ Make sure the pH is between 6.5 – 7.0, if not add boric acid or lithium acetat
 
 Use the buffer at x1 concentration for gels and running buffer.
 
-
 References:
-- [Faster, Even Cooler DNA Gels!](https://bitesizebio.com/25078/faster-even-cooler-dna-gels)
-- [https://openwetware.org/wiki/LAB_Media](https://openwetware.org/wiki/LAB_Media)
-- [Improved DNA Electrophoresis in Conditions Favoring Polyborates and Lewis Acid Complexation](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011318)
 
+- [Faster, Even Cooler DNA Gels!](https://bitesizebio.com/25078/faster-even-cooler-dna-gels)
+- <https://openwetware.org/wiki/LAB_Media>
+- [Improved DNA Electrophoresis in Conditions Favoring Polyborates and Lewis Acid Complexation](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011318)

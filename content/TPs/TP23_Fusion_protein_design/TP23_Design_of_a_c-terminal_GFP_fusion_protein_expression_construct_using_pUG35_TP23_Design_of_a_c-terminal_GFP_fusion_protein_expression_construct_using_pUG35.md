@@ -1,24 +1,9 @@
 # **Construction of a c-terminal GFP fusion protein**
-The purpose of this exercise is to construct a vector that expresses a C-terminal GFP fusion protein between *S. cerevisiae* cytochrome C and GFP. Goal is for the gene to express the cytochrome c open reading frame together with the GFP as one protein  (Fig 1).
 
-
+The purpose of this exercise is to construct a vector that expresses a C-terminal GFP fusion protein between _S. cerevisiae_ cytochrome C and GFP. Goal is for the gene to express the cytochrome c open reading frame together with the GFP as one protein  (Fig 1).
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.002.png)
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.001.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 The purpose of doing this is usually be to follow the localization of GFP inside the cell, since it is possible to see the GFP by fluorescent microscopy (Fig 2).
 
@@ -26,22 +11,14 @@ The purpose of doing this is usually be to follow the localization of GFP inside
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.003.png)
 
-
-
-
-
-
-
 Vector selection
 
 It is important to chose a suitable vector to propagate the fusion protein. If the vector already contain one of the fusion partners, construction is simpler. We will construct a fusion gene by amplifying the CYC1 gene by PCR and sub cloning of the CYC1 pcr product in the GFP fusion vector pUG35 (Fig 3).
-
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.006.png)
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.005.png)
 
 The pUG35 has a MET25 (MET25-P) promoter, a multi cloning site and the GFP gene (called yEGFP3
-
 
 or EGFP) in the sequence file of pUG35) shown in Fig 2. The multi cloning site (MCS) is where you can sublone genes for the expression of GFP fusion proteins. The MCS has the following available enzymes:
 
@@ -95,10 +72,6 @@ atgactgaattcaaggccgg...gaaaaaagcctgtgagtaa
 
 start and stop codons are indicated by \*\*\* and ---.
 
-
-
-
-
 Design primers:
 
 \>fwd
@@ -108,7 +81,6 @@ atgactgaattcaagg
 \>rev
 
 ctcacaggcttttttc
-
 
 **--------------->**
 
@@ -123,7 +95,6 @@ atgactgaattcaaggccgg...gaaaaaagcctgtgagtaa
 `                       `**<---------------**
 
 Note that the reverse primer (rev) excludes the stop codon.
-
 
 Now we need two restriction enzymes in order to clone the PCR product. We choose BamHI and SalI (Simply because we might have these enzymes in the freezer...).
 
@@ -145,9 +116,9 @@ We need to make sure that the CYC1 and the GFP is in the correct reading frame. 
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.008.png)
 
-![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.007.png) 
+![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.007.png)
 
-Now it is very important to define the amino acid sequence of the fusion protein.  
+Now it is very important to define the amino acid sequence of the fusion protein.
 
 We know from the translation of the CYC1 gene that the CYC1 encodes a protein has 109 amino acids. This information and the sequence itself can be obtained in several ways:
 
@@ -167,18 +138,6 @@ Select from start to the end of the gene (Fig 4).  You can also search for open 
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.009.png)![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.011.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
 Select  ORFs>Translate... from the Menu, you should be seeing a window like the one in Fig 5.
 
 Copy the translated sequence to a new text file.
@@ -189,52 +148,11 @@ Note that you may have a \* symbol in the sequence file, depending on which soft
 
 We can tell from figure 2 that the amino acids encoded by the linkers would be VDLD between the SalI site and the start codon of the EGFP3 gene. The resulting amino acid sequence should be the one indicated by figure 6.
 
-
-
-
-
-
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.013.png)
-
-
 
 This means that the fusion protein has to contain the sequence YLKKACEVDLDMSKGEEL. We can use this to check our result later. Make sure you really understand this step!
 
 Put the amino acids of the linker in between the the protein sequences in your text file (Fig 7).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.014.png)
 
@@ -257,7 +175,6 @@ For this you can go to a web server that implements the Needleman-Wunch algorith
 
 Paste the translated amino acid sequence and the theoretical sequence in the other window (Fig9).
 
-
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.018.png)
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.017.png)
 
@@ -265,7 +182,6 @@ The two sequence will give the result indicated in Fig 10, 100% identity if they
 
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.020.png)
 ![](Aspose.Words.4deb96fb-a1e3-4e89-aaa7-6730afe506be.019.png)
-
 
 Use what you now know about the design of GFP fusion proteins and design a GFP fusion construct with pUG35, but with the CYC7 gene (available in the file CYC7.txt or from Genbank accession V01299) gene instead and use the restriction enzymes **XbaI** and **ClaI**.
 
@@ -276,4 +192,3 @@ The cSEGUID of the plasmid starts with **n51k4\_og**.  What are the last four ch
 **Question 2:**
 
 What is the size of the fusion protein (number of amino acids)?
-

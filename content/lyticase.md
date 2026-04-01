@@ -1,4 +1,3 @@
-
 "Vacuoles were isolated through hydrolysing yeast cell walls using lyticase,
 recombinantly expressed in Escherichia coli RSB805 (provided Dr. Randy
 Schekman, Berkeley), and were prepared from a periplasmic supernatant."
@@ -8,27 +7,26 @@ sequence of the glucanase gene from Oerskovia xanthineolytica. Expression and
 purification of the enzyme from Escherichia coli. The Journal of Biological
 Chemistry, 266(2), 1058–1063.
 
+rel:///home/bjorn/files/wiki-public-protocols/Protocol\_041007\_lyticase\_prep\_from\_ecoli.doc
 
-rel:///home/bjorn/files/wiki-public-protocols/Protocol_041007_lyticase_prep_from_ecoli.doc
-
-Purification of lyticase
-------------------------
+## Purification of lyticase
 
 Prep work:
 
 1. Make assay cells:
-grow desired WT yeast cells to <1 OD640 (cells do not spheroplast well at higher OD!)
-harvest cells and wash with dH20 resuspend cells in 50 mM Tris pH 7.4 to OD640 = 5.
+   grow desired WT yeast cells to <1 OD640 (cells do not spheroplast well at higher OD!)
+   harvest cells and wash with dH20 resuspend cells in 50 mM Tris pH 7.4 to OD640 = 5.
 
 2. Prepare RSB805 (pUV5::DH 5) stationary: LBamp, 37 C
+
 3. Make COLD "shock" buffer
 
 Induction:
 
-1. 	Inoculate LBamp with overnight stationary; 1/100 dilution is good...
-	even 1/200 is OK, but remember that doubling time for this strain is 40 minutes
-2. 	Let the bugs grow until 0.5 OD640; INDUCE by adding IPTG to 0.4mM
-3. 	Grow for 5 hours
+1. Inoculate LBamp with overnight stationary; 1/100 dilution is good...
+   even 1/200 is OK, but remember that doubling time for this strain is 40 minutes
+2. Let the bugs grow until 0.5 OD640; INDUCE by adding IPTG to 0.4mM
+3. Grow for 5 hours
 
 Shocking:   (note:  first four steps are done at room temp.)
 
@@ -44,30 +42,29 @@ Shocking:   (note:  first four steps are done at room temp.)
 
 Purification:
 
-1. 	Batch bind dialyzed supe to CM Sepharose which has been pre-equilibrated in 50mM NaOAc pH5.0.
-	Load bound mix onto fat short column (save the flowthrough just in case...)
-2. 	Wash the column with 50mM NaOAc pH5.O (2-3x column volume)
-3. 	Elute lyticase with 150mM NaCl, 50mM NaOAc pH5.0.
-	Flow rate should be ~7ml/minute and collect 7ml fractions.
-	General rule of thumb: lyticase will start to elute just after one column volume
-	of elution buffer has gone through
-4.  Monitor every fifth fraction for activity then assay every other fraction across the peak.
-	combine the peak fractions.
-
-
+1. Batch bind dialyzed supe to CM Sepharose which has been pre-equilibrated in 50mM NaOAc pH5.0.
+   Load bound mix onto fat short column (save the flowthrough just in case...)
+2. Wash the column with 50mM NaOAc pH5.O (2-3x column volume)
+3. Elute lyticase with 150mM NaCl, 50mM NaOAc pH5.0.
+   Flow rate should be ~7ml/minute and collect 7ml fractions.
+   General rule of thumb: lyticase will start to elute just after one column volume
+   of elution buffer has gone through
+4. Monitor every fifth fraction for activity then assay every other fraction across the peak.
+   combine the peak fractions.
 
 Assay:
 
-1.  Make fresh 2x buffer: 		100 mM Tris-HCl pH 7.4, 80 mM 2-ME
+1. Make fresh 2x buffer: 		100 mM Tris-HCl pH 7.4, 80 mM 2-ME
 
-2.  In each assay point:    	1ml 		2x assay buffer
-								920 uL 		H2O
-								80 uL    	cells (final OD640 is about 0.2)
-								0 - 50 ul 	collected fractions
+2. In each assay point:    	1ml 		2x assay buffer
+   920 uL 		H2O
+   80 uL    	cells (final OD640 is about 0.2)
+   0 - 50 ul 	collected fractions
 
-3.  Remove 1 ml and measure OD640 for "zero" point
-4.  Incubate remainder at 30C for 30 minutes then determine OD640;
-	1 unit = 10% decrease in OD640 after 30 minutes at 30C
+3. Remove 1 ml and measure OD640 for "zero" point
+
+4. Incubate remainder at 30C for 30 minutes then determine OD640;
+   1 unit = 10% decrease in OD640 after 30 minutes at 30C
 
 Please note:  We normally use crude shock fluid unless purified lyticase is especially desired.
 To store crude shock fluid (i.e. the supe from step 6, without dialysis or pH adjustment),

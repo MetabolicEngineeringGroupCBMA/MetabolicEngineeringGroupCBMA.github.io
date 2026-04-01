@@ -1,6 +1,6 @@
 1. Pour 30–100 ml of dialysis buffer, usually **ultra pure water** or 1X TE (10 mM Tris-HCl, 1 mM EDTA, pH 8.0), into a petri plate or beaker.
 
-2. Float a 25 mm diameter, Type-VS Millipore membrane (MF type, VS filter, mean pore size = 0.025 μm, Millipore, Inc. \#VSWP 02500) shiny side up on the dialysis buffer. Allow the floating filter to wet completely (~5 minutes) before proceeding. Make sure there are no air bubbles trapped under the filter. Mark the filters as indicated in the image below to identify different samples.
+2. Float a 25 mm diameter, Type-VS Millipore membrane (MF type, VS filter, mean pore size = 0.025 μm, Millipore, Inc. #VSWP 02500) shiny side up on the dialysis buffer. Allow the floating filter to wet completely (~5 minutes) before proceeding. Make sure there are no air bubbles trapped under the filter. Mark the filters as indicated in the image below to identify different samples.
 
 ![[drop-dialysis.png|320x212]]
 
@@ -12,12 +12,12 @@
 
 4. Estimate the concentration of the DNA product using agarose gel electrophoresis or a spectrophotometer.
 
->[!NOTE]
->Step 3 may be tricky for those with shaky hands or poor coordination. The filter has a tendency to move briskly around the surface as you touch it with the pipette tip. Practice with buffer droplets to master the technique before using a valuable sample.
+> [!NOTE]
+> Step 3 may be tricky for those with shaky hands or poor coordination. The filter has a tendency to move briskly around the surface as you touch it with the pipette tip. Practice with buffer droplets to master the technique before using a valuable sample.
 
 Steps 2 to 4 can be repeated with fresh buffer or for longer times if additional dialysis is required.
 
-
 Reference:
+
 1. Silhavy, T., Berman, M. and Enquist, L. Experiments with Gene Fusions, Cold Spring Harbor, N.Y. Press (1984).
 2. [NEB](https://www.neb.com/en/protocols/drop-dialysis)

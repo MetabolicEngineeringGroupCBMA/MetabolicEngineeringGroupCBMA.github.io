@@ -2,10 +2,8 @@
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g94FUCo0LtU/0.jpg)](https://www.youtube.com/watch?v=g94FUCo0LtU)
 
-
 This manifold was made from a plastic tupperware style box. A thick piece (~ 1 cm) acrylic plastic was glued on the top of the lid for
 stability under vacuum.
-
 
 Holes were drilled through the acrylic and the lid and 1.5 mL eppendorf tubes were glued in the holes. The holes should be made slightly smaller than the eppendorf tubes for a tight fit.
 

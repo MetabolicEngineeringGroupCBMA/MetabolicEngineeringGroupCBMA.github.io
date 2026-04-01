@@ -5,19 +5,18 @@ created: 2026-02-01T09:08:30.665+00:00
 modified: 2026-03-12T18:56:01.609+00:00
 ---
 
-
 We are the mec research group, a part of the research center [Centro de Biologia Molecular e Ambiental (CBMA)](https://cbma.uminho.pt). We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt) in the ancient city of [Braga](https://en.wikipedia.org/wiki/Braga), Portugal.
 
-- [[Teaching\|Teaching]] material
-- [[people\|People & contacts]]
-- Protocols & other lab [[lab\|information]]
-- [[software]]
+- [[Teaching|Teaching]] material
+- [[people|People & contacts]]
+- Protocols & other lab [[lab|information]]
+- [[Software]]
 
 ## Our interests
 
-![life_of_Yeast](The_life_of_Yeast_wide.gif)
+![life\_of\_Yeast](The_life_of_Yeast_wide.gif)
 
-We are interested is metabolic engineering of baker's yeast [*Saccharomyces cerevisiae*](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
+We are interested is metabolic engineering of baker's yeast [_Saccharomyces cerevisiae_](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
 for consumption of new types of substrates and production of new biotechnologically interesting molecules. You can see this yeast growing under a microscope in the animated image above.
 
 Specifically, we work on expanding the consumption of for efficient metabolism of new types of sugars as [D-xylose](https://en.wikipedia.org/wiki/Xylose) combined with biosynthesis of [fatty acids](https://en.wikipedia.org/wiki/Fatty_acid) and derived lipids.
@@ -47,12 +46,9 @@ It relies on one library of promoters and another for terminators. Pathways are 
 
 ![[pydna_logo_resized.png]]
 
-
 [pydna](https://github.com/pydna-group/pydna#-pydna) is a python package that facilitate "programming with DNA" or expressing cloning strategies as a computer program. This can be used for automating cloning in a high throughput environment. It can also be used to produce a automatically verifiable, complete description of virtually any deterministic genetic design procedure.
 
 This can be powerful for high quality documentation in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
-
-
 
 ![pydna](saat_cloning_animation.gif)
 
@@ -65,6 +61,5 @@ We are grateful for funding from Fundação para a Ciência e Tecnologia ([FCT](
 - MycoFat: PTDC/AAC-AMB/120940/2010
 
 and from the [Swedish Fulbright Commission](https://www.fulbright.se).
-
 
 CBMA was supported by the strategic program UIDB/04050/2020 funded by national funds through the FCT I.P.

@@ -3,9 +3,12 @@
 [[material#LAB6]]
 
 Summary:
+
 - NaOH total yeast DNA preparation
 - Colony PCR
+
 #### NaOH Yeast DNA Preparation
+
 Each student should have a plate with colonies. Do not contaminate this plate, we will need these yeast cells later.
 
 ![[pTAx/EGB24-20240311180844739.png]]
@@ -20,10 +23,12 @@ Each student should have a plate with colonies. Do not contaminate this plate, w
 8. Spin at max speed in a micro-centrifuge for 10-20 s.
 
 #### PCR
-1. Add **15 µL** of PCR mix<sup>*</sup> to a new PCR tube (these are the small tubes).
+
+1. Add **15 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
 2. Add 5 µL of the yeast DNA to the PCR tube, do not disturb the cell debris from the bottom of the tube.
 3. Put tubes in PCR machine (or freeze the tubes at -20°C for later).
 4. Run this PCR program:
+
 ```
 Taq DNA pol
 |95°C  |95°C               |     |
@@ -32,9 +37,10 @@ Taq DNA pol
 |      |      \______/ 0:30|5 min|
 |      |          30s      |     |
 ```
-<sup>*</sup> **PCR mix for 25 reactions (15 µL for a 20 µL PCR reaction):**
-5. 25 * 13 = 260 µL [[2x PCR mastermix#1.5x Green PCR mastermix (mastermix with PCR compatible loading buffer)\|1.5x Green PCR mastermix]]
-6. 25 * 1 µL = 25 µL 1222 (10 µM)
-7. 25 * 1 µL = 25 µL 1779 (10 µM)
+
+<sup>\*</sup> **PCR mix for 25 reactions (15 µL for a 20 µL PCR reaction):**
+5\. 25 \* 13 = 260 µL [[2x PCR mastermix#1.5x Green PCR mastermix (mastermix with PCR compatible loading buffer)|1.5x Green PCR mastermix]]
+6\. 25 \* 1 µL = 25 µL 1222 (10 µM)
+7\. 25 \* 1 µL = 25 µL 1779 (10 µM)
 
 ![[pTAx/colored.png]]

@@ -4,9 +4,9 @@ The first **Workshop on Cloning Documentation** was held on 11th of April 2025 i
 
 Instructors were [Manuel Ramirez](https://github.com/manulera) attending remotely and [Björn Johansson](https://github.com/BjornFJohansson) instructing in person.
 
-![[Open Cloning FAIRification exercise_001.png|center]]
+![[Open Cloning FAIRification exercise_001.png|931x286|center]]
 
-![[Open Cloning FAIRification exercise_002.png|center]]
+![[Open Cloning FAIRification exercise_002.png|932x337|center]]
 
 # Objective
 
@@ -47,6 +47,7 @@ and restriction simulation among other helpful techniques.
 ![[Cloning documentation workshop_006.png]]
 
 [pLannotate](http://plannotate.barricklab.org) re-annotates plasmids and indicate functional sub units.
+
 # Method
 
 Here is a link to [detailed](https://github.com/OpenCloning/cloning_workshop) instructions for the workshop. The most productive workflow consisted of identifying genetic constructs (mostly plasmids) mentioned prominently in the beginning of the results section of the publication. Subsequently, the materials section was scanned for descriptions of the plasmid construction strategy. Potential supplementary data was also scanned for primer and vectors sequences.
@@ -65,7 +66,7 @@ Email inviting students to the workshop:
 
 Hi all,
 
-The *Cloning Documentation Workshop* will happen tomorrow at 15:00 and last for a maximum of two hours. The exercise will be held in the Dept of Biology library (Ed6 1.94) just next to my office.
+The _Cloning Documentation Workshop_ will happen tomorrow at 15:00 and last for a maximum of two hours. The exercise will be held in the Dept of Biology library (Ed6 1.94) just next to my office.
 
 1. Please bring your computer
 2. Please sign up for a free **GitHub** account [here](https://github.com/). This is needed to fill in some forms at the end of the exercise.

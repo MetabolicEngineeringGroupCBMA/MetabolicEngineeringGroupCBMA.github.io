@@ -2,7 +2,7 @@ This protocol was adapted from [Lõoke M, Kristjuhan K, Kristjuhan A. Extraction
 According to the authors, it allows amplifying up to 3500 bp PCR products from yeast genomic DNA.
 
 > [!NOTE]
->This appears to be a popular protocol since it has many publications [referring](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=21548894) to it. This protocol is one of the most cited in literature. This is an indication that it works well in different labs.
+> This appears to be a popular protocol since it has many publications [referring](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin\&from_uid=21548894) to it. This protocol is one of the most cited in literature. This is an indication that it works well in different labs.
 
 #### Genomic DNA from a liquid yeast culture
 

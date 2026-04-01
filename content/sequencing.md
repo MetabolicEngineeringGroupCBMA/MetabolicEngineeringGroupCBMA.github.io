@@ -19,7 +19,6 @@ Quantify the template concentration via agarose gel or a photometer to ensure ac
 3. Add 2 µl of primer with a concentration of 10 pmol/µl (10 µM)
 4. The total volume of your premixed sample should be 17 µL
 
-
 ### Recommendations from GATC
 
 Sending your samples the right way
@@ -28,9 +27,9 @@ Take 5 µl template DNA with either of following concentration:
 
 - Purified plasmid DNA:  80 - 100 ng/µl
 - Purified PCR products:
-    + 150-300 bp:   2 ng/µl
-    + 300-1000 bp: 12 ng/µl
-    + 1000 bp - :    25 ng/µl
+  - 150-300 bp:   2 ng/µl
+  - 300-1000 bp: 12 ng/µl
+  - 1000 bp - :    25 ng/µl
 
 Add 2.5 µl of primer with a concentration of 10 µM (10 pmol/µl)
 Please send total sample amount of 10 µl in 1,5 ml tubes

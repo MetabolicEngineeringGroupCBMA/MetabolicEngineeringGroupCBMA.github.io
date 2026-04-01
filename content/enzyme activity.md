@@ -20,9 +20,9 @@ Enzyme activity depend on many factors, the most important **enzyme concentratio
 ![Figure-3](enzyme-kinetics.png)
 Figure 3
 
-If we make many different experiments where we mix a **fixed** concentration of enzyme with **increasing** concentrations of substrate and measure the reaction rate for a short time (*initial reaction rate*), and plot the rates against substrate concentration we often observe a saturation curve as above. This curve is described by the [Michaelis-Menten kinetics](https://www.khanacademy.org/science/ap-biology/cellular-energetics/environmental-impacts-on-enzyme-function/a/basics-of-enzyme-kinetics-graphs) [video 7m32s](https://www.khanacademy.org/test-prep/mcat/biomolecules/enzyme-kinetics/v/steady-states-and-the-michaelis-menten-equation).
+If we make many different experiments where we mix a **fixed** concentration of enzyme with **increasing** concentrations of substrate and measure the reaction rate for a short time (_initial reaction rate_), and plot the rates against substrate concentration we often observe a saturation curve as above. This curve is described by the [Michaelis-Menten kinetics](https://www.khanacademy.org/science/ap-biology/cellular-energetics/environmental-impacts-on-enzyme-function/a/basics-of-enzyme-kinetics-graphs) [video 7m32s](https://www.khanacademy.org/test-prep/mcat/biomolecules/enzyme-kinetics/v/steady-states-and-the-michaelis-menten-equation).
 
-Note that the variable on the **x**-axis is substrate concentration (**not time !**) and the variable on the **y**-axis is reaction *rate* for instance µmol/min.
+Note that the variable on the **x**-axis is substrate concentration (**not time !**) and the variable on the **y**-axis is reaction _rate_ for instance µmol/min.
 
 In the first order region, reaction rate depends linearly on **substrate concentration** just as for a first order chemical reaction. In the zero order region, reaction rate is not affected by substrate concentration but only by the amount of enzyme.
 
@@ -34,13 +34,11 @@ If we want to discover the amount of enzymes contained in a sample i.e activity,
 
 This means that we should always work with high substrate concentrations so that the enzyme is always in the zero order reaction rate region.
 
-
 ## The stopped assay
 
 The simplest enzymatic assay is the "stopped assay" where we measure the progress of the reaction only once after a specified amount of time. The name comes from the stopping of the enzyme reaction after a specific time so that the reaction product can be measured later.
 
 The advantage of the stopped assay is simplicity and that it might be easier to process many samples at simultaneously. Continuous measurement of enzume activity can be done using specialized equipment.
-
 
 ![Figure-4](cont-vs-stopped.png)
 
@@ -53,7 +51,6 @@ The red dots symbolize a measurements. As long as the reaction is in the zero-or
 It is obvious from the picture that it is critical to keep the assay in the linear region or we will underestimate the reaction rate.
 
 In practical terms, how do we know that the assay is in the linear region. The simplest verification is to measure two different enzyme concentrations. If the assay is in the linear region, half as much enzyme, for example, should give 50% of the activity.
-
 
 ## References
 

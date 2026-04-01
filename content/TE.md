@@ -15,11 +15,13 @@ TE buffer is normally prepared as a x10 times solution that can be diluted when 
 Set pH with concentrated HCl
 
 TE 10 x concentrated From stock solutions:
+
 - 5 mL 1M [[TrisHCl]] pH 8
 - 1 mL 0.5 M [[EDTA]] pH 8
 
-add sterile [[ddH2O]] to 50 mL in a new 50 mL [[glassware\|FALCON]] tube.
+add sterile [[ddH2O]] to 50 mL in a new 50 mL [[glassware|FALCON]] tube.
 
 (1X):
+
 - 1mM EDTA (292,248 g/mol)
 - 10 mM Tris-HCl (121,14 g/mol) pH 8.0

@@ -1,9 +1,7 @@
-
-
 http://receptfavoriter.se/recept/kristyr.html
 
 Ingredienser till Kristyr:
-1 sats [[misc/recept/kristyr]] sockerkristyr
+1 sats [[kristyr]] sockerkristyr
 
 4 dl florsocker
 1 äggvita av ett medelstort ägg

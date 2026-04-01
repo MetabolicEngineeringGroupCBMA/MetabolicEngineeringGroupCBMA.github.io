@@ -1,4 +1,5 @@
 This document defines `dscode`, an extension or a super set to the IUPAC DNA alphabet (IUPAC). This extension and allows unambiguous description of a double stranded DNA molecule with single stranded regions (such as "sticky" ends) using a single sequence of characters. This makes it directly applicable for sequence classes holding sequences as a string, such as the BioPython Seq objects. The `dscode` alphabet has been implemented in the Dseq class in pydna, a subclass of the Biopython Seq class.
+
 ## IUPAC
 
 The IUPAC DNA alphabet is a set of symbols designated by the International Union of Pure and Applied Chemistry (IUPAC)
@@ -30,7 +31,6 @@ However, they do not address the single or double strandedness of DNA.
 ## dscode
 
 The dscode alphabet is a super set of the IUPAC alphabet. The symbols take on a different meaning as each symbol represent a base pair  (a base in a DNA strand and its complementary base on the other strand) instead of a single base.
-
 
 | Alphabet   | Symbol | Complement | Bases                                       | dscode meaning |
 | ---------- | ------ | ---------- | ------------------------------------------- | -------------- |
@@ -64,7 +64,7 @@ The dscode alphabet is a super set of the IUPAC alphabet. The symbols take on a 
 | **"**      | $      | G          | A in upper strand G in lower strand         | A/G            |
 | **"**      | %      | A          | C in upper strand A in lower strand         | C/A            |
 | **"**      | &      | C          | C in upper strand C in lower strand         | C/C            |
-| "          | *      | T          | C in upper strand T in lower strand         | C/T            |
+| "          | \*      | T          | C in upper strand T in lower strand         | C/T            |
 | "          | (      | A          | G in upper strand A in lower strand         | G/A            |
 | **"**      | )      | G          | G in upper strand G in lower strand         | G/G            |
 | **"**      | <      | T          | G in upper strand T in lower strand         | G/T            |
@@ -72,7 +72,7 @@ The dscode alphabet is a super set of the IUPAC alphabet. The symbols take on a 
 | **"**      | @      | G          | T in upper strand G in lower strand         | T/G            |
 | **"**      | :      | T          | T in upper strand T in lower strand         | T/T            |
 | **"**      | ?      | G          | U in upper strand G in lower strand         | U/G            |
-| **"**      | [      | C          | U in upper strand C in lower strand         | U/C            |
+| **"**      | \[      | C          | U in upper strand C in lower strand         | U/C            |
 | **"**      | ]      | T          | U in upper strand T in lower strand         | U/T            |
 
 The symbols PEXI and QFZJ that are not occupied by the extended IUPAC alphabet were adopted to imply single stranded DNA on either
@@ -107,6 +107,7 @@ CTAGttt        CTAG
 ```
 
 ## alphabets
+
 ```
 ASCII CAPS  = ABCDEFGHIJKLMNOPQRSTUVWXYZ
 IUPAC       = ABCD  GH  K MN   RST VW Y
@@ -114,7 +115,6 @@ dscode      =     EF  IJ L  OPQ   U  X Z   +  IUPAC
 
 punctuation = ! # $ % & * + ( ) < = > @ /: ' , - . ; ? [ \ ] ^ _ ` { | } ~ "
 ```
-
 
 ## Different representations of double stranded DNA:
 

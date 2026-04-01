@@ -11,6 +11,6 @@
 11. Centrifuge 5 minutes, room temperature, 20,000 × g. Remove supernatant with a pulled Pasteur pipette by vacuum aspiration.
 12. Wash the pellet with 0.5 ml 70% ethanol, spin down as described in step 8 above. Remove supernatant.
 13. Air-dry the pellets at room temperature or for 5 minutes at 60°C in a vacuum dryer.
-14. Resuspend in 25–50 μl TE [10 mM Tris (pH 8.0), 1 mM EDTA (pH 8.0)] or water. Samples obtained directly from plates should be resuspended in a 10 μl volume, because the yield will be smaller. 0.25 μl RNase cocktail (Ambion) should be added to the samples used for Southern blot hybridization (final concentration 0.125 U RNAse A, 5 U RNase T1).
+14. Resuspend in 25–50 μl TE \[10 mM Tris (pH 8.0), 1 mM EDTA (pH 8.0)] or water. Samples obtained directly from plates should be resuspended in a 10 μl volume, because the yield will be smaller. 0.25 μl RNase cocktail (Ambion) should be added to the samples used for Southern blot hybridization (final concentration 0.125 U RNAse A, 5 U RNase T1).
 
 Harju, S., H. Fedosyuk, and K.R. Peterson. 2004. Rapid isolation of yeast genomic DNA: Bust n’ Grab. BMC Biotechnol. 4:8. [link](https://pubmed.ncbi.nlm.nih.gov/15102338/)

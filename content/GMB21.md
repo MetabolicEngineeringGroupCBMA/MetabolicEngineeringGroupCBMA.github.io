@@ -28,13 +28,12 @@ The pTA1 plasmid was later made with a LEU2 selection marker.
 It would be of interest to expand the range of plasmids for pathways, specifically:
 
 1. Having more selection marker for for _S. cerevisiae_ would make it possible to combine several
-genes or pathways in the same cell.
+   genes or pathways in the same cell.
 2. The 2µ ori gives a relatively high copy number of the vector. Having
-lower copy number would make it possible to fine tune gene expression
+   lower copy number would make it possible to fine tune gene expression
 3. The pUC origin of replication results in a high copy number of the vector in E. coli. This
-may lead to genetic instability in E. coli.
+   may lead to genetic instability in E. coli.
 4. Making vectors out of **standardized parts** would make it possible to make new vectors simply by exchanging one part.
-
 
 #### primer design for pTA1
 
@@ -46,7 +45,6 @@ For the pTA1, five PCR products were made with PCR primers that
 incorporate flanking sequences (s1 - s5) on each PCR product.
 These flanking sequences can promote homologous recombination between the
 fragments.
-
 
 | PCR product 	| Template  	| Left side 	| Right side 	|
 |-------------	|-----------	|-----------	|------------	|
@@ -67,48 +65,45 @@ with the [R2oDNA designer](https://pubmed.ncbi.nlm.nih.gov/24933158) tool:
 | s4          	| AACTGTAAAATCAGGTATCTCGTAGTCCGT 	|
 | s5          	| GAAAAGCGTTTACCTCGGAACTCTATTGTA 	|
 
-
 The vector is assembled by homologous recombination between the s1-s5 sequences.
 
-             s1
-     -|amp|30
-    |      \/
-    |      /\       s2
-    |      30|pbr|30
-    |             \/
-    |             /\       s3
-    |             30|2µ|30
-    |                   \/
-    |                   /\       s4
-    |                   30|leu|30
-    |                          \/
-    |                          /\       s5
-    |                          30|ΔCRP|30
-    |                                  \/
-    |                                  /\
-    |                                  30-
-    |                                     |
-     -------------------------------------
+```
+         s1
+ -|amp|30
+|      \/
+|      /\       s2
+|      30|pbr|30
+|             \/
+|             /\       s3
+|             30|2µ|30
+|                   \/
+|                   /\       s4
+|                   30|leu|30
+|                          \/
+|                          /\       s5
+|                          30|ΔCRP|30
+|                                  \/
+|                                  /\
+|                                  30-
+|                                     |
+ -------------------------------------
+```
 
 ## pTA3 and pTA4
 
 Two new vectors are planned according to the table below:
 
-
-| Name  	| ec_marker 	| ec_ori 	| sc_ori  	| sc_marker 	| rec  	|
+| Name  	| ec\_marker 	| ec\_ori 	| sc\_ori  	| sc\_marker 	| rec  	|
 |-------	|-----------	|--------	|---------	|-----------	|------	|
 | pTA3  	| amp       	| pBR    	| 2µ     	| HIS3      	| ΔCRP 	|
 | pTA4  	| amp       	| pBR    	| CEN/ARS 	| HIS3      	| ΔCRP 	|
-
 
 Most fragments are similar to the pTA1 except for new primers for the HIS3 marker
 and the CEN/ARS yeast origin of replication.
 
 More details https://docs.google.com/spreadsheets/d/1QRW1G7DU0yBL3jH7aHovJDFphXHLjtalRAbq6ytUw2g/edit#gid=1150891082
 
-
-----
-
+---
 
 ### Class 1 Thursday May 13
 
@@ -118,11 +113,9 @@ Students have two main tasks:
 - each student will prepare two PCR reactions.
 - each group will make an agarose gel for analysis of DNA.
 
-
 #### Plasmid preparation
 
-Follow this protocol: [[alkaline lysis plasmid mini prep\|Plasmid preparation]]
-
+Follow this protocol: [[alkaline lysis plasmid mini prep|Plasmid preparation]]
 
 #### Agarose gel electrophoresis of DNA
 
@@ -130,7 +123,7 @@ Each student should analyze their plasmid DNA using gel electrophoresis
 
 - Unfreeze the plasmid DNA if this was not already done.
 - Add 17 µL of water to an Eppendorf tube
-- Add  5 µL 6xloading buffer [[6x DNA loading buffer\|LBx6]].
+- Add  5 µL 6xloading buffer [[6x DNA loading buffer|LBx6]].
 - Add  8 µL plasmid DNA.
 - If necessary, spin the tube for ~2 seconds to collect the liquid at the bottom.
 - Put the gel in the electrophoresis chamber.
@@ -143,8 +136,6 @@ Each student should analyze their plasmid DNA using gel electrophoresis
 
 - Put the gel in TAE + Midori, incubate 15-30 min
 - Take picture
-
-
 
 #### Dilution of plasmid DNA (x 500)
 
@@ -163,18 +154,19 @@ All PCR components need to be on ice at all times. Each student should prepare t
 
 Put two PCR tubes on ice to cool down. Add the reagents in the order given below.
 
-*PCR control (20 µL):*
-- 10 µL [[2x PCR mastermix\|MM2]] (green)
+_PCR control (20 µL):_
+
+- 10 µL [[2x PCR mastermix|MM2]] (green)
 - 2 µL primer 1 (10 µM)
 - 2 µL primer 2 (10 µM)
 - 6 µL ultra-pure water
 
-*PCR amplification (40 µL):*
-- 20 µL [[2x PCR mastermix\|MM2]] (green)
+_PCR amplification (40 µL):_
+
+- 20 µL [[2x PCR mastermix|MM2]] (green)
 - 4 µL primer 1 (10 µM)
 - 4 µL primer 2 (10 µM)
 - 12 µL diluted plasmid (x 500)
-
 
 **Keep all tubes on ice at all time.**
 
@@ -185,16 +177,7 @@ makes it easier to load the sample on a gel for analysis. The coloring and ficol
 compatible with the PCR reaction. When you have prepared the tubes as described above,
 leave them on ice.
 
-
-
-
-
-
-
-
-
-
-----
+---
 
 #### Material
 
@@ -206,39 +189,56 @@ leave them on ice.
 No dia da aula:
 
 - Pipetas P1000, P100, P20 e P10
+
 - Espátulas para pesar agarose
+
 - 4 caixas de esferovite para gelo
 
 - Tips amarelas (novos!)
+
 - Tips azuis (novos!)
+
 - 12 tubos Eppendorf com 1 mL tampão P1 (marcados "P1")
+
 - 12 tubos Eppendorf com 1 mL tampão P2 (--"--    "P2")
+
 - 12 tubos Eppendorf com 1 mL tampão P3 (--"--    "P3")
+
 - 12 tubos com 1 mL TE x1
+
 - 4 tubos Falcon 50 mL (usados)
+
 - 4 suportes para tubos Eppendorf
+
 - 4 suportes para tubos Falcon 50 mL
+
 - 4 tubos Falcon 50 mL com 25-50 mL EtOH 96-100% (etanol absoluto para DNA/RNA)
+
 - 4 tubos Falcon 50 mL com 25-50 mL EtOH 70% (v/v) (Feito com agua ultrapura)
+
 - 4 copos com Tubos eppendorf 1.5 mL (novos, mas não necessariamente estéreis)
+
 - microcentrífuga
+
 - Agarose para géis
+
 - Tampão TAE x1
+
 - Tampão TAE stock
+
 - 4 copos de 50-100 mL
+
 - 1 proveta 50-100 mL
+
 - 4 erlenmeyers 250 mL
+
 - 2 tinas de eletroforese
+
 - Fonte de eletricidade
+
 - Barquinhos de pesagem (plástico)
 
-
-
-
-
-----
-
-
+---
 
 ### Class 2 2021-05-20
 
@@ -255,7 +255,7 @@ This class has two main objectives:
 - Apply the electrical field as soon as you are done.
 - The electrophoresis last around 15 - 20 min at 100 volts in the [[Bio Rad Mini Sub Cell]].
 
-#### Preparation of *DNA mix*
+#### Preparation of _DNA mix_
 
 - Add together the content of **all** PCR tubes with a number marked in **bold** in the Google spreadsheet.
 - Give the tube to the teacher.
@@ -270,8 +270,8 @@ The control is specified in the google spreadsheet above.
 3. Transfer 100 µL of the cell suspension to the tubes that you put on ice in the previous step. **Keep the tubes on ice from now on when you are not pipetting**.
 4. Spin the cells for 30 s at the highest speed.
 5. Remove supernatant with a P200 pipette. Leave the cell pellet at the bottom of the tube.
-6. Add 300 µL [[PEG LiAc ssDNA\|PLS]] to each cell pellet. This solution is viscous, so pipette slowly **Keep tube on ice**.
-7. Add 60 µL of the *DNA mix* or water (negative control) or the plasmid specified as positive control.
+6. Add 300 µL [[PEG LiAc ssDNA|PLS]] to each cell pellet. This solution is viscous, so pipette slowly **Keep tube on ice**.
+7. Add 60 µL of the _DNA mix_ or water (negative control) or the plasmid specified as positive control.
 8. To the control tube, add 60 µL of water or the specified positive control.
 9. Vortex the tubes until the cells are well mixed.
 10. Put the tubes in a floating tube rack at 42°C
@@ -282,17 +282,14 @@ The control is specified in the google spreadsheet above.
 15. Remove supernatant with a P1000 pipette. Leave the cell pellet at the bottom of the tube.
 16. Add 200 µL cold water (from the tube on ice, step 2) and resuspend with the pipette.
 17. Transfer 200 µL of the cell suspension to the Petri dish with the solid medium
-18. Spread the cells by shaking (The [[glass bead plating\|samba]] method!).
-
-
-
+18. Spread the cells by shaking (The [[glass bead plating|samba]] method!).
 
 #### Post stain
 
 - Put the gel in TAE + Midori, incubate 15-30 min
 - Take picture
 
-----
+---
 
 #### Material
 
@@ -302,39 +299,32 @@ The control is specified in the google spreadsheet above.
 - Pipetas P1000, P100, P20 e P10
 - Pontas amarelas, azuis e brancas estéreis
 - Tubos Eppendorf **novos**
-- ~500 ml de TAE buffer 1x
+- \~500 ml de TAE buffer 1x
 - 2 sistemas de electroforese
 - 4 caixas de esferovite para gelo
 - esferas de vidro estereis ~5 mm (LGM)
-- 4 * 100 mL Agua ultrapura estéril
+- 4 \* 100 mL Agua ultrapura estéril
 - Espátula para pesar agarose
 - Agarose
 
-
-
-
-
-
-
-
 | Name               	| Sequence                                                  	|
 |--------------------	|-----------------------------------------------------------	|
-| 1352_HIS3fp_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGAACACAGTCCTTTCC             	|
-| 1351_HIS3rp_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTTTTTTTCTCGAGTTCAAGA         	|
-| 1350_KanMX4fp_pTA  	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGGACATGGAGGCCC               	|
-| 1349_KanMX4rp_pTA  	| ACGGACTACGAGATACCTGATTTTACAGTTCAGTATAGCGACCAGC            	|
-| 1348_TRP1fp_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGTTTGCCGATTAAGAATTCG         	|
-| 1347_TRP1rp_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTGATCTTTTATGCTTGCTTTTC       	|
-| 1346_URA3fp_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGGATTCCGGTTTCTTTGAAA         	|
-| 1345_URA3rp_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTGGTAATAACTGATATAATTAAATTGAA 	|
-| 1344_CEN_ARSfp_pTA 	| ATCGTATCTGCTGCGTAAATAGTAGTCAACACGGATCGCTTGC               	|
-| 1343_CEN_ARSrp_pTA 	| CAGAGCAGACAGTTCCTTTACGAGATTTTACTTTTCATCACGTGCTATA         	|
-| 1113_Amp.fw.nw     	| GAAAAGCGTTTACCTCGGAACTCTATTGTAGAACCCCTATTTGTTTATTTTTCTA   	|
-| 987_Amp.REV        	| AGAAAGTCTACACCTTACGCTGATTGGATTTGAAGTTTTAAATCAATCTAAA      	|
-| 1195_Pbr.REV       	| GTTGACTACTATTTACGCAGCAGATACGATCTCGTTTCATCGGT              	|
-| 1196_Pbr.FW        	| AATCCAATCAGCGTAAGGTGTAGACTTTCTCTGTCAGACCAAGTTTACT         	|
-| 977_Crp.REV        	| TACAATAGAGTTCCGAGGTAAACGCTTTTCGTTCTTGTCTCATTGCC           	|
-| 978_Crp.FW         	| AACTGTAAAATCAGGTATCTCGTAGTCCGTGTTCTGATCCTCGAGC            	|
-| 983_Micron.REV     	| CAGAGCAGACAGTTCCTTTACGAGATTTTAGATCCAATATCAAAGGAA          	|
-| 984_Micron.FW      	| ATCGTATCTGCTGCGTAAATAGTAGTCAACGATCGTACTTGTTACCCAT         	|
-| 577_crp585-557     	| gttctgatcctcgagcatcttaagaattc                             	|
+| 1352\_HIS3fp\_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGAACACAGTCCTTTCC             	|
+| 1351\_HIS3rp\_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTTTTTTTCTCGAGTTCAAGA         	|
+| 1350\_KanMX4fp\_pTA  	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGGACATGGAGGCCC               	|
+| 1349\_KanMX4rp\_pTA  	| ACGGACTACGAGATACCTGATTTTACAGTTCAGTATAGCGACCAGC            	|
+| 1348\_TRP1fp\_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGTTTGCCGATTAAGAATTCG         	|
+| 1347\_TRP1rp\_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTGATCTTTTATGCTTGCTTTTC       	|
+| 1346\_URA3fp\_pTA    	| TAAAATCTCGTAAAGGAACTGTCTGCTCTGGATTCCGGTTTCTTTGAAA         	|
+| 1345\_URA3rp\_pTA    	| ACGGACTACGAGATACCTGATTTTACAGTTGGTAATAACTGATATAATTAAATTGAA 	|
+| 1344\_CEN\_ARSfp\_pTA 	| ATCGTATCTGCTGCGTAAATAGTAGTCAACACGGATCGCTTGC               	|
+| 1343\_CEN\_ARSrp\_pTA 	| CAGAGCAGACAGTTCCTTTACGAGATTTTACTTTTCATCACGTGCTATA         	|
+| 1113\_Amp.fw.nw     	| GAAAAGCGTTTACCTCGGAACTCTATTGTAGAACCCCTATTTGTTTATTTTTCTA   	|
+| 987\_Amp.REV        	| AGAAAGTCTACACCTTACGCTGATTGGATTTGAAGTTTTAAATCAATCTAAA      	|
+| 1195\_Pbr.REV       	| GTTGACTACTATTTACGCAGCAGATACGATCTCGTTTCATCGGT              	|
+| 1196\_Pbr.FW        	| AATCCAATCAGCGTAAGGTGTAGACTTTCTCTGTCAGACCAAGTTTACT         	|
+| 977\_Crp.REV        	| TACAATAGAGTTCCGAGGTAAACGCTTTTCGTTCTTGTCTCATTGCC           	|
+| 978\_Crp.FW         	| AACTGTAAAATCAGGTATCTCGTAGTCCGTGTTCTGATCCTCGAGC            	|
+| 983\_Micron.REV     	| CAGAGCAGACAGTTCCTTTACGAGATTTTAGATCCAATATCAAAGGAA          	|
+| 984\_Micron.FW      	| ATCGTATCTGCTGCGTAAATAGTAGTCAACGATCGTACTTGTTACCCAT         	|
+| 577\_crp585-557     	| gttctgatcctcgagcatcttaagaattc                             	|

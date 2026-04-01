@@ -1,11 +1,9 @@
 ![](Turner.jpg)
 
-
 - 1.6 L TAE buffer 1x
 - 200 volts
 - about 20 min
 - Bio-Rad PowerPac 300 [manual](20162-6921.pdf)
-
 
 If the buffer seem dirty, please replace it with fresh buffer.
 

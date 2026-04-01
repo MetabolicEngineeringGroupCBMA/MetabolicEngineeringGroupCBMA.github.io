@@ -11,12 +11,13 @@ container, light could degrade the dye.
 Reciepe for 2x concentrated loading buffer:
 
 - 53.2 µL H2O
-- 66.8 µL [[6x DNA loading buffer\|Loading buffer x 6]]
+- 66.8 µL [[6x DNA loading buffer|Loading buffer x 6]]
 - 80 µL Midori-green x250 dilution
 - 200.0 µL Total
 
 Alternatively
-- 200 [[6x DNA loading buffer\|Loading buffer x 6]]
+
+- 200 [[6x DNA loading buffer|Loading buffer x 6]]
 - 1000 µL H2O
 - 2 µL Midori green undiluted
 

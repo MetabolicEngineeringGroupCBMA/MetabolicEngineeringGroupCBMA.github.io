@@ -3,6 +3,7 @@
 [[material#LAB10]]
 
 Summary:
+
 - cut DNA with restriction enzymes, one enzyme per group.
 - Plasmid miniprep using a commercial kit for DNA sequencing.
 - Run agarose gel#5 on plasmid DNA and digested plasmid DNA
@@ -24,8 +25,7 @@ Enzyme mix = 5 µL Enzyme + 5 µL buffer x10
 
 #### Miniprep, one per group
 
-Preparation of  plasmids  using a commercial alkaline lysis mini prep kit. The teacher has prepared *E. coli* cultures in liquid medium beforehand. Cultures with each plasmid were grown in or on [[LB]] with [[antibiotics]] for selection of the plasmids. We will use the  [[MB010_NZYMiniprep.pdf|NZYMiniprep]].
-
+Preparation of  plasmids  using a commercial alkaline lysis mini prep kit. The teacher has prepared _E. coli_ cultures in liquid medium beforehand. Cultures with each plasmid were grown in or on [[LB]] with [[antibiotics]] for selection of the plasmids. We will use the  [[MB010_NZYMiniprep.pdf|NZYMiniprep]].
 
 ![[pTAx/EGB25_002.png|580x1087]]
 
@@ -40,13 +40,9 @@ Preparation of  plasmids  using a commercial alkaline lysis mini prep kit. The t
 - The teacher will load the molecular weight marker.
 - Apply the electrical field as soon as you are done.
 - The electrophoresis last around 15 - 20 min.
-- When the gel run is completed, the teacher with take a picture using a [[GenoSmart\|transilluminator]].
-
-
-
+- When the gel run is completed, the teacher with take a picture using a [[GenoSmart|transilluminator]].
 
 ![[pTAx/EGB25_001-3.png]]
-
 
 | 📌  | Sample                | 📝     | µL  |  😶 |     |
 | --- | --------------------- | ------ | --- | --: | --: |
@@ -76,8 +72,6 @@ Preparation of  plasmids  using a commercial alkaline lysis mini prep kit. The t
 Gel: [[NZYMiniprep]],  elution 50 µL warm AE buffer.
 
 ![](GeneRuler_1_kb_DNA_Ladder.png)
-
-
 
 ```
 
@@ -394,10 +388,6 @@ ORIGIN
 
 
 ```
-
-
-
-
 
 ```
 

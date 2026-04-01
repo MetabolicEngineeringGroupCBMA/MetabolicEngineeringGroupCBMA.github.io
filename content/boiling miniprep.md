@@ -10,7 +10,7 @@ from [Holmes & Quigley](https://www.ncbi.nlm.nih.gov/pubmed/6269464) (1981) Anal
 
 3. Pellet bacteria 20-30 sec in microcentrifuge. Remove supernatant by decantation.
 
-4. Suspend cells in 200 µl STET buffer (see below for recipe) by vortexing. Add 20 µl fresh 10 mg/ml [Lysozyme] (STET and lysozyme can be added together).
+4. Suspend cells in 200 µl STET buffer (see below for recipe) by vortexing. Add 20 µl fresh 10 mg/ml \[Lysozyme] (STET and lysozyme can be added together).
 
 5. Place in boiling water bath for 40 seconds. This treatment inactivates DNAses, and denatures proteins and chromosomal DNA.
 
@@ -30,7 +30,7 @@ from [Holmes & Quigley](https://www.ncbi.nlm.nih.gov/pubmed/6269464) (1981) Anal
 
 13. Dry DNA by letting the tube stand with an open lid on the bench for 15 min.
 
-13. Resuspend DNA pellet in in 50 µl 1x TE buffer.
+14. Resuspend DNA pellet in in 50 µl 1x TE buffer.
 
 [short](boiling-miniprep-short.odt) version.
 

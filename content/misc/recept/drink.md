@@ -11,7 +11,6 @@ Ingredients:
 - 3 shakes Fee Brothers West Indies Orange Bitters Ginger Beer (Bundaberg, Reed’s, or Cock & Bull) (optional)
 - Tea bag (black, chai, or Bengal Spice) (1 oz = 30 ml)
 
-
 Directions: Juice lemon into ice-filled shaker. Add Cointreau, Pimm’s, and vodka. Add both bitters, plus tea bag (if desired). Shake and strain into highball glass with 3 or 4 ice cubes.
 
 Top with ginger beer. You can adjust the strength of the drink by varying the amount of vodka (0x - 2x works). You can adjust sweetness by varying the ratio of Pimm’s to Cointreau, as long as the total volume of the two is 1 oz (personally, I prefer 0.33 Cointreau and 0.66 Pimm’s).

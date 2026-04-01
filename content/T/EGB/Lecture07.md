@@ -10,21 +10,24 @@ and hybrid-release translation, are discussed. The lecture concludes with an int
 and site-directed mutagenesis, including overlap extension PCR, whole-plasmid mutagenesis, and synthetic gene design,
 highlighting their use in investigating protein structure–function relationships.
 
-
 ## Key Techniques
+
 - Reporter genes
 - RNA analysis
 - Gene knockouts
 - Overexpression studies
 
 ## Important Concepts
+
 - Gene expression does not always equal gene function.
 - Phenotype links genotype to biological role.
 
 ## Key Take-Home Message
+
 Knowing a gene sequence is not enough; function must be demonstrated.
 
 ## Literature
 
 ### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
+
 - Chapter 11 Studying Gene Expression and Function [video](https://youtu.be/4trKUfh19ds?si=eICZHQQbNRWS2-Nu)

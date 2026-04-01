@@ -1,7 +1,7 @@
 ![hemingway](shit.png)
 
 Many of today's students have been subjected to writing essays with minimum word counts with the implici
-encouragement that writing **more** is *better* and will give you a higher grade.
+encouragement that writing **more** is _better_ and will give you a higher grade.
 
 In my humble opinion, minimum word counts teach bad habits and get in the way of good communication. They also make writers lazy.
 
@@ -20,6 +20,7 @@ Writing more or producing more elaborate text does not necessarily communicate t
 - “A successful book is not made of what is in it, but what is left out of it.” - _Mark Twain_
 - “My aim is to put down on paper what I see and what I feel in the best and simplest way.” - _Ernest Hemingway_
 - “It is my ambition to say in ten sentences what others say in a whole book.” - _Friedrich Nietzsche_
+
 # Winston Churchill's memo on brevity
 
 As the battle of Britain was picking up speed in 1940, Winston Churchill wrote the memo below complaining that his own cabinet wrote texts that were too long. I reproduced this memo below, the emphasis in bold text are mine. The way the memo is written is an example of the message that he tries to convey.
@@ -47,7 +48,7 @@ W.S.C
 10, Downing Street.
 9th August, 1940.
 
-***
+---
 
 # How English is different from Portuguese
 
@@ -56,11 +57,12 @@ Both books are examples of excellent writing in their respective languages.
 
 I have highlighted the longest sentence on the page for both books, 74 words vs 42 words.
 
-
 ### Os Maias
+
 ![queiroz](queiroz.png)
 
 ### 1984
+
 ![orwell](orwell.png)
 
 The English text is made up of mostly short sentences compared to longer ones in Portuguese.
@@ -99,9 +101,6 @@ George Orwell wrote an essay on writing called [Politics And The English Languag
 
 Listed below are some examples of good scientific writing. I hope to extend this list.
 
-
-
 [![](kotter_ciriacy_1993.png)](https://link.springer.com/article/10.1007/BF00167144)
-
 
 [![](botham_ratledge.png)](https://pubmed.ncbi.nlm.nih.gov/44315)

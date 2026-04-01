@@ -1,6 +1,6 @@
 # Plasmid rescue from _S. cerevisiae_ using alkaline lysis or a plasmid mini-prep ki
 
-This protocol allow the isolation of small quantities of plasmid DNA from *Saccharomyces cerevisiae* for the subsequent transformation of *E. coli* (i.e. plasmid rescue). An alkaline lysis protocol or miniprep kit for *E. coli* is needed for this procedure. We have successfully used the following protocols:
+This protocol allow the isolation of small quantities of plasmid DNA from _Saccharomyces cerevisiae_ for the subsequent transformation of _E. coli_ (i.e. plasmid rescue). An alkaline lysis protocol or miniprep kit for _E. coli_ is needed for this procedure. We have successfully used the following protocols:
 
 | Protocol                                                                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -23,4 +23,4 @@ This protocol allow the isolation of small quantities of plasmid DNA from *Sacch
 
 If the kit has an optional wash step to get rid of nucleases, use that. Elute in a small volume like 30 µL for higher concentration. Transform E. coli with 10 μl of the eluted DNA. Save the rest of the DNA in fridge or at -20°C. This protocol is more laborious than some simpler procedures, but we consistently get more transformants using this protocol.
 
-Singh, Madhu V, and P Anthony Weil. 2002. “A Method for Plasmid Purification Directly from Yeast.” _Anal. Biochem._ 307 (1): 13–17. [https://doi.org/10.1016/S0003-2697(02)00018-0](https://doi.org/10.1016/S0003-2697\(02\)00018-0).
+Singh, Madhu V, and P Anthony Weil. 2002. “A Method for Plasmid Purification Directly from Yeast.” _Anal. Biochem._ 307 (1): 13–17. <https://doi.org/10.1016/S0003-2697(02)00018-0>.

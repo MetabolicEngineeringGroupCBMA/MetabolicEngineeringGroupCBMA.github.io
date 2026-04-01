@@ -1,6 +1,7 @@
 # Telephone directory for the Department of Biology, University of Minho in Braga, Portugal
 
 Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
+
 ## Lecturers
 
 | Room  | Ext    |Lecturers                                       | E-MAIL                        |
@@ -10,7 +11,7 @@ Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
 | B2015 | 604046 | Ana Cristina Gomes Cunha                       | accunha@bio.uminho.pt         |
 | B2058 | 601546 | Ana Paula Fernandes Monteiro Sampaio Carvalho  | psampaio@bio.uminho.pt        |
 | B2007 | 601511 | Andreia Ferreira Castro Gomes                  | agomes@bio.uminho.pt          |
-| B2017 | 601517 | Bjorn Fredrik Johansson                        | bjorn_johansson@bio.uminho.pt |
+| B2017 | 601517 | Bjorn Fredrik Johansson                        | bjorn\_johansson@bio.uminho.pt |
 | B3002 | 601548 | Cândida Manuel Ribeiro Simões Lucas            | clucas@bio.uminho.pt          |
 | B2055 | 604312 | Célia Sacramento Santos Pais                   | cpais@bio.uminho.pt           |
 | B2011 | 601513 | Cristina Alexandra Almeida Aguiar              | cristina.aguiar@bio.uminho.pt |
@@ -40,10 +41,7 @@ Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
 | B2010 | 601512 | Rui Pedro Soares Oliveira                      | ruipso@bio.uminho.pt          |
 | B2013 | 601514 | Sandra Cristina Almeida Paiva                  | spaiva@bio.uminho.pt          |
 
-
-
 ## Technical staff
-
 
 | Room  | Ext    | Technical staff                      | E-MAIL                 |
 | ----- | ------ | ------------------------------------ | ---------------------- |
@@ -57,9 +55,7 @@ Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
 | B2020 | 601542 | Lídia Cristina Andrade Dias          | lidia@bio.uminho.pt    |
 | B2023 | 601521 | Sofia Machado                        | smachado@bio.uminho.pt |
 
-
-##  Phones in Laboratories
-
+## Phones in Laboratories
 
 | Room  | Ext    | Designation                           |
 |-------|--------|---------------------------------------|
@@ -77,16 +73,13 @@ Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
 | 19    | 601528 | Lab. de Radioisótopos                 |
 |       |        |                                       |
 
-
-
 ## Post Docs
-
 
 | Room  | Ext    | Technical staff                                | E-MAIL                        |
 |-------|--------|------------------------------------------------|-------------------------------|
 |       |        | André Costa                                    | andrecosta@bio.uminho.pt      |
 |       | 605319 | Andreia Pacheco                                | pacheco.andreiasofia@gmail.com|
-|       | 605812 | Artur Conde                                    | a_s_conde@hotmail.com         |
+|       | 605812 | Artur Conde                                    | a\_s\_conde@hotmail.com         |
 |       |        | Arunava Pradhan                                | arunava@bio.uminho.pt         |
 |       | 601521 | Bruno Sampieri                                 | brunorsampieri@gmail.com      |
 |       | 605811 | Giorgio Pace                                   | g.pace1979@gmail.com          |
@@ -102,10 +95,7 @@ Updated February 2018 [lista-telefonica.pt](https://www.lista-telefonica.pt/)
 |       | 601510 | Vanessa Magalhães                              | vamagalhaes2015@gmail.com     |
 |       | 605812 | Viviana Martins                                | vvymartins@gmail.com          |
 
-
-
 ## PhD Students
-
 
 | Room  | Ext    | Technical staff                                | E-MAIL                        |
 |-------|--------|------------------------------------------------|-------------------------------|
