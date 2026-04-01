@@ -20,5 +20,5 @@ As of April 1 2026, these options are the best offerings from Eurofins:
 | 34..35  | PCR Primer in Tubes = €9.90           |
 | 36..120 | Custom DNA Oligos in Tubes            |
 
-![](primer_dilutions.png)
+![[primer_dilutions.png]]
 ![](filtertip.jpg)
