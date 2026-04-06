@@ -5,12 +5,12 @@ _The recipe yields approximately the number of meatballs shown in the image abov
 
 **Ingredients:**
 
-- 2 kg mixed minced meat
-- 6 tsp salt
+- 2 kg mixed minced mea
+- 6 tsp sal
 - 4 yellow onions
 - 1 whole garlic
-- 15 black peppercorns, ground (to taste)
-- 2 allspice berries, ground (to taste)
+- 5 g / 60 black peppercorns, ground (to taste)
+- 10 allspice berries, ground (to taste)
 - 4 eggs
 - 400 ml cream
 - 400 ml flour
@@ -45,8 +45,8 @@ _Esta receita rende aproximadamente a quantidade de almôndegas mostrada na imag
 - 6 colheres de chá de sal
 - 4 cebolas
 - 1 cabeça de alho
-- 15 grãos de pimenta-preta, moídos (a gosto)
-- 2 bagas de pimenta-da-jamaica, moídas (a gosto)
+- 5 g / 60  grãos de pimenta-preta, moídos (a gosto)
+- 10 bagas de pimenta-da-jamaica, moídas (a gosto)
 - 4 ovos
 - 400 ml de natas
 - 400 ml de farinha
