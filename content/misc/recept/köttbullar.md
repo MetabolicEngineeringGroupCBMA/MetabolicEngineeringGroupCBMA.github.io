@@ -1,98 +1,69 @@
-![[Pasted image 20241230105909.png]]
+🇬🇧🇺🇸 **Swedish meatballs** are one of Sweden’s most famous and beloved dishes, often served with mashed potatoes, cream sauce, and lingonberry jam. The small, juicy meatballs are usually made from a mixture of beef and pork mince, seasoned with onion, salt, pepper, and sometimes allspice, which gives them a mild but distinctive flavor. For a Portuguese audience, they may resemble “almôndegas,” but Swedish meatballs differ through their creamy sauce and the sweet-tart lingonberry jam that creates a unique balance of flavors. The dish is an important part of traditional Swedish home cooking and appears both in everyday meals and on festive occasions.
 
-- 2000 g blandfärs
-- 6 tsk salt
-- 4 gula lökar
-- 1 hel vitlök
-- 15 svartpepparkorn, mortlade
-- 2 kryddpepparkorn, mortlade
-- 4 ägg
-- 4 dl grädde
-- 4 dl mjöl
+_The recipe yields approximately the number of meatballs shown in the image above._
+![[misc/recept/köttbullar.png]]
 
-1. Blanda grädde, ägg och mjöl i en skål och låt stå och dra några minuter.
-2. Mal krydd- och svartpepparkorn och salt i en mortel och blanda med mjölblandningen.
-3. Hacka löken med en mixerstav och blanda med mjölblandningen.
-4. Blanda allt i en stor bunke, knåda inte färsen för länge för då kan den bli seg.
-5. Istället för att rulla bullarna för hand använder jag en spritspåse. Doppa handen i vatten och forma fingrarna till en skål. Spritsa lite av smeten ner i handen och forma lätt till en liten bulle. Lägg på en plåt med bakplåtspapper.
-6. Jag brukar baka köttbullarna i ugnen i 150 grader i ca 10 minuter först, då behåller de sin form. Därefter steker jag dem färdigt i stekpannan.
+**Ingredients:**
 
----
+- 2 kg mixed minced meat
+- 6 tsp salt
+- 4 yellow onions
+- 1 whole garlic
+- 15 black peppercorns, ground (to taste)
+- 2 allspice berries, ground (to taste)
+- 4 eggs
+- 400 ml cream
+- 400 ml flour
 
-Tareq Taylors goda recept på köttbullar ([link](https://www.godare.se/recept/a/KzxeGG/tareq-taylors-goda-recept-pa-kottbullar)):
+**Instructions:**
 
-1. Blanda ströbröd, mjölk och ägg i en skål och låt stå och dra några minuter.
-2. Mal krydd- och svartpepparkorn i en mortel. Hacka eller riv löken fint och blanda med ströbrödsblandningen, färsen, kryddorna och saltet. Knåda inte färsen för länge för då kan den bli seg.
-3. Istället för att rulla bullarna för hand använder jag en spritspåse. Doppa handen i vatten och forma fingrarna till en skål. Spritsa lite av smeten ner i handen och forma lätt till en liten bulle. Lägg på en plåt med bakplåtspapper.
-4. Jag brukar baka köttbullarna i ugnen i 150 grader i ca 10 minuter först, då behåller de sin form. Därefter steker jag dem färdigt i stekpannan.
+1. Mix the cream, eggs, and flour in a bowl and let it rest for about 20 minutes. This step is important; otherwise, the meatballs may taste like flour.
+2. Grind the black pepper, allspice, and salt in a mortar and mix with the flour mixture. It is recommended to use more spices than indicated. Freshly ground spices are best.
+3. Blend the onion (and garlic) using a hand blender and mix it into the flour mixture.
+4. Combine everything in a large bowl. Do not knead the meat for too long, as it can become tough.
+5. Shape the meatballs on a baking tray lined with parchment paper. Two tablespoons can be used to form them.
 
-6 portioner
+![[misc/recept/köttbullar-3.png]]
 
-- 500 g blandfärs
-- 1,5 tsk salt
-- 1 lök, gul
-- 15 svartpepparkorn, mortlade
-- 2 kryddpepparkorn, mortlade
-- 1 ägg
-- 1 dl mjölk
-- 1 dl ströbröd
+1. Bake the meatballs in the oven at 150°C (300°F) for about 10 minutes so they keep their shape.
+2. Fry them in a pan with olive oil and a little butter until browned.
+3. The meatballs can be frozen and thawed without losing much quality.
+
+![[misc/recept/köttbullar-2.png]]
+Swedish meatballs are served with brown sauce and lingonberry jam or blackcurrant jelly (as at IKEA). This combination may seem unusual at first to many in Portugal, but most people end up enjoying it. They can also be served with Portuguese marmalade.
 
 ---
 
-1 kg picanha/gris
-3 stora stekt passerad lök
-1 x 200 mL grädde
+🇵🇹 **As almôndegas suecas** são um dos pratos mais conhecidos e apreciados da Suécia, frequentemente servidas com puré de batata, molho de natas e compota de arando (lingonberry). As pequenas e suculentas almôndegas são normalmente feitas com uma mistura de carne de vaca e porco picada, temperadas com cebola, sal, pimenta e, por vezes, pimenta-da-jamaica, o que lhes confere um sabor suave mas característico. Para um público português, podem lembrar as “almôndegas”, mas distinguem-se pelo seu molho cremoso e pela compota agridoce de arando, que cria um equilíbrio de sabores único. Este prato é uma parte importante da cozinha tradicional sueca, sendo servido tanto em refeições do dia a dia como em ocasiões festivas.
 
-## 2012-08-29
+_Esta receita rende aproximadamente a quantidade de almôndegas mostrada na imagem._
+![[misc/recept/köttbullar.png]]
 
-2.9 kg picanha/gris
-500 g stekt passerad lök
-5 x 200 mL grädde
-2,5 dL mjöl + mjölk tills det gar att mixa
-4 tsk salt
-1 tsk vitpeppar/svartpeppar
-8 ägg
+**Ingredientes:**
 
-## 2016-01-31
+- 2 kg de carne picada mista
+- 6 colheres de chá de sal
+- 4 cebolas
+- 1 cabeça de alho
+- 15 grãos de pimenta-preta, moídos (a gosto)
+- 2 bagas de pimenta-da-jamaica, moídas (a gosto)
+- 4 ovos
+- 400 ml de natas
+- 400 ml de farinha
 
-1.9 kg
-370g stekt passerad lök
-3 x 200mL grädde
-6 ägg
-separat:
-2 dl mjöl
-3 pkt köttbuljong
-1 tsk vitpeppar/svarpeppar
-mjölk tills det kan blandas
+**Modo de preparação:**
 
-## 2016-06-04
+1. Misture as natas, os ovos e a farinha numa tigela e deixe repousar durante cerca de 20 minutos. Este tempo é importante; caso contrário, as almôndegas podem saber a farinha.
+2. Triture a pimenta-preta, a pimenta-da-jamaica e o sal num almofariz e misture com a mistura de farinha. Recomenda-se usar mais especiarias do que indicado. Especiarias moídas na hora são melhores.
+3. Triture a cebola (e o alho) com uma varinha mágica e misture com a preparação.
+4. Junte tudo numa tigela grande. Não amasse a carne durante muito tempo, pois pode ficar rija.
+5. Molde as almôndegas num tabuleiro forrado com papel vegetal. Pode usar duas colheres de sopa para formar as bolas.
 
-3 kg kött
-separat:
-2 dl mjöl
-4 pkt köttbuljong
-1 tsk vitpeppar/svartpeppar
-5 pkt grädde (200ml)
-4 passerade och stekta lökar (köpta normalstora)
-8 ägg
+![[misc/recept/köttbullar-3.png]]
 
-## 2016-12-04
+1. Leve ao forno a 150 °C durante cerca de 10 minutos, para que mantenham a forma.
+2. Frite-as numa frigideira com azeite e um pouco de manteiga até ficarem douradas.
+3. As almôndegas podem ser congeladas e descongeladas sem perder muita qualidade.
 
-2.8 kg kött
-tva stora lökar, paserade och stekta
-2.5 dl mjöl (minska)
-4 pkt köttbuljong i 1/2 glas vatten micrat
-4 pkt grädde
-1tsk pepparblanding
-8 ägg
-
-## [[2021-10-30]]
-
-2.4 kg kött
-2 dl mjöl
-6 ägg
-4 knorr
-2 pkt grädde
-2 vitlökar
-sal fino
-pimento moido
+![[misc/recept/köttbullar-2.png]]
+As almôndegas suecas são servidas com molho castanho e compota de arando ou geleia de groselha preta (como no IKEA). Esta combinação pode parecer estranha ao início para muitos portugueses, mas a maioria acaba por gostar. Também podem ser servidas com marmelada portuguesa.
