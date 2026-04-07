@@ -5,8 +5,8 @@ _The recipe yields approximately the number of meatballs shown in the image abov
 
 **Ingredients:**
 
-- 2 kg mixed minced mea
-- 6 tsp sal
+- 2 kg mixed minced meat
+- 6 tsp salt
 - 4 yellow onions
 - 1 whole garlic
 - 5 g / 60 black peppercorns, ground (to taste)
