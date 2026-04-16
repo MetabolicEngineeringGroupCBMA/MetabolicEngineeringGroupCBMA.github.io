@@ -40,7 +40,7 @@ Ethidium bromide powder is quite stable at room temperature but need to be prote
 
 References:
 
-- https://www.addgene.org/protocols/gel-electrophoresis
-- https://groups.google.com/forum/#!topic/bionet.molbio.methds-reagnts/fzpPmQwmPUw
-- http://www.paralog.com/wiki/?EthidiumBromide
-- https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/ethidium-bromide
+- <https://www.addgene.org/protocols/gel-electrophoresis>
+- <https://groups.google.com/forum/#!topic/bionet.molbio.methds-reagnts/fzpPmQwmPUw>
+- <http://www.paralog.com/wiki/?EthidiumBromide>
+- <https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/ethidium-bromide>

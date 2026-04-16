@@ -1,6 +1,6 @@
 # [Lysogeny-Broth](http://en.wikipedia.org/wiki/Lysogeny_broth) (LB)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/LBmedium.JPG/219px-LBmedium.JPG)
+![[LB.png|500x549]]
 
 This medium is for general growth of _E. coli_ and other bacteria. There are several formulations differing in the amount of NaCl such as LB-Miller (10 g/L NaCl) and LB-Lennox (5 g/L NaCl) and LB Low Salt (≤0.5 g/L NaCl). The higher salt concentrations were originally included for specific experiments with phages and is not necessary for growth of normal E. coli strains. Normal E. coli might grow best on Lennox (5 g/L NaCl). LB Low Salt is useful for salt sensitive antibiotics such as Zeocin or Phleomycin.
 

@@ -1,4 +1,4 @@
-### Tetracycline 12.5 mg/ml
+### Tetracycline 12.5 mg/ml ()
 
 Add 125 mg Tetracycline Hydrochloride (MW = 480.898 g/mol) powder to a 15 mL FALCON tube.
 

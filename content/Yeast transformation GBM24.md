@@ -118,8 +118,8 @@ Two yeast strains will be used for transformation:
 | 3     | 105        | 15                      |
 | 4     | 100        | 20                      |
 
-2. Add the contents to the tube from the table according to your group.
-3. Put the tube on ice. The DNA mix should be marked **kept on ice** until needed.
+1. Add the contents to the tube from the table according to your group.
+2. Put the tube on ice. The DNA mix should be marked **kept on ice** until needed.
 
 # Yeast transformation protocol
 
