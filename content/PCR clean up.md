@@ -83,4 +83,4 @@ co-precipitant which is supplied in the Bioline SureClean Plus
 
 ### Isopropanol Precipitation for PCR Purification
 
-http://openwetware.org/wiki/Isopropanol\_Precipitation\_for\_PCR\_Purification
+<http://openwetware.org/wiki/Isopropanol_Precipitation_for_PCR_Purification>

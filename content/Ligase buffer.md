@@ -6,7 +6,7 @@
 - 5  mM DTT (1 mM final)
 - 25% (w/v) PEG 8000 (5% final)
 
-https://www.thermofisher.com/order/catalog/product/B69?SID=srch-srp-B69
+<https://www.thermofisher.com/order/catalog/product/B69?SID=srch-srp-B69>
 
 10X Buffer Composition
 400 mM Tris-HCl
@@ -42,7 +42,7 @@ For the ones who cannot get this issue , the buffer was the following:
 5mMATP                  1mM
 5mM DTT.                1mM
 
-https://www.addgene.org/protocols/dna-ligation
+<https://www.addgene.org/protocols/dna-ligation>
 
 The conditions recommended for ligations of blunt end insert into vector DNA
 were the following:

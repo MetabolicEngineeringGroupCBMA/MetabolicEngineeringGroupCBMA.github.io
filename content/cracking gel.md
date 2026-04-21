@@ -1,4 +1,4 @@
-http://stanxterm.aecom.yu.edu/wiki/index.php?page=Cracking\_gel\_method
+<http://stanxterm.aecom.yu.edu/wiki/index.php?page=Cracking_gel_method>
 
 Sucrose 25 g
 ddH2O 40 ml (Dissolve sucrose at 65 deg C)
@@ -8,7 +8,7 @@ Add ddH20 to 50 ml final volume
 
 alt.
 
-Simply Cloning - Supplement 2 - Cracking Gel (https://www.youtube.com/watch?v=BfQ-UIabquk)
+Simply Cloning - Supplement 2 - Cracking Gel (<https://www.youtube.com/watch?v=BfQ-UIabquk>)
 
 39.5 ml ddH20
 2.5 mL 1M NaoH

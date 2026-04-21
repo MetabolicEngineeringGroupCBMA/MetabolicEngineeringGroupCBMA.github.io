@@ -28,9 +28,9 @@ stekpannan så den är riktigt varm innan ni börjar, smeten skall omedelbar
 reagera på att hällas i pannan. Och missa inte våra övriga tips - tips för dig
 som lagar pannkakor!
 
-Källa: http://www.pannkakor.se/pannkaksrecep
+Källa: <http://www.pannkakor.se/pannkaksrecep>
 Vår Kokbok 1978 12 upplagan
 
 [Amerikanska](<file:/home/bjorn/myvault/files/Amerikanska pannkakor - bästa receptet _ Aftonbladet.pdf>)
 
-Link: https://www.books-n-cooks.com/homemade-pancakes-with-mix/?utm\_campaign=shareaholic\&utm\_medium=email\_this\&utm\_source=email
+Link: <https://www.books-n-cooks.com/homemade-pancakes-with-mix/?utm_campaign=shareaholic&utm_medium=email_this&utm_source=email>

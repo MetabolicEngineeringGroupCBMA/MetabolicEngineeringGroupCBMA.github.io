@@ -16,6 +16,6 @@ Thsi could be simplified to:
 
 where the LigationMastermix-2x is
 2 µL water
-1 µL acetylated BSA (10 mg/ml) http://se.promega.com/resources/pubhub/enotes/shorten-the-ligation-time-for-the-pgem-t-vector-systems/
+1 µL acetylated BSA (10 mg/ml) <http://se.promega.com/resources/pubhub/enotes/shorten-the-ligation-time-for-the-pgem-t-vector-systems/>
 2 µL 2 x ligation buffer
 1 µL T4 DNA ligase (5U/µL)

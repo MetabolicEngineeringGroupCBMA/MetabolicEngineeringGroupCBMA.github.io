@@ -1,10 +1,10 @@
 # Merlin
 
-http://www.sigmaaldrich.com/catalog/product/sigma/g4505?lang=pt\&region=PT                        38 €
-http://www.acros.com/ecommerce/specs.aspx?Prdnr=BP1754I-400                                      107 €
-https://webshop.fishersci.com/insight2\_pt/getProduct.do?productCode=10336653\&resultSetPosition=9 61 €
+<http://www.sigmaaldrich.com/catalog/product/sigma/g4505?lang=pt&region=PT>                        38 €
+<http://www.acros.com/ecommerce/specs.aspx?Prdnr=BP1754I-400>                                      107 €
+<https://webshop.fishersci.com/insight2_pt/getProduct.do?productCode=10336653&resultSetPosition=9> 61 €
 
-http://www.bio.net/bionet/mm/methods/1994-April/013440.html
+<http://www.bio.net/bionet/mm/methods/1994-April/013440.html>
 
 Dear Netter,
 
@@ -49,10 +49,10 @@ The various resins are ordered in descending order of performance:-
 1a. Kieselgel 60 (Merck)                   ]
 1b. Diatomaceous Earth (Sigma D 5384)      ]---These 3 appear to be the bes
 1c. Celite for Analytical Filtration (BDH) ]
-2\.  Silica Gel for TLC (Aldrich)
+2\. Silica Gel for TLC (Aldrich)
 3a. Kieselgel 60H (Merck)
 3b. Celite 545 (Fluka)
-4\.  Kieselgel 40 (Merck)
+4\. Kieselgel 40 (Merck)
 
 Best of luck.
 Dr. Ravi R. Iyer, MD, Ph.D.

@@ -66,4 +66,4 @@ This can be resolved by always including a negative control without template.
 
 ### References and resources:
 
-http://mama.indstate.edu/pfaffle/ptaq
+<http://mama.indstate.edu/pfaffle/ptaq>

@@ -3,7 +3,7 @@
 I usually have used the 10 mM stock which is about x 100 times for a final C of 100 µM in PCR.
 
 I should make a stock that is 1 mM
-http://www.fermentas.com/catalog/nucleotides/dntpmixes.htm
+<http://www.fermentas.com/catalog/nucleotides/dntpmixes.htm>
 
 PROTOCOL
 There should be two stock solutions, 10 mM master stock and 1 mM stock solutions both stored at -20.

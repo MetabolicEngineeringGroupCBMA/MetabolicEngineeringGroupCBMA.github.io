@@ -208,9 +208,9 @@ leave them on ice.
 - 20 g/L Glucose
 - 20 g/L agar
 
-2. Measure 100 mL of deionized water with a beaker, add a portion to the 200 mL bottle
-3. Add all the ingredients and dissolve; add the remaining water
-4. Identify the bottle with your group number and the name of the medium
+1. Measure 100 mL of deionized water with a beaker, add a portion to the 200 mL bottle
+2. Add all the ingredients and dissolve; add the remaining water
+3. Identify the bottle with your group number and the name of the medium
 
 Material:
 
@@ -263,7 +263,7 @@ Each student should make one transformation and each groupsshould make one negat
 #### Preparation of DNA mix
 
 - PCR products from Class 2  were pooled and diluted with water.
-- Add together 12 µL of each DNA fragment according to the Google https://docs.google.com/spreadsheets/d/1OdQ8cHiCPM4s99EOmUx92wqeGYuMuN-x3YVP86VNloo/edit#gid=1577554029
+- Add together 12 µL of each DNA fragment according to the Google <https://docs.google.com/spreadsheets/d/1OdQ8cHiCPM4s99EOmUx92wqeGYuMuN-x3YVP86VNloo/edit#gid=1577554029>
 
 #### Agarose gel electrophoresis of DNA
 

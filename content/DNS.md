@@ -62,11 +62,11 @@ Figure 6
 | 3             | _T. delbrueckii_       | aerobic   | "             | "                | "             |
 | 4             | _T. delbrueckii_       | anaerobic | "             | "                | "             |
 
-2. Incubate for 5 minutes in a boiling water bath.
-3. Cool under running water (tap).
-4. Add 5 mL of cold deionized water to each tube and vortex.
-5. Measure absorbance at 540 nm using a spectrophotometer. Before measurement, prepare a blank using 0.5 mL of deionized water + 0.5 mL of DNS.
-6. Calculate the concentration of reducing sugars using the formula provided in the previous image (this calibration curve was obtained using standard glucose solutions of known concentrations).
+1. Incubate for 5 minutes in a boiling water bath.
+2. Cool under running water (tap).
+3. Add 5 mL of cold deionized water to each tube and vortex.
+4. Measure absorbance at 540 nm using a spectrophotometer. Before measurement, prepare a blank using 0.5 mL of deionized water + 0.5 mL of DNS.
+5. Calculate the concentration of reducing sugars using the formula provided in the previous image (this calibration curve was obtained using standard glucose solutions of known concentrations).
 
 ## Reference
 

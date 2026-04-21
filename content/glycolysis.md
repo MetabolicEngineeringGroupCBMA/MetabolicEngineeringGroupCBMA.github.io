@@ -1,4 +1,4 @@
-http://homepage.ufp.pt/pedros/bq/glycolysis.htm
+<http://homepage.ufp.pt/pedros/bq/glycolysis.htm>
 
 Blood glucose levels are kept at approximately constant levels around 4-5 mM. Glucose enters cells by facilitated diffusion. Since this process does not allow the cell to contain glucose at a higher concentration than the one present in the bloodstream, the cell (through the enxyme hexokinase) chemically modifies glucose by phosphorylation:
 

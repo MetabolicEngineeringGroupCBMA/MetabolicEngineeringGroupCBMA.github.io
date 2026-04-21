@@ -22,4 +22,4 @@
 - 1.44 g of Na2HPO4;
 - 0.24 g of KH2PO4.
 
-2. Adjust the pH to 7.4 with HCl. Add distilled water to a total volume of 1 liter.
+1. Adjust the pH to 7.4 with HCl. Add distilled water to a total volume of 1 liter.

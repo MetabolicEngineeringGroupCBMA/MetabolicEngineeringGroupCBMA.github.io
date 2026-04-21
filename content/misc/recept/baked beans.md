@@ -1,1 +1,1 @@
-https://realhousemoms.com/homemade-baked-beans/
+<https://realhousemoms.com/homemade-baked-beans/>

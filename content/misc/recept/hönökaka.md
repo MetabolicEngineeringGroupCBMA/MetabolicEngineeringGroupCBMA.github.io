@@ -1,4 +1,4 @@
-http://tidningenhembakat.se/recept/honokaka-2/
+<http://tidningenhembakat.se/recept/honokaka-2/>
 
 50 g jäst
 5 dl vatten, fingervarmt

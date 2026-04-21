@@ -1,8 +1,8 @@
-http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html
+<http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html>
 
-http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html
+<http://cupcakesfluffan.blogspot.pt/2010/11/chocolate-chip-cookies.html>
 
-http://karlstein.nu/hemgjord-chokladglass/
+<http://karlstein.nu/hemgjord-chokladglass/>
 
 Hemgjord chokladglass eller Gelato al cioccolato – ytterligare en
 efterrättsfavorit som ständigt konkurrerar med vaniljpannacottan om sin plats

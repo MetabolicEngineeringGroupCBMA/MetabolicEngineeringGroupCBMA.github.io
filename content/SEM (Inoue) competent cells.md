@@ -1,6 +1,6 @@
 Competent E. coli cells according to the SEM protocol [(Inoue et al. 1990)](https://www.ncbi.nlm.nih.gov/pubmed/2265755) (Inoue) method. Cells prepared using this method can be used according to the [[Transforming Frozen Competent E. coli|Transforming Frozen Competent E. coli]] protocol. Some details are from this [version](https://bio-protocol.org/bio101/e143).
 
-https://benchling.com/lgm-cbma/f/lib\_AfycOw2o-protocols/prt\_gwi6X0tr-competent-cells-sem-method/edi
+<https://benchling.com/lgm-cbma/f/lib_AfycOw2o-protocols/prt_gwi6X0tr-competent-cells-sem-method/edi>
 
 ### How to prepare competent E. coli cells
 
@@ -23,9 +23,9 @@ V(DMSO) = 0.07\*V(CELLS)/0.93;
 
 V(CELLS) is the volume of cell suspension and V(DMSO) is the DMSO volume to add. Mix gently by swirling.
 
-10. Incubate on ice for 10 minutes.
-11. Dispense the cell suspension in 0.2 - 0.5 ml aliquots and immediately flash-freeze by immersion in liquid nitrogen.
-12. Store frozen cells at -80°C
+1. Incubate on ice for 10 minutes.
+2. Dispense the cell suspension in 0.2 - 0.5 ml aliquots and immediately flash-freeze by immersion in liquid nitrogen.
+3. Store frozen cells at -80°C
 
 ### How to prepare TB buffer
 
@@ -51,9 +51,9 @@ For 1 L (about ten preparations of about 80-100 tubes of competent cells each) t
 - 1.67 g  CaCl2 (110.98 g/mol) **or** 2.21 g CaCl2x2H2O (110.98 g/mol)
 - 18.64 g KCl (74.5513 g/mol)
 
-2. Dissolve the salts in ~ 800 mL water a large (1000 mL) glass beaker with a magnetic stirrer.
-3. Adjust pH to 6.7 with KOH Potassium hydroxide (56.11 g/mol) 1M solution (‎3.3 g (85%) in 50 mL ).
-4. Dissolve dry MnCl2 to have a final concentration of 55 mM. For 1 L this would mean 6.92 g MnCl2 (125.844 g/mol). MnCl2 is hygroscopic so it may stick to paper if used to weigh up the chemical. **VERY IMPORTANT** Add the MnCl<sub>2</sub> **AFTER** adjusting the pH or it will precipitate.
+1. Dissolve the salts in ~ 800 mL water a large (1000 mL) glass beaker with a magnetic stirrer.
+2. Adjust pH to 6.7 with KOH Potassium hydroxide (56.11 g/mol) 1M solution (‎3.3 g (85%) in 50 mL ).
+3. Dissolve dry MnCl2 to have a final concentration of 55 mM. For 1 L this would mean 6.92 g MnCl2 (125.844 g/mol). MnCl2 is hygroscopic so it may stick to paper if used to weigh up the chemical. **VERY IMPORTANT** Add the MnCl<sub>2</sub> **AFTER** adjusting the pH or it will precipitate.
 
 Sterilize the solution by filtration through 0.45 μm filter and store at +4°C. Alternatively, the solution can be made sterile by heating the solution in a microwave oven before adding all the water. Heat for 3-5 min at full power in a microwave oven with the cap shut tightly. Be careful when relieving the pressure. Add autoclaved water up to full volume. The buffer can be stored at 4°C indefinitely. Protocols do not usually recommend autoclaving, but according to this [exchange](https://chemistry.stackexchange.com/questions/15866/what-happens-if-you-autoclave-hepes), it should work as well.
 

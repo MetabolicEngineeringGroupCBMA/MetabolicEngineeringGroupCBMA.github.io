@@ -1,7 +1,7 @@
 ### EDTA (Ethylenediaminetetraacetic acid) stock solution 0.5M pH8
 
-http://openwetware.org/wiki/EDTA#0.5\_M\_EDTA\_stock
-http://en.wikipedia.org/wiki/Ethylenediaminetetraacetic\_acid
+<http://openwetware.org/wiki/EDTA#0.5_M_EDTA_stock>
+<http://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid>
 
 For 100 mL 0.5M EDTA:
 

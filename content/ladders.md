@@ -1,4 +1,4 @@
-### GeneRuler 1 kb DNA Ladder Catalog Number SM0311, SM0312
+# GeneRuler 1 kb DNA Ladder Catalog Number SM0311, SM0312
 
 ![[GeneRuler_1_kb_DNA_Ladder.png]]
 

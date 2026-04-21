@@ -1,9 +1,9 @@
 ### CRISPR CAS9 sgRNA plasmid
 
-We originally asked the pCAS (https://www.addgene.org/60847) vector from the designer (jcate@lbl.gov).
+We originally asked the pCAS (<https://www.addgene.org/60847>) vector from the designer (jcate@lbl.gov).
 Unfortunately it was "pending" and not available at the time.
 
-This link is for the email exchange https://mail.google.com/mail/u/0/#search/crisp/KtbxLthZkGjqGBfdKMpdktVkRtbMDzfMqB
+This link is for the email exchange <https://mail.google.com/mail/u/0/#search/crisp/KtbxLthZkGjqGBfdKMpdktVkRtbMDzfMqB>
 
 #### Search for an alternative:
 
@@ -17,8 +17,8 @@ I made a search on [addgene](https://www.addgene.org/search/advanced/?q=Cas9\&de
 
 I found these two:
 
-- pRCC-K         10255 https://www.addgene.org/81191
-- pML104-KanMx4  10959 https://www.addgene.org/83476
+- pRCC-K         10255 <https://www.addgene.org/81191>
+- pML104-KanMx4  10959 <https://www.addgene.org/83476>
 
 and an alternative system [CRISPR/Cpf1](https://www.addgene.org/browse/article/28192247).
 
@@ -279,8 +279,8 @@ tail1-gttttagagctagaaatagcaagttaaaataagg
 tail2-gatcatttatctttcactgcggag
 ```
 
-The paper suggests a web based tool for selecting spacer sequences (https://www.dna20.com/eCommerce/cas9/input).
-There is now a redirection to this url (https://www.atum.bio/eCommerce/cas9/input) which i used.
+The paper suggests a web based tool for selecting spacer sequences (<https://www.dna20.com/eCommerce/cas9/input>).
+There is now a redirection to this url (<https://www.atum.bio/eCommerce/cas9/input>) which i used.
 The best result was ATCCCTGGTGGCGGCGCCTT , according to the scoring (100).
 
 - [[tool1.png|Initial page]]

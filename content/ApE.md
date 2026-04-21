@@ -20,7 +20,7 @@ Go [here](https://jorgensen.biology.utah.edu/wayned/ape) to get ApE, click on th
 
 ![[ApE_locate_linearization_site.png]]
 
-2. Select ApE Edit>"Linearize @ insert site" (see below).
+1. Select ApE Edit>"Linearize @ insert site" (see below).
 
 ![[ApE_linearize_insertion_site.png]]
 

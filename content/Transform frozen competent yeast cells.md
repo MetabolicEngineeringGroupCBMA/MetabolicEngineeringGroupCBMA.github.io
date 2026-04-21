@@ -40,10 +40,10 @@ water for a normal circular plasmid prepared using a miniprep kit.
 If you have many similar transformations, A master mix (PEG, LiAc, ssDNA and water) can be made by leaving out your
 DNA. Such a mix should be vortexed lightly before being added to the cells.
 
-3. Resuspend the yeast cells in the mixture by vortexing well to remove any clumps.
-4. Heat shock in 42℃  water bath for 45 minutes.
-5. Spin down at 14,000 rpm or max speed for 30 s, remove supernatant with a micropipette.
-6. Add 100 µL of sterile water to the cells, resuspend by pipetting up and down with a P200 pipette
+1. Resuspend the yeast cells in the mixture by vortexing well to remove any clumps.
+2. Heat shock in 42℃  water bath for 45 minutes.
+3. Spin down at 14,000 rpm or max speed for 30 s, remove supernatant with a micropipette.
+4. Add 100 µL of sterile water to the cells, resuspend by pipetting up and down with a P200 pipette
    and take out 10-20% of the cells to a fresh tube and save these cells in the fridge or on ice.
    Plate the rest of the cells on appropriate medium. Incubate plates at 30℃  for 2-4 days or
    until colonies appear (check after two days).

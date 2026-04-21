@@ -1,4 +1,4 @@
-http://www.kokaihop.se/recept/gronsakssoppa
+<http://www.kokaihop.se/recept/gronsakssoppa>
 
 12 dl   vatten
 2 st    grönsaksbuljongtärning

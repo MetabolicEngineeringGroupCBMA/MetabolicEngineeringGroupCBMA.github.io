@@ -150,7 +150,7 @@ This solution should be stored at room temperature in the **dark**.
 
 ## Protocol for measuring catalase activity
 
-18. Add the components in the table to the marked tubes. Volumes are indicated in micro liters (µL). Prepare the tubes in the **indicated** order top to bottom, add components in the indicated order, left to right. Remember that after the addition of Peroxide, the reaction starts, so make this addition rapidly for all tubes.
+1. Add the components in the table to the marked tubes. Volumes are indicated in micro liters (µL). Prepare the tubes in the **indicated** order top to bottom, add components in the indicated order, left to right. Remember that after the addition of Peroxide, the reaction starts, so make this addition rapidly for all tubes.
 
 | Label | Sample   | Water | Cells | Peroxide | Total |
 | ----- | -------- | ----- | ----- | -------- | ----- |
@@ -167,14 +167,14 @@ This solution should be stored at room temperature in the **dark**.
 | T2b   | Test 2b  | 35    | 35    | 140      | 210   |
 | T2c   | Test 2c  | 35    | 35    | 140      | 210   |
 
-19. Incubate Eppendorf tubes at 🌡️37 °C in a water bath 🛁 for 10 min. ⏱️ **This timing is critical!**
-20. Add 800 µL working solution to each tube.
-21. Mix by inversion.
-22. Incubate at room temperature for at least 10 min in the dark 🌙. You can put the tubes in one of the empty drawers in the lab.
-23. Centrifuge 🌀 for 20 s at top speed.
-24. Transfer supernatants to the cuvettes with the same marking. Take a picture 📷 of the cuvettes with your phone, upload to Google photos ![[catalase lab-20241030141408936.png]].
-25. Record the absorbance for each cuvette at 440 nm against air. Position the cuvette as per the instructions for the [[GENESYS20]] spectrophotometer.
-26. Add the data to the Google Spreadsheet ![[catalase lab-20241030143806102.png]].
+1. Incubate Eppendorf tubes at 🌡️37 °C in a water bath 🛁 for 10 min. ⏱️ **This timing is critical!**
+2. Add 800 µL working solution to each tube.
+3. Mix by inversion.
+4. Incubate at room temperature for at least 10 min in the dark 🌙. You can put the tubes in one of the empty drawers in the lab.
+5. Centrifuge 🌀 for 20 s at top speed.
+6. Transfer supernatants to the cuvettes with the same marking. Take a picture 📷 of the cuvettes with your phone, upload to Google photos ![[catalase lab-20241030141408936.png]].
+7. Record the absorbance for each cuvette at 440 nm against air. Position the cuvette as per the instructions for the [[GENESYS20]] spectrophotometer.
+8. Add the data to the Google Spreadsheet ![[catalase lab-20241030143806102.png]].
 
 <div style="page-break-after: always;"></div>
 

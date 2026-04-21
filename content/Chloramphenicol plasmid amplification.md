@@ -29,9 +29,9 @@ Method 2:
 Note: This method only works well for 500 ml preps; for 100 ml preps use the following
 modification:
 
-5. Grow 100 ml prep in terrific broth for 6 to 8 hours at 37º C in the appropriate antibiotic with
+1. Grow 100 ml prep in terrific broth for 6 to 8 hours at 37º C in the appropriate antibiotic with
    vigorous shaking. (For best results inoculate with 200 ul of a 5 ml overnight culture.)
-6. Add chloramphenicol to 170 ug/ml final concentration and incubate for a further 12 to 16
+2. Add chloramphenicol to 170 ug/ml final concentration and incubate for a further 12 to 16
    hours with vigorous shaking.
    ![[files/plas1.pdf]]
 

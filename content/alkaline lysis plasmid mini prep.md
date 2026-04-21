@@ -8,53 +8,42 @@ If cultures can not be processed right away, pelleted cells can be stored a -20�
 For solid medium, we have found that it might be better to scrape cells off the plate, wash with P1 and save the
 pellet at -20°C rather than saving the plate in the fridge for several days as cells on plate tend to become slimy after a while.
 
-Any microcentrifuge can be used for this protocol, the maximum force generated seems not to be critical.
-
-Picofuge type centrifuges may **not** give sufficient force to pellet precipitated DNA, but is fine for spinning cells.
+Any microcentrifuge can be used for this protocol, the maximum force generated seems not to be critical. However, Picofuge type centrifuges (see below) may **not** give sufficient force to pellet precipitated DNA, but is fine for spinning cells.
 
 ![pico](pico.jpeg)
 
 ## Collect cells from liquid culture
 
-1. Grow 1 ml of _E. coli_ in a 1.5 - 2 ml Eppendorf tube at 37°C o/n. Larger 2 mL tubes might be better, since mixing seems more efficient. Tubes can be incubated sideways at 200 rpm.
-
+1. Grow 1-5 ml of _E. coli_ in a 1.5 - 2 ml Eppendorf tube at 30-37°C o/n. Larger 2 mL tubes might be better, since mixing seems more efficient. Fifty ml glass culture tubes also work well. Tubes can be incubated sideways at 200 rpm.
 2. Centrifuge at top speed for 30 s to recover cells.
-
 3. Resuspend cells in 200 µL of buffer P1. Cells can be vortexed briefly or cells can be resuspended by pipetting up and down with a P1000 pipette.
 
 ## Collect cells from solid culture
 
 1. Streak about a quarter to a half of a LB plate necessary antibiotic from a colony or directly from a frezer stock and incubate o/n.
-
 2. On the next day, collect cells from at least 1/4 of the inoculated solid medium using a toothpick with a flat end.
-
 3. Resuspend the cells in 200 µL buffer P1. If the cells are hard to resuspend, try to decant as much as possible of the cells to another tube and leave behind the sticky biomass..
 
 ## Alkaline lysis
 
 1. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
 
-![[alkaline lysis plasmid mini prep.png|207x168]]
+![[alkaline lysis plasmid mini prep.png]]
 
 1. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
 
 ## Neutralization
 
 1. Add 250 µL buffer P3, mix by inversion about ten times, **do not vortex** for the same reason as before.
-
 2. Centrifuge at top speed for 5-10 min. While centrifuge is running, add 1 ml of 96% - 99,5% ethanol
    to a new clean 1.5 ml Eppendorf tube for each plasmid prep. 750 µL of Isopropanol can be used instead of ethanol.
 
 ## Ethanol precipitation
 
 1. Add 500 µL of the supernatant from the centrifugation to the ethanol and mix by inversion. If isopropanol is used, add as much as possible without touching the precipitate.
-
 2. Centrifuge at top speed for 10 min.
-
 3. Pour away supernatant by opening and inverting the tube. The plasmid should be visible as a small white spot in the bottom of the tube.
-
 4. Add 1 mL 70% ethanol. Some protocols specify cold ethanol (-20°C) but ethanol at room temperature works fine.
-
 5. Centrifuge 1 min at top speed.
 
 ## Dry plasmid DNA
@@ -79,9 +68,8 @@ Picofuge type centrifuges may **not** give sufficient force to pellet precipitat
 
 Any resuspension buffer from a commercial plasmid miniprep kit is probably fine for this.
 
-1. Done! Store your DNA in fridge (4-8°C) or freezer (-20°C).
-
-A [[snik-short|short]] protocol for printing.
+Done! 🎉
+Store your DNA in fridge (4-8°C) or freezer (-20°C). A [[snik-short|short]] protocol for printing.
 
 ## Usage
 

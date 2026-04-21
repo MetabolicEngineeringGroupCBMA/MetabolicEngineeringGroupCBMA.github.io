@@ -90,8 +90,8 @@ Primers: 	10uM (10x dilution of the MWG standard conc)
 dNTPs		1 mM (10x dilution of the normal stock)
 \[rel://protocols/Screenshot-Java-applet for PCR or qPCR reaction mixture setup - Mozilla Firefox.png]
 
-Volume calculators: http://primerdigital.com/Tools/ReactionMixture.html
-Troubleshoot PCR:    http://www.med.yale.edu/genetics/ward/tavi/Trblesht.html
+Volume calculators: <http://primerdigital.com/Tools/ReactionMixture.html>
+Troubleshoot PCR:    <http://www.med.yale.edu/genetics/ward/tavi/Trblesht.html>
 
 ## Additives
 

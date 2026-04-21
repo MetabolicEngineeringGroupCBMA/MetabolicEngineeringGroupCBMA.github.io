@@ -1,4 +1,4 @@
-http://receptfavoriter.se/recept/kristyr.html
+<http://receptfavoriter.se/recept/kristyr.html>
 
 Ingredienser till Kristyr:
 1 sats [[kristyr]] sockerkristyr

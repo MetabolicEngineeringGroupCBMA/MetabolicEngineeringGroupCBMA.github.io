@@ -11,7 +11,7 @@
 Rökt paprikapulver ger en god rökt smak åt köttet. Jag tycker speciellt om den som man kan få i  Spanien kallad "pimenton".
 
 Inspiration:
-https://www.willcookforsmiles.com/the-ultimate-dry-rub
+<https://www.willcookforsmiles.com/the-ultimate-dry-rub>
 
 II
 125 mL rökt paprikapulver

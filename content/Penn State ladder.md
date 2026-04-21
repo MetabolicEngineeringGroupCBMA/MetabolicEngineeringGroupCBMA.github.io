@@ -4,7 +4,7 @@ aliases:
   - pPSU1
   - pPSU2
 created: 2024-07-14T09:27:29.804+01:00
-modified: 2026-03-29T09:02:45.903+01:00
+modified: 2026-04-20T10:22:47.773+01:00
 ---
 
 This [[ladders|ladder]] is made from the two plasmids pPSU1 and pPSU2 linearized with a unique cutting enzyme and both plasmids digested with EcoRV.

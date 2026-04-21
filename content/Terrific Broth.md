@@ -3,22 +3,22 @@ PROTOCOL\[EXP:true]
 
 Terrific Broth
 
-http://www.thelabrat.com/protocols/TerrificBroth.shtml
+<http://www.thelabrat.com/protocols/TerrificBroth.shtml>
 
 Add the following to 800ml distilled H2O
 12g Tryptone
 24g Yeast extract
 4ml Glycerol
 
-2. Adjust to 900ml with distilled H2O
-3. Sterilize by autoclaving
-4. Allow to cool to room temperature
-5. Adjust volume to 1000ml with 100ml of a filter sterilized solution of 0.17M KH2PO4 and 0.72M K2HPO4
+1. Adjust to 900ml with distilled H2O
+2. Sterilize by autoclaving
+3. Allow to cool to room temperature
+4. Adjust volume to 1000ml with 100ml of a filter sterilized solution of 0.17M KH2PO4 and 0.72M K2HPO4
 
 ---
 
 Terrific Broth
-http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8620
+<http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8620>
 
 Deionized H2O, to 900 mL
 Tryptone, 12 g

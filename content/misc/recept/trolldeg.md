@@ -46,19 +46,21 @@ degbebisModellering och dekoration
 Både barn och vuxna kan trolla fram vackra figurer; ljusstakar, dörrskyltar, placeringskort, kylskåpsmagneter, prydnadsfigurer – endast fantasin sätter stopp.
 
 För modellering finns det mesta man behöver i kökslådorna, t.ex.:
-• kavel
-• bordskniv
-• kakformar
-• en bit tyg (att trycka mot leran för mönstrad yta)
-• vitlökspress
+
+- kavel
+- bordskniv
+- kakformar
+- en bit tyg (att trycka mot leran för mönstrad yta)
+- vitlökspress
 
 Som dekorationer passar både naturmaterial och småpärlor, t.ex.:
-• torkade blommor och blad
-• små stenar
-• små snäckor
-• hela kryddor som svart och rödpeppar, nejlikor
-• pärlor
-• piprensare
+
+- torkade blommor och blad
+- små stenar
+- små snäckor
+- hela kryddor som svart och rödpeppar, nejlikor
+- pärlor
+- piprensare
 
 Ska din figur hänga så gör hål med ett sugrör, en bra bit innanför kanten, innan du sätter den i ugnen. Du kan också trycka in ett gem (guldfärgat, det rostar inte) eller speciella öglor som finns att köpa i hobbyaffärer.
 

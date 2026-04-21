@@ -101,7 +101,7 @@ Two new vectors are planned according to the table below:
 Most fragments are similar to the pTA1 except for new primers for the HIS3 marker
 and the CEN/ARS yeast origin of replication.
 
-More details https://docs.google.com/spreadsheets/d/1QRW1G7DU0yBL3jH7aHovJDFphXHLjtalRAbq6ytUw2g/edit#gid=1150891082
+More details <https://docs.google.com/spreadsheets/d/1QRW1G7DU0yBL3jH7aHovJDFphXHLjtalRAbq6ytUw2g/edit#gid=1150891082>
 
 ---
 

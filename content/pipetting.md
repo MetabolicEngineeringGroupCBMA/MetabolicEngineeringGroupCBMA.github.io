@@ -42,10 +42,10 @@ The volume of water can be determined by weighting dispensed water.
 |  P200 |         20        |        100        |
 | P1000 |        100        |        500        |
 
-4. Close the door of the balance and record the weight after it has stabilized.
+1. Close the door of the balance and record the weight after it has stabilized.
 
-5. Repeat 10 times adjusting the balance to zero after each measurement.
+2. Repeat 10 times adjusting the balance to zero after each measurement.
 
-6. Use [this form](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=172131660\&range=D1) to record and calculate precision and accuracy
+3. Use [this form](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=172131660\&range=D1) to record and calculate precision and accuracy
 
 ![](Accuracy-and-Precision.png)

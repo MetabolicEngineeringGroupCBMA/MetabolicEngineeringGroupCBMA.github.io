@@ -23,4 +23,4 @@ Microplate analysis.
 
 - Consult the Bradford Assay Calibration Curve:
 
-Ex. http://www.openwetware.org/images/7/70/Calibrationcurvebradfordassay09112013zem.png
+Ex. <http://www.openwetware.org/images/7/70/Calibrationcurvebradfordassay09112013zem.png>

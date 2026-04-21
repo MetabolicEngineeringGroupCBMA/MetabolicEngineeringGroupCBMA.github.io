@@ -1,4 +1,4 @@
-http://www.labtimes.org/labtimes/trick/tricks/2013\_07.lasso
+<http://www.labtimes.org/labtimes/trick/tricks/2013_07.lasso>
 
 \[rel://files/experiments/ligation.ods]
 \[rel://files/LigaFast Rapid DNA Ligation System Protocol.ashx]
@@ -12,7 +12,7 @@ Digested vector 		1
 total 					13
 
 Divide vector+buffer mix into two Eppendorf tubes +/-:
-\+		-
+\+ -
 Vector+buffer					5		5		µL
 insert 							5		0		µL
 water							0		5		µL
@@ -55,7 +55,7 @@ vector/insert molar ratio =3 ( up to you to change it )
 Dilute 3 to 5 fold before adding DNA to competent cells.
 
 ++Fermentas
-http://www.fermentas.com/techinfo/modifyingenzymes/protocols/p\_dnainslig.htm
+<http://www.fermentas.com/techinfo/modifyingenzymes/protocols/p_dnainslig.htm>
 DNA Insert Ligation into Vector DNA (with T4 DNA Ligase)
 
 In a microcentrifuge tube prepare the following reaction mixture:
@@ -77,7 +77,7 @@ Note:
 - DNA can be dissolved in nuclease-free water or TE buffer: 10 mM Tris-HCl, 1 mM EDTA (pH 7.8).
 - An excess of ligation mixture with respect to competent cells may decrease the transformation efficiency.
 
-http://www.benchfly.com/video/61/make-your-own-rapid-ligation-kit/
+<http://www.benchfly.com/video/61/make-your-own-rapid-ligation-kit/>
 
 Ligation buffers are usually mixed from five simple ingredients. Only one,
 however, has a major impact on the speed of the ligation reaction: Polyethylene
