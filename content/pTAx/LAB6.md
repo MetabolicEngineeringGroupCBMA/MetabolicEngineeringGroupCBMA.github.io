@@ -42,5 +42,3 @@ Taq DNA pol
 5\. 25 \* 13 = 260 µL [[2x PCR mastermix#1.5x Green PCR mastermix (mastermix with PCR compatible loading buffer)|1.5x Green PCR mastermix]]
 6\. 25 \* 1 µL = 25 µL 1222 (10 µM)
 7\. 25 \* 1 µL = 25 µL 1779 (10 µM)
-
-![[pTAx/colored.png]]

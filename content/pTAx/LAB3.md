@@ -57,5 +57,3 @@ If we rearrange the equation: $Va = \frac{6.80}{OD640 - 0.17}$
 #### Solid SD medium for LAB4
 
 Each **group** should make 500 mL solid [[SD]] medium in a 1 L [[glassware|Schott]] flask. Put a small piece of autoclave tape on the lid. Label the flask properly, (Content, Date, Course, Turno, Group etc.).
-
-![[pTAx/colored.png]]

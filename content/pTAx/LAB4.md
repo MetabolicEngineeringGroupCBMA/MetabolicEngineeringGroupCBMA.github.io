@@ -74,5 +74,3 @@ Each student should make one transformation. This protocol is described in detai
 18. Spread the cells by shaking the glass spheres (The [samba](https://www.youtube.com/watch?v=ArWRREJl1Rw\&t=39s) method).
 19. Give the rest of the cell suspension to the instructor
 20. Incubate the plates upside down for 2-4 days at 30°C.
-
-![[pTAx/colored.png]]

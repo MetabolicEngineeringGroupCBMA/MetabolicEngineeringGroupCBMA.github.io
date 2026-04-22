@@ -45,4 +45,3 @@ Summary:
 9. Plate 200 µL by adding 20 - 30 sterile glass beads to an LB plate and swirl to spread the cells.
 10. Incubate inverted at 37°C for 18 - 24 hours.
     This protocol is described in greater detail [[Transforming Frozen Competent E. coli|here]].
-    ![[pTAx/colored.png]]

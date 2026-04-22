@@ -70,5 +70,3 @@ The teacher will take the tubes to the BioRad T100 thermal cycler in the LGM lab
 #### Liquid YPD medium for LAB3
 
 Each **group** should make 100 mL liquid [[YPD]] medium in a 250 mL [[glassware|Schott]] flask. Put a small piece of autoclave tape on the lid. Label the flask properly (Content, Date, Course, Turno, Group etc.).
-
-![[pTAx/colored.png]]

@@ -1,6 +1,7 @@
 Synthetic Dextrose Minimal Medium (SD) also called Synthetic Minimal Glucose Medium or Synthetic Defined (SD). SD is a synthetic minimal medium containing salts, trace elements, vitamins, a nitrogen source, and glucose.
 
 - 1.7 g/L Yeast Nitrogen Base (YNB) **WITHOUT AMINOACIDS AND Ammonium sulfate**
+- 5 g/L Ammonium sulfate
 - 20 g/L glucose
 - Optional: 20 g/L Agar for **solid** medium
 

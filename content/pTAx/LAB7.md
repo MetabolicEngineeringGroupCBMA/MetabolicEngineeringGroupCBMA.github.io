@@ -17,4 +17,3 @@ While the gel is running, each group should prepare 250 mL solid [[LB]] Lennox m
 See if any of the previously prepared liquid YPD medium (LAB2) is still fresh? Inoculate 1 mL YPD medium in a 2 mL Eppendorf tube from the yeast plate using a sterile pipette tip.
 
 This culture is for plasmid rescue next week.
-![[pTAx/colored.png]]

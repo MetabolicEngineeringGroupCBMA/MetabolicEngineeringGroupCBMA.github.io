@@ -26,5 +26,3 @@ The objective of this task is to simulate the outcome  of each of the five PCR p
 #### Streak plate for colony PCR
 
 Pick one isolated colony with a sterile pipette tip and inoculate a Petri dish with the the appropriate solid medium.
-
-![[pTAx/colored.png]]
