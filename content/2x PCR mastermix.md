@@ -31,28 +31,21 @@ Copy paste an old recipe and modify if necessary.
 
 ### Testing
 
-Since we make our own mastermix, we need a standardized test. We use the following mix:
+Since we make our own master mix, we need a standardized test mix. The primers 18 and 19 amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_. This PCR reaction is very robust and gives a high yield. We use the following mix:
 
 - 78 µL H2O
-- 10 µL Primer 19
-- 10 µL Primer 18
-- 2 µL Chromosomal DNA from yeas
+- 10 µL Primer (10 µM) `19_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC`
+- 10 µL Primer (10 µM) `18_A-DFR1 CAAAGGTTTGGTTTTCAGTTAAGAA`
+- 2 µL Chromosomal DNA from _S. cerevisiae_
 
-The primers amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_
-using this program consisting of initial denaturation for 4 min at 94 °C, followed by 30 cycles of 94 °C for 30s, 50 °C for 30s, and 72 °C for 45 s, and a final extension at 72 °C for 5 min. [Source](https://link.springer.com/book/10.1007/978-1-0716-3358-8)
+Add 5 µL of the test mix to  5 µL of 2x master mix and run the PCR program below: [Source](https://link.springer.com/book/10.1007/978-1-0716-3358-8)
 
 ```
-| 94.0°C  |94.0°C                 |      |
-|_________|_____          72.0°C  |72.0°C|
-| 04min00s|30s  \         ________|______|
-|         |      \ 50.0°C/ 0min45s| 5min |
-|         |       \_____/         |      |
-|         |         30s           |      |
+Taq (rate 30 nt/s) 35 cycles             |1288bp
+95.0°C    |95.0°C                 |      |Tm formula: Biopython Tm_NN
+|_________|_____          72.0°C  |72.0°C|SaltC 50mM
+| 03min00s|30s  \         ________|______|Primer1C 1.0µM
+|         |      \ 55.0°C/ 0min39s| 5min |Primer2C 1.0µM
+|         |       \_____/         |      |GC 40%
+|         |         30s           |      |4-12°C
 ```
-
-This PCR reaction is very robust and gives a high yield.
-
-Primers
-
-- 19\_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC
-- 18\_A-DFR1 CAAAGGTTTGGTTTTCAGTTAAGAA
