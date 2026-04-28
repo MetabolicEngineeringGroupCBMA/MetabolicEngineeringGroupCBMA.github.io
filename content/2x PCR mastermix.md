@@ -31,7 +31,7 @@ Copy paste an old recipe and modify if necessary.
 
 ### Testing
 
-Since we make our own master mix, we need a standardized test mix. The primers 18 and 19 amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_. This PCR reaction is very robust and gives a high yield. We use the following mix:
+Since we make our own master mix, we need a standardized test mix. The primers 18 and 19 amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_. This PCR reaction is very robust and gives a high yield. We use the following mix where final primer concentration is 0.5 µM:
 
 - 78 µL H2O
 - 10 µL Primer (10 µM) `19_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC`
@@ -41,11 +41,11 @@ Since we make our own master mix, we need a standardized test mix. The primers 1
 Add 5 µL of the test mix to  5 µL of 2x master mix and run the PCR program below: [Source](https://link.springer.com/book/10.1007/978-1-0716-3358-8)
 
 ```
-Taq (rate 30 nt/s) 35 cycles             |1288bp
-95.0°C    |95.0°C                 |      |Tm formula: Biopython Tm_NN
-|_________|_____          72.0°C  |72.0°C|SaltC 50mM
-| 03min00s|30s  \         ________|______|Primer1C 1.0µM
-|         |      \ 55.0°C/ 0min39s| 5min |Primer2C 1.0µM
-|         |       \_____/         |      |GC 40%
-|         |         30s           |      |4-12°C
+Taq (rate 30 nt/s) 35 cycles             |1288 bp
+95.0°C    |95.0°C                 |      |
+|_________|_____          72.0°C  |72.0°C|
+| 03min00s|30s  \         ________|______|
+|         |      \ 55.0°C/ 0min39s| 5min |
+|         |       \_____/         |      |
+|         |         30s           |      |
 ```
