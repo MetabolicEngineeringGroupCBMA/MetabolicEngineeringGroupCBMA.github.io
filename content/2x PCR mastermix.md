@@ -31,7 +31,7 @@ Copy paste an old recipe and modify if necessary.
 
 ### Testing
 
-Since we make our own master mix, we need a standardized test mix. The primers 18 and 19 amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_. This PCR reaction is very robust and gives a high yield. We use the following mix where final primer concentration is 0.5 µM:
+Since we make our own master mix, we need a standardized test mix. Primers 18 and 19 amplify a 1288 bp PCR product from the DFR1 locus in _S. cerevisiae_. This PCR reaction is very robust and gives a high yield. We use the following mix where final primer concentration is 0.5 µM:
 
 - 78 µL H2O
 - 10 µL Primer (10 µM) `19_D-DFR1 GACTCAGACAGGTTGAAAAGAAGAC`
