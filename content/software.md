@@ -15,4 +15,4 @@ See [Github repository](https://github.com/BjornFJohansson/seguid_calculator) fo
 
 ![[webpcr.png]]
 
-[Pydnaweb](https://pydnaweb.streamlit.app) is a web service to simulate PCR, calculate melting temperatures and design primers and  more.
+[Pydnaweb](https://pydnaweb.streamlit.app) is an open source web service to simulate PCR, calculate melting temperatures and design primers and more.
