@@ -8,7 +8,7 @@ Use the following in order to assemble the sequence for the **pYPKa\_A\_ATF1** p
 
 ## 1. PCR simulation
 
-1. Copy the sequence the sequence of the _ATF1_ gene ([CP046095.1](https://www.ncbi.nlm.nih.gov/nucleotide/CP046095.1?report=genbank\&log$=nuclalign\&blast_rank=1\&RID=KDUDWCZH016\&from=1040471\&to=1042048) ) from Genbank. This is the template for the PCR simulation. Be careful to copy the complete [[Genbank#Genbank format|Genbank]] sequence.
+1. Copy the sequence the sequence of the _ATF1_ gene ([CP046095.1](https://www.ncbi.nlm.nih.gov/nucleotide/CP046095.1?report=genbank\&log\$=nuclalign\&blast_rank=1\&RID=KDUDWCZH016\&from=1040471\&to=1042048) ) from Genbank. This is the template for the PCR simulation. Be careful to copy the complete [[Genbank#Genbank format|Genbank]] sequence.
 2. The two primer sequences below (1795 & 1732), used to amplify the ATF1 gene from chromosomal DNA.
 
 ```

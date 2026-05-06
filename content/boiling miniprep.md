@@ -59,7 +59,7 @@ buffers should kill any DNAse activity. In any case, these strains offer no
 advantages; don't use them.
 
 The most convenient boiling water bath: buy a small electric deep fat fryer
-from a kitchen gadgets store (~$25). Plug it in and it's boiling in ~4 min.
+from a kitchen gadgets store (~\$25). Plug it in and it's boiling in ~4 min.
 
 Some brands of "eppendorf" style 1.5 ml snap cap tubes have loose fitting caps
 that pop open in the boiling water bath. If you use a good brand this doesn'

@@ -46,7 +46,7 @@ pYPKa plasmids carrying the ABC1 fragment cloned in the **ZraI** site are named 
 
 We use the following prefixes: Sc for _Saccharomyces cerevisiae_, Ec for _Escherichia coli_ and Yl for _Yarrowia Lipolytica_ and At for _Arabidopsis thaliana_. For other cases, consider using the [KEGG](https://www.genome.jp/kegg/catalog/org_list.html) three letter abbreviation, but with an initial capital letter.
 
-The insert designation must be eligible as a file name or identifier so only use ASCII letters (**a -z A -Z 0-9**), hence the following characters are forbidden: ! " # $ % & ' ( ) \* + , - . / : ; < = > ? @ \[ \ ] ^ \_ \` { | } ~
+The insert designation must be eligible as a file name or identifier so only use ASCII letters (**a -z A -Z 0-9**), hence the following characters are forbidden: ! " # \$ % & ' ( ) \* + , - . / : ; < = > ? @ \[ \ ] ^ \_ \` { | } ~
 
 Vectors with DNA fragments cloned in **ZraI**, **AjiI** and **EcoRV** are designated according to Table#2 below:
 

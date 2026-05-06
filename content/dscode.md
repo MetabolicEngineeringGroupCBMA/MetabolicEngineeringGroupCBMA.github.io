@@ -61,7 +61,7 @@ The dscode alphabet is a super set of the IUPAC alphabet. The symbols take on a 
 | **"**      | F      | E          | T "                                         | ◻/T            |
 | "          | !      | A          | A in upper strand A in lower strand         | A/A            |
 | "          | #      | C          | A in upper strand C in lower strand         | A/C            |
-| **"**      | $      | G          | A in upper strand G in lower strand         | A/G            |
+| **"**      | \$      | G          | A in upper strand G in lower strand         | A/G            |
 | **"**      | %      | A          | C in upper strand A in lower strand         | C/A            |
 | **"**      | &      | C          | C in upper strand C in lower strand         | C/C            |
 | "          | \*      | T          | C in upper strand T in lower strand         | C/T            |

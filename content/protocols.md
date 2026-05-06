@@ -10,7 +10,7 @@
 ### Plasmid DNA from _E. coli_
 
 - [[boiling miniprep|Boiling miniprep]]
-- [[alkaline lysis plasmid mini prep|CAVAN low cost plasmid miniprep protocol without kit (super snik)]]
+- [[alkaline lysis plasmid mini prep|CAVAN low cost plasmid miniprep protocol without kit (snik protokollet)]]
 - [[Merlin]]
 - [[midiprep|Plasmid midiprep protocol]]
 - [[plasmid rescue|Plasmid rescue from yeast to E. coli with plasmid miniprep kit]]

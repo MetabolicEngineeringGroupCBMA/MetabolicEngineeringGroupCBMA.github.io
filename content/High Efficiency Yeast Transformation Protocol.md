@@ -14,7 +14,7 @@ Inoculate the yeast strain into ~5 ml of liquid medium ([[YPD]] or [[SD]] select
 
 1. Determine the titer of the yeast pre-culture by pipetting 50 µL of the pre-culture into 1.0 ml of water in a spectrophotometer [[cuvette]] and measuring the OD at 640 nm (OD<sub>640 pre-culture</sub> in the equation below). You can use pure water as blank, the OD increase due to the medium is negligible.  Transfer 50 mL of the pre-warmed YPD to the pre-warmed culture flask and add $2.5 \times 10^{8}$ cells to give  $5 \times 10^{6}$ cells/mL (OD<sub>640</sub> = 0.17 using a  [[GENESYS20]] spectrophotometer). **Usually**, this means adding **1 - 4 mL** of the pre-culture to a 50 mL culture. Use the formula below to calculate the inoculation volume:
 
-$$ Volume \_{(inoculation, mL)} =  \frac {50 \_{(mL)} \times 0.17} {OD640 \_{pre-culture} \times \frac{1050} {50}}$$
+$ Volume _{(inoculation, mL)} =  \frac {50 _{(mL)} \times 0.17} {OD640 _{pre-culture} \times \frac{1050} {50}}$
 
 > [!IMPORTANT]
 > Follow the instructions for OD measurements [[Spectrophotometer|here]].
@@ -29,7 +29,7 @@ $$ Volume \_{(inoculation, mL)} =  \frac {50 \_{(mL)} \times 0.17} {OD640 \_{pre
 
 5. Transfer $10^{8}$ cells into a 1.5 ml Eppendorf tubes, **one for each transformation**, centrifuge at top speed for 20 sec and remove the supernatant. If the final OD640 was significantly different from 0.689 then increase or decrease the volume transferred using the formula below or else transfer 100 µL which should contain $10^{8}$ cells.
 
-$$ Volume \_{(transfer, \mu L)} =  100 \_{(\mu L)} \times \frac {4 \_{(generations)} \times 0.17} {OD640 \_{fineal} }$$
+$ Volume _{(transfer, \mu L)} =  100 _{(\mu L)} \times \frac {4 _{(generations)} \times 0.17} {OD640 _{fineal} }$
 
 1. Thaw 300 µL frozen PEG/LiAc/ssDNA ([[PEG LiAc ssDNA|PLS]]) for each transformation. Keep the mix on ice.
 

@@ -202,7 +202,7 @@ is required for H(2)O(2) resistance and adaptation in yeast. Redox Biology, 2, 3
 All absorbance values are taken with a spectrophotometer calibrated against air _without_ a [[cuvette]] (Figure 10).
 
 The **S**tandard reaction in Figure 9 contains only hydrogen peroxide and and cobalt(II) carbonate. All of the available peroxide should oxidize cobalt(II) to cobalt(III). The **T**est reactions contain H<sub>2</sub>O<sub>2</sub> and cells. Some of the peroxide should have been consumed by the catalase in the cells, so the absorbance value at 440 nm should be lower than for the **S**tandard reaction.
-$$\Delta A =  \boldsymbol{S}tandard\_{Abs440nm} - \boldsymbol{T}est\_{Abs440nm}$$
+$\Delta A =  \boldsymbol{S}tandard_{Abs440nm} - \boldsymbol{T}est_{Abs440nm}$
 The absorbance that we should have observed for the consumed H₂O₂ is the absorbance for the **S**tandard reaction minus the absorbance of the **T**est reaction. We would expect a higher absorbance for the Test 2 reaction, since less cells should have consumed less peroxide.
 
 ![[catalase lab-20241030134016670.png]]
@@ -254,7 +254,7 @@ The absorbance readings were collected in the table below.
 | 12   | 0.429         | 0.113    | 0.095    |
 
 The average absorbance was plotted against the hydrogen peroxide concentration resulting in a reasonably linear relationship (Figure 10). The graph follows the linear relationship between Concentration (mM) and A<sub>440</sub>:
-$$C \_{mm} = 20.8  \times A \_{440} - 1.95$$
+$C _{mm} = 20.8  \times A _{440} - 1.95$
 
 At this point, we have absorbance change or ∆A per 10 min. What we want is µmol / min which is the definition of the [[enzyme activity|classical unit]].
 

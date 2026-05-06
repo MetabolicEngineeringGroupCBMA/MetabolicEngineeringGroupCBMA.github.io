@@ -84,7 +84,7 @@ or genomic) and PCR fragments in the lab. The average lab performs abou
 100-200 mini-preps, 5-10 CsCl2 maxi-preps and 25-50 PCR reactions a week.
 The current alkaline-lysis/Phenol-Chloroform miniprep costs about $1.17 a
 prep, while the alkaline-lysis/CsCl2 maxi-prep costs about $22/- a prep.
-This translates into a per week recurring cost of about $650/- in reagents
+This translates into a per week recurring cost of about \$650/- in reagents
 and consumables. This does not include the costs of hazardous waste
 disposal, depreciation costs of capital outlay in ultracentrifuge
 equipment, service contracts for equipment maintenance, the human costs
@@ -173,7 +173,7 @@ miniprep/maxiprep protocols versus about $200/- using the Celite method.
 Companies like Promega, market the Celite resin at rates of $440/- per
 liter which is a cost that is only slightly lower than the cost of the
 standard protocols when the actual cost of making the resin yourself is
-only about $30/- per liter and 30 minutes of your time. What is more you
+only about \$30/- per liter and 30 minutes of your time. What is more you
 can have all those research dollars in your account go towards a more
 useful/important expense (maybe hiring that extra technician) than paying
 for the Promega executive jet. #
@@ -199,7 +199,7 @@ Glacial Acetic Acid
 
 Guanidine hydrochloride (purum; >98%)-----
 Available from:-
-Fluka catalog #50950 --- 1kg = $28.00
+Fluka catalog #50950 --- 1kg = \$28.00
 
 Diatomaceous Earth Flux calcined (need not be Acid washed) or Celite-545
 Available from :-
@@ -342,7 +342,7 @@ Merlin V Soln. :- Described earlier. #
 
 TE buffer #
 
-Econo-Pac Columns (Biorad catalog # 732-1010, 50 columns = $80/-) #
+Econo-Pac Columns (Biorad catalog # 732-1010, 50 columns = \$80/-) #
 
 Merlin Maxi-Prep Protocol:- #
 

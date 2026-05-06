@@ -1,6 +1,14 @@
+---
+publish: true
+aliases:
+  - snik-prep
+created: 2026-01-06T08:43:35.097+00:00
+modified: 2026-05-06T08:10:48.454+01:00
+---
+
 # Low cost E. coli plasmid alkaline lysis mini-prep
 
-Also known as (Snik-protokollet från [TMB](http://www.tmb.lth.se)).
+Also known as (Snik-protokollet from [TMB](https://www.ple.lth.se/en/applied-microbial-physiology). A version of this protocol can be found [[snik-short|here]].
 
 This protocol can be used to prepare plasmid DNA from cells in liquid culture or growing on solid medium.
 Cells from fresh o/n cultures tend to give the best results.
@@ -26,11 +34,9 @@ Any microcentrifuge can be used for this protocol, the maximum force generated s
 
 ## Alkaline lysis
 
-1. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see image below). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. Be careful to release pressure slowly when opening the tube.
+1. Add 200 µL of buffer P2, mix by inversion about ten times, **do not vortex** or else the chromosomal DNA might fragment and contaminate the plasmid DNA. **Wear goggles for this step!** Sometimes the SDS in the P2 buffer precipitates (see [[#P2|image]]). This can usually be resolved by heating water in the electric kettle an immerse the tube for 1-2 min. ⚠️ Be careful to release pressure slowly when opening the tube .
 
-![[alkaline lysis plasmid mini prep.png]]
-
-1. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
+2. Incubate at room temperature for 3-5 min. **Do not incubate more than 5 min**, keep the time with you cell phone or clock. If possible slowly invert the tube during the entire incubation.
 
 ## Neutralization
 
@@ -69,7 +75,7 @@ Any microcentrifuge can be used for this protocol, the maximum force generated s
 Any resuspension buffer from a commercial plasmid miniprep kit is probably fine for this.
 
 Done! 🎉
-Store your DNA in fridge (4-8°C) or freezer (-20°C). A [[snik-short|short]] protocol for printing.
+Store your DNA in fridge (4-8°C) or freezer (-20°C).
 
 ## Usage
 
@@ -113,6 +119,10 @@ in their native conformation. The high pH of the 0.2 M NaOH also denatures macro
 
 The clearing you should see is because the cells are lysing.
 The viscosity of the solution is increased by the increase in concentration of macromolecules in solution (a result of the cell lysis).
+
+Sometimes the SDS in the P2 buffer precipitates (see below). This can be resolved by heating water in an electric kettle an immerse the tube for 1-2 min and slowly invert the tube a couple of times. ⚠️ Be careful to release pressure slowly when opening the tube .
+
+![[alkaline lysis plasmid mini prep.png|802]]
 
 ### P3
 
