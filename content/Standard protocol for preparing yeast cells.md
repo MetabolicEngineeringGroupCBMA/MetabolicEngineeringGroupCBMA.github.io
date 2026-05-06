@@ -13,9 +13,15 @@ A few hours before inoculation, place the sterile medium and the empty glassware
 Determine the titer of the yeast culture by pipetting 50 µL of cells into 1.0 ml of water in a cuvette and measuring the Optical density (OD) at 640 nm using a spectrophotometer. You can use pure water as standard, the OD increase due to the medium is negligible.
 
 $$
-OD640_{\text{pre-culture}} \times \frac{1050}{50} \times X
-=
-(\text{culture volume} + X)\times OD640_{\text{ start}}
+X  
+=  
+\frac{  
+\text{culture volume} \times OD640_{\text{start}}  
+}{  
+\frac{1050}{50} \times OD640_{\text{pre-culture}}  
+-  
+OD640_{\text{start}}  
+}  
 $$
 
 | Variable                     | Meaning                                                                |
