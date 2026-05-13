@@ -13,17 +13,10 @@
 Course Structure:
 
 - **T (Theoretical)** classes
-- \*\*TP (Theoretical-Practical) \*\* classes
-- **PL (Laboratory)** classes — **mandatory**
+- **TP (Theoretical-Practical)**  classes
+- **PL (Laboratory)** classes  (**mandatory**)
 
-This course introduces and integrates **molecular biology** and **molecular biotechnology** with a practical introduction to **bioinformatics**.
-
-The goal is to understand how and why DNA is manipulated in the lab and how biological data are analysed and interpreted using bioinformatics tools.
-
-The TP classes focus on searching for, comparing and interpreting sequences from databases and _in-silico_ simulation of widely used cloning methods.
-
-The laboratory class is a plasmid construction project that demonstrate both molecular biology techniques as well as the strategy needed for the construction
-of a new plasmid vector. The laboratory course is divided into nine sessions of which each student takes part in three plus a tenth .
+This course introduces and integrates **molecular biology** and **molecular biotechnology** with a practical introduction to **bioinformatics**. The goal is to understand how and why DNA is manipulated in the lab and how biological data are analysed and interpreted using bioinformatics tools. The TP classes focus on searching for, comparing and interpreting sequences from databases and _in-silico_ simulation of widely used cloning methods. The laboratory class is a plasmid construction project that demonstrate both molecular biology techniques as well as the strategy needed for the construction of a new plasmid vector. The laboratory course is divided into nine sessions of which each student takes part in three plus a tenth class that is optional.
 
 👉 The course emphasizes **why and when** to use techniques, not just **how**.
 
