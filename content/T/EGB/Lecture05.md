@@ -1,12 +1,19 @@
 # Purification of DNA from Living Cells
 
-DNA purification is the foundation of all molecular biology workflows. This
-class explains how to isolate DNA from cells different kinds of cells.
-Alkaline lysis miniprep and chromatography. Quantity and quality assessment by
-spectrophotometer (A260/A280 ratio). Gel electrophoresis of DNA.
+This class explains how DNA is isolated from different kinds of cells as the foundation of molecular biology workflows. It covers alkaline lysis miniprep, chromatography, quantity and quality assessment by spectrophotometry, including the A260/A280 ratio, and gel electrophoresis of DNA.
+
+## Key Concepts
+
+- DNA purification workflows
+- Isolation of DNA from living cells
+- Alkaline lysis miniprep
+- Chromatography-based purification
+- Removal of proteins and other contaminants
+- DNA quantity assessment
+- DNA quality assessment
+- A260/A280 ratio
+- Gel electrophoresis of DNA
 
 ## Literature
 
-### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-
-- Chapter 03 Purification of DNA from Living Cells
+Chapter 03 Purification of DNA from Living Cells

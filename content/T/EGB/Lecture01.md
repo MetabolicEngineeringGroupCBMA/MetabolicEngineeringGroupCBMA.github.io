@@ -88,17 +88,16 @@ A **circular bioeconomy** is an economic model that uses **renewable biological 
 food waste, manure, forestry/agri by-products) to produce **food, materials, chemicals, and energy**, while keeping resources in use
 for as long as possible through **reuse, cascading use, and recycling** to minimize waste and fossil fuel inputs.
 
-<!--			### Key ideas
-
+<!--			
+### Key ideas
 - **Bioeconomy**: replace fossil-based inputs with **biomass** and biological processes (e.g., fermentation, biocatalysis).
 - **Circularity**: design systems where **by-products become inputs** elsewhere (closing loops).
-
 ### Core principles
-
 - **Cascading use of biomass**: prioritize higher-value uses first (e.g., materials/chemicals) before energy recovery.
 - **Waste as feedstock**: valorize residues (e.g., whey → lactic acid; spent grain → fibers/protein).
 - **Regeneration**: maintain soil, biodiversity, water quality; avoid over-extraction of biomass.
-- **Life-cycle thinking**: measure real impacts (GHG, land use, water, toxicity), not just “bio-based”.-->
+- **Life-cycle thinking**: measure real impacts (GHG, land use, water, toxicity), not just “bio-based”.
+-->
 
 ## Exciting examples of the application of molecular genetics
 
@@ -106,11 +105,8 @@ A number of modern results of the application of molecular genetics.
 
 ## Bioinformatics and DNA / Sequence databases / Checksums
 
-How DNA and other biological sequences are represented as text. Sequence file formats. How DNA structure and topology affects how we interpret DNA in text format.
-How we can use checksums to keep track of sequences.
+How DNA and other biological sequences are represented as text. Sequence file formats. How DNA structure and topology affects how we interpret DNA in text format. How we can use checksums to keep track of sequences.
 
 ## Literature
 
-### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-
-- Chapter 01 Why Gene Cloning and DNA Analysis are Importan
+Chapter 01 Why Gene Cloning and DNA Analysis are Important

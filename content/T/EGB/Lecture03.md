@@ -1,31 +1,22 @@
 # Polymerase Chain Reaction (PCR)
 
-## What is PCR?
+This class covers how PCR amplifies specific DNA sequences exponentially _in vitro_. It explains the components and logic of PCR, primer design, thermal cycling, and the use of PCR to engineer DNA fragments, including overlap extension PCR. PCR is powerful because it combines specificity with rapid exponential amplification.
 
-PCR is a technique that amplifies a specific DNA sequence exponentially in vitro. This class will cover
-exactly how and why PCR works in detail. Primer design. Engineering DNA fragments with PCR, overlap extension PCR.
-
-## Core Components
+## Key Concepts
 
 - Template DNA
-- Primers
+- Primers and primer design
 - DNA polymerase
 - dNTPs
 - Thermal cycling
-
-## Applications
-
-- Cloning
-- Diagnostics
+- Exponential amplification
+- PCR-based cloning
+- Engineering DNA fragments with PCR
+- Overlap extension PCR
+- Diagnostic and analytical applications
 - Mutation detection
 - Preparation for sequencing
 
-## Key Take-Home Message
-
-PCR is powerful because it combines specificity with exponential amplification.
-
 ## Literature
 
-### Brown T. Gene Cloning and DNA Analysis - An Introduction 8ed (2020)
-
-- Chapter 09 The Polymerase Chain Reaction
+Chapter 09 The Polymerase Chain Reaction
