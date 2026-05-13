@@ -1,4 +1,4 @@
-# Sequence alignmen
+# Sequence alignment
 
 This lecture introduces the principles of sequence alignment as a fundamental
 tool in bioinformatics and molecular biology.

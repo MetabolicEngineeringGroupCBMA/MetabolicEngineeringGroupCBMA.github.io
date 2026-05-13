@@ -3,7 +3,7 @@
 ## Overview:
 
 - Presentation
-- Why Gene Cloning and DNA Analysis are Important (Brown Ch01)
+- Why Gene Cloning and DNA Analysis are Important (Brown Chapter 01)
 - The circular Bio economy
 - Exciting examples of the application of molecular genetics
 - Bioinformatics and DNA / Sequence databases / Checksums
@@ -95,19 +95,17 @@ A **circular bioeconomy** is an economic model that uses **renewable biological 
 food waste, manure, forestry/agri by-products) to produce **food, materials, chemicals, and energy**, while keeping resources in use
 for as long as possible through **reuse, cascading use, and recycling** to minimize waste and fossil fuel inputs.
 
-```
-		### Key ideas
+<!--			### Key ideas
 
-		- **Bioeconomy**: replace fossil-based inputs with **biomass** and biological processes (e.g., fermentation, biocatalysis).
-		- **Circularity**: design systems where **by-products become inputs** elsewhere (closing loops).
+- **Bioeconomy**: replace fossil-based inputs with **biomass** and biological processes (e.g., fermentation, biocatalysis).
+- **Circularity**: design systems where **by-products become inputs** elsewhere (closing loops).
 
-		### Core principles
+### Core principles
 
-		- **Cascading use of biomass**: prioritize higher-value uses first (e.g., materials/chemicals) before energy recovery.
-		- **Waste as feedstock**: valorize residues (e.g., whey → lactic acid; spent grain → fibers/protein).
-		- **Regeneration**: maintain soil, biodiversity, water quality; avoid over-extraction of biomass.
-		- **Life-cycle thinking**: measure real impacts (GHG, land use, water, toxicity), not just “bio-based”.
-```
+- **Cascading use of biomass**: prioritize higher-value uses first (e.g., materials/chemicals) before energy recovery.
+- **Waste as feedstock**: valorize residues (e.g., whey → lactic acid; spent grain → fibers/protein).
+- **Regeneration**: maintain soil, biodiversity, water quality; avoid over-extraction of biomass.
+- **Life-cycle thinking**: measure real impacts (GHG, land use, water, toxicity), not just “bio-based”.-->
 
 ## Exciting examples of the application of molecular genetics
 
