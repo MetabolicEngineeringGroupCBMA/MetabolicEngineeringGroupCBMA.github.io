@@ -1,3 +1,11 @@
+---
+publish: true
+aliases:
+  - PLS
+created: 2026-03-26T16:00:30.332+00:00
+modified: 2026-05-28T14:34:22.407+01:00
+---
+
 The [[High Efficiency Yeast Transformation Protocol|standard transformation protocol]] use a transformation solution
 with this composition:
 

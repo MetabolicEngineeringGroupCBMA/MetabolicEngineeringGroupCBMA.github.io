@@ -1,7 +1,7 @@
 🇬🇧🇺🇸 **Swedish meatballs** are one of Sweden’s most famous and beloved dishes, often served with mashed potatoes, cream sauce, and lingonberry jam. The small, juicy meatballs are usually made from a mixture of beef and pork mince, seasoned with onion, salt, pepper, and sometimes allspice, which gives them a mild but distinctive flavor. For a Portuguese audience, they may resemble “almôndegas,” but Swedish meatballs differ through their creamy sauce and the sweet-tart lingonberry jam that creates a unique balance of flavors. The dish is an important part of traditional Swedish home cooking and appears both in everyday meals and on festive occasions.
 
 _The recipe yields approximately the number of meatballs shown in the image above._
-![[misc/recept/köttbullar.png]]
+![[misc/recept/köttbullar.png|1114]]
 
 **Ingredients:**
 

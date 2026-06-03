@@ -1,4 +1,4 @@
-### Yeast DNA preparation & _E. coli_ transformation (II)
+### Plasmid rescue to _E. coli_ (II)
 
 - Prepare crude yeast DNA from cells with glass beads and an _E. coli_ plasmid miniprep kif
 - Transform _E. coli_ with crude yeast DNA
@@ -28,5 +28,3 @@
 7. Add 20 µL ampicillin (x1000) and mix by inversion
 8. Pipette all of the content to a LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
 9. Incubate plates inverted for 18-24 h at 37°C
-
-![[pTAx/EGB25_001-2.png|188x100]]

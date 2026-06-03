@@ -16,10 +16,10 @@ We will prepare four plasmids using alkaline lysis mini prep (see Table#3).  The
 
 | Table#3 | Group | Plasmid   | Source for element |
 | ------- | ----- | --------- | ------------------ |
-|         | 1     | pBR322    | amp & pBR          |
-|         | 2     | pYPKpw    | Δcrp               |
-|         | 3     | YIplac204 | TRP1               |
-|         | 4     | YEplac195 | 2µ                 |
+|         | 1     | pBR322    | amp (➀) & pBR (➁)  |
+|         | 2     | pYPKpw    | Δcrp (➄)           |
+|         | 3     | YIplac204 | TRP1 (➃)           |
+|         | 4     | YEplac195 | 2µ (➂)             |
 
 We will use a homemade alkaline lysis [[alkaline lysis plasmid mini prep|plasmid miniprep]] protocol. Here is a [[snik-short|short]] protocol for printing.
 

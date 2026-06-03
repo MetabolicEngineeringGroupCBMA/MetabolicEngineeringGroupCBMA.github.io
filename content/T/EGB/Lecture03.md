@@ -1,4 +1,4 @@
-# Polymerase Chain Reaction (PCR)
+# Lecture03 - Polymerase Chain Reaction (PCR)
 
 This class covers how PCR amplifies specific DNA sequences exponentially _in vitro_. It explains the components and logic of PCR, primer design, thermal cycling, and the use of PCR to engineer DNA fragments, including overlap extension PCR. PCR is powerful because it combines specificity with rapid exponential amplification.
 

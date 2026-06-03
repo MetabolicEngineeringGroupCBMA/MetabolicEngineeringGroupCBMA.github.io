@@ -1,4 +1,4 @@
-# Vectors and Transformation
+# Lecture04 - Vectors and Transformation
 
 This class focuses on how DNA fragments are maintained, replicated, selected, and manipulated inside living cells. Cloning vectors carry foreign DNA and require core features such as an origin of replication, a selectable marker, and a cloning site. The lecture also introduces transformation and other methods for introducing DNA into cells.
 

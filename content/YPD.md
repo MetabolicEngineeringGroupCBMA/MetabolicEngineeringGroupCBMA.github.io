@@ -31,7 +31,7 @@ Add antibiotics after cooling down the media bottle to ~50°C (cold enough to to
 
 # Fatty acid supplementation
 
-Add [[Tween Myristic acid|Tween and Myristic acid]] for growth of fas- mutants. Add the components to the medium before autoclaving.
+Add [[Tween and Myristic acid|Tween and Myristic acid]] for growth of fas- mutants. Add the components to the medium before autoclaving.
 Media becomes slightly cloudy from these ingredients.
 
 # YPDlight or 1/2-strength YPD or 0.5xYPD

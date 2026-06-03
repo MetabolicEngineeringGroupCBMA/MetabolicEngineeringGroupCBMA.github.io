@@ -1,4 +1,4 @@
-# Presentation of the Course and introduction to Molecular Biotechnology and Bioinformatics.
+# Lecture01 - Presentation of the Course and introduction to Molecular Biotechnology and Bioinformatics.
 
 ## Overview:
 

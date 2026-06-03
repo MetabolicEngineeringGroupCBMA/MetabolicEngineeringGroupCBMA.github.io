@@ -1,4 +1,4 @@
-# Sequencing Genes and Genomes, Studying Transcriptomes and Proteomes
+# Lecture08 - Sequencing Genes and Genomes, Studying Transcriptomes and Proteomes
 
 This lecture covers DNA sequencing strategies, from traditional Sanger sequencing to high-throughput next-generation sequencing, and explains their application to whole-genome analysis, genome assembly, and annotation. It also introduces transcriptomic and proteomic approaches and emphasizes the integration of genomic, transcriptomic, and proteomic data to understand gene function, regulation, and cellular processes.
 

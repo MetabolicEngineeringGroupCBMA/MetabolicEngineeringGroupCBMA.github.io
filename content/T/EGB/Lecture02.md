@@ -1,4 +1,4 @@
-# DNA structure and manipulation
+# Lecture02 - DNA structure and manipulation
 
 This class covers how purified DNA is cut, joined, modified, and analysed _in-vitro_. DNA manipulation relies on enzyme specificity and molecular complementary. Practice plasmid mapping using the example on page 71 after class.
 

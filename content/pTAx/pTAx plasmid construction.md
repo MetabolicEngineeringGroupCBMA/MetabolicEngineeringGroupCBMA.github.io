@@ -47,7 +47,7 @@ The copy number in _E. coli_ should be lower since they have the intact **pBR** 
 
 pTA1 was the first pTAx plasmid constructed by a former post-doc in the group, **T**atiana **A**ndrevna Pozdniakova, hence the name.
 
-The pTAx vectors are made from **five** genetic elements using _in-vivo_ homologous recombination between five PCR products (Table #2 ➀ .. ➄).
+The pTAx vectors are made from **five** genetic elements using _in-vivo_ homologous recombination between five PCR products (Table #2 ➀, ➁, ➂, ➃ and ➄).
 
 See [[pTAx assembly strategy]] for details of how the five PCR products are assembled into a plasmid..
 
@@ -60,9 +60,9 @@ The pTAx vectors are similar to each other, but differ in the selection markers 
 |         | pTA2     | -"-              | -"-           | CEN/ARS   | LEU2         | -"-  | EGB2023                   | AatII, ZraI, FspAI        | µ1814, µ1815, µ1817       |            | 2023-06-01 |
 |         | pTA3     | -"-              | -"-           | 2µ        | HIS3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI, EcoRV | µ1271                     |            | 2021-07-09 |
 |         | pTA4     | -"-              | -"-           | CEN/ARS   | HIS3         | -"-  | EGB2023                   | AatII, ZraI, FspAI, EcoRV | µ1816, µ1818, µ1819       |            | 2023-06-01 |
-|         | pTA5     | -"-              | -"-           | 2µ        | KanMX4       | -"-  | Paulo Silva, Julio Freire | AatII, ZraI, FspAI, EcoRV | µ1652                     | ✅          |            |
+|         | pTA5     | -"-              | -"-           | 2µ        | KanMX4       | -"-  | Paulo Silva, Julio Freire | AatII, ZraI, FspAI, EcoRV | µ1652                     | ✅          | 2022-10-11 |
 |         | pTA6     | -"-              | -"-           | CEN/ARS   | KanMX4       | -"-  | GMB20                     | AatII, ZraI, FspAI, EcoRV | µ520                      |            | 2020-12-23 |
-| 🔥      | **pTA7** | -"-              | -"-           | 2µ        | TRP1         | -"-  | EGB2025                   | AatII, ZraI, FspAI        | ❓                         | ❓          | ❓          |
+| 🔥      | ==pTA7== | -"-              | -"-           | 2µ        | TRP1         | -"-  | ==EGB2025==               | AatII, ZraI, FspAI        | µ20                       | ✅          | 2026-04-23 |
 |         | pTA8     | -"-              | -"-           | CEN/ARS   | TRP1         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ521, µ522                |            | 2020-12-23 |
 |         | pTA9     | -"-              | -"-           | 2µ        | URA3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI        | µ1272                     |            | 2021-07-09 |
 |         | pTA10    | -"-              | -"-           | CEN/ARS   | URA3         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ523                      |            | 2020-12-23 |
@@ -70,15 +70,15 @@ The pTAx vectors are similar to each other, but differ in the selection markers 
 
 This lab course is divided into nine practical classes, see below. Each student attends three of the nine classes. In each practical class, we advance the project towards the finished plasmid.
 
-| link      |       |       |       | Content                                                                      |
-| --------- | ----- | ----- | ----- | ---------------------------------------------------------------------------- |
-| [[LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).   |
-| [[LAB2]]  |       | PL2   |       | Plasmid DNA agarose gel. PCR reactions.                                      |
-| [[LAB3]]  |       |       | PL3   | Gel (PCR products), Inoculate _S. cerevisiae_ culture.                       |
-| [[LAB4]]  | PL1   |       |       | Yeast (_S. cerevisiae_) transformation.                                      |
-| [[LAB5]]  |       | PL2   |       | _In-silico_ assembly of plasmid 💻                                           |
-| [[LAB6]]  |       |       | PL3   | Yeast colony PCR                                                             |
-| [[LAB7]]  | PL1   |       |       | Gel (colony PCR), Solid LB medium for LAB8                                   |
-| [[LAB8]]  |       | PL2   |       | Plasmid rescue.                                                              |
-| [[LAB9]]  |       |       | PL3   | Plasmid miniprep with commercial kit.                                        |
-| [[LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA. Prepare DNA for sequencing. |
+| link      |       |       |       | Content                                                                       |
+| --------- | ----- | ----- | ----- | ----------------------------------------------------------------------------- |
+| [[LAB1]]  | PL1   |       |       | Prepare plasmid DNA from E. coli by small scale alkaline lysis (miniprep).    |
+| [[LAB2]]  |       | PL2   |       | Agarose gel I (Plasmid DNA ). PCR reactions.                                  |
+| [[LAB3]]  |       |       | PL3   | Agarose gel II (PCR products), Inoculate _S. cerevisiae_ culture.             |
+| [[LAB4]]  | PL1   |       |       | Yeast (_S. cerevisiae_) transformation.                                       |
+| [[LAB5]]  |       | PL2   |       | _In-silico_ assembly of plasmid 💻                                            |
+| [[LAB6]]  |       |       | PL3   | Yeast colony PCR                                                              |
+| [[LAB7]]  | PL1   |       |       | Agarose gel III (colony PCR), Yeast culture Inoculation of plasmid candidates |
+| [[LAB8]]  |       | PL2   |       | Plasmid rescue to _E. coli_                                                   |
+| [[LAB9]]  |       |       | PL3   | Plasmid rescue to _E. coli_ (II)                                              |
+| [[LAB10]] | (Opt) | (Opt) | (Opt) | Analytical restriction digestion of plasmid DNA. Prepare DNA for sequencing.  |

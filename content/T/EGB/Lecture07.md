@@ -1,4 +1,4 @@
-# Studying Gene Expression and Function
+# Lecture07 - Studying Gene Expression and Function
 
 This lecture introduces the principal experimental approaches used to analyse gene expression and gene function. It covers RNA analysis, transcript mapping, DNA–protein interactions, functional analysis of regulatory regions, protein identification from cloned genes, protein engineering, and site-directed mutagenesis. Knowing a gene sequence is not enough; function must be demonstrated experimentally.
 
