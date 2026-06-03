@@ -18,5 +18,5 @@
 - Frenkel, L., & Bremer, H. (1986). Increased amplification of plasmids pBR322 and pBR327 by low concentrations of chloramphenicol. _DNA_, 5(6), 539–544. (**main reference**)
 - [[plas1.pdf]]
 - [[chloramphenicol_aug12-118644.pdf]]
-- https://bitesizebio.com/13514/boost-plasmid-yield
+- <https://bitesizebio.com/13514/boost-plasmid-yield>
 - Begbie, S., Dominelli, G., Duthie, K., Holland, J., & Jitratkosol, M. (2005). The Effects of Sub-Inhibitory Levels of Chloramphenicol on pBR322 Plasmid Copy Number in Escherichia coli DH5α Cells. _Journal of Experimental Microbiology and Immunology (JEMI)_. <https://www.semanticscholar.org/paper/The-Effects-of-Sub-Inhibitory-Levels-of-on-pBR-322-Begbie-Dominelli/2b9127bdc90f345e5956d8c5ffdb00ad81ec65f8>

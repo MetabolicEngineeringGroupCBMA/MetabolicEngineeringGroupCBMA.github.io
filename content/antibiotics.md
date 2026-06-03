@@ -1,5 +1,8 @@
 # Antibiotics
 
+2026-06-03
+![[antibiotics.png]]
+
 Final concentrations generally recommended.
 
 - 100  µg/mL Ampicillin (_E. coli_)
