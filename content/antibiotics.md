@@ -11,6 +11,7 @@ Final concentrations generally recommended.
 - 100 µg/mL G418 (_S. cerevisiae_)
 - 250 µg/mL Hygromycin B (_S. cerevisiae_)
 - 100 μg/ml clonNAT (_S. cerevisiae_)
+- 34 µg/ml Chloramphenicol (_E. coli_ for selection)
 
 > [!IMPORTANT]
 > Note the difference between mg and µg. 1 mg = 1000 µg
@@ -97,6 +98,60 @@ Werner Bioagents recommended:
 | Leishmania sp.           | >100         |
 | Cryptococcus neoformans  | 100          |
 | Arabidopsis thaliana     | 100          |
+
+# Chloramphenicol stock solution (34 mg/ml = 1000 X concentrated)
+
+To make a 34 mg/mL chloramphenicol stock solution you must dissolve chloramphenicol powder in 100% or 95% ethanol, as it is poorly soluble in water.
+
+| Component              | Amount |
+| ---------------------- | ------ |
+| Chloramphenicol Powder | 340 mg |
+| Ethanol (100% or 95%)  | 10 mL  |
+
+1. Weigh 340 mg of chloramphenicol powder using an analytical balance and transfer it into a sterile 15 mL conical tube (such as a Falcon tube).
+2. Add the solvent: Measure 9 mL of 100% ethanol and add it to the tube first.
+3. Dissolve completely: Cap the tube tightly and vortex or invert it vigorously until the powder is fully dissolved and the liquid is completely clear.
+4. Bring to volume: Top off the liquid level to exactly the 10 mL mark with ethanol.
+5. Divide the solution into 1 mL aliquots in sterile microcentrifuge tubes. Label and store at -20°C.
+
+There is no need to filter sterilize this solution. Because it is made in high-concentration ethanol, the solution is sterile.
+
+---
+
+## Standard Usage (1000X Concentration)
+
+When adding this to growth media (like LB broth or LB agar), use a 1:1000 dilution. For example, add 1 mL of stock solution to 1 L of cooled media, resulting in a final working concentration of 34 µg/mL. Always let agar cool to approximately 50°C–55°C before adding the antibiotic to prevent heat degradation. \[1, 10, 11, 12]
+
+If you would like, please let me know:
+
+- What total volume of solution you want to prepare?
+- Are you using this for bacterial selection or another specific workflow?
+
+I can help calculate exact measurements or provide guidance on preparing the final growth media.
+
+\[1] [https://www.cytographica.com](https://www.cytographica.com/lab/solutions/Chlor.htm)
+
+\[2] [https://www.laboratorynotes.com](https://www.laboratorynotes.com/preparation-of-stock-solution-of-chloramphenicol-34-mg-ml/)
+
+\[3] [https://www.benchchem.com](https://www.benchchem.com/pdf/Technical_Support_Center_Alternative_Solvents_for_Chloramphenicol_in_Research.pdf)
+
+\[4] [https://harmslab.uoregon.edu](https://harmslab.uoregon.edu/wiki/harms-lab-protocols/lab-stock-solutions/)
+
+\[5] [https://khimexpert.com](https://khimexpert.com/wp-content/uploads/2018/12/GAB05-Chloramphenicol.pdf)
+
+\[6] [https://www.bio-world.com](https://www.bio-world.com/all-buffers-and-reagents-az/chloramphenicol-solution-34mgml-in-ethanol-sterile-p-40120756)
+
+\[7] [https://www.ibisci.com](https://www.ibisci.com/products/chloramphenicol)
+
+\[8] [https://gallowaylabmit.github.io](https://gallowaylabmit.github.io/protocols/en/latest/recipes/bacteria/antibiotic_stock.html)
+
+\[9] [https://static.igem.org](https://static.igem.org/mediawiki/2018/e/ec/T--Toronto--_Antibacterial_Stock_Preperation_Protocol.pdf)
+
+\[10] [https://utminers.utep.edu](https://utminers.utep.edu/rbernal/Resources/SOPs/Documents/Antibiotic_Stocks.pdf)
+
+\[11] [https://www.benchchem.com](https://www.benchchem.com/pdf/Application_Notes_and_Protocols_Preparation_and_Storage_of_Chloramphenicol_Stock_Solution_in_Ethanol.pdf)
+
+\[12] [https://antibodies.cancer.gov](https://antibodies.cancer.gov/file/download/vendor_sop/cffdbb55dcdf2dcf3759aec8435c8d0a)
 
 # ATCC recommendations
 
