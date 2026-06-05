@@ -1,8 +1,8 @@
-# Lecture04 - Vectors and Transformation
+### Lecture04 - Vectors and Transformation
 
 This class focuses on how DNA fragments are maintained, replicated, selected, and manipulated inside living cells. Cloning vectors carry foreign DNA and require core features such as an origin of replication, a selectable marker, and a cloning site. The lecture also introduces transformation and other methods for introducing DNA into cells.
 
-## Key Concepts
+#### Key Concepts
 
 - Cloning vectors
 - Plasmids and episomes
@@ -23,7 +23,7 @@ This class focuses on how DNA fragments are maintained, replicated, selected, an
 - Transformation of _E. coli_
 - Mechanisms of antibiotics
 
-## Literature
+#### Literature
 
 Chapter 02 Vectors for Gene Cloning: Plasmids and Bacteriophages
 Chapter 05 Introduction of DNA into Living Cells

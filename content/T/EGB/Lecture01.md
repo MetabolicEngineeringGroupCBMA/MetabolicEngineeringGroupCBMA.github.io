@@ -1,6 +1,6 @@
-# Lecture01 - Presentation of the Course and introduction to Molecular Biotechnology and Bioinformatics.
+### Lecture01 - Presentation of the Course and introduction to Molecular Biotechnology and Bioinformatics.
 
-## Overview:
+#### Overview:
 
 - Presentation
 - Why Gene Cloning and DNA Analysis are Important (Brown Chapter 01)
@@ -8,7 +8,7 @@
 - Exciting examples of the application of molecular genetics
 - Bioinformatics and DNA / Sequence databases / Checksums
 
-## Presentation - What is this course about?
+#### Presentation - What is this course about?
 
 Course Structure:
 
@@ -22,7 +22,7 @@ This course introduces and integrates **molecular biology** and **molecular biot
 
 A **personal laptop** is required for TP work.
 
-## Assessment
+#### Assessment
 
 Final grade comprises:
 
@@ -33,19 +33,16 @@ Final grade comprises:
 
 **Attendance and completion of PL are mandatory to pass.**
 
-## Practical Focus
-
 Students are expected to:
 
-- Understand complete **cloning workflows**
-- Interpret **PCR, gel, and colony PCR results**
-- Work independently with **bioinformatics tools**
-- Connect **experimental results** with **in-silico analysis**
+- Understand complete **cloning workflows**.
+- Interpret **PCR, gel, and colony PCR results**.
+- Work independently with **bioinformatics tools**.
+- Connect **experimental results** with **in-silico analysis**.
 
 The practical test evaluates **reasoning and interpretation**, not memorization.
 
-## Skills You Should Gain
-
+**Skills You Should Gain**
 By the end of the course, you should be able to:
 
 - Explain DNA manipulation strategies
@@ -54,35 +51,35 @@ By the end of the course, you should be able to:
 - Interpret molecular biology data
 - Integrate lab results with computational analysis
 
-## Why Gene Cloning and DNA Analysis Are Important
+**Why Gene Cloning and DNA Analysis Are Important**
 
 Brown chapter 01 explains why gene cloning and DNA analysis are central to modern biology,
 medicine, and biotechnology. Seminal experiments in genetics. The advent of restriction enzymes
 and gene cloning. DNA topology, sequence file formats. Primary vs secondary databases.
 
-### Core Ideas
+**Core Ideas**
 
 - DNA stores the information required for cell structure, function, development, and inheritance.
 - Gene cloning allows specific DNA fragments to be isolated and amplified.
 - DNA analysis enables comparison, identification, and functional study of genes.
 
-### Why Gene Cloning Is Needed
+**Why Gene Cloning Is Needed**
 
 - Individual genes represent only a tiny fraction of a genome.
 - Cloning makes it possible to study genes in detail, produce large amounts of DNA, and express genes in heterologous hosts.
 
-### Applications
+**Applications**
 
 - Medicine: diagnostics, genetic diseases, therapeutics
 - Biotechnology: recombinant proteins and enzymes
 - Research: gene function and regulation
 - Agriculture: genetically modified crops
 
-## Key Take-Home Message
+**Key Take-Home Message**
 
 Understanding biology at the molecular level requires the ability to clone and analyse DNA.
 
-## The circular bio economy
+**The circular bio economy**
 
 A **circular bioeconomy** is an economic model that uses **renewable biological resources** (plants, algae, microbes, organic residues,
 food waste, manure, forestry/agri by-products) to produce **food, materials, chemicals, and energy**, while keeping resources in use
@@ -99,11 +96,7 @@ for as long as possible through **reuse, cascading use, and recycling** to minim
 - **Life-cycle thinking**: measure real impacts (GHG, land use, water, toxicity), not just “bio-based”.
 -->
 
-## Exciting examples of the application of molecular genetics
-
-A number of modern results of the application of molecular genetics.
-
-## Bioinformatics and DNA / Sequence databases / Checksums
+**Bioinformatics and DNA / Sequence databases / Checksums**
 
 How DNA and other biological sequences are represented as text. Sequence file formats. How DNA structure and topology affects how we interpret DNA in text format. How we can use checksums to keep track of sequences.
 

@@ -1,8 +1,8 @@
-# Lecture06 - How to clone a new gene
+### Lecture06 - How to clone a new gene
 
 This lecture focuses on strategies used to isolate a specific gene from a complex genome. It presents a broad overview of common cloning approaches and explains how the appropriate strategy must be selected according to what is already known about the gene.
 
-## Key Concepts
+#### Key Concepts
 
 - Genomic libraries
 - cDNA libraries
@@ -13,6 +13,6 @@ This lecture focuses on strategies used to isolate a specific gene from a comple
 - Functional complementation
 - Strategy selection according to prior gene information
 
-## Literature
+#### Literature
 
 Chapter 08 How to Obtain a Clone of a Specific Gene (optional lecture [video](https://youtu.be/Mwgi8LehP98?si=q601KvSBjUbjBKFX))

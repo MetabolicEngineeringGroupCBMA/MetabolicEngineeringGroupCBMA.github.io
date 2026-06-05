@@ -1,8 +1,8 @@
-# Lecture10 - Sequence alignment
+### Lecture10 - Sequence alignment
 
 This lecture introduces sequence alignment as a fundamental tool in bioinformatics and molecular biology. It explains how DNA, RNA, and protein sequences are compared to identify similarity, infer homology, predict function, and study evolutionary relationships. It also discusses the limitations of sequence alignment and the importance of biological context when interpreting results.
 
-## Key Concepts
+#### Key Concepts
 
 - Sequence comparison
 - DNA, RNA, and protein sequence alignment
@@ -22,6 +22,6 @@ This lecture introduces sequence alignment as a fundamental tool in bioinformati
 - Limitations of sequence alignment
 - Biological context in sequence analysis
 
-## Literature
+#### Literature
 
 Lecture slides
