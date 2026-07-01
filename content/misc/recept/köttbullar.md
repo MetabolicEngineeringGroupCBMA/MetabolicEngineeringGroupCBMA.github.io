@@ -67,3 +67,5 @@ _Esta receita rende aproximadamente a quantidade de almôndegas mostrada na imag
 
 ![[misc/recept/köttbullar-2.png]]
 As almôndegas suecas são servidas com molho castanho e compota de arando ou geleia de groselha preta (como no IKEA). Esta combinação pode parecer estranha ao início para muitos portugueses, mas a maioria acaba por gostar. Também podem ser servidas com marmelada portuguesa.
+
+![[misc/recept/köttbullar.jpeg]]

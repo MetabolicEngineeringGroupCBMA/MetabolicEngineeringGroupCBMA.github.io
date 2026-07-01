@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-01-06T07:37:54.349+00:00
-modified: 2026-01-30T10:34:31.470+00:00
+created: 2026-01-06T07:37:54.349Z
+modified: 2026-01-30T10:34:31.470Z
 ---
 
 # [Saftigaste kanelbullarna av Camilla Hamid](https://mykitchenstories.se/saftigaste-kanelbullarna)🇸🇪

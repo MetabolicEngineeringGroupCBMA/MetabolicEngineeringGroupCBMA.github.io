@@ -2,8 +2,8 @@
 publish: true
 aliases:
   - snik-prep
-created: 2026-01-06T08:43:35.097+00:00
-modified: 2026-05-06T08:10:48.454+01:00
+created: 2026-01-06T08:43:35.097Z
+modified: 2026-05-06T07:10:48.454Z
 ---
 
 # Low cost E. coli plasmid alkaline lysis mini-prep
