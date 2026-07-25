@@ -1,7 +1,4 @@
-# Tant Harriets pepparkakor
-
-- Aunt Harriet's gingerbread cookies
-- Bolachas de Gengibre à moda da tia Harriet
+# Tant Harriets pepparkakor / Aunt Harriet's gingerbread cookies / Bolachas de Gengibre à moda da tia Harriet
 
 ![[misc/recept/pepparkakor_006.png|497x372]]
 

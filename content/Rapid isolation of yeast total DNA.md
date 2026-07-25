@@ -1,86 +1,210 @@
-This protocol is similar to [[Extraction of chromosomal DNA with PCA (phenol:chloroform:isoamylalcohol)|this]] one, but incorporates an ethanol precipitation at the end. This has been extensively used and usually works very well.
-At one point, PCR was not possible using the undiluted DNA as template, but PCR products appeared from x10 dilutions. Possibly due to oxidized phenol.
+# Extraction of Yeast Chromosomal DNA with Ethanol Precipitation
 
-Hoffman, Charles S. 2001. “Preparation of Yeast DNA.” In _Current Protocols in Molecular Biology_. John Wiley & Sons, Inc.
+## Overview
 
-The DNA preparation described in the Basic Protocol can be easily scaled up to
-prepare chromosomal DNA for use in Southern hybridization analysis (UNIT 2.9A),
-in vitro DNA amplification by PCR (UNIT 15.1), or Digestion and ligation
-(UNITS 3.1 & 3.16) to clone integrated plasmids. This procedure is
-significantly faster than other protocols used to isolate high-molecular-weigh
-DNA. Although the DNA is subject to shearing in this protocol, the resulting
-DNA is of sufficiently high molecular weight to enable detection of 19-kb
-Digestion products by Southern hybridization analysis.
+This protocol is similar to [[Extraction of chromosomal DNA with PCA (phenol:chloroform:isoamylalcohol)|this protocol]], but includes an ethanol precipitation step at the end. It has been used extensively and usually works very well.
 
-Additional Materials (also see Basic Protocol)
+> [!warning] PCR inhibition
+> At one point, PCR was not possible when undiluted DNA was used as the template, whereas PCR products were obtained from 1:10 dilutions. This may have been caused by oxidized phenol or another inhibitor carried over during extraction.
 
-TE buffer (APPENDIX 2)
-1 mg/ml DNase-free RNase A (UNIT 5.5)
-4 M ammonium acetate solution (APPENDIX 2)
-100% ethanol
+## Reference
 
-15 ml FALCON tubes
-Tabletop centrifuge
+Hoffman, Charles S. 2001. “Preparation of Yeast DNA.” In _Current Protocols in Molecular Biology_. John Wiley & Sons, Inc. ([[Preparation_of_yeast_DNA.pdf|pdf]])
 
-### Prepare yeast cells
+## Applications
 
-1.Grow a 10-ml culture of yeast in YPD overnight to stationary phase in 50 ml
-sterile FALCON polypropylene tubes (see Basic Protocol, step 1).
+The DNA preparation described in the original protocol can be scaled up to prepare chromosomal DNA for:
 
-2.Spin culture 1 min in 5000 rpm in eppendorf centrifuge, room temperature or
-chilled does not matter. Pour off supernatant, and resuspend cells in 0.5 ml
-water.
+- Southern hybridization analysis
+- PCR amplification
+- Restriction digestion and ligation
+- Cloning of integrated plasmids
 
-3.Transfer the resuspended cells to an eppendorf microcentrifuge tube and spin
-5 sec at room temperature. Pour off supernatant. This wash step in water
-removes any remaining medium.
+This procedure is significantly faster than many other protocols used to isolate high-molecular-weight DNA.
 
-4.Disrupt pellet by vortexing briefly.
+Although the DNA is subject to shearing during the procedure, the resulting DNA is of sufficiently high molecular weight to allow the detection of restriction fragments up to approximately 19 kb by Southern hybridization.
 
-### Break open the cells:
+---
 
-4.Resuspend cells in 200 ul Breaking Buffer. Add 0.3 g glass beads (~200 ul
-volume) Add 200 ul phenol/chloroform and vortex at highest speed for 3 min.
+## Materials
 
-The phenol/chloroform is the LOWER phase in the stock container, the upper
-phase is buffer. The amount of vortexing required can vary depending upon the
-vortex used. Determine by microscopic examination the minimum vortexing
-required for a particular machine to break 80% to 90% of the cells. If using a
-multi-tube vortex rather than a single-tube vortex, the time of vortexing may
-need to be increased up to 4 or 5 min to get more efficient breakage of cells.
-However, longer vortexing can result in shearing of DNA molecules.
+### Reagents
 
-5.Add 200 ul TE buffer and vortex briefly.
+- TE buffer
 
-6.Microcentrifuge 5 min at high speed, room temperature, and transfer aqueous
-layer to a clean microcentrifuge tube. Add 1 ml of 99% ethanol and mix by
-inversion.
+- Breaking Buffer
 
-7.Microcentrifuge 3 min at high speed, room temperature.
+- Phenol:chloroform
 
-8.Remove supernatant and resuspend pellet in 400uL TE buffer.
+- DNase-free RNase A: 1 mg/mL solution, or 20 mg/mL solution
 
-### Degrade RNA contaminants (optional) and recover DNA
+- 4 M ammonium acetate, or 10 M ammonium acetate
 
-8.Add 30 ul of 1 mg/ml or 1.5 uL of a 20 mg/ml solution (0.03mg) RNase A (free from DNase), mix, and incubate 5 min at 37C.
+- 99–100% ethanol
 
-9.Add 10 ul of 4 M ammonium acetate (or 4 uL of 10M) and 1 ml of 100% ethanol.
-Mix by inversion.
+- Sterile water
 
-10.Microcentrifuge 3 min at high speed, room temperature. Discard supernatan
-and dry pellet.
+- Glass beads, approximately 0.3 g per sample
 
-11.Resuspend DNA in 100 - 200 ul TE buffer. Yields of ~20 ug of chromosomal DNA
-should be obtained. This DNA is ready to use for ++Digestion\_ (UNIT
-3.1), in vitro PCR amplification (UNIT 15.1), or Southern blot analysis (UNIT
-2.9). For Southern blots, best results are obtained when 5 ul DNA (~1 ug) is
-digested in a total volume of 20 ul. To amplify by PCR, 2 ul of DNA should be
-used in a 50 ul reaction.
+### Equipment
 
-Breaking Buffer
-2% (v/v) Triton X-100
-1% (v/v) sodium dodecyl sulfate (SDS)
-100 mM NaCl
-10 mM Tris⋅Cl, pH 8.0
-1 mM EDTA, pH 8.0
-Store ≤1 year at room temperature
+- 15 mL polypropylene Falcon tubes
+- 1.5 or 2 mL microcentrifuge tubes
+- Tabletop centrifuge
+- Microcentrifuge
+- Vortex mixer
+- Incubator or heating block set to 37 °C
+- Microscope, optional
+
+---
+
+# Procedure
+
+## 1. Prepare the yeast cells
+
+1. Grow a **10 mL yeast culture** in YPD overnight to stationary phase in a sterile **50 mL polypropylene Falcon tube**.
+
+2. Centrifuge the culture for **1 minute at 5,000 rpm**.
+
+   Room-temperature or chilled centrifugation may be used.
+
+3. Pour off the supernatant and resuspend the cells in **0.5 mL sterile water**.
+
+4. Transfer the resuspended cells to a microcentrifuge tube.
+
+5. Centrifuge for **5 seconds at room temperature**.
+
+6. Pour off the supernatant.
+
+   > \[!note]
+   > This water-washing step removes any remaining culture medium.
+
+7. Disrupt the pellet by vortexing briefly.
+
+---
+
+## 2. Break open the cells
+
+1. Resuspend the cells in **200 µL Breaking Buffer**.
+
+2. Add approximately **0.3 g glass beads**, corresponding to approximately **200 µL by volume**.
+
+3. Add **200 µL phenol:chloroform**.
+
+4. Vortex at maximum speed for **3 minutes**.
+
+   > \[!important] Phenol:chloroform phase
+   > The phenol:chloroform is the **lower phase** in the stock container. The upper phase is the aqueous buffer.
+
+   > \[!note] Optimising cell breakage
+   > The amount of vortexing required may vary depending on the vortex mixer.
+   >
+   > Determine by microscopic examination the minimum vortexing time required to break approximately **80–90% of the cells**.
+   >
+   > When using a multi-tube vortex rather than a single-tube vortex, the vortexing time may need to be increased to **4–5 minutes**.
+   >
+   > Longer vortexing may improve cell breakage but can also increase DNA shearing.
+
+5. Add **200 µL TE buffer** and vortex briefly.
+
+6. Microcentrifuge for **5 minutes at high speed and room temperature**.
+
+7. Transfer the upper aqueous phase to a clean microcentrifuge tube.
+
+   Avoid transferring material from the interface or lower organic phase.
+
+8. Add **1 mL 99% ethanol**.
+
+9. Mix by inversion.
+
+10. Microcentrifuge for **3 minutes at high speed and room temperature**.
+
+11. Remove the supernatant.
+
+12. Resuspend the pellet in **400 µL TE buffer**.
+
+---
+
+## 3. Degrade RNA contaminants and recover the DNA
+
+> [!note]
+> RNase treatment is optional but recommended when RNA-free DNA is required.
+
+1. Add one of the following:
+
+   - **30 µL of 1 mg/mL DNase-free RNase A**, or
+   - **1.5 µL of 20 mg/mL DNase-free RNase A**
+
+   Both alternatives provide approximately **0.03 mg RNase A**.
+
+2. Mix and incubate for **5 minutes at 37 °C**.
+
+3. Add one of the following:
+
+   - **10 µL of 4 M ammonium acetate**, or
+   - **4 µL of 10 M ammonium acetate**
+
+4. Add **1 mL 100% ethanol**.
+
+5. Mix by inversion.
+
+6. Microcentrifuge for **3 minutes at high speed and room temperature**.
+
+7. Discard the supernatant carefully.
+
+8. Allow the DNA pellet to dry.
+
+   Do not overdry the pellet, as this may make it difficult to resuspend.
+
+9. Resuspend the DNA in **100–200 µL TE buffer**.
+
+---
+
+## Expected yield
+
+A yield of approximately **20 µg chromosomal DNA** should be obtained.
+
+The DNA can be used for:
+
+- Restriction digestion
+- PCR amplification
+- Southern blot analysis
+
+---
+
+## Recommended DNA volumes
+
+### Southern blotting
+
+For best results:
+
+- Use **5 µL DNA**, corresponding to approximately **1 µg DNA**
+- Perform the digestion in a total volume of **20 µL**
+
+### PCR
+
+Use:
+
+- **2 µL DNA**
+- In a total PCR volume of **50 µL**
+
+> [!tip]
+> When PCR inhibition is suspected, test a **1:10 dilution** of the extracted DNA.
+
+---
+
+# Breaking Buffer
+
+## Composition
+
+| Component                    | Final concentration |
+| ---------------------------- | ------------------: |
+| Triton X-100                 |              2% v/v |
+| Sodium dodecyl sulfate (SDS) |              1% v/v |
+| NaCl                         |              100 mM |
+| Tris-Cl, pH 8.0              |               10 mM |
+| EDTA, pH 8.0                 |                1 mM |
+
+## Storage
+
+Store at room temperature for up to **1 year**.

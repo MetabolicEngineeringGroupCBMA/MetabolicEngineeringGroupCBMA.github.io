@@ -67,12 +67,12 @@ TTAGATGAGAGTCTTTTCCA
 
 ## Kozak consensus sequence
 
-The nucleotides immediately upstream of the start codon ([Kozak consensus sequence](https://en.wikipedia.org/wiki/Kozak_consensus_sequence)) affects protein translation efficiency in _S. cerevisiae_. [Xu et al. 2021](https://microbialcellfactories.biomedcentral.com/articles/10.1186/s12934-021-01641-z) found that K528 (`tctgcaata`) was the most efficient among the sequences tested.
+The nucleotides immediately upstream of the start codon ([[start codon|kozak]] consensus sequence) affects protein translation efficiency in _S. cerevisiae_. [Xu et al. 2021](https://microbialcellfactories.biomedcentral.com/articles/10.1186/s12934-021-01641-z) found that K528 (`tctgcaata`) was the most efficient among the sequences tested.
 
 ```
 >f1800
 tctgcaataATGggtTTGTGTTCAGTAATTCAGAGA
-
+|||||||||
 --K528---   gly
          sta
 
@@ -83,8 +83,8 @@ The Pydnaweb [WebPCR](https://pydnaweb.streamlit.app/pcr) simulator confirms the
 
 ```
 			   5TTGTGTTCAGTAATTCAGAGA...TGGAAAAGACTCTCATCTAA3
-									 ||||||||||||||||||||
-									3ACCTTTTCTGAGAGTAGATT5
+							 		    ||||||||||||||||||||
+								  	   3ACCTTTTCTGAGAGTAGATT5
 5tctgcaataATGggtTTGTGTTCAGTAATTCAGAGA3
                 |||||||||||||||||||||
 		       3AACACAAGTCATTAAGTCTCT...ACCTTTTCTGAGAGTAGATT5

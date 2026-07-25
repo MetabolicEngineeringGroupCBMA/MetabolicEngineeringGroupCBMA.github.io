@@ -33,3 +33,5 @@
 3. After **3 days** incubation at **27°C in the dark**, transfer colonies using **replica plating** onto YP medium supplemented with **glycerol**.
 
 4. By comparing plates, identify colonies that **fail to grow on lactic acid medium**.
+
+[[Genética- manual PL -Mutagénese-24-25-corrigido.doc]]

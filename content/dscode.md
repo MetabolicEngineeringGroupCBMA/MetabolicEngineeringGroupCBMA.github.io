@@ -32,48 +32,49 @@ However, they do not address the single or double strandedness of DNA.
 
 The dscode alphabet is a super set of the IUPAC alphabet. The symbols take on a different meaning as each symbol represent a base pair  (a base in a DNA strand and its complementary base on the other strand) instead of a single base.
 
-| Alphabet   | Symbol | Complement | Bases                                       | dscode meaning |
-| ---------- | ------ | ---------- | ------------------------------------------- | -------------- |
-| IUPAC      | G      | C          | G                                           | G/C            |
-| "          | A      | T          | A                                           | A/T            |
-| "          | T      | A          | T                                           | T/A            |
-| "          | C      | G          | C                                           | C/G            |
-| "          | R      | Y          | G or A                                      | R/Y            |
-| "          | Y      | R          | T or C                                      | Y/R            |
-| "          | M      | K          | A or C                                      | M/K            |
-| "          | K      | M          | G or T                                      | K/M            |
-| "          | S      | S          | G or C                                      | S/S            |
-| "          | W      | W          | A or T                                      | W/W            |
-| "          | H      | D          | A or C or T                                 | H/D            |
-| "          | B      | V          | G or T or C                                 | B/V            |
-| "          | V      | B          | G or C or A                                 | V/B            |
-| "          | D      | H          | G or A or T                                 | D/H            |
-| "          | N      | N          | G or A or T or C                            | N/N            |
-| **dscode** | U      | O          | U in top strand, A in complementary strand  | U/A            |
-| "          | O      | U          | A in top strand, U in complementary strand  | A/U            |
-| "          | E      | F          | A in top strand, complementary strand empty | A/◻            |
-| **"**      | I      | J          | C "                                         | C/◻            |
-| **"**      | P      | Q          | G "                                         | G/◻            |
-| **"**      | X      | Z          | T "                                         | T/◻            |
-| **"**      | Z      | X          | A in complementary strand, top strand empty | ◻/A            |
-| **"**      | Q      | P          | C "                                         | ◻/C            |
-| **"**      | J      | I          | G "                                         | ◻/G            |
-| **"**      | F      | E          | T "                                         | ◻/T            |
-| "          | !      | A          | A in upper strand A in lower strand         | A/A            |
-| "          | #      | C          | A in upper strand C in lower strand         | A/C            |
-| **"**      | \$      | G          | A in upper strand G in lower strand         | A/G            |
-| **"**      | %      | A          | C in upper strand A in lower strand         | C/A            |
-| **"**      | &      | C          | C in upper strand C in lower strand         | C/C            |
-| "          | \*      | T          | C in upper strand T in lower strand         | C/T            |
-| "          | (      | A          | G in upper strand A in lower strand         | G/A            |
-| **"**      | )      | G          | G in upper strand G in lower strand         | G/G            |
-| **"**      | <      | T          | G in upper strand T in lower strand         | G/T            |
-| **"**      | >      | C          | T in upper strand C in lower strand         | T/C            |
-| **"**      | @      | G          | T in upper strand G in lower strand         | T/G            |
-| **"**      | :      | T          | T in upper strand T in lower strand         | T/T            |
-| **"**      | ?      | G          | U in upper strand G in lower strand         | U/G            |
-| **"**      | \[      | C          | U in upper strand C in lower strand         | U/C            |
-| **"**      | ]      | T          | U in upper strand T in lower strand         | U/T            |
+| Alphabet   | Symbol | Complement | Bases                                       | dscode meaning | Comment                      |
+| ---------- | ------ | ---------- | ------------------------------------------- | -------------- | ---------------------------- |
+| IUPAC      | G      | C          | G                                           | G/C            |                              |
+| "          | A      | T          | A                                           | A/T            |                              |
+| "          | T      | A          | T                                           | T/A            |                              |
+| "          | C      | G          | C                                           | C/G            |                              |
+| "          | R      | Y          | G or A                                      | R/Y            |                              |
+| "          | Y      | R          | T or C                                      | Y/R            |                              |
+| "          | M      | K          | A or C                                      | M/K            |                              |
+| "          | K      | M          | G or T                                      | K/M            |                              |
+| "          | S      | S          | G or C                                      | S/S            |                              |
+| "          | W      | W          | A or T                                      | W/W            |                              |
+| "          | H      | D          | A or C or T                                 | H/D            |                              |
+| "          | B      | V          | G or T or C                                 | B/V            |                              |
+| "          | V      | B          | G or C or A                                 | V/B            |                              |
+| "          | D      | H          | G or A or T                                 | D/H            |                              |
+| "          | N      | N          | G or A or T or C                            | N/N            |                              |
+| **dscode** | U      | O          | U in top strand, A in complementary strand  | U/A            |                              |
+| "          | O      | U          | A in top strand, U in complementary strand  | A/U            |                              |
+| "          | E      | F          | A in top strand, complementary strand empty | A/◻            | Missing base in lower strand |
+| **"**      | I      | J          | C "                                         | C/◻            | Missing base in lower strand |
+| **"**      | P      | Q          | G "                                         | G/◻            | Missing base in lower strand |
+| **"**      | X      | Z          | T "                                         | T/◻            | Missing base in lower strand |
+| **"**      | Z      | X          | A in complementary strand, top strand empty | ◻/A            | Missing base in upper strand |
+| **"**      | Q      | P          | C "                                         | ◻/C            | Missing base in upper strand |
+| **"**      | J      | I          | G "                                         | ◻/G            | Missing base in upper strand |
+| **"**      | F      | E          | T "                                         | ◻/T            | Missing base in upper strand |
+| "          | !      | A          | A in upper strand A in lower strand         | A/A            | mismatch                     |
+| "          | #      | C          | A in upper strand C in lower strand         | A/C            | mismatch                     |
+| **"**      | \$      | G          | A in upper strand G in lower strand         | A/G            | mismatch                     |
+| **"**      | %      | A          | C in upper strand A in lower strand         | C/A            | mismatch                     |
+| **"**      | &      | C          | C in upper strand C in lower strand         | C/C            | mismatch                     |
+| "          | \*      | T          | C in upper strand T in lower strand         | C/T            | mismatch                     |
+| "          | (      | A          | G in upper strand A in lower strand         | G/A            | mismatch                     |
+| **"**      | )      | G          | G in upper strand G in lower strand         | G/G            | mismatch                     |
+| **"**      | <      | T          | G in upper strand T in lower strand         | G/T            | mismatch                     |
+| **"**      | >      | C          | T in upper strand C in lower strand         | T/C            | mismatch                     |
+| **"**      | @      | G          | T in upper strand G in lower strand         | T/G            | mismatch                     |
+| **"**      | :      | T          | T in upper strand T in lower strand         | T/T            | mismatch                     |
+| **"**      | ?      | G          | U in upper strand G in lower strand         | U/G            | mismatch                     |
+| **"**      | \[      | C          | U in upper strand C in lower strand         | U/C            | mismatch                     |
+| **"**      | ]      | T          | U in upper strand T in lower strand         | U/T            | mismatch                     |
+|            |        |            |                                             |                |                              |
 
 The symbols PEXI and QFZJ that are not occupied by the extended IUPAC alphabet were adopted to imply single stranded DNA on either
 strand where no complementary bas exist.
