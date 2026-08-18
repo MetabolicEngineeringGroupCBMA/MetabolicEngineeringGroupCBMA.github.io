@@ -1,6 +1,6 @@
-![[metabolic maps.png|1254x1770]]
+![[metabolic maps.png|904x1276]]
 
-![[Saccharomyces_cerevisiae_metabolic_map_LARGE.jpeg|Saccharomyces cerevisiae metabolic map (old)]]
+![[Saccharomyces_cerevisiae_metabolic_map_LARGE.jpeg|Saccharomyces cerevisiae metabolic map (old)|935x1283]]
 
 ![[metabolic maps-20240706080835722.png]]
 

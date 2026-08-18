@@ -67,7 +67,7 @@ Some useful links:
 
 **English** is the language of science. Depending on your background you may need to improve your English.
 
-[[Writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills.
+[[writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills.
 
 I have collected some free resources for learning English [[English|here]].
 

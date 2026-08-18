@@ -1,4 +1,4 @@
-<http://tidningenhembakat.se/recept/honokaka-2/>
+<https://alltommat.expressen.se/recept/honokaka-bagebro/?aom_content=search>
 
 50 g jäst
 5 dl vatten, fingervarmt
