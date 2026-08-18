@@ -15,6 +15,8 @@ A creamy ice cream with pieces of Daim, made without an ice cream maker.
 - 1 can sweetened condensed milk (approx. 400 g)
 - 4 double Daim bars (reserve 1 for the topping)
 
+![[misc/recept/daimglass16b09u.png]]
+
 ### Instructions
 
 1. Whip the cream with an electric mixer in a large bowl until fluffy.
