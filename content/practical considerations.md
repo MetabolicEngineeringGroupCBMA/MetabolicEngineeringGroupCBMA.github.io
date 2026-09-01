@@ -2,7 +2,7 @@
 
 ![](deadline.jpg)
 
-We start work at **09:00** _sharp_, This makes the lab work more efficient as it is easier to communicate when everyone is at the same place at the same time. It is also easier to get started in the morning as the lab fills up quickly. If you can **not** make it to **09:00**, let us know in the WhatsApp chat.
+We start work at **09:00** _sharp_, This makes the lab work more efficient as it is easier to communicate when everyone is at the same place at the same time. It is also easier to get started in the morning as the lab fills up quickly. If you can **not** make it to **09:00**, let us know in the WhatsApp chat (see below).
 
 ### Join the WhatsApp group "LGM Laboratory"
 
@@ -18,7 +18,7 @@ This is important for your future academic career. Get it [here](https://orcid.o
 
 ![](google.jpg)
 
-You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en\&flowName=GlifWebSignIn\&flowEntry=SignUp) if you do not have one already. You also need this to access the primer and freezer lists and for booking the PCR machine.
+You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en\&flowName=GlifWebSignIn\&flowEntry=SignUp) to access the primer and freezer lists and for booking the PCR machine.
 
 ### Get a GitHub account
 
@@ -51,7 +51,7 @@ You also need access to the [Biorad T100](https://calendar.google.com/calendar/u
 
 ![](autoclave.png)
 
-The autoclave is run three times per day (see [[autoclaving]]). There is no autoclave that we can run independently at this moment. Plan well for this since your work will be **delayed** otherwise.
+The autoclave is run three times per day (see [[autoclaving]]). There is no autoclave that we can run independently at this moment. Plan well for this since your work will be delayed otherwise.
 
 ### Saving your work
 
