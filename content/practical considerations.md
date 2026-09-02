@@ -75,9 +75,8 @@ List of restriction and other enzymes [Enzymes\_LGM](https://docs.google.com/spr
 
 ![](sc.jpg)
 
-We work mostly with baker's yeast _Saccharomyces cerevisiae_. An enormous amount is known about this organism. _Getting Started With Yeast_ is a gentle introduction
-written by Fred Sherman at the University of Rochester. [Sherman F. Getting started with yeast. Methods Enzymol 2002;350:3–41](https://www.ncbi.nlm.nih.gov/pubmed/12073320).
-A [pdf](gswy.pdf) is available. Please read it to get more familiar with this fascinating organism. There are also usually copies available [online](https://www.google.com/search?as_q=sherman+getting+started+with+yeast+2002\&as_epq=\&as_oq=\&as_eq=\&as_nlo=\&as_nhi=\&lr=\&cr=\&as_qdr=all\&as_sitesearch=\&as_occt=any\&safe=images\&as_filetype=pdf\&as_rights=)
+We work mostly with baker's yeast _Saccharomyces cerevisiae_. An enormous amount is known about this organism. _Getting Started With Yeast_ is a gentle introduction written by Fred Sherman, University of Rochester. [Sherman F. Getting started with yeast. Methods Enzymol 2002;350:3–41](https://www.ncbi.nlm.nih.gov/pubmed/12073320).
+A [pdf](gswy.pdf) is available. Please read it to get more familiar with this fascinating organism.
 
 In particular, we follow the [[genetic nomenclature]] for _Saccharomyces cerevisiae_ defined in this document.
 
@@ -99,12 +98,17 @@ Do you need a short name for your plasmid to write on the Eppendorf tube? Record
 
 ### Yeast Genome Deletion Primers
 
-These primers were used by the Yeast Genome Deletion project. There are errors in this table, make sure
-to check primers before ordering [Yeast Genome Deletion Primers and PCR product Sizes](https://docs.google.com/spreadsheets/d/1pVlMkCKb6iX-w-2Q3OP2iP0UMH72PEHf9TuGM4SdRZk).
+These primers were used by the Yeast Genome Deletion project. There are errors in this table, make sure to check primers before ordering [Yeast Genome Deletion Primers and PCR product Sizes](https://docs.google.com/spreadsheets/d/1pVlMkCKb6iX-w-2Q3OP2iP0UMH72PEHf9TuGM4SdRZk).
+
+### Get an eLabFTW account
+
+![[practical considerations4so2m5.png]]
+
+This is our electronic notebook. Get it [here](https://elab.uminho.pt/register.php).
 
 ### Checklist
 
-1. Joined WhatsApp "LGM Laboratory" group
+1. Arrive at 09:00
 2. ORCID (<https://orcid.org>)
 3. CIÊNCIA ID (<https://www.ciencia-id.pt>)
 4. Gmail
