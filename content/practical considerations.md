@@ -12,7 +12,6 @@ You will need a [google account](https://accounts.google.com/signup/v2/webcreate
 
 ### Get an ORCID number
 
-![|194x102](orcid.png)
 This is important for your future academic career. Get it [here](https://orcid.org). [This](https://en.wikipedia.org/wiki/ORCID) wikipedia entry explains what an ORCID is.
 
 ### Get organized
@@ -31,7 +30,7 @@ We keep a list of PCR primers [here](https://docs.google.com/document/d/1TfKUGfg
 
 ![](t100.jpg)
 
-You also need access to the [Biorad T100](https://calendar.google.com/calendar/u/0/r/settings/calendar/aDlmbW0wMWJjMW02dTk1N2FlbnY3dmI2ZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) google calendar. We use this for booking the PCR machine in the lab. Book by adding your name and the time you want to use the machine:
+You also need access to the [Biorad T100](https://calendar.google.com/calendar/u/0/r/settings/calendar/aDlmbW0wMWJjMW02dTk1N2FlbnY3dmI2ZmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) Google Calendar. We use this for booking the PCR machine in the lab. Book by adding your name and the time you want to use the machine:
 
 ![](booking_pcr.png)
 
@@ -55,6 +54,11 @@ The autoclave is run three times per day (see [[autoclaving]]). There is no auto
 [Sr Luis](https://www.bio.uminho.pt/pt/pessoas/pessoal-tecnico#:~:text=Lu%C3%ADs%20Miguel%20Carmo%20Correia) runs the autoclave. There is a specific documentation procedure to follow when autoclaving your material.
 
 ### Revive strains
+
+When you revive strains from the -80°C freezer, take pictures of the tubes as show in the two pictures below.
+Make sure the name of the box is visible as well as the writing on the tube. Add these pictures to your lab notes. This is very useful for future reference.
+
+![[practical considerationsyzpojr.png]]
 
 ![[practical considerationseg1aug.png]]
 
