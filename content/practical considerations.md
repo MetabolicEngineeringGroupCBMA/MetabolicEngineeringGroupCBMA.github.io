@@ -2,21 +2,18 @@
 
 We start work at **09:00** _sharp_, This makes the lab work more efficient as it is easier to communicate when everyone is at the same place at the same time. It is also easier to get started in the morning as the lab fills up quickly. If you can **not** make it to **09:00**, let us know in the WhatsApp chat (see below).
 
-### Join the WhatsApp group "LGM Laboratory"
+### Get a Google account
 
-![[practical_considerations_001.png]]
+You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en\&flowName=GlifWebSignIn\&flowEntry=SignUp) to access the primer and freezer lists and for booking the PCR machine.
+
+### Join the "LGM Laboratory" WhatsApp group
+
+![[practical_considerations_001.png|88]]
 
 ### Get an ORCID number
 
-![](orcid.png)
-
+![|194x102](orcid.png)
 This is important for your future academic career. Get it [here](https://orcid.org). [This](https://en.wikipedia.org/wiki/ORCID) wikipedia entry explains what an ORCID is.
-
-### Get a Google account
-
-![](google.jpg)
-
-You will need a [google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en\&flowName=GlifWebSignIn\&flowEntry=SignUp) to access the primer and freezer lists and for booking the PCR machine.
 
 ### Get organized
 
@@ -28,9 +25,7 @@ Please follow the guidelines regarding [[How to mark your material]] and [[maint
 
 ### PCR primers
 
-![](pcr.png)
-We keep a list of PCR primers [here](https://docs.google.com/document/d/1TfKUGfgoNLhM8fXh8LbT8TxDb_vpuViC37C-xepqJY8/edit).
-When ordering new primers, add them to the top of this list and give them a number.
+We keep a list of PCR primers [here](https://docs.google.com/document/d/1TfKUGfgoNLhM8fXh8LbT8TxDb_vpuViC37C-xepqJY8/edit). When ordering new primers, add them to the top of this list and give them a number.
 
 ### Our PCR machine
 
@@ -42,13 +37,13 @@ You also need access to the [Biorad T100](https://calendar.google.com/calendar/u
 
 ### PCR simulation
 
-[Pydnaweb](https://pydnaweb.streamlit.app/)
+Use [Pydnaweb](https://pydnaweb.streamlit.app/)
 
 ### PCR time estimation
 
 ![[practical considerationsptrap1.png]]
 
-Biorad T100 program time estimator [estimator](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit?pli=1\&gid=2113450197#gid=2113450197\&range=A1)
+Use the Biorad T100 program time estimator [estimator](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit?pli=1\&gid=2113450197#gid=2113450197\&range=A1) to book the PCR machine only the time you need.
 
 ### Autoclave
 
@@ -59,6 +54,10 @@ The autoclave is run three times per day (see [[autoclaving]]). There is no auto
 ![[practical considerationskj9pkx.png]]
 [Sr Luis](https://www.bio.uminho.pt/pt/pessoas/pessoal-tecnico#:~:text=Lu%C3%ADs%20Miguel%20Carmo%20Correia) runs the autoclave. There is a specific documentation procedure to follow when autoclaving your material.
 
+### Revive strains
+
+![[practical considerationseg1aug.png]]
+
 ### Saving your work
 
 ![](freezerlist.png)
@@ -67,6 +66,10 @@ You will likely make new microbial strains or genetic constructs during your sta
 You need to save these in the -80°C freezer after they have been confirmed to be correct.
 We keep a list of frozen strains in this google spreadsheet: [-80](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1901694203).
 Please follow these instructions to freeze your strains: [[Yeast and bacterial freezer stocks]].
+
+Location and names of all boxes in -80 freezer [DEEPFREEZER 8](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1467824477). This freezer is located next to the aquarium.
+Define your initials in order to deposit in the -80°C freezer here: [Depositors](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=912966047)
+List of restriction and other enzymes [Enzymes\_LGM](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=52431770)
 
 ### Get to know your new friend
 
@@ -78,21 +81,23 @@ A [pdf](gswy.pdf) is available. Please read it to get more familiar with this fa
 
 In particular, we follow the [[genetic nomenclature]] for _Saccharomyces cerevisiae_ defined in this document.
 
-Record your frozen strains here: [MEC\_freezer\_list](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1901694203)
-
-Location and names of all boxes in -80 freezer [DEEPFREEZER 8](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1467824477). This freezer is located next to the aquarium.
-
-Define your initials in order to deposit in the -80°C freezer here: [Depositors](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=912966047)
-
-List of restriction and other enzymes [Enzymes\_LGM](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=52431770)
+### Competent E. coli
 
 Please record [here](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=964731213) when you make new competent cells. This is so that we can trace competency.
 
+### Taq polymerase
+
 Please record [here](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=176499668)  when you make new Taq polymerase.
+
+### Taq polymerase
 
 Please record [here](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1457101389)  when you make new PennStateLadder.
 
+### Short plasmid names
+
 Do you need a short name for your plasmid to write on the Eppendorf tube? Record it here and get a π number. You can for example call your plasmid π43 which is short and easy to search for on your computer [MECPlasmidNames](https://docs.google.com/spreadsheets/d/1eqhkhCqclrUXF75M1uVdcez7PdsAuJ64UBSVO6MXB1Q/edit#gid=1698645724)
+
+### Yeast Genome Deletion Primers
 
 These primers were used by the Yeast Genome Deletion project. There are errors in this table, make sure
 to check primers before ordering [Yeast Genome Deletion Primers and PCR product Sizes](https://docs.google.com/spreadsheets/d/1pVlMkCKb6iX-w-2Q3OP2iP0UMH72PEHf9TuGM4SdRZk).
@@ -102,9 +107,7 @@ to check primers before ordering [Yeast Genome Deletion Primers and PCR product 
 1. Joined WhatsApp "LGM Laboratory" group
 2. ORCID (<https://orcid.org>)
 3. CIÊNCIA ID (<https://www.ciencia-id.pt>)
-4. Created a Gmail account if you don't have one
+4. Gmail
 5. Joined the LGM Google spreadsheet (invite needed)
-6. Joined the Google doc Primer list
-7. Joined the BIORAD T100 Google calendar
-8. Created a Github account if you don't have one
-9. Sent me your GitHub ID so I can add you to our GitHub [organization](https://github.com/MetabolicEngineeringGroupCBMA)
+6. Joined the Google doc Primer list (invite needed)
+7. Joined the BIORAD T100 Google calendar (invite needed)
