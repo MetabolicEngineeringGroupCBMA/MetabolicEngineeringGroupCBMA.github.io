@@ -267,7 +267,7 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: false
+    enabled: true
     options:
       enableInteraction: true
       darkMode: auto
