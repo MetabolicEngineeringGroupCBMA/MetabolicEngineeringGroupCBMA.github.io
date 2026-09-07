@@ -4,7 +4,7 @@ publish: true
 
 # Lectures
 
-[[EGB25]]
+🚧
 
 # Theoretical-Practical classes
 
