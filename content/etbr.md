@@ -10,6 +10,8 @@ Preparation of 10 ml of 10 mg/ml (1% w/v) ethidium bromide solution in water.
 
 Wear gloves and lab coat at all times when handling ethidium bromide or ethidium bromide contaminated solutions, glassware, pipette tips, and so forth.
 
+[Solubility](http://en.wikipedia.org/wiki/Ethidium_bromide) of EtBr is 40 g/L = 40 mg/mL in water.
+
 Ethidium bromide (EtBr) is a commonly used fluorescent stain to visualize nucleic acid especially DNA in agarose gels. Ethidium bromide intercalates between DNA bases. Upon intercalation, its fluorescence increases several folds (25 fold increase
 when it binds DNA), much higher than the unbound ethidium bromide fluorescence, therefore, eliminates the need to wash gel to remove unbound ethidium bromide. When exposed to uv light, it appears bright pink/orange color.
 
