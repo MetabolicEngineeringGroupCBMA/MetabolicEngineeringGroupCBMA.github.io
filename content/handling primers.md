@@ -14,11 +14,11 @@ We keep PCR primers in this [Google Doc](https://docs.google.com/document/d/1TfK
 
 As of April 1 2026, these options are the best offerings from Eurofins:
 
-| Size    | Product                               |
-| ------- | ------------------------------------- |
-| 10..33  | SaltFree Oligo NightXpress €0.29/base |
-| 34..35  | PCR Primer in Tubes = €9.90           |
-| 36..120 | Custom DNA Oligos in Tubes            |
+| Size    | Product                                                                        | Price           |
+| ------- | ------------------------------------------------------------------------------ | --------------- |
+| 10..33  | SaltFree Oligo NightXpress €0.29/base                                          | €2.90 .. €9.57  |
+| 34..35  | PCR Primer in Tubes                                                            | €9.90           |
+| 36..120 | Custom DNA Oligos in Tubes (salt free, lyophilized, scale 0.05µmol) €0.49/base | €17.64 .. €58.8 |
 
 ### Receiving primers
 
