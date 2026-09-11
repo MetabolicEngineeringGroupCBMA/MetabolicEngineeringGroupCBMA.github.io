@@ -29,6 +29,7 @@ publish: true
 - [[standard pcr protocol]]
 - [[PCR clean up]]
 - [[10X Taq Buffer with (NH4)2SO4]]
+- [[ACCUZYME]]
 
 ### DNA extraction & colony PCR
 
