@@ -2,7 +2,7 @@
 publish: true
 ---
 
-![[metabolic maps.png|904x1276]]
+![[metabolic maps.png|825]]
 
 ![[Saccharomyces_cerevisiae_metabolic_map_LARGE.jpeg|Saccharomyces cerevisiae metabolic map (old)|935x1283]]
 
