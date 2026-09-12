@@ -1,10 +1,14 @@
 @use "./variables.scss" as *;
 
 // Keep the title's accessible text and home link, displaying the MEC logo.
+.page-title {
+  margin-top: -12px;
+}
+
 .page-title a {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 144px;
+  height: 144px;
   max-width: 100%;
   background: url("/static/mec-logo-transparent.png") center / contain no-repeat;
   overflow: hidden;
@@ -13,6 +17,10 @@
 }
 
 @media #{$mobile} {
+  .page-title {
+    margin-top: 0;
+  }
+
   .page-title a {
     width: 56px;
     height: 56px;
