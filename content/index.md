@@ -32,7 +32,7 @@ The process could potentially be used for the green production of fuels or speci
 
 As the genetic modifications performed in the scope of metabolic engineering grow more complex, there is a need for new tools to facilitate different aspects of the overall process to increase throughput and maintain precision.
 
-### Yeast Pathway Ki
+### Yeast Pathway Kit
 
 We have developed a metabolic pathway assembly method we call the [**Yeast Pathway Kit**](https://pubmed.ncbi.nlm.nih.gov/26916955), that produces compact metabolic pathways for a given number of genes compared to other methods.
 
