@@ -1,9 +1,9 @@
 ---
 publish: true
-title: Metabolic Engineering CBMA - mec@CBMA
+title: mec@CBMA
 ---
 
-We are the mec research group, a part of the research center [Centro de Biologia Molecular e Ambiental (CBMA)](https://cbma.uminho.pt). We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt) in the ancient city of [Braga](https://en.wikipedia.org/wiki/Braga), Portugal.
+We are the ==M==etabolic ==E==ngineering group at ==C==BMA, a part of the  [Centro de Biologia Molecular e Ambiental (CBMA)](https://cbma.uminho.pt) research center. We are located in the [Department of Biology](https://goo.gl/maps/JyphLrwBYejffwTx5), [University of Minho](https://www.uminho.pt) in the old roman city of [Braga](https://en.wikipedia.org/wiki/Braga) in northern Portugal.
 
 - [[people|People & contacts]]
 - Protocols & other lab [[lab|information]]

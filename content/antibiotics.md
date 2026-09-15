@@ -57,11 +57,12 @@ Final concentration for E. coli should be 200 µg/ml. This is less than half of 
 ATCC (see below). The concentration was recommended by [Goldstein & McCusker 1999](https://www.ncbi.nlm.nih.gov/pubmed/10514571)
 The stock solution is stored in 1 mL aliquots marked with a capital **"G"** at -20°C in the box marked **"Antibiotics"** in the -20 freezer.
 
-# Tetracycline stock solution (12.5 mg/ml = 1000 X concentrated)
+# Tetracycline stock solution (100 mg/ml = 8000 X concentrated)
 
-- Add 125 mg Tetracycline Hydrochloride (MW = 480.898 g/mol) powder to a 15 mL FALCON tube.
+- Add 1.25 g Tetracycline Hydrochloride (MW = 480.898 g/mol) powder to a 15 mL FALCON tube.
 - Add 7 mL of Ethanol 99.5% or 96%.
 - Add water to 10 mL.
+- Mix vigorously and make sure the powder is completely dissolved.
 - Aliquot 1 mL per tube and store at -20°C.
 
 It is not necessary to sterile filter this solution since it is made in 70% Ethanol. For E. coli XL1-Blue, use 12.5 µg/mL Tetracycline. The stock solution is stored in 1 mL aliquots marked with a capital **"T"** at -20°C in the box marked **"Antibiotics"** in the -20 freezer.
