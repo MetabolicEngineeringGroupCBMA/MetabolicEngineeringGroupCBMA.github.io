@@ -17,13 +17,13 @@ Fatty acids are fundamental building blocks of life, with roles in energy storag
 
 **The supply problem.** The dominant commercial sources today are fish oil from pelagic fisheries and krill oil. Both present sustainability challenges. Many commercially targeted fish stocks are under pressure from overexploitation, while krill occupy the base of the ocean food web and their harvest carries ecosystem risks.
 
-![[2026-03-31.png]]
+![[fishingnet.png]]
 
 Critically, neither fish nor krill synthesize LC-PUFAs themselves, they bio-accumulate them from the phytoplankton they consume. Phytoplankton produce PUFAs as an adaptive response to cold temperatures, where highly unsaturated membranes maintain fluidity. Climate change is disrupting this: rising ocean temperatures suppress PUFA biosynthesis in phytoplankton and shift community composition, with documented reductions in EPA and DHA concentrations in marine biomass. The marine source of our PUFA supply is therefore simultaneously being over-harvested and diminished by warming seas.
 
 **Microbial biosynthesis as an alternative.** Oleaginous microorganisms, yeasts, micro-algae, and filamentous fungi can replicate the biosynthetic capacity of phytoplankton in a controllable fermentation context. Among candidate hosts, _Saccharomyces cerevisiae_ is genetically accessible, grows rapidly on inexpensive carbon sources, is GRAS-classified, and benefits from well-established industrial fermentation infrastructure. Its lipid metabolism is well characterised, providing a rational starting point for engineering.
 
-![[2026-03-31-2.png]]
+![[oilyeasts.png]]
 
 **FAS system II**
 

@@ -6,7 +6,7 @@ Pastapesto al Genovese med räkor
 
 ![[misc/recept/pastapesto_1.jpg]]
 
-![[misc/recept/pastapesto_2.jpg]]
+![[files/pastapesto.jpg]]
 
 Penne ~360 g
 1 citron

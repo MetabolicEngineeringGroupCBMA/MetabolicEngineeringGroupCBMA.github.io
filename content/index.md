@@ -19,7 +19,7 @@ for consumption of new types of substrates and production of new biotechnologica
 
 Specifically, we work on expanding the consumption of for efficient metabolism of new types of sugars as [D-xylose](https://en.wikipedia.org/wiki/Xylose) combined with biosynthesis of [fatty acids](https://en.wikipedia.org/wiki/Fatty_acid) and derived lipids.
 
-![fa](8-methyl-6-nonenoic-acid.png)
+![fa](files/2020-05-19/8-methyl-6-nonenoic acid.png)
 
 This process is important in nature, since fatty acids make up significant parts of fundamental structures such as cell membranes, but also serve as
 efficient energy storage for many cells and organisms.
@@ -48,7 +48,7 @@ It relies on one library of promoters and another for terminators. Pathways are 
 
 This can be powerful for high quality documentation in combination with `Jupyter` notebooks to provide both code and a readable document. See our Anaconda Maker Series [blog post](https://www.anaconda.com/blog/why-is-so-much-cloning-documentation-wrong).
 
-![pydna](saat_cloning_animation.gif)
+![pydna](files/MetabolicEngineeringGroupCBMA GitHub Org/pydna-examples/notebooks/strawberry_aat/saat_cloning_animation.gif)
 
 ### Funding
 

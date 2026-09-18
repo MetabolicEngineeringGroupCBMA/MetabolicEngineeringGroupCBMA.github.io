@@ -14,7 +14,7 @@ Protocols and other information mostly of interest to our research group.
 - [[LGM]]
 - [[Congresses]]
 - [[phone dir|Dept phone directory]]
-- [[Teaching]]
+- [[notes from teaching]]
 
 ### Commonly used [[protocols]]
 

@@ -41,7 +41,7 @@ Some sugars have only acetals and are therefore **not** reducing (Figure 4).
 ![[Pasted image 20241120064559-1.png]]
 Figure 4
 
-[![Pasted image 20241120065101-1.png](Pasted image 20241120065101-1.png)](https://www.youtube.com/watch?v=UPTR-j4S17Q)
+[![Pasted image 20241120065101-1.png](Pasted%20image%2020241120065101-1.png)](https://www.youtube.com/watch?v=UPTR-j4S17Q)
 Figure 5 - A nice YouTube video on reducing sugars (5 min)
 
 The concentration of this colored complex is proportional to the concentration of reducing sugars in the sample.

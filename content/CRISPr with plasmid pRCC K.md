@@ -287,9 +287,9 @@ The paper suggests a web based tool for selecting spacer sequences (<https://www
 There is now a redirection to this url (<https://www.atum.bio/eCommerce/cas9/input>) which i used.
 The best result was ATCCCTGGTGGCGGCGCCTT , according to the scoring (100).
 
-- [[tool1.png|Initial page]]
+- [[files/2019-10-07/Screenshot from 2019-10-07 16-42-22.png|Initial page]]
 
-- [[tool2.png|Results page]]
+- [[files/2019-10-07/Screenshot from 2019-10-07 16-44-00.png|Results page]]
 
 The spacer was incorporated
 with the rest of the primer like this:

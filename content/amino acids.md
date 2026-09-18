@@ -29,10 +29,10 @@ This is a wide table. Use the scroll bars to see the rightmost columns. [Codon u
 | Stop           | Stop            | Stop          | End   | END   | \*   | -                                          |                                                          | -      | -      | -                                 | -                           | TAA                    | TGA | TAG |     |     |     | -            | -      |
 
 Varshavsky 1996 PMID: 8901547
-![](Varshavsky1996.png)
+![](files/Varshavsky1996.png)
 Tobias et al. 1991 PMID: 1962196
-![](Tobias1991.png)
+![](files/Tobias1991.png)
 Bachmair & Varshavsky 1989 PMID: 2538246scr
-![](Bachmair1989.png)
+![](files/2018-02-23/Bachmair1989.png)
 
-![[Venn-diagram-showing-9-properties-of-the-20-amino-acids.png]]
+![[files/Venn-diagram-showing-9-properties-of-the-20-amino-acids.png]]

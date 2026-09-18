@@ -2,7 +2,7 @@
 publish: true
 ---
 
-![[TransilluminatorGenoSmart.jpeg]]
+![[files/2020-06-09/TransilluminatorGenoSmart.jpeg]]
 
 ## GenoSmart (VWR)
 

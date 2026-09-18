@@ -2,7 +2,7 @@
 publish: true
 ---
 
-![[brown.png|220x316]]
+![[agregação/assets/brown.png|220x316]]
 
 Brown T. Gene Cloning and DNA Analysis - An Introduction 8 ed. 2020
 [study questions](https://docs.google.com/document/d/13_YFL62aKZ9hzL8_nT2yTy-XlZReJlMbhsIIw30Pnbo/edit?usp=sharing)

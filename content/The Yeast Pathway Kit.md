@@ -87,7 +87,7 @@ Since all fragment are cloned in the same vector, DNA fragments sharing terminal
 
 Approximate location of six PCR primers used for this purpose are indicated by numbers in the figure below (577, 567), (468, 467) and (568, 578).
 
-![641](pYPKa_005.png)
+![641](files/MetabolicEngineeringGroupCBMA GitHub Org/YeastPathwayKit/docs/pYPKa_005.png)
 
 Promoters are amplified using primers **577+567**, genes using **468+467** and terminators using **568+578**.
 
@@ -112,15 +112,15 @@ For this to be possible, promoters and terminators need to be identical DNA frag
 
 Primer locations around the ZraI, AjiI and EcoRV sites in pYPKa:
 
-![](A3_YPK_poster2.png)
+![](files/MetabolicEngineeringGroupCBMA GitHub Org/YeastPathwayKit/docs/A3_YPK_poster2.png)
 
 Primer locations around the ZraI, AjiI and EcoRV sites in pYPKpw and derived vectors, such as the pTAx series:
 
-![](A3_YPK_poster3.png)
+![](files/MetabolicEngineeringGroupCBMA GitHub Org/YeastPathwayKit/docs/A3_YPK_poster3.png)
 
 A short summary of the Yeast Pathway Kit:
 
-![1481](A3_YPK_poster1.png)
+![1481](files/MetabolicEngineeringGroupCBMA GitHub Org/YeastPathwayKit/docs/A3_YPK_poster1.png)
 
 PDF versions of the images above are available [here](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/docs/A3_YPK_poster.pdf).
 

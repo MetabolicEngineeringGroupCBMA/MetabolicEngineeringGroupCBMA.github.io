@@ -148,3 +148,42 @@ pYPK0\_PDC1\_EcfabH\_TEF1\_EcfabD\_FBA1\_EcfabG\_RPL22A\_EcacpP\_TDH3\_EcfabF\_U
 pYPK0\_PDC1\_EcfabH\_TEF1\_EcfabD\_FBA1\_EcfabG\_RPL22A\_EcacpP\_TDH3\_EcfabF\_UTR2\_EcfabB\_TPI1\_EcfabA\_PMP3\_EcfabZ\_ENO2\_Athmod1\_RPL5\_Lbrethio\_RPL16A\_AthfatB\_RPL17A\_AthfatA2\_RPL16B\_EcacpS\_TMA19\_EcacpH\_TSA1
 pYPK0\_PDC1\_EcfabH\_TEF1\_EcfabD\_FBA1\_EcfabG\_RPL22A\_EcacpP\_TDH3\_EcfabF\_UTR2\_EcfabB\_TPI1\_EcfabA\_PMP3\_EcfabZ\_ENO2\_Athmod1\_RPL5\_EctesA\_RPL16A\_Lbrethio\_RPL17A\_EcacpH\_RPL16B\_EcacpS\_TMA19
 pYPK0\_PDC1\_EcfabH\_TEF1\_EcfabD\_FBA1\_EcfabG\_RPL22A\_EcacpP\_TDH3\_EcfabF\_UTR2\_EcfabB\_TPI1\_EcfabA\_PMP3\_EcfabZ\_ENO2\_Athmod1\_RPL5\_EctesB\_RPL16A\_Lbrethio\_RPL17A\_EcacpH\_RPL16B\_EcacpS\_TMA19
+
+[[fatty acid synthase]] system II
+Type II is found in plants, archaeabacterial and eubacterial, and is characterized by
+the use of discrete, monofunctional enzymes for fatty acid synthesis.
+
+[[pYPK0_FASII]]  [[pTA1_FASII]]  [[pTA1_FASIIb]]
+
+Blocking any of the four steps can shut down fatty acid biosynthesis and potentially kill bacteria.
+
+<http://biocyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&object=FASYN-ELONG-PWY>
+
+[[fasynth.pdf]] [[mtFAS]]
+
+|                                                       |                                                                 |                                                                        |                                                                                              |
+| ----------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [[EcfabD]]                                              | MCT1/YOR221C                                                    | \[acyl-carrier-protein] S-malonyltransferase                            |                                                                                              |
+| [[EcfabH]]                                              | CEM1/YER061C                                                    | KASIII                                                                 | key enzyme in the **initiation** of fatty acids biosynthesis                                 |
+| [[EcfabF]]                                              | CEM1/YER061C                                                    | KASII                                                                  | is the only enzyme that can catalyze the conversion of [[palmitoleate]] to [[cis-vaccenate]] |
+| [[EcfabB]]                                              | required for the elongation of short-chain unsaturated acyl-ACP |                                                                        |                                                                                              |
+| [[EcfabG]]                                              | OAR1/YKL055C                                                    | 3-oxoacyl-acyl carrier protein reductase β-keto-acyl [[ACP]] reductase |                                                                                              |
+| [[EcfabZ]] \[fabA]]                                      | HTD2/YHR067W                                                    | β-hydroxyacyl-acyl carrier protein β-hydroxy-acyl [[ACP]] dehydratase  |                                                                                              |
+| [[fabI]] [[fabK]] [[FabL]] [[FabK]] [[FabV]] [[InhA]] | ETR1/YBR026C                                                    | enoyl-acyl carrier protein reductase                                   |                                                                                              |
+
+| Activity                      | [Jung 2015](https://link.springer.com/article/10.1007/s12257-014-0484-8) | [Fernandes-Moya 2015](https://onlinelibrary.wiley.com/doi/10.1002/bit.25679) | pYPK0\_FASII        | pTA1\_FASII | pTA1\_FASIIb |
+| ----------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------ | ---------- | ----------- |
+| 3-ketoacyl-ACP synthase (III) | ☐                                                                        | EcfabH                                                                       | ⇠                  | ⇠          | ⇠           |
+| Malonyl-CoA-ACP transacylase  | ☐                                                                        | EcfabD                                                                       | ⇠                  | ⇠          | ⇠           |
+| 3-oxoacyl-ACP reductase       | SpfabG                                                                   | EcfabG                                                                       | ⇠                  | ⇠          | ⇠           |
+| Acyl carrier protein          | ☐                                                                        | EcacpP                                                                       | ⇠                  | ⇠          | ⇠           |
+| 3-ketoacyl-ACP synthase (II)  | ScCEM1                                                                   | ☐                                                                            | EcfabF             | ⇠          | ⇠           |
+| 3-ketoacyl-ACP synthase (I)   | ☐                                                                        | EcfabB                                                                       | ⇠                  | ⇠          | ⇠           |
+| 3-Hydroxyacyl-ACP dehydrase   | SpfabZ                                                                   | EcfabZ                                                                       | EcfabZ + EcfabA    | ⇠          | ⇠           |
+| Enoyl-ACP reductase           | SpfabK                                                                   | EcfabI                                                                       | AthMOD1            | ⇠          | ⇠           |
+| holo ACP synthase             | ☐                                                                        | EcacpS                                                                       | ⇠                  | ⇠          | ⇠           |
+| acyl-CoA thioesterase         | EC3.1.2.14(Sp)                                                           | EctesA | RcFatB | TEII                                                     | AthfatA1 + AthfatB | ⇠          | ⇠           |
+| ACP phosphodiesterase         | ☐                                                                        | ☐                                                                            | EtacpH             | ⇠          | ☐           |
+| Complements FAS1              | nd                                                                       | nd                                                                           | nd                 | nd         | yes         |
+| Complements FAS2              | nd                                                                       | yes                                                                          | no                 | no         | yes         |
+Ec (E. coli), Rc (Ricinus communis), Rn (Rattus norvegicus), Ath (Arabidopsis thaliana), Sp (Streptococcus pyogenes)

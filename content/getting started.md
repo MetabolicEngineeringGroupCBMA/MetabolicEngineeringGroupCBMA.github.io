@@ -46,7 +46,7 @@ There is no shame in experiments not producing expected results, if they are wel
 
 ### English
 
-**English** is the language of science. Depending on your background you may need to improve your English. [[writing|Writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills. I have collected some free resources for learning English [[English|here]].
+**English** is the language of science. Depending on your background you may need to improve your English. [[on writing|Writing]] good English is different from writing good Portuguese. Please take steps to improve reading, writing and understanding if you feel that you need to improve these skills. I have collected some free resources for learning English [[English|here]].
 
 ### Misc
 

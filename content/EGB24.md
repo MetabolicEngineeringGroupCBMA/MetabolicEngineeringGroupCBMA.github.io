@@ -384,7 +384,7 @@ Summary:
 
 1. Add 7µL of [[6x DNA loading buffer]] to the PCR tube and vortex.
 2. Load 6µL of the the mixture on an agarose gel.
-3. Run the gel for 15 min in the using the [[rectifier]] in the [[Bachman]] electrophoresis apparatus with [[TAE]] buffer.
+3. Run the gel for 15 min in the using the [[rectifier]] in the [[Bachman]] electrophoresis apparatus with [[SDS]] buffer.
 
 While the gel is running, each group should prepare 250 mL solid [[LB]] Lennox medium in a 500 mL [[glassware|Schott]] bottle.
 
@@ -560,7 +560,7 @@ The LEU2 sequence available in [SGD](https://www.yeastgenome.org/locus/S00000052
 
 It is likely that the YIplac128 genbank sequence is wrong. The sequencing was performed in 1993 and it was never updated.
 
-A simulation using the snapgene YIplac128 instead of the genbank sequence for YIplac128 results in a [[pTA11.gb|pTA11]] sequence of 5793 bp, the same size as from the sequencing result.
+A simulation using the snapgene YIplac128 instead of the genbank sequence for YIplac128 results in a [[internship/2024/projects/MOD1 - pTA11 based MOD1 expression vector/pTA11.gb|pTA11]] sequence of 5793 bp, the same size as from the sequencing result.
 The sequences still have differences, notably two pairs [indels](https://en.wikipedia.org/wiki/Indel), one pair each sequence.
 
 The pTA11 needs to be sequenced again in order to completely resolve the differences.

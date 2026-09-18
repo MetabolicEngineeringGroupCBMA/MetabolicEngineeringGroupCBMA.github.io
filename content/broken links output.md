@@ -6,8 +6,8 @@ Don't forget that creating the file from here may create the file in the wrong d
 
 - [[plas1.pdf]] in [[Chloramphenicol plasmid amplification]]
 - [[chloramphenicol_aug12-118644.pdf]] in [[Chloramphenicol plasmid amplification]]
-- [[11108899267_25KB_WPS00060222_0.zip]] in [[EGB24]]
-- [[ecoligfp.png]] in [[EGB24]]
+- [[11108899267_25KB_WPS00060222_0.zip]] in [[EGB24 delegados]]
+- [[ecoligfp.png]] in [[EGB24 delegados]]
 - [[Plasmid preparation]] in [[In vivo assembly in yeast]]
 - [[YPD medium]] in [[In vivo assembly in yeast]]
 - [[SD medium]] in [[In vivo assembly in yeast]]

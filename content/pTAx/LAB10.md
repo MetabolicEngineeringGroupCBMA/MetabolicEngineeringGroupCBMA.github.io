@@ -85,7 +85,7 @@ Gel: [[NZYMiniprep]],  elution 50 µL warm AE buffer.
 
 ## Annotated nanopore whole plasmid sequencing result
 
-![[pTAx/LAB10.png]]
+![[sequencing results/11109766896_25KB_WPS00092715_0/pTA7beta/pTA7beta.Plasmid_map.png]]
 
 ```
 

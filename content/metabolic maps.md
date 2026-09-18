@@ -8,6 +8,6 @@ publish: true
 
 ![[metabolic maps-20240706080835722.png]]
 
-![[Glycolysis-10-steps-explained-steps-by-steps-with-diagram.png|1340]]
+![[files/Pasted image 20240309054721.jpg|1340]]
 
 ![[download-1.png]]

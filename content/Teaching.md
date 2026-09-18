@@ -56,9 +56,9 @@ Best practices:
 # Practical classes
 
 - [[pTAx/pTAx plasmid construction]]
-- [[EGB24]]
+- [[EGB24 delegados]]
 - [[EGB23]]
 - [[GMB21]]
-- [[LIB20]]
+- [[LIB20 tests]]
 - [[Purifying and testing recombinant Taq DNA polymerase]]
 - [[GBM23]] Master

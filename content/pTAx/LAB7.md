@@ -14,7 +14,7 @@ Summary:
 
 1. Put a piece of gel in a square Petri dish
 2. Load 8 µL of the the PCR product.
-3. Run the gel for 15 - 20 min in [[TAE]] buffer.
+3. Run the gel for 15 - 20 min in [[SDS]] buffer.
 
 While the gel is running, each group should prepare 250 mL solid [[LB]] Lennox medium in a 500 mL [[glassware|Schott]] bottle.
 

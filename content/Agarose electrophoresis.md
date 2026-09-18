@@ -87,7 +87,7 @@ Higher agarose concentrations resolve smaller fragments better.
 <http://sourceforge.net/projects/pyelph/files/releases/>
 
 - [[How many times can I reuse electrophoresis buffer?]]
-- [[TAE]]
+- [[SDS]]
 - [[fatval]]
 - [[Turner]]
 - [[Bachman]]

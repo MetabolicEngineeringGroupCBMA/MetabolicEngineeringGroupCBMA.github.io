@@ -2,4 +2,4 @@
 publish: true
 ---
 
-![[FALCON.jpg]]
+![[falcon.jpg]]

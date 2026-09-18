@@ -59,7 +59,7 @@ This enzyme catalyzes the reduction of H₂O₂ to water, using glutathione as t
 
 ### The catalase tes
 
-[![catalase](catalase lab-20241031103259320.png)](https://youtu.be/SBmL2vg-IN0?si=g4FuyzAxANuq77Rm\&t=124)
+[![catalase](catalase%20lab-20241031103259320.png)](https://youtu.be/SBmL2vg-IN0?si=g4FuyzAxANuq77Rm\&t=124)
 
 Figure 6
 
