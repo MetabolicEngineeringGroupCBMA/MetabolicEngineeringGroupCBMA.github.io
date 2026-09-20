@@ -19,7 +19,7 @@ for consumption of new types of substrates and production of new biotechnologica
 
 Specifically, we work on expanding the consumption of for efficient metabolism of new types of sugars as [D-xylose](https://en.wikipedia.org/wiki/Xylose) combined with biosynthesis of [fatty acids](https://en.wikipedia.org/wiki/Fatty_acid) and derived lipids.
 
-![fa](files/2020-05-19/8-methyl-6-nonenoic acid.png)
+![[files/2020-05-19/8-methyl-6-nonenoic acid.png]]
 
 This process is important in nature, since fatty acids make up significant parts of fundamental structures such as cell membranes, but also serve as
 efficient energy storage for many cells and organisms.

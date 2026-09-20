@@ -4,7 +4,6 @@ publish: true
 
 # TBE
 
-\[protocol:]
 Revised 2012-02-01
 
 Composition of 1x TBE buffer

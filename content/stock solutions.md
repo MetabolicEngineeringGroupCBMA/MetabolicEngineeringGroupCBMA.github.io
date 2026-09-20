@@ -14,7 +14,7 @@ publish: true
 - 1.0 M [[TrisHCl]], pH 8
 - 1M [[IPTG]] stock solution
 - 200 mg/mL [[antibiotics|Ampicillin]] solution (x1000)
-- 200 mg/mL [[ampicillin|Geneticin]] solution (x1000)
+- 200 mg/mL [[public/ampicillin|Geneticin]] solution (x1000)
 - 12.5 mg/mL [[antibiotics|Tetracycline]] solution (x1000)
 - 10 mM [[dNTPs]] solution
 - 5x [[Ligase buffer]]

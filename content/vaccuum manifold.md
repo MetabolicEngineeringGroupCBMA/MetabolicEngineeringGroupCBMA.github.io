@@ -2,7 +2,7 @@
 publish: true
 ---
 
-### Homemade vaccuum manifold for spin columns
+### Homemade vacuum manifold for spin columns
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g94FUCo0LtU/0.jpg)](https://www.youtube.com/watch?v=g94FUCo0LtU)
 
@@ -16,5 +16,4 @@ Super glue and bathroom silicone were used to glue this together. Two large rubb
 It worked and it was used to successfully to speed up plasmid preparation and for washing columns after HCl treatment as a part of
 this column [recycling](http://www.biotechniques.com/BiotechniquesJournal/2007/February/Regeneration-of-commercial-nucleic-acid-extraction-columns-without-the-risk-of-carryover-contamination/biotechniques-41235.html) protocol.
 
-See also [this](https://www.researchgate.net/post/What_is_the_easiest_way_to_regenerate_DNA_columns_used_for_plasmid_isolation_pcr_purification_or_gel_extraction_provided_by_different_companies)
-and [this](http://bitesizebio.com/512/512/).
+See also [this](https://www.researchgate.net/post/What_is_the_easiest_way_to_regenerate_DNA_columns_used_for_plasmid_isolation_pcr_purification_or_gel_extraction_provided_by_different_companies) and [this](http://bitesizebio.com/512/512/).

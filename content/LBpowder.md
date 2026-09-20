@@ -2,8 +2,8 @@
 publish: true
 ---
 
-++LBpowder
-\[protocol:]
+LBpowder
+
 Revised 2012-02-06
 
 A practical way of storing a LB stock in dry form (1).

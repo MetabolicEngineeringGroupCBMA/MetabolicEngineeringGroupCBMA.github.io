@@ -2,4 +2,4 @@
 publish: true
 ---
 
-[printable grid](petridishgrid.pdf) pdf.
+![printable grid](petridishgrid.pdf) pdf.
