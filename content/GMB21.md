@@ -27,7 +27,7 @@ The CRP gene is inactive and only provide specific sequences for recombination.
 
 The pTA1 plasmid was later made with a LEU2 selection marker.
 
-![[pTAx_figure.png]]
+![[pTAx/pTAx_figure.png]]
 
 It would be of interest to expand the range of plasmids for pathways, specifically:
 

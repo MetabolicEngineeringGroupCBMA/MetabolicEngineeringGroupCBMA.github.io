@@ -5,23 +5,24 @@ publish: true
 ![[The Yeast Pathway Kit-20240713073233879.png|1112]]
 
 The [MEC](https://metabolicengineeringgroupcbma.github.io) group developed a protocol for the _in-vivo_ assembly of large metabolic pathways we call the **Y**east **P**athway **K**it (YPK). This protocol was published here [Pereira et. al 2015](https://pubmed.ncbi.nlm.nih.gov/26916955).
-Th protocol offers reusable promoters and terminators cloned in a vector called pYPKa. Each gene of a pathway is first cloned as a single transcriptional unit (TU). Several TUs can assemble into a multi gene pathway.
+
+The protocol offers reusable promoters, genes and terminators cloned in a positive selection vector called pYPKa.
 
 Quick links:
 
 - [[primer design|Primer design]] for genes to be cloned in pYPKa (often necessary to express a new gene using the **Yeast Pathway Kit**)
 - [[in silico assembly of pYPKa_A_ATF1|Example]] of _in-silico_ assembly of a pYPKa vector for the expression of a gene
-- [[in silico assembly of pTA1_TDH3_ATF1_PGI1|Example]] of how to assemble a Transcritional Unit _in-silico_
-- Available [Plasmid, Promoter & Terminator]([https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/tree/master/sequences]\(https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/tree/main/YeastPathwayKit/sequences\)) sequence files
-- How [[pYPKa cloning protocol|to clone]] using the pYPKa vector in the wet lab
-- How to [[Transcription Unit cloning protocol|assemble]] a yeast expression vector (TU) in the wet lab
+- [[in silico assembly of pTA1_TDH3_ATF1_PGI1|Example]] of how to assemble a Transcriptional Unit (TU) vector _in-silico_
+- Available [Plasmid, Promoter & Terminator](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/tree/main/YeastPathwayKit/sequences) sequence files
+- How to [[pYPKa cloning protocol|clone]] a DNA fragment using the pYPKa vector in the wet lab
+- How to [[Transcription Unit cloning protocol|assemble]] a single gene yeast expression vector (TU vector) in the wet lab
 
 We use this protocol for the generation of expression cassettes (TU, transcriptional units) as well as large metabolic pathways that are yet relatively compact compared to pathways assembled with other protocols in _[Saccharomyces cerevisiae](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)_. YPK relies on natural intergenic sequences which might be positive for genetic stability.
 
-The genetic building block DNA fragments (promoters, genes and terminators) are all cloned in an _E. coli_ [positive selection](https://www.tandfonline.com/doi/abs/10.1080/07388550290789504) vector called [pYPKa](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKa.gb).
+The genetic building block DNA fragments (promoters, genes and terminators) are all cloned in an _E. coli_ [positive selection](https://www.tandfonline.com/doi/abs/10.1080/07388550290789504) vector called [pYPKa](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa.gb).
 The fragments are cloned one at a time, creating one plasmid per fragment.
 
-These plasmids are used as template for PCR amplification and joined together by homologous recombination into single gene expression vectors (Transcriptional Units, TU)  using a _S. cerevisiae/E. coli_ shuttle vector such as the pTAx series or [pYPKpw](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKpw.gb).
+These plasmids are used as template for PCR amplification and joined together by homologous recombination into single gene expression vectors (Transcriptional Units, TU)  using a _S. cerevisiae/E. coli_ shuttle vector such as the pTAx series or pYPKpw (sequences [here](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/tree/main/YeastPathwayKit)).
 
 These TU vectors can be further assembled into large (at least 13 genes has been successfully assembled) metabolic pathways by homologous recombination between promoters and terminators of the transcriptional units.
 
@@ -31,11 +32,11 @@ The pYPKa vector is a derivative of the [positive selection vector](https://pubm
 
 Promoters, genes and terminators are cloned in one of three unique restriction sites in pYPKa all producing blunt cuts (Table#1).
 
-| Table#1 | Element    | Cloning site                                                                                                                                               |
-| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|         | Promoters  | [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)                                                                                                         |
-|         | Gene       | [AjiI](http://rebase.neb.com/rebase/enz/AjiI.html) [BtrI](http://rebase.neb.com/rebase/enz/BtrI.html) [BmgBI](http://rebase.neb.com/rebase/enz/BmgBI.html) |
-|         | Terminator | [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) [Eco32I](http://rebase.neb.com/rebase/enz/Eco32I.html)                                                |
+| Table#1 | Element    | Cloning site                                         | Alternative enzymes                                                                                     |
+| ------- | ---------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+|         | Promoters  | [ZraI](http://rebase.neb.com/rebase/enz/ZraI.html)   | -                                                                                                       |
+|         | Gene       | [AjiI](http://rebase.neb.com/rebase/enz/AjiI.html)   | [BtrI](http://rebase.neb.com/rebase/enz/BtrI.html) [BmgBI](http://rebase.neb.com/rebase/enz/BmgBI.html) |
+|         | Terminator | [EcoRV](http://rebase.neb.com/rebase/enz/EcoRV.html) | [Eco32I](http://rebase.neb.com/rebase/enz/Eco32I.html)                                                  |
 
 These sites are located close together in pYPKa in the order given in Table#1. The figure below shows the ZraI and AjiI cut sites separated by 50 bp (red in the figure below)
 and AjiI and EcoRV separated by 31 bp (green).
@@ -65,7 +66,7 @@ Thus, vectors with DNA fragments cloned in **ZraI**, **AjiI** and **EcoRV** are 
 |         | Gene       | **A**jiI     | pYPKa_**A**_ABC1 |
 |         | Terminator | **E**coRV    | pYPKa_**E**\_ABC1 |
 
-One of the advantages of the system is the reuse promoters and terminators in pYPKa\_Z and pYPKa\_E vectors. This [repository](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit#readme) has over **sixty** _S. cerevisiae_ intergenic sequences cloned in pYPKa.
+One of the advantages of the system is the reuse promoters and terminators in pYPKa\_Z and pYPKa\_E vectors. This [repository](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/tree/main/YeastPathwayKit) has over **sixty** _S. cerevisiae_ intergenic sequences cloned in pYPKa.
 
 ## Primer design
 
@@ -73,7 +74,7 @@ Certain conventions should be followed for [[primer design]] for genes to be clo
 
 ## In-silico assembly
 
-It is a good practice to create a new cloning project in-silico prior to starting the lab work. This [[in silico assembly of pYPKa_A_ATF1|example]] is provided for how to use the excellent DNA editor [[ApE]] in combination with [PydnaWeb](https://pydna.pythonanywhere.com/) to manually assemble a pYPKa clone _in-silico_.
+It is a good practice to create a new cloning project in-silico prior to starting the lab work. This [[in silico assembly of pYPKa_A_ATF1|example]] is provided for how to use the DNA editor [[ApE]] in combination with [PydnaWeb](https://pydna.pythonanywhere.com/) to manually assemble a pYPKa clone _in-silico_.
 
 ## Wet-lab protocol
 

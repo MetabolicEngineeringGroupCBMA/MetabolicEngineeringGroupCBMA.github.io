@@ -2,9 +2,8 @@
 publish: true
 ---
 
-This document explains how to design a pair of PCR primers for a gene to be _expressed_ in _S. cerevisiae_.
-The example chosen is the _S.cerevisiae_ [XKS1](https://www.yeastgenome.org/locus/S000003426) gene, but the general guidelines are applicable for any gene.
-We assume that the DNA sequence for the open reading frame of the gene is available.
+This document explains how to design a pair of PCR primers for a gene to be _expressed_ in _S. cerevisiae_. The example chosen is the _S.cerevisiae_ [XKS1](https://www.yeastgenome.org/locus/S000003426) gene, but the general guidelines are applicable for any gene. We assume that the DNA sequence for the open reading frame of the gene is available.
+
 There are a number of important considerations, especially for heterologous genes.
 
 ## Introns
@@ -23,7 +22,7 @@ Click the `submit` button and copy the primers to your electronic lab book.
 
 The next step is to consider modifications to the primers in order to maximize expression level of the gene. This might involve:
 
-- adding a stabilizing amino acid codon between the start codon and the first amino acid codon.
+- adding a stabilizing amino acid codon between the start codon and the first amino acid codon (The N-end rule).
 - adding an efficient [Kozak](https://en.wikipedia.org/wiki/Kozak_consensus_sequence) sequence
 
 ```
@@ -44,7 +43,7 @@ We can stabilize the protein by adding a stabilizing amino acid, such as glycine
 ```
     >f1803 21-mer
 	ATGggtTTGTGTTCAGTAATTCAG
-	   gly
+	   glyLEU
 ```
 
 This modification of the forward primer means that is does no longer bind as intended as it not longer anneals perfectly on the 5' side. We can design a new pair of primers using the Primer designer tool by removing the start codon.
@@ -71,15 +70,13 @@ TTAGATGAGAGTCTTTTCCA
 
 ## Kozak consensus sequence
 
-The nucleotides immediately upstream of the start codon ([[start codon|kozak]] consensus sequence) affects protein translation efficiency in _S. cerevisiae_. [Xu et al. 2021](https://microbialcellfactories.biomedcentral.com/articles/10.1186/s12934-021-01641-z) found that K528 (`tctgcaata`) was the most efficient among the sequences tested.
+The nucleotides immediately upstream of the start codon ([[start codon|kozak]] consensus sequence) affects protein translation efficiency in _S. cerevisiae_. [Xu et al. 2021](https://microbialcellfactories.biomedcentral.com/articles/10.1186/s12934-021-01641-z) found that the 9 bp K528 (`tctgcaata`) was the most efficient among the sequences tested.
 
 ```
 >f1800
 tctgcaataATGggtTTGTGTTCAGTAATTCAGAGA
-|||||||||
---K528---   gly
+--K528---   glyLEU
          sta
-
 ```
 
 The primer above has the K528 Kozak sequence, a start codon and a glycine codon followed by the new primer sequence.

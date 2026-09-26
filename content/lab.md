@@ -15,6 +15,7 @@ Protocols and other information mostly of interest to our research group.
 - [[Congresses]]
 - [[phone dir|Dept phone directory]]
 - [[notes from teaching]]
+- [[requisitions|Requesting chemicals]]
 
 ### Commonly used [[protocols]]
 

@@ -25,3 +25,15 @@ Alternatively, the medium can be made by combining sterile stock solutions (1L):
 ### Adding amino acids
 
 Sometimes yeast strains need amino acid supplementation of growth. Add amino acids [[amino acid drop out mix]].
+
+For 1L solid medium
+
+Flask 1 (1L)
+20 g [[Glucose]]
+20 g agar
+water to 500 mL
+
+Flask 2
+6.7 g [[YNB]]
+aminoacids
+water to 500 mL

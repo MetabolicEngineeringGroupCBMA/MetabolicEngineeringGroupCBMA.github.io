@@ -52,7 +52,7 @@ Paste the PCR product sequence at the cut site of the pYPKa. See figure below.
 > [!IMPORTANT]
 > Paste only the DNA sequence of the PCR product, do not include the FASTA header.
 
-## 3. Analyze resul
+## 3. Analyze result
 
 Calculate the **size** and complete **seguid checksum** of the resulting plasmid.
 
