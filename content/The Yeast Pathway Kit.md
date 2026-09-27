@@ -97,7 +97,7 @@ Metabolic pathways can later be built by linking single gene expression cassette
 
 For this to be possible, promoters and terminators need to be identical DNA fragments in adjacent transcriptional units.
 
-## Summaries and cheat sheets for the Yeast Pathway Ki
+## Summaries and cheat sheets for the Yeast Pathway Kit
 
 Primer locations around the ZraI, AjiI and EcoRV sites in pYPKa:
 
