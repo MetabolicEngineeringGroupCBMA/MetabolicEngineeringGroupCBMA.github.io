@@ -53,7 +53,7 @@ GDGAGL (Gly-Asp-Gly-Ala-Gly-Leu)
 DNA: `ggtgacggtgctggttta`
 
 ```
-Sheff, M. A., & Thorn, K. S. (2004). Optimized cassettes for fluorescen
+Sheff, M. A., & Thorn, K. S. (2004). Optimized cassettes for fluorescent
 protein tagging in Saccharomyces cerevisiae. Yeast , 21(8), 661–670.
 ```
 
@@ -71,8 +71,7 @@ DNA: `GGATCCGCTGGCTCCGCTGCTGGTTCTGGCGAATTC`
 
 Other info:
 
-More information about fusion protein linkers:
-<https://www.ncbi.nlm.nih.gov/pubmed/23026637>
+More information about fusion protein linkers: <https://www.ncbi.nlm.nih.gov/pubmed/23026637>
 
 <https://www.researchgate.net/post/What_is_the_best_linker_for_a_fusion_protein>
 

@@ -2,6 +2,7 @@
 publish: true
 aliases:
   - kozak
+  - K528
 ---
 
 The [Kozak](https://en.wikipedia.org/wiki/Kozak_consensus_sequence) consensus sequence is a nucleic acid motif that functions as the protein translation initiation site in most eukaryotic mRNA transcripts.
@@ -17,3 +18,14 @@ R. Hamilton, C K Watanabe, and H A de Boer, “Compilation and comparison of the
 atataaaaca ATG TCT TTA T...  ScPGK1
            str SER
 ```
+
+This kozak is probably one of  the best in S. cerevisiae:
+
+![[start codonmygje4.png]]
+
+```DNA
+tctgcaataATG...   
+         str
+```
+
+\[@xuFinetuningExpressionPathway2021]
