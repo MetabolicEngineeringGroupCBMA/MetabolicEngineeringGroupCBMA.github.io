@@ -8,7 +8,7 @@ This document will show you how to assemble an expression vector called `pTA1_TD
 
 This vector is a combination of:
 
-- A strong TDH3/[YBR192C](https://www.yeastgenome.org/locus/YGR192C) promoter from the _S. cerevisiae_ glyceraldehyde-3-phosphate dehydrogenase (GAPDH),
+- A strong TDH3 / YBR192C promoter from the _S. cerevisiae_ glyceraldehyde-3-phosphate dehydrogenase (GAPDH),
 - The ATF1 gene from the pYPKa\_A\_ATF1 plasmid
 - A terminator consisting of the phosphoglucose isomerase (PGI1/[YBR196C](https://www.yeastgenome.org/locus/YBR196C)) upstream intergenic sequence.
 - A pTA1 vector. The pTA1 vector provides s**election markers** and **origin of replication**.
@@ -18,27 +18,27 @@ This vector is a combination of:
 The first step is to collect all sequences needed for the assembly. For a Yeast Pathway Kit single gene expression TU vector, this means:
 
 1. A **linear** plasmid sequence
-2. A promoter PCR produc
-3. A gene PCR produc
-4. A terminator PCR produc
+2. A promoter PCR product
+3. A gene PCR product
+4. A terminator PCR product
 
 ### 1. Linearize vector
 
-The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pTA1.gb). It should be linearized using the [[ypk restriction enzymes|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector to find the
-cut location of this enzyme. The linear plasmid sequence can be obtained by using the ApE Edit>"_Linearize @ insert site_" [[ApE#How to linearize a circular sequence at a specific location.|function]].
+The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pTA1.gb). It should be linearized using the [[ypk restriction enzymes|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector to find the cut location of this enzyme. The linear plasmid sequence can be obtained by using the ApE Edit>"_Linearize @ insert site_" [[ApE#How to linearize a circular sequence at a specific location.|function]].
 
 ### 2. Obtain PCR product sequences
 
 ![[in silico assembly of pTA1_TDH3_ATF1_PGI1-20240926080600744.png]]
 
-The PCR products can be obtained using [WebPCR](https://pydnaweb.streamlit.app/pcr) and the PCR primers indicated in the table below.
+| Target     | Template                                                                                                                              | Forward primer # | Reverse primer # |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
+| Promoter   | [pYPKa\_Z\_TDH3](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_Z_TDH3.gb) | 577              | 567              |
+| Gene       | [[in silico assembly of pYPKa_A_ATF1\|pYPKa_A_ATF1]]                                                                                  | 468              | 467              |
+| Terminator | [pYPKa\_E\_PGI1](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_E_PGI1.gb) | 568              | 578              |
+All six primer sequences are available [here](standard%20primers.md). The PCR products can be obtained using [WebPCR](https://pydnaweb.streamlit.app/pcr) and the PCR primers indicated.
+For example, PCR simulation with primers 577, 578 and the sequence for `pYPKa_Z_TDH3`
 
-| Target     | Template                                                                                                               | Forward primer | Reverse primer |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------- | -------------- | -------------- |
-| Promoter   | [pYPKa\_Z\_TDH3](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKa_Z_TDH3.gb) | 577            | 567            |
-| Gene       | [pYPKa\_A\_ATF1](in%20silico%20assembly%20of%20pYPKa_A_ATF1)                                                             | 468            | 467            |
-| Terminator | [pYPKa\_E\_PGI1](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/sequences/pYPKa_E_PGI1.gb) | 568            | 578            |
-All primer sequences are available [here](standard%20primers.md).
+![[in silico assembly of pTA1_TDH3_ATF1_PGI1pln4i3.png]]
 
 Collect the linear vector sequence and the three PCR product sequences in [[Genbank#fasta format|FASTA format]] in a text editor such as Notepad like so:
 
@@ -46,7 +46,7 @@ Collect the linear vector sequence and the three PCR product sequences in [[Genb
 
 ### 3. Assembly using PydnaWeb
 
-Paste the four sequences into the [Assembly simulator](https://pydna.pythonanywhere.com/assembly) tool:
+Paste the four sequences into the [Assembly simulator](https://pydnaweb.streamlit.app/assembly) tool:
 
 ![[in silico assembly of pTA1_TDH3_ATF1_PGI1-20240709183935399.png]]
 
@@ -58,11 +58,11 @@ The resulting sequence should be around 9646 bp and have a short seguid checksum
 
 Compare the size and complete seguid checksum with that of your colleagues.
 
-## Assembly using Colab
+## Assembly using Colab (Optional)
 
 The assembly can also be done using pydna directly. For this exercise, we will use pydna and [google colab](https://colab.research.google.com) which you can use if you have a free google account.
-Colab is a hosted Jupyter Notebook service that requires no setup.  A [Jupyter notebook](https://nbviewer.org) is a python program file that can also show comments and images as
-well as intermediate results. Colab allows you to write and execute Python in your browser without installing any software.
+
+Colab is a hosted Jupyter Notebook service that requires no setup.  A [Jupyter notebook](https://nbviewer.org) is a python program file that can also show comments and images as well as intermediate results. Colab allows you to write and execute Python in your browser without installing any software.
 
 Go to [Google colab](https://colab.research.google.com) in you web browser. Create a new notebook by clicking on the "New notebook button", see the image below:
 

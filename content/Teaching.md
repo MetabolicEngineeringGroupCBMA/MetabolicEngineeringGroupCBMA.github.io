@@ -61,4 +61,4 @@ Best practices:
 - [[GMB21]]
 - [[LIB20 tests]]
 - [[Purifying and testing recombinant Taq DNA polymerase]]
-- [[GBM23]] Master
+- [[GBM26]] Master
