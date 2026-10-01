@@ -20,7 +20,7 @@ Go [here](https://jorgensen.biology.utah.edu/wayned/ape) to get ApE, click on th
 
 ### How to linearize a circular sequence at a specific location.
 
-1. Locate the cursor at the desired location where you want to cut the vector. Make sure sequence is circular.
+1. Locate the cursor at the desired location where you want to cut the vector. This only works for a circular sequence.
 
 ![[ApE_locate_linearization_site.png]]
 

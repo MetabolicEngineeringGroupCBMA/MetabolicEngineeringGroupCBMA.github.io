@@ -4,18 +4,18 @@ publish: true
 
 ![](pTA1_TDH3_ScATF1_PGI1.png)
 
-This document will show you how to assemble an expression vector called `pTA1_TDH3_ScATF1_PGI1` using the [[The Yeast Pathway Kit|Yeast Pathway Kit]].
+This document will show you how to assemble the expression vector  `pTA1_TDH3_ScATF1_PGI1` using the [[The Yeast Pathway Kit|Yeast Pathway Kit]].
 
 This vector is a combination of:
 
-- A strong TDH3 / YBR192C promoter from the _S. cerevisiae_ glyceraldehyde-3-phosphate dehydrogenase (GAPDH),
+- A pTA1 vector providing **selection markers** and **origins of replication**.
+- A strong TDH3 / YBR192C promoter from the _S. cerevisiae_ glyceraldehyde-3-phosphate dehydrogenase (GAPDH) gene ,
 - The ATF1 gene from the pYPKa\_A\_ATF1 plasmid
 - A terminator consisting of the phosphoglucose isomerase (PGI1/[YBR196C](https://www.yeastgenome.org/locus/YBR196C)) upstream intergenic sequence.
-- A pTA1 vector. The pTA1 vector provides s**election markers** and **origin of replication**.
 
 ## Prepare sequences
 
-The first step is to collect all sequences needed for the assembly. For a Yeast Pathway Kit single gene expression TU vector, this means:
+The first step is to collect all sequences needed for the assembly. For any Yeast Pathway Kit TU vector, this means:
 
 1. A **linear** plasmid sequence
 2. A promoter PCR product
@@ -24,19 +24,21 @@ The first step is to collect all sequences needed for the assembly. For a Yeast 
 
 ### 1. Linearize vector
 
-The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pTA1.gb). It should be linearized using the [[ypk restriction enzymes|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector to find the cut location of this enzyme. The linear plasmid sequence can be obtained by using the ApE Edit>"_Linearize @ insert site_" [[ApE#How to linearize a circular sequence at a specific location.|function]].
+The pTA1 vector is available [here](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pTA1.gb). It should be linearized using the [[ypk restriction enzymes|ZraI]] restriction enzyme. Use the Enzymes>Enzyme selector in ApE to find the cut location of this enzyme.
+
+The linear plasmid sequence can be obtained by using the ApE Edit>"_Linearize @ insert site_" [[ApE#How to linearize a circular sequence at a specific location.|function]].
 
 ### 2. Obtain PCR product sequences
 
 ![[in silico assembly of pTA1_TDH3_ATF1_PGI1-20240926080600744.png]]
 
-| Target     | Template                                                                                                                              | Forward primer # | Reverse primer # |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
-| Promoter   | [pYPKa\_Z\_TDH3](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_Z_TDH3.gb) | 577              | 567              |
-| Gene       | [[in silico assembly of pYPKa_A_ATF1\|pYPKa_A_ATF1]]                                                                                  | 468              | 467              |
-| Terminator | [pYPKa\_E\_PGI1](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_E_PGI1.gb) | 568              | 578              |
-All six primer sequences are available [here](standard%20primers.md). The PCR products can be obtained using [WebPCR](https://pydnaweb.streamlit.app/pcr) and the PCR primers indicated.
-For example, PCR simulation with primers 577, 578 and the sequence for `pYPKa_Z_TDH3`
+| Target     | Template                                                                                                                              | Forward primer                                                  | Reverse primer                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Promoter   | [pYPKa\_Z\_TDH3](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_Z_TDH3.gb) | `>577_crp585-557 (29-mer)`<br>`gttctgatcctcgagcatcttaagaattc`   | `>567_pCAPsAjiIF (23-mer)`<br>`GTCggctgcaggtcactagtgag`               |
+| Gene       | [[in silico assembly of pYPKa_A_ATF1\|pYPKa_A_ATF1]]                                                                                  | `>468_pCAPs_release_fw (25-mer)`<br>`gtcgaggaacgccaggttgcccact` | `>467_pCAPs_release_re (31-mer)`<br>`ATTTAAatcctgatgcgtttgtctgcacaga` |
+| Terminator | [pYPKa\_E\_PGI1](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/blob/main/YeastPathwayKit/sequences/pYPKa_E_PGI1.gb) | `>568_pCAPsAjiIR (22-mer)`<br>`GTGCcatctgtgcagacaaacg`          | `>578_crp42-70 (29-mer)`<br>`gttcttgtctcattgccacattcataagt`           |
+
+The PCR products can be obtained using [WebPCR](https://pydnaweb.streamlit.app/pcr). For example, PCR simulation with primers 577, 578 and the sequence for `pYPKa_Z_TDH3` below:
 
 ![[in silico assembly of pTA1_TDH3_ATF1_PGI1pln4i3.png]]
 
@@ -60,7 +62,7 @@ Compare the size and complete seguid checksum with that of your colleagues.
 
 ## Assembly using Colab (Optional)
 
-The assembly can also be done using pydna directly. For this exercise, we will use pydna and [google colab](https://colab.research.google.com) which you can use if you have a free google account.
+The assembly can also be done using pydna directly. For this exercise, we will use pydna and [google colab](https://colab.research.google.com) which you can use if you have a free [**Google account**](https://www.google.com/account/about/).
 
 Colab is a hosted Jupyter Notebook service that requires no setup.  A [Jupyter notebook](https://nbviewer.org) is a python program file that can also show comments and images as well as intermediate results. Colab allows you to write and execute Python in your browser without installing any software.
 

@@ -6,7 +6,7 @@ publish: true
 
 This document contain notes and links pertaining to the master course Genética e Biotecnologia Molecular 2026/2027 given to students attending Mestrado em Bioquímica Aplicada (MBQA) or Mestrado em Genética Molecular (MGM).
 
-You need to bring a **laptop** computer to this class, and you also need to have a [**Google account**](https://www.google.com/account/about/) and the [[ApE]] plasmid editor app.
+You need to bring a **laptop** computer to this class, and you also need the [[ApE]] plasmid editor app.
 
 Your task is to assemble the sequence of the ATF1 expression vector `pTA1_TDH3_ScATF1_PGI1` using the Yeast Pathway Kit.
 
