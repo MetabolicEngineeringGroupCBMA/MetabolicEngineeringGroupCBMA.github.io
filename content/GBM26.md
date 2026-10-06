@@ -70,7 +70,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 1. Add 10 µL of the plasmid DNA to the tube containing competent cells and flick the tube a few times to mix. Do **NOT** vortex the cells at this point.
 2. Incubate for ==up to== 30 min on ice.
 3. Heat shock in a water bath at 42 °C for **EXACTLY** 45 s.
-4. Cool the tube for 1-2 min in a water/ice slurry for fast heat transfer.
+4. Cool the tube for 1-2 min on ice or in a water/ice slurry for faster heat transfer.
 5. Add 1 mL of pre-warmed liquid [[LB]] medium to the tube and proceed to the next step, or let the cells recover at **37 °C** for **1 h**.
 6. Perform the colony PCR described below during the 1 h incubation.
 7. Pipette 300 µL of the contents onto an LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
