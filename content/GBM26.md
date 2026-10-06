@@ -116,6 +116,16 @@ ACGGACTACGAGATAC
 
 ```
 
+(\*) PCR mix
+
+| Component                                                          | µL  |     |
+| ------------------------------------------------------------------ | --- | --- |
+| 2x PCR mastermix                                                   | 250 | ✅   |
+| [[6x DNA loading buffer\|6 x DNA loading buffer (PCR compatible)]] | 83  | ✅   |
+| Primer 1748 (10 µM)                                                | 50  | ✅   |
+| Primer 1742 (10 µM)                                                | 50  | ✅   |
+| Total                                                              | 500 |     |
+
 <!--
 alternative primer pair:
 >1682_s3 pTAx
