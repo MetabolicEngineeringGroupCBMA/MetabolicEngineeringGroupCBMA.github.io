@@ -68,7 +68,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 ### _E. coli_ transformation
 
 1. Add 10 µL of the plasmid DNA to the tube containing competent cells and flick the tube a few times to mix. Do **NOT** vortex the cells at this point.
-2. Incubate for up to 30 min on ice.
+2. Incubate for ==up to== 30 min on ice.
 3. Heat shock in a water bath at 42 °C for **EXACTLY** 45 s.
 4. Cool the tube for 1-2 min in a water/ice slurry for fast heat transfer.
 5. Add 1 mL of pre-warmed liquid [[LB]] medium to the tube and proceed to the next step, or let the cells recover at **37 °C** for **1 h**.
