@@ -5,8 +5,8 @@ publish: true
 Quick links
 
 - [[Primer design|primer_design]] for genes to be cloned in pYPKa (often necessary to express a new gene using the **Yeast Pathway Kit**)
-- How [[to clone|pYPKa-cloning-protocol]] using the pYPKa vector ([[in silico assembly of pYPKa_A_ATF1]])
-- How to [[assemble|Transcription-Unit-cloning-protocol]] a yeast expression vector (TU) ([[in silico assembly of pTA1_TDH3_ATF1_PGI1]]).
+- How [[to clone|pYPKa-cloning-protocol]] using the pYPKa vector ([[in silico assembly of pYPKa_A_ScATF1]])
+- How to [[assemble|Transcription-Unit-cloning-protocol]] a yeast expression vector (TU) ([[in silico assembly of pTA1_TDH3_ScATF1_PGI1]]).
 - Available [Plasmid, Promoter & Terminator](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/tree/master/sequences) sequence files.
 
 The [MEC](https://metabolicengineeringgroupcbma.github.io) group developed a protocol for the _in-vivo_ assembly of large metabolic pathways we call the _&#x59;_&#x65;ast _&#x50;_&#x61;thway _&#x4B;_&#x69;t (YPK), see the publication in
@@ -90,7 +90,7 @@ The vector carries regions of homology to the promoter and terminator PCR produc
 
 See the [[specific protocol|Transcription-Unit-cloning-protocol]] for how to construct a TU vector in the lab.
 A combination of web services, the software package pydna and and Google colab can be used to rapidly
-assemble the sequence by [[in silico assembly of pTA1_TDH3_ATF1_PGI1]].
+assemble the sequence by [[in silico assembly of pTA1_TDH3_ScATF1_PGI1]].
 
 ## Naming convention
 

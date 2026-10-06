@@ -4,7 +4,7 @@ publish: true
 
 - [[2x PCR mastermix]]
 - [[Agar]] 40 g/L (2x)
-- 40% w/v [[Glucose]] stock solution for media
+- 40% w/v [[glucose]] stock solution for media
 - 40% w/v [[Sucrose]] stock solution for media
 - 25% w/v [[NaCl]] stock solution for media
 - 3.5M [[KCl]] stock solution.

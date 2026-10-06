@@ -2,7 +2,7 @@
 publish: true
 ---
 
-## Transforming Frozen Calcium Competent or [[SEM (Inoue) competent cells|SEM]] E. coli cells
+## Transforming Frozen  [[SEM (Inoue) competent cells|SEM]] or Calcium Competent _E. coli_ cells
 
 1. Remove one tube of competent cells from -80°C freezer for each transformation. Let cells defrost on ice (~5-15 min).
 2. Add the DNA (up to 10 µL for each 200 µL cells), flick the tube a few times to mix. Do **NOT** vortex the cells at this point.

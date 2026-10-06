@@ -46,13 +46,13 @@ Five PCR products were made with PCR primers that incorporate flanking sequences
 The actual sequences of s1 - s5 were 30 bp sequences designed
 with the [R2oDNA designer](https://pubmed.ncbi.nlm.nih.gov/24933158) tool:
 
-| Designation 	| Sequence                       	|
-|-------------	|--------------------------------	|
-| s1          	| AATCCAATCAGCGTAAGGTGTAGACTTTCT 	|
-| s2          	| ATCGTATCTGCTGCGTAAATAGTAGTCAAC 	|
-| s3          	| TAAAATCTCGTAAAGGAACTGTCTGCTCTG 	|
-| s4          	| AACTGTAAAATCAGGTATCTCGTAGTCCGT 	|
-| s5          	| GAAAAGCGTTTACCTCGGAACTCTATTGTA 	|
+| Designation | Sequence                       |
+| ----------- | ------------------------------ |
+| s1          | AATCCAATCAGCGTAAGGTGTAGACTTTCT |
+| s2          | ATCGTATCTGCTGCGTAAATAGTAGTCAAC |
+| s3          | TAAAATCTCGTAAAGGAACTGTCTGCTCTG |
+| s4          | AACTGTAAAATCAGGTATCTCGTAGTCCGT |
+| s5          | GAAAAGCGTTTACCTCGGAACTCTATTGTA |
 
 The vector is assembled by homologous recombination between the s1-s5 sequences.
 

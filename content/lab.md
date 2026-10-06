@@ -39,8 +39,8 @@ Protocols and other information mostly of interest to our research group.
 - [[Transcription Unit cloning protocol]]
 - [[standard primers]]
 - [[primer design]]
-- [[in silico assembly of pYPKa_A_ATF1]]
-- [[in silico assembly of pTA1_TDH3_ATF1_PGI1]]
+- [[in silico assembly of pYPKa_A_ScATF1]]
+- [[in silico assembly of pTA1_TDH3_ScATF1_PGI1]]
 - [Plasmids, Promoters & Terminators](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/tree/master/sequences) sequence files.
 
 ### Miscellaneous

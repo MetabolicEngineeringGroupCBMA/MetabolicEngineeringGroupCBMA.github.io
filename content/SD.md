@@ -19,7 +19,7 @@ Plain [[YNB]] has Histidine Methionine and Tryptophan added. This may or not int
 Alternatively, the medium can be made by combining sterile stock solutions (1L):
 
 - 100 mL [[YNB|10x YNB]]
-- 40 mL [[Glucose|50% Glucose]]
+- 40 mL [[glucose|50% Glucose]]
 - Water and optionally agar to 1L
 
 ### Adding amino acids
@@ -29,7 +29,7 @@ Sometimes yeast strains need amino acid supplementation of growth. Add amino aci
 For 1L solid medium
 
 Flask 1 (1L)
-20 g [[Glucose]]
+20 g [[glucose]]
 20 g agar
 water to 500 mL
 

@@ -10,13 +10,13 @@ publish: true
 
 **Vetedeg:**
 
-- 50 g jäs
+- 50 g jäst
 - 500 g mjölk (5 dl)
 - 2 tsk malen kardemumma
 - 250 g smör
 - 200 g strösocker (2 dl)
 - 1 kg vetemjöl (16,5 dl)
-- 1 tsk sal
+- 1 tsk salt
 
 **Fyllning:**
 

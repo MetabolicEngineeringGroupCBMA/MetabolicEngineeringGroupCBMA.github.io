@@ -169,7 +169,7 @@ Transfer 7 µL of the x 200 diluted plasmid to the PCR tube.
 |         | LEU2d            | 982     | 979     | YIplac128 |
 |         | ΔCRP             | 978     | 977     | pYPKpw    |
 
-See see [[pTAx assembly strategy]] fro
+See the [[pTAx assembly strategy]]
 
 #### Run PCR#1
 

@@ -17,8 +17,8 @@ Add a small piece (0.5  -  1 cm) autoclave tape on the lid. Put the flask on the
 
 Alternatively, YPD can be made from sterile stock solutions, 50 mL :
 
-- 25 mL [[P40Y20]]
-- 2 mL  [[Glucose]] (50% w/v = 500 g/L = 20x)
+- 25 mL [[P40Y20]] (2x concentrated)
+- 2 mL  [[glucose]] (50% w/v = 500 g/L = 20x)
 - Sterile water to 50 mL [[dH2O]]
 
 Mix in a sterile 50 mL [[Falcon]] tube in a Laminar flow cabinet or next to a Bunsen burner. Ordinary tap water can be used since tap water was used to produce the yeast extract and the peptone in the first place. There is normally no need to set the pH, it should be around 7.

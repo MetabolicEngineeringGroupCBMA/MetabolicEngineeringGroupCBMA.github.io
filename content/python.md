@@ -5,6 +5,29 @@ aliases:
   - JupyterLab
 ---
 
+```
+[project]
+name = "pcr-primer-screen"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "BjornFJohansson", email = "bjornjobb@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pydna[primer-screen]>=5.5.16",
+]
+[dependency-groups]
+dev = [
+    "ipykernel>=6.31.0",
+    "spyder-kernels>=3.1.6",
+    "pytest>=9.1.1",
+    "nbval>=0.11.0",
+]
+[tool.uv]
+package = false
+```
+
 ![[python-20241018071726803.png|1302x303]]
 
 # default config folders for ipython and jupyter

@@ -10,8 +10,8 @@ The protocol offers reusable promoters, genes and terminators.
 Quick links:
 
 - [[primer design|Primer design]] for genes to be cloned in pYPKa (often necessary to express a new gene using the **Yeast Pathway Kit**)
-- [[in silico assembly of pYPKa_A_ATF1|Example]] of _in-silico_ assembly of a pYPKa vector for the expression of a gene
-- [[in silico assembly of pTA1_TDH3_ATF1_PGI1|Example]] of how to assemble a Transcriptional Unit (TU) vector _in-silico_
+- [[in silico assembly of pYPKa_A_ScATF1|Example]] of _in-silico_ assembly of a pYPKa vector for the expression of a gene
+- [[in silico assembly of pTA1_TDH3_ScATF1_PGI1|Example]] of how to assemble a Transcriptional Unit (TU) vector _in-silico_
 - Available [Plasmid, Promoter & Terminator](https://github.com/MetabolicEngineeringGroupCBMA/public-sequences/tree/main/YeastPathwayKit/sequences) sequence files
 - How to [[pYPKa cloning protocol|clone]] a DNA fragment using the pYPKa vector in the wet lab
 - How to [[Transcription Unit cloning protocol|assemble]] a single gene yeast expression vector (TU vector) in the wet lab
@@ -63,7 +63,7 @@ Certain conventions should be followed for [[primer design]] for genes to be clo
 
 ## In-silico assembly
 
-It is a good practice to create a new cloning project in-silico prior to starting the lab work. This [[in silico assembly of pYPKa_A_ATF1|example]] is provided for how to use the DNA editor [[ApE]] in combination with [PydnaWeb](https://pydna.pythonanywhere.com/) to manually assemble a pYPKa clone _in-silico_.
+It is a good practice to create a new cloning project in-silico prior to starting the lab work. This [[in silico assembly of pYPKa_A_ScATF1|example]] is provided for how to use the DNA editor [[ApE]] in combination with [PydnaWeb](https://pydna.pythonanywhere.com/) to manually assemble a pYPKa clone _in-silico_.
 
 ## Wet-lab protocol
 
@@ -85,7 +85,7 @@ The three PCR products are mixed with a linearized shuttle vector (pYPKpw or sim
 
 ![](pYPKa_003.png)
 
-See the [[Transcription Unit cloning protocol|specific protocol]] for how to construct a TU vector in the lab. A combination of web services, the software package pydna and and Google colab can be used to rapidly assemble the sequence (see [[in silico assembly of pTA1_TDH3_ATF1_PGI1|here]]).
+See the [[Transcription Unit cloning protocol|specific protocol]] for how to construct a TU vector in the lab. A combination of web services, the software package pydna and and Google colab can be used to rapidly assemble the sequence (see [[in silico assembly of pTA1_TDH3_ScATF1_PGI1|here]]).
 
 ## Naming convention
 

@@ -22,11 +22,11 @@ See [[standard pcr protocol]].
 
 The 2xPCR mastermix can be combined with a PCR compatible loading buffer such as the in described in the table below. This saves time if you have many samples as they can be loaded directly on a gel. Use 33 µL of the 1.5x Green PCR mastermix for a 50 µL PCR reaction. Scale up or down as needed.
 
-| Component                                                       | µL  |
-| --------------------------------------------------------------- | --- |
-| 2x PCR mastermix                                                | 25  |
+| Component                                                          | µL  |
+| ------------------------------------------------------------------ | --- |
+| 2x PCR mastermix                                                   | 25  |
 | [[6x DNA loading buffer\|6 x DNA loading buffer (PCR compatible)]] | 8   |
-| Total                                                           | 33  |
+| Total                                                              | 33  |
 
 ### For MEC lab members:
 
