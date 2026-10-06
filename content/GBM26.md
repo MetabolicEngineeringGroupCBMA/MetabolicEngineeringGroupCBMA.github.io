@@ -33,13 +33,10 @@ Your second task is to assemble the pTA1\_TDH3\_ScATF1\_PGI1 vector. You need th
 
 ## Practical class
 
-We will perform an [[alkaline lysis plasmid mini prep]] from yeast followed by an [[Transforming Frozen Competent E. coli|E. coli transformation]].
-This combination is called a "[[plasmid rescue|Plasmid rescue]]".
-This is done because plasmid DNA yield and purity are higher in _E. coli_.
-Purifying the DNA helps us verify that the plasmid is correct using DNA sequencing and other methods.
+We will perform an [[alkaline lysis plasmid mini prep]] from yeast followed by an [[Transforming Frozen Competent E. coli|E. coli transformation]]. This combination is called a "[[plasmid rescue|Plasmid rescue]]".
+This is done because plasmid DNA yield and purity are higher in _E. coli_. Purifying the DNA helps us verify that the plasmid is correct using DNA sequencing and other methods.
 
-We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction to amplify a specific part of the plasmid. If we have time, we
-will separate the PCR product on an [[Agarose electrophoresis|agarose gel]] together with a molecular marker as an initial indication that the plasmid sequence has been assembled correctly.
+We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction to amplify a specific part of the plasmid. If we have time, we will separate the PCR product on an [[Agarose electrophoresis|agarose gel]] together with a molecular marker as an initial indication that the plasmid sequence has been assembled correctly.
 
 ### Plasmid rescue to _E. coli_
 
@@ -47,7 +44,7 @@ will separate the PCR product on an [[Agarose electrophoresis|agarose gel]] toge
 - Transform _E. coli_ with crude yeast DNA
 - Plate _E. coli_ on Petri dishes with solid LB-amp medium from LAB7
 
-#### Plasmid preparation from _S. cerevisiae_, one per group
+### Plasmid preparation from _S. cerevisiae_, one per group
 
 1. Scrape some yeast cells off a plate.
 2. Add **200** µL of **P1**.
@@ -99,7 +96,7 @@ Each student should have a plate with colonies. Do not contaminate this plate; w
 3. Pick a small number of cells from your plate with a yellow pipette tip for transfer to the NaOH solution. **Do not take too many cells or any agar** (see 52 s in the video).
 4. Add the cells to the solution and swirl to mix (see 59 s in the video).
 5. Incubate the tubes at 95 °C for **ten** minutes.
-6. When the 95 °C incubation is over, add 180 µL of [[TE]] buffer.
+6. When the 95 °C incubation is over, add 40 µL of [[TE]] buffer.
 7. Vortex the tube for 30 s.
 8. Spin at maximum speed in a microcentrifuge for 10-20 s.
 9. Add **17 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
