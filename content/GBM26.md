@@ -53,7 +53,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 5. Vortex the tubes for 5 min using a [[disruptor genie]].
 6. Add **200** µL of P2 **as soon as possible**, as cell disruption releases nucleases that can damage the DNA.
 7. Slowly invert the tube for ~4 min.
-8. Add ==\*\*250\*\*== µL of buffer P3 and mix by slowly inverting the tube at least ten times.
+8. Add **==250==** µL of buffer P3 and mix by slowly inverting the tube at least ten times.
 9. Centrifuge at top speed for **10** min.
 10. Transfer ~500 µL of the supernatant to **1 mL of 100% ethanol** in a fresh tube and mix by inversion.
 11. Centrifuge at top speed for **10** min. Make sure the hinge of the tube is facing outwards.
