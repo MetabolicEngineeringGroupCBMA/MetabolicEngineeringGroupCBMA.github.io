@@ -95,7 +95,7 @@ Each student should have a plate with colonies. Do not contaminate this plate; w
 4. Add the cells to the solution and swirl to mix (see 59 s in the video).
 5. Incubate the tubes at 95 °C for **ten** minutes.
 6. When the 95 °C incubation is over, add 40 µL of [[TE]] buffer.
-7. Vortex the tube for 30 s.
+7. Vortex the tube for 3-5 s.
 8. Spin at maximum speed in a microcentrifuge for 10-20 s.
 9. Add **17 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
 10. Add **3 µL** of the yeast-NaOH mix to the PCR tube without disturbing the cell debris at the bottom of the tube.
