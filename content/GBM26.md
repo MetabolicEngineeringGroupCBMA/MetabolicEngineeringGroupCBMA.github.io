@@ -53,7 +53,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 5. Vortex the tubes for 5 min using a [[disruptor genie]].
 6. Add **200** µL of P2 **as soon as possible**, as cell disruption releases nucleases that can damage the DNA.
 7. Slowly invert the tube for ~4 min.
-8. Add **250** µL of buffer P3 and mix by slowly inverting the tube at least ten times.
+8. Add ==\*\*250\*\*== µL of buffer P3 and mix by slowly inverting the tube at least ten times.
 9. Centrifuge at top speed for **10** min.
 10. Transfer ~500 µL of the supernatant to **1 mL of 100% ethanol** in a fresh tube and mix by inversion.
 11. Centrifuge at top speed for **10** min. Make sure the hinge of the tube is facing outwards.
@@ -72,11 +72,9 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 3. Heat shock in a water bath at 42 °C for **EXACTLY** 45 s.
 4. Cool the tube for 1-2 min in a water/ice slurry for fast heat transfer.
 5. Add 1 mL of pre-warmed liquid [[LB]] medium to the tube and proceed to the next step, or let the cells recover at **37 °C** for **1 h**.
-6. Perform the colony PCR described below.
-7. Pipette 300 µL of the contents into a new Eppendorf tube. Give the remaining cells to the teacher.
-8. Add 20 µL of ampicillin (x1000) and mix by inversion.
-9. Pipette all of the contents onto an LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
-10. Incubate the plates inverted for 18-24 h at 37 °C.
+6. Perform the colony PCR described below during the 1 h incubation.
+7. Pipette 300 µL of the contents onto an LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
+8. Incubate the plates inverted for 18-24 h at 37 °C.
 
 ### Colony PCR
 
