@@ -63,7 +63,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 15. Pour away the supernatant by opening and inverting the tube.
 16. Evaporate the ethanol by opening the tube lid and leaving the tube at 50 °C for 5 min.
 17. Resuspend the DNA pellet in 50 µL of 1x TE buffer.
-18. Label the tube with your number. Store the tube in the fridge or freezer (4 °C or -20 °C).
+18. Label the tube with your number. Store the tube on ice for now.
 
 ### _E. coli_ transformation
 
@@ -75,6 +75,16 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 6. Perform the colony PCR described below during the 1 h incubation.
 7. Pipette 300 µL of the contents onto an LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
 8. Incubate the plates inverted for 18-24 h at 37 °C.
+
+### Diagnostic PCR
+
+1. Add 180 µL of TE buffer to a new 1.5 mL [[Eppendorf]] tube
+2. Add 20 µL of you _S. cerevisiae_ plasmid DNA preparation
+3. Mix by vortexing briefly.
+4. Add **3 µL** of the diluted DNA to a PCR tube.
+5. Add **17 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
+6. Put the tubes in the PCR machine.
+7. Run the PCR program below:
 
 ### Colony PCR
 
@@ -97,34 +107,34 @@ Each student should have a plate with colonies. Do not contaminate this plate; w
 6. When the 95 °C incubation is over, add 40 µL of [[TE]] buffer.
 7. Vortex the tube for 3-5 s.
 8. Spin at maximum speed in a microcentrifuge for 10-20 s.
-9. Add **17 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
+9. Add **17 µL** of PCR mix (see below) to a new PCR tube (these are the small tubes).
 10. Add **3 µL** of the yeast-NaOH mix to the PCR tube without disturbing the cell debris at the bottom of the tube.
 11. Put the tubes in the PCR machine.
-12. Run this PCR program:
+12. Run the PCR program below:
+
+### PCR program and primers
 
 ```
->1748_s3 s3 tm=53.243
-TAAAATCTCGTAAAGGAACT
->1742_s4r s4r tm=53.771
-ACGGACTACGAGATAC
-
 |95°C |95°C               |    |tmf:51.3
 |_____|_____          72°C|72°C|tmr:51.4
 |10min|30s  \ 53.7°C _____|____|45s/kb
 |     |      \______/ 1:15|5min|GC 40%
 |     |       30s         |    |1667bp
-
+>1748_s3 s3 tm=53.243
+TAAAATCTCGTAAAGGAACT
+>1742_s4r s4r tm=53.771
+ACGGACTACGAGATAC
 ```
 
-(\*) PCR mix
+### PCR mix
 
-| Component                                                          | µL  |     |
-| ------------------------------------------------------------------ | --- | --- |
-| 2x PCR mastermix                                                   | 250 | ✅   |
-| [[6x DNA loading buffer\|6 x DNA loading buffer (PCR compatible)]] | 83  | ✅   |
-| Primer 1748 (10 µM)                                                | 50  | ✅   |
-| Primer 1742 (10 µM)                                                | 50  | ✅   |
-| Total                                                              | 500 |     |
+| Component                                                          | µL  |
+| ------------------------------------------------------------------ | --- |
+| [[2x PCR mastermix]]                                               | 250 |
+| [[6x DNA loading buffer\|6 x DNA loading buffer (PCR compatible)]] | 83  |
+| Primer 1748 (10 µM)                                                | 50  |
+| Primer 1742 (10 µM)                                                | 50  |
+| Total                                                              | 500 |
 
 <!--
 alternative primer pair:
@@ -134,4 +144,6 @@ TAAAATCTCGTAAAGGAACTGTCTGCTCTG
 ACGGACTACGAGATAC
 -->
 
-Extra: How banana flavor is formed during whiskey fermentation ([article](https://www.linkedin.com/pulse/from-protein-banana-chemistry-behind-whiskys-fruitiness-john-angus-has8e/)).
+### Extra reading
+
+How banana flavor is formed during whiskey fermentation ([article](https://www.linkedin.com/pulse/from-protein-banana-chemistry-behind-whiskys-fruitiness-john-angus-has8e/)).
