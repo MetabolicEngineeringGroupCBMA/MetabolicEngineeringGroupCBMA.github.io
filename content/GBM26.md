@@ -81,8 +81,8 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 1. Add 180 µL of TE buffer to a new 1.5 mL [[Eppendorf]] tube
 2. Add 20 µL of you _S. cerevisiae_ plasmid DNA preparation
 3. Mix by vortexing briefly.
-4. Add **3 µL** of the diluted DNA to a PCR tube.
-5. Add **17 µL** of PCR mix<sup>\*</sup> to a new PCR tube (these are the small tubes).
+4. Add **3 µL** of the diluted DNA to a PCR tube (these are the small tubes).
+5. Your instructor will add **17 µL** of PCR mix<sup>\*</sup> to your tube.
 6. Put the tubes in the PCR machine.
 7. Run the PCR program below:
 
