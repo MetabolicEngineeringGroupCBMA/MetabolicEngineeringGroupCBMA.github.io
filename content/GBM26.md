@@ -72,7 +72,7 @@ We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction 
 3. Heat shock in a water bath at 42 °C for **EXACTLY** 45 s.
 4. Cool the tube for 1-2 min on ice or in a water/ice slurry for faster heat transfer.
 5. Add 1 mL of pre-warmed liquid [[LB]] medium to the tube and proceed to the next step, or let the cells recover at **37 °C** for **1 h**.
-6. Perform the colony PCR described below during the 1 h incubation.
+6. Perform the **diagnostic PCR** described below during the 1 h incubation.
 7. Pipette 300 µL of the contents onto an LB plate with 10-20 sterile glass beads and swirl the plate to spread the liquid.
 8. Incubate the plates inverted for 18-24 h at 37 °C.
 
