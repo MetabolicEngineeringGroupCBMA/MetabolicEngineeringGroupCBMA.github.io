@@ -4,8 +4,7 @@ publish: true
 
 ![](amc-logo.png)
 
-We mostly use the Auto Multiple Choice [AMC](https://www.auto-multiple-choice.net) software for tests.  This software allows us to create tests that are printed on paper which can then be
-scanned and, at least partially, corrected automatically.
+We mostly use the Auto Multiple Choice [AMC](https://www.auto-multiple-choice.net) software for tests.  This software allows us to create tests that are printed on paper which can then be scanned and, at least partially, corrected automatically.
 
 Look at the example for how to fill in the student number. It is important to fill the check boxes "■" and **not** 🗵 or 🗹.
 

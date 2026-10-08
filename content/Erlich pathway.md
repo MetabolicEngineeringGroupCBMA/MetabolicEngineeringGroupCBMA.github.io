@@ -4,11 +4,7 @@ publish: true
 
 # Ehrlich pathway
 
-The **Ehrlich pathway** converts some amino acids into **higher alcohols**, also called **fusel alcohols**.
-
-In _Saccharomyces cerevisiae_, it connects amino-acid nitrogen utilization with the formation of fermentation flavor compounds.
-
-The sequence is **transamination → decarboxylation → reduction**. It applies to several branched-chain and aromatic amino acids, and to methionine, but not to all amino acids. \[1]
+The **Ehrlich pathway** converts some amino acids into **higher alcohols**, also called **fusel alcohols**. In _Saccharomyces cerevisiae_, it connects amino-acid nitrogen utilization with the formation of fermentation flavor compounds. The sequence is **transamination → decarboxylation → reduction**. It applies to several branched-chain and aromatic amino acids, and to methionine, but not to all amino acids. \[1]
 
 ## Leucine → isoamyl alcohol
 
@@ -44,7 +40,7 @@ The last two steps of leucine degradation follow the same chemical pattern as **
 
 The carbon chain determines which alcohol is formed; **the reaction pattern is the same**. Leucine must first undergo transamination to become an α-keto acid, whereas pyruvate is already an α-keto acid when it emerges from glycolysis.
 
-In both cases, the two illustrated steps regenerate NAD⁺ without directly producing ATP. In glucose-to-ethanol fermentation, ATP is made during **glycolysis**, before these steps. The leucine pathway instead allows amino-acid nitrogen utilization, with alcohol formation providing a possible additional route for NADH oxidation. Similar chemistry does not mean that the two pathways carry the same flux or have identical physiological roles. \[1]
+In both cases, the two illustrated steps regenerate NAD⁺ without directly producing ATP. In glucose-to-ethanol fermentation, ATP is made during **glycolysis**, before these steps. The leucine pathway instead allows amino-acid nitrogen utilization, with alcohol formation providing a possible additional route for NADH oxidation \[1].
 
 ## Why stop at an alcohol instead of completely oxidizing the amino acid?
 

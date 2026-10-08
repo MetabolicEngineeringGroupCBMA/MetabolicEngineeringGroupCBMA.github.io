@@ -45,8 +45,7 @@ You can also prepare [[2x PCR mastermix]] with loading buffer. For each 100 µL 
 17 \* 2 = 34 µL of water with [[6x DNA loading buffer]].
 
 > [!WARNING]
-> Not all loading buffers are PCR compatible. Do not use other loading buffers in the lab without verifying tha
-> the buffer is compatible with PCR
+> Not all loading buffers are PCR compatible. Do not use other loading buffer without verifying this.
 
 # Using 6× Loading Buffer
 
@@ -86,8 +85,6 @@ Higher agarose concentrations resolve smaller fragments better.
 <http://www.gelanalyzer.com/index.html>
 <http://sourceforge.net/projects/pyelph/files/releases/>
 
-- [[How many times can I reuse electrophoresis buffer?]]
-- [[SDS]]
 - [[fatval]]
 - [[Turner]]
 - [[Bachman]]

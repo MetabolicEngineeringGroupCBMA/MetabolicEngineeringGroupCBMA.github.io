@@ -4,8 +4,7 @@ publish: true
 
 # Agarose gel electrophoresis of DNA with lithium acetate-borate buffer (LaBo)
 
-Lithium acetate-borate (LaBo) buffer is superior to both TAE and TBE for agarose gel electrophoresis of DNA.
-The conductivity is lower resulting in cooler runs at the same voltage or faster runs at similar temperature and higher voltage.
+Lithium acetate-borate (LaBo) buffer is superior to both TAE and TBE for agarose gel electrophoresis of DNA. The conductivity is lower resulting in cooler runs at the same voltage or faster runs at similar temperature and higher voltage.
 
 50x LaBo buffer (1L):
 
@@ -15,9 +14,7 @@ The conductivity is lower resulting in cooler runs at the same voltage or faster
 | boric acid (H3BO3)         | 0.5      | 61.83     | 31   |                 |           |          |
 | dH2O                       | ---      |           |      |                 |           | to one L |
 
-Make sure the pH is between 6.5 – 7.0, if not add boric acid or lithium acetate.
-
-Use the buffer at x1 concentration for gels and running buffer.
+Make sure the pH is between 6.5 – 7.0, if not add boric acid or lithium acetate. Use the buffer at x1 concentration for gels and running buffer.
 
 References:
 

@@ -11,8 +11,7 @@ This document contains notes and links for the Metabolic Engineering lecture and
 
 # Lecture
 
-You can see the lecture slides on Blackboard after the class. See the [[ethanol from wood]] problem solution.
-The [[metabolic maps]] used in the theoretical class.
+You can see the lecture slides on Blackboard after the class. See the [[ethanol from wood]] problem solution. The [[metabolic maps]] used in the theoretical class.
 
 ## TP exercise class
 
@@ -174,14 +173,45 @@ We have positive results for 1,3,11,12,13,15,16,17,19 (4, 9, 10 weak bends).
 
 ### Results (MGM)
 
-tbd... 🛸
+![[GBM/GBM26gabsm0.png]]
+
+![[GBM/GBM26d47nrg.png]]
+
+![[GBM/GBM264u5o7r.png]]
+
+![[GBM/GBM26reoklf.png]]
+
+![[GBM/GBM26sq90xf.png]]
 
 ### Discussion
 
-What do the positive results mean? I hope that the plasmid in the yeast cells is a plasmid called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]]. They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
+What do the positive results mean? I hope that the plasmid in the yeast cells is a plasmid called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]] . They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
 
 Why would we want the `pTA5_TDH3_ScATF1_PGI1` plasmid? The geneticin marker can be used for selection in any yeast strain, the previous marker (LEU2) can only be used in a yeast mutant where this gene has been deleted or inactivated. This plasmid makes it possible to test other strain backgrounds such as wine or industrial strains.
 
 ### Photo album
 
 [here](https://photos.app.goo.gl/Q7acvSpbPqGtHyMAA)
+
+### Study questions
+
+1. Why can a yeast with a fast initial production rate still perform poorly during repeated cell recycling?
+2. How do product titre, yield and productivity differ?
+3. How would you calculate the percentage of theoretical ethanol yield obtained from wood? Use the assumptions from the lecture.
+4. Why can the XR/XDH xylose pathway create a cofactor imbalance and accumulate xylitol?
+5. What problem does xylose isomerase avoid, and which downstream steps are still needed?
+6. Why does reduced xylitol production not necessarily mean improved ethanol production?
+7. How could limited pentose phosphate pathway capacity restrict xylose metabolism?
+8. Which controls would help compare the same engineered pathway in laboratory and industrial yeast strains?
+9. What does growth of an AccTet strain expressing heterologous ACC1 under tetracycline demonstrate?
+10. How many NADPH molecules are consumed per fatty acid elongation cycle?
+11. How can changes in lipid synthesis, storage or breakdown increase TAG accumulation?
+12. Why does a change in relative fatty acid composition not establish increased total fatty acid production?
+13. What reaction does Atf1 catalyse, and why might ATF1 overexpression fail to increase isoamyl acetate production?
+14. What roles do the TDH3 promoter, ATF1 coding sequence and PGI1 terminator play in the expression vector?
+15. Which fragments are needed to assemble the final expression vector, and why is checking plasmid length alone insufficient?
+16. Why is KanMX4 useful when transferring the vector into a LEU2-functional industrial yeast?
+17. Why rescue a yeast plasmid into E. coli, and which transformation controls help interpret an absence of colonies?
+18. How does the practical’s DNA dilution change the amount of original preparation added to PCR? Why can dilution improve amplification?
+19. What does an expected-size diagnostic PCR band establish? How would a band in the no-template control affect your interpretation?
+20. How would you verify plasmid structure and maintenance, then test whether the engineered yeast produces more isoamyl acetate? Include suitable controls.
