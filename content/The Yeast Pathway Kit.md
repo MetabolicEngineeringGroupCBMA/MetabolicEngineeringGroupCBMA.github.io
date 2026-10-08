@@ -101,17 +101,17 @@ For this to be possible, promoters and terminators need to be identical DNA frag
 
 Primer locations around the ZraI, AjiI and EcoRV sites in pYPKa:
 
-![](files/MetabolicEngineeringGroupCBMA%20GitHub%20Org/YeastPathwayKit/docs/A3_YPK_poster2.png)
+![[files/MetabolicEngineeringGroupCBMA GitHub Org/public-sequences/YeastPathwayKit/docs/A3_YPK_poster2.png|873x617]]
 
 Primer locations around the ZraI, AjiI and EcoRV sites in pYPKpw and derived vectors, such as the pTAx series:
 
-![](files/MetabolicEngineeringGroupCBMA%20GitHub%20Org/YeastPathwayKit/docs/A3_YPK_poster3.png)
+![[files/MetabolicEngineeringGroupCBMA GitHub Org/public-sequences/YeastPathwayKit/docs/A3_YPK_poster3.png|831x587]]
 
 A short summary of the Yeast Pathway Kit:
 
-![1481](files/MetabolicEngineeringGroupCBMA%20GitHub%20Org/YeastPathwayKit/docs/A3_YPK_poster1.png)
+![[files/MetabolicEngineeringGroupCBMA GitHub Org/public-sequences/YeastPathwayKit/docs/A3_YPK_poster1.png|814x575]]
 
-PDF versions of the images above are available [here](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/blob/master/docs/A3_YPK_poster.pdf).
+A PDF version: [[A3_YPK_poster.pdf]]
 
 Paper version taped to the fridge in the lab:
 ![[files/Yeast pathway kit.JPG|1220]]
@@ -132,7 +132,7 @@ Some alternative primers:
   167>    <511 |<776             |             777>|    <512     <166
                |                 |                 |               <342
                |                 |                 |
- ✽✽graydi✽blue✽N-Z======red========A++++++green+++++E-A••yellow••pink••••••
+ ✽✽gray✽blue✽N-Z======red========A++++++green+++++E-A••yellow••pink••••••
 |            o r                 j                 c c                   |
 |            t a                 i                 o c                   |
 |            I I                 I                 R I                   |
@@ -140,10 +140,10 @@ Some alternative primers:
 |                                                    I                   |
 ```
 
-[[GRAYDIAGONAL]]-[[BLUE]]-[[RED]]-[[GREEN]]-[[YELLOW]]-[[GRAYVERTICAL]]
+[[GRAY]]-[[BLUE]]-[[RED]]-[[GREEN]]-[[YELLOW]]-[[PINK]]
 
 ```
->GRAYDIAGONAL 124 bp GC 50% This sequence is present in [[pYPKpw]] 577 -
+>GRAY 124 bp GC 50% This sequence is present in pYPKpw 577 -
 gttctgatcctcgagcatcttaagaattcgtcccacggtttgtctagagcagccgacaatctggccaatttcctgacgggtaattttgatttgcatgccgtccgggtgagtcatagcgtctgg
 
 >BLUE 44 bp GC 55%   ? - 511
@@ -158,7 +158,7 @@ GTGccatctgtgcagacaaacgcatcagGAT
 >YELLOW 53 bp GC 36% 500 - (166? 1219? too long)
 ATCcggatttacctgaatcaattggcgaaattttttgtacgaaatttcagcca
 
->GRAYVERTICAL 242 bp GC 48% This sequence is present in pYPKpw     ?  - 578
+>PINK 242 bp GC 48% This sequence is present in pYPKpw     ?  - 578
 cttcacaggcggttttcgcacgtacccatgcgctacgttcctggccctcttcaaacaggcccagttcgccaataaaatcaccctgattcagataggagaggatcatttctttaccctcttcgtctttgatcagcactgccacagagcctttaacgatgtagtacagcgtttccgctttttcaccctggtgaataagcgtgctcttggatgggtacttatgaatgtggcaatgagacaagaac
 ```
 

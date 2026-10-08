@@ -7,13 +7,12 @@ publish: true
 ![[GBM/GBM26if03iw.png]]
 Figure from [Keasling, J. D. 2010](https://doi.org/10.1126/science.1193990)
 
-This document contains notes and links for the Metabolic Engineering lecture and practical class for the
-course Genética e Biotecnologia Molecular, taught to students in Mestrado em Bioquímica Aplicada (MBQA)
-or Mestrado em Genética Molecular (MGM).
+This document contains notes and links for the Metabolic Engineering lecture and practical class for the course Genética e Biotecnologia Molecular, taught to students in Mestrado em Bioquímica Aplicada (MBQA) or Mestrado em Genética Molecular (MGM).
 
 # Lecture
 
-You can see the lecture slides on Blackboard. See the [[ethanol from wood]] problem solution.
+You can see the lecture slides on Blackboard after the class. See the [[ethanol from wood]] problem solution.
+The [[metabolic maps]] used in the theoretical class.
 
 ## TP exercise class
 
@@ -21,7 +20,7 @@ You can see the lecture slides on Blackboard. See the [[ethanol from wood]] prob
 
 You need to bring a **laptop** computer to this class, and you also need the [[ApE]] plasmid editor app.
 
-Your task is to assemble the sequence of the ATF1 expression vector `pTA1_TDH3_ScATF1_PGI1` using the Yeast Pathway Kit.
+Your task is to assemble the sequence of the ATF1 expression vector`pTA1_TDH3_ScATF1_PGI1` _in-silico_ using [[The Yeast Pathway Kit]].
 
 ## 1. Assembly of the pYPKa\_A\_ScATF1 vector
 
@@ -31,10 +30,13 @@ Your first task is to assemble the pYPKa\_A\_ScATF1 vector. Follow [[in silico a
 
 Your second task is to assemble the pTA1\_TDH3\_ScATF1\_PGI1 vector. You need the pYPKa\_A\_ScATF1 plasmid sequence that you assembled in the previous task. Follow these [[in silico assembly of pTA1_TDH3_ScATF1_PGI1|instructions]].
 
+## Metabolism
+
+[[Erlich pathway]]
+
 ## Practical class
 
-We will perform an [[alkaline lysis plasmid mini prep]] from yeast followed by an [[Transforming Frozen Competent E. coli|E. coli transformation]]. This combination is called a "[[plasmid rescue|Plasmid rescue]]".
-This is done because plasmid DNA yield and purity are higher in _E. coli_. Purifying the DNA helps us verify that the plasmid is correct using DNA sequencing and other methods.
+We will perform an [[alkaline lysis plasmid mini prep]] from yeast followed by an [[Transforming Frozen Competent E. coli|E. coli transformation]]. This combination is called a "[[plasmid rescue|Plasmid rescue]]". This is done because plasmid DNA yield and purity are higher in _E. coli_. Purifying the DNA helps us verify that the plasmid is correct using DNA sequencing and other methods.
 
 We will also prepare a diagnostic colony [[standard pcr protocol|PCR]] reaction to amplify a specific part of the plasmid. If we have time, we will separate the PCR product on an [[Agarose electrophoresis|agarose gel]] together with a molecular marker as an initial indication that the plasmid sequence has been assembled correctly.
 
@@ -168,12 +170,18 @@ Program:
 Result: [[people|Luana]], MSc student in my group ran the gel for us (🙏) :
 
 ![[GBM/GBM26bswold.png]]
-We have positive results for 1,3,11,12,13,15,16,17,19
-
-What do the positive results mean? I hope that the plasmid in the yeast cells is a plasmid called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]]. They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
-
-Why would we want this plasmid? The geneticin marker can be used for selection in any yeast strain, the previous marker (LEU2) can only be used in a yeast mutant where this gene has been deleted or inactivated.
+We have positive results for 1,3,11,12,13,15,16,17,19 (4, 9, 10 weak bends).
 
 ### Results (MGM)
 
 tbd... 🛸
+
+### Discussion
+
+What do the positive results mean? I hope that the plasmid in the yeast cells is a plasmid called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]]. They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
+
+Why would we want the `pTA5_TDH3_ScATF1_PGI1` plasmid? The geneticin marker can be used for selection in any yeast strain, the previous marker (LEU2) can only be used in a yeast mutant where this gene has been deleted or inactivated. This plasmid makes it possible to test other strain backgrounds such as wine or industrial strains.
+
+### Photo album
+
+[here](https://photos.app.goo.gl/Q7acvSpbPqGtHyMAA)

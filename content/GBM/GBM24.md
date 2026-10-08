@@ -4,7 +4,7 @@ publish: true
 
 # Yeast transformation and _In-vivo_ plasmid assembly
 
-![[GBM/Yeast transformation GBM24-20240924183141411.png]]
+![[GBM/Yeast transformation GBM24-20240924183141411.png|613]]
 
 The aim of this practical class is to transform yeast carrying a circular plasmid `pTA1_TDH3_ScATF1_PGI1` with a PCR product containing the [[KanMX4]] selectable marker. The PCR product contain flanking sequences by which in can recombine with the plasmid _in-vivo_.
 
@@ -186,9 +186,7 @@ Colonies will be picked and resuspended in 1 mL YPD medium containing 250 ppm (m
 
 # Reference
 
-Miller, R. A., Lee, S., Fridmanski, E. J., Barron, E., Pence, J., Lieberman, M., & Goodson, H. V. (2020).
-“Scentsor”: A Whole-Cell Yeast Biosensor with an Olfactory Reporter for Low-Cost and Equipment-Free
-Detection of Pharmaceuticals. ACS Sensors, 5(10), 3025–3030. [link](https://pubs.acs.org/doi/10.1021/acssensors.0c01344)
+Miller, R. A., Lee, S., Fridmanski, E. J., Barron, E., Pence, J., Lieberman, M., & Goodson, H. V. (2020). “Scentsor”: A Whole-Cell Yeast Biosensor with an Olfactory Reporter for Low-Cost and Equipment-Free Detection of Pharmaceuticals. ACS Sensors, 5(10), 3025–3030. [link](https://pubs.acs.org/doi/10.1021/acssensors.0c01344)
 
 ![[download.gif]]
 
