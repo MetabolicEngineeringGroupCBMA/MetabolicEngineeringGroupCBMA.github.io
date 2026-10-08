@@ -185,7 +185,7 @@ We have positive results for 1,3,11,12,13,15,16,17,19 (4, 9, 10 weak bends).
 
 ### Discussion
 
-What do the positive results mean? I hope that the plasmid in the yeast cells is a plasmid called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]] . They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
+What do the positive results mean? The two primers amplify the KanMX4 resistance gene in the pTA5 vector and would produce a longer fragment for the original pTA1 vector. The plasmid we aimed for is called `pTA5_TDH3_ScATF1_PGI1`. This plasmid was made by the students of [[GBM24]] in October of 2024. They transformed a yeast strain carrying the `pTA1_TDH3_ScATF1_PGI1` plasmid (this is the one we assembled during the TP class) with the KanMX4 geneticin resistance marker. They got transformants, but these were never confirmed until today (Oct 7 2026).
 
 Why would we want the `pTA5_TDH3_ScATF1_PGI1` plasmid? The geneticin marker can be used for selection in any yeast strain, the previous marker (LEU2) can only be used in a yeast mutant where this gene has been deleted or inactivated. This plasmid makes it possible to test other strain backgrounds such as wine or industrial strains.
 
