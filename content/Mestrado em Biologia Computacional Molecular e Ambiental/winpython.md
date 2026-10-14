@@ -44,7 +44,7 @@ The screenshot below shows extraction in progress at **16%**.
 
 When extraction finishes, look on your Desktop for a folder named **`WPy64-31470`**. Windows may shorten the displayed name to `WPy64-31...`, as in the screenshot.
 
-![Extracted WinPython folder on the Windows Desktop](Mestrado em Biologia Computacional Molecular e Ambiental/winpython-04-desktop-folder.png)
+![Extracted WinPython folder on the Windows Desktop](Mestrado em Biologia Computacional Molecular e Ambiental/images/winpython-04-desktop-folder.png)
 
 Double-click the folder to check that it opens and contains the extracted files. You now have WinPython unpacked on your Desktop. The folder contains the usable installation; the downloaded `.exe` is the compressed archive you used to create it.
 
