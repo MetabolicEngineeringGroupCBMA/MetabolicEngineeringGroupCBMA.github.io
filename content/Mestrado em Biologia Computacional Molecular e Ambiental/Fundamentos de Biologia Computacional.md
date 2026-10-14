@@ -4,7 +4,7 @@ aliases:
   - FDBC
 ---
 
-![[Mestrado em Biologia Computacional Molecular e Ambiental/Mestrado em Biologia Computacional Molecular e Ambiental717kok.png]]
+![[Mestrado em Biologia Computacional Molecular e Ambiental/images/Mestrado em Biologia Computacional Molecular e Ambiental717kok.png]]
 
 # Fundamentos de Biologia Computacional
 
@@ -16,7 +16,7 @@ Björn Johansson
 💬 Introduction to Computational biology and Python
 🛠️ An hour of Python - Interactive session exploring Python with Spyder
 **lunch**
-💬 Social coding with Github - Profile update
+💬 Social coding with Github - Profile update [[Github profile]]
 🛠️ google python classes
 
 ### **DAY#2** 📅 2026-10-15 Thursday 📍 Ed 1 - 1.15
@@ -65,6 +65,6 @@ Phylogenetic analysis, core genome,
 
 # info
 
-[[winpython]]
-
-[[Plano de aulas - Outubro 2026]]
+- Installing [[winpython]]
+- Photo [album](https://photos.app.goo.gl/DrkBZMWrrWYNDHGG8)
+- [etherpad](https://etherpad.wikimedia.org/p/FDBC)
