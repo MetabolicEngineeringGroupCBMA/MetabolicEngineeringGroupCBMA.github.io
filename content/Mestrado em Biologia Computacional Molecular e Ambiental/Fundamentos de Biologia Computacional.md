@@ -1,38 +1,39 @@
 ---
 publish: true
-aliases:
-  - FDBC
 ---
 
 ![[Mestrado em Biologia Computacional Molecular e Ambiental/images/Mestrado em Biologia Computacional Molecular e Ambiental717kok.png]]
 
 # Fundamentos de Biologia Computacional
 
+**Week#1-2**
 Björn Johansson
 ![[Mestrado em Biologia Computacional Molecular e Ambiental/images/Fundamentos de Biologia Computacional1zmc14.png]]
 
-### **DAY#1** 📅 2026-10-14 Wednesday 📍 Ed 2 - 0.17 (morning) Ed 1 - 2.27 (afternoon)
+### **DAY#1** 📅 2026-10-14 Wednesday 📍 Ed 2 - 0.17 (morning) - Ed 1 - 2.27 (afternoon)
 
-💬 Introduction to Computational biology and Python
+💬 Introduction to Computational biology and Python [[slides1]]
 🛠️ An hour of Python - Interactive session exploring Python with Spyder
 **lunch**
-💬 Social coding with Github - Profile update [[Github profile]]
-🛠️ google python classes
+💬 Social coding with Github - Profile update your [[Github profile]]
+🛠️ google python classes (I)
 
 ### **DAY#2** 📅 2026-10-15 Thursday 📍 Ed 1 - 1.15
 
-💬  Version control with Git
+💬  Version control with Git [[slides2]]
 🛠️ install Git
-💬 Python third party modules
-Numpy
-Pandas
-Biopython
-Pydna
+🛠️ google python classes (II)
 
 ### **DAY#3** 📅 2026-10-16 Friday 📍 Ed 2 - 0.17
 
-💬 WSL, LINUX & BASH + BASH scripting / pipelines, The Unix philosophy
-🛠️ Coding together 👥
+💬 Python third party modules
+
+- numpy
+- pandas
+- biopython
+- pydna
+  💬 WSL, LINUX & BASH + BASH scripting / pipelines, The Unix philosophy
+  🛠️ Coding together 👥
 
 ### **DAY#4** 📅 2026-10-21 Wednesday 📍 Ed 2 - 0.17
 
@@ -65,6 +66,6 @@ Phylogenetic analysis, core genome,
 
 # info
 
-- Installing [[winpython]]
+- Installing [[winpython]] (Only if you do not have anaconda or Miniconda installed)
 - Photo [album](https://photos.app.goo.gl/DrkBZMWrrWYNDHGG8)
-- [etherpad](https://etherpad.wikimedia.org/p/FDBC)
+- Our [etherpad](https://etherpad.wikimedia.org/p/FDBC)
