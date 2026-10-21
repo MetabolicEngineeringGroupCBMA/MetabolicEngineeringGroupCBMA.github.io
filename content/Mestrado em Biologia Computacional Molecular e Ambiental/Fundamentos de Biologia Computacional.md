@@ -42,10 +42,10 @@ Continue the Google-Python-Classes where you left off.
 
 ### **DAY#4** 📅 2026-10-21 Wednesday 📍 Ed 2 - 0.17
 
-💬 BASH scripting / pipelines, The Unix philosophy
-[[BASH]]
 💬 FAIR principles
 [[FAIR]]
+💬 BASH scripting / pipelines, The Unix philosophy
+[[./BASH|BASH]]
 🛠️ Common Python project & Exercises
 
 ### **DAY#5** 📅 2026-10-22 Thursday 📍 Ed 1 - 1.15 (morning)  📍 Ed 2 - 0.16 (afternoon)

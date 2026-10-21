@@ -32,6 +32,8 @@ The script works on the author's computer, but it expects a file at `C:/Users/An
 
 Question **What would you need before you could trust and reuse this analysis?**
 
+README!
+
 ---
 
 ## What does FAIR mean?
@@ -97,7 +99,7 @@ A sequence of A, C, G and T does not tell you these things by itself.
 ## F - Findable
 
 - Give the project a meaningful title.
-- Record source accessions and dataset identifiers in your README.
+- Record source accessions and dataset identifiers in your ==README==.
 - Describe the organism and biological question.
 - For a shared release, consider a repository that assigns a [[DOI]].
 
