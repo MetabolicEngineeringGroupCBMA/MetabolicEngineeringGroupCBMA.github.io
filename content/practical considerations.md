@@ -114,6 +114,10 @@ These primers were used by the Yeast Genome Deletion project. There are errors i
 
 This is our electronic notebook. Get it [here](https://elab.uminho.pt/register.php).
 
+### Obsidian
+
+<https://brunoamaral.eu/an-obsidian-kick-start-for-students>
+
 ### Checklist
 
 1. Arrive at 09:00

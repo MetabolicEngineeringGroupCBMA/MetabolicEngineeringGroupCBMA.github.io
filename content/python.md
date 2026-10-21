@@ -3,9 +3,11 @@ publish: true
 aliases:
   - Jupyter
   - JupyterLab
+  - uv
+  - spyder
 ---
 
-```
+```toml
 [project]
 name = "pcr-primer-screen"
 version = "0.1.0"
@@ -110,3 +112,29 @@ uv sync --all-groups
 uv sync --all-groups --all-extras
 
 ```
+
+```bash
+06:00 $ locate -b '\.venv' | grep "$HOME" | grep -v '/Trash/'
+/home/bjorn/Desktop/gel/.venv
+/home/bjorn/Desktop/misc/sofia/05_Ficha_de_Algoritmia_Fluxogramas/.venv
+/home/bjorn/Desktop/primer screen/.venv
+/home/bjorn/Desktop/pydna/PYEAST/.venv
+/home/bjorn/myvault/Chaetomium thermophilum/notebooks/.venv
+/home/bjorn/myvault/agregação/.venv
+/home/bjorn/myvault/agregação/papers/.venv
+/home/bjorn/myvault/files/2026-09-25/FAS2_primer_design/.venv
+/home/bjorn/myvault/files/MetabolicEngineeringGroupCBMA GitHub Org/Cunha_et_al_2017/.venv
+/home/bjorn/myvault/files/file processing/pdf/join/.venv
+/home/bjorn/myvault/files/file processing/sign/.venv
+/home/bjorn/python_packages/PlasmidStamper/.venv
+/home/bjorn/python_packages/obsidian_scripts/.venv
+/home/bjorn/python_packages/pydna/.venv
+/home/bjorn/python_packages/pydna-utils/.venv
+/home/bjorn/python_packages/pydnaweb/.venv
+/home/bjorn/python_packages/pygenome/.venv
+```
+
+---
+
+PR: Add Auto-Detection of local .venv interpreter on project open- #26386
+<https://github.com/spyder-ide/spyder/pull/26386>

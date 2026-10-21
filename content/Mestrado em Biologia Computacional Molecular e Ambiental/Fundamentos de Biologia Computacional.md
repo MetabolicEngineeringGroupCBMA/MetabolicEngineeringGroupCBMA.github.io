@@ -10,49 +10,58 @@ publish: true
 Björn Johansson
 ![[Mestrado em Biologia Computacional Molecular e Ambiental/images/Fundamentos de Biologia Computacional1zmc14.png]]
 
-### **DAY#1** 📅 2026-10-14 Wednesday 📍 Ed 2 - 0.17 (morning) - Ed 1 - 2.27 (afternoon)
+### **DAY#1** 📅 2026-10-14 Wednesday 📍Ed 2 - 0.17 (morning) 📍Ed 1 - 2.27 (afternoon)
 
-💬 Introduction to Computational biology and Python [[slides1]]
+💬 Introduction to Computational biology and Python
+[[introduction]]
 🛠️ An hour of Python - Interactive session exploring Python with Spyder
+An [[hour]] of Python
 **lunch**
-💬 Social coding with Github - Profile update your [[Github profile]]
+💬 Update your [[GitHub profile]]
 🛠️ google python classes (I)
+[[Google-Python-Classes]]
+Homework: Change your GitHub profile picture.
 
 ### **DAY#2** 📅 2026-10-15 Thursday 📍 Ed 1 - 1.15
 
-💬  Version control with Git [[slides2]]
-🛠️ install Git
+💬  Version control with Git
+[[Git&Github]]
 🛠️ google python classes (II)
+Continue the Google-Python-Classes where you left off.
 
 ### **DAY#3** 📅 2026-10-16 Friday 📍 Ed 2 - 0.17
 
+💬 How to get a  [[DOI]] from Zenodo and similar services.
 💬 Python third party modules
 
-- numpy
-- pandas
-- biopython
-- pydna
-  💬 WSL, LINUX & BASH + BASH scripting / pipelines, The Unix philosophy
+- biopython, pydna
+- pandas-polars
+- matplotlib-numpy-scipy
+  [[popular modules]]
   🛠️ Coding together 👥
 
 ### **DAY#4** 📅 2026-10-21 Wednesday 📍 Ed 2 - 0.17
 
-💬 FAIR principles, How to initiate a Data science project
-🛠️ Individual Python project
+💬 BASH scripting / pipelines, The Unix philosophy
+[[BASH]]
+💬 FAIR principles
+[[FAIR]]
+🛠️ Common Python project & Exercises
 
-### **DAY#5** 📅 2026-10-22 Thursday 📍 Ed 1 - 1.15 (morning) Ed 2 - 0.16 (afternoon)
+### **DAY#5** 📅 2026-10-22 Thursday 📍 Ed 1 - 1.15 (morning)  📍 Ed 2 - 0.16 (afternoon)
 
-💬 Object oriented coding with Python
-🛠️ Individual Python project
+💬 How to initiate a Data science project                       <!--💬 Object oriented coding with Python-->
+💬 JupyterLab and Jupyter Notebooks
+🛠️ Common Python project & Exercises
+
 **lunch**
+
 💬 Code with Co-pilot - vibe coding
-🛠️ Individual Python project
+🛠️ Common Python project & Exercises
 
 ### **DAY#6** 📅 2026-10-23 Friday 📍 Ed 2 - 0.17
 
-test theoretical + practical
-
-<!-- NBGRADER? -->
+test theoretical + practical with NBGRADER
 
 **Week#3**
 Teresa Rito
@@ -66,6 +75,29 @@ Phylogenetic analysis, core genome,
 
 # info
 
-- Installing [[winpython]] (Only if you do not have anaconda or Miniconda installed)
+- If you do **not** have anaconda or miniconda installed, install miniconda or [[winpython]]
 - Photo [album](https://photos.app.goo.gl/DrkBZMWrrWYNDHGG8)
 - Our [etherpad](https://etherpad.wikimedia.org/p/FDBC)
+- YouTube [channel](https://www.youtube.com/playlist?list=PLEydLBuZE_TA\&jct=mhK3cvTBF-lBGf1iSBtIzA)
+
+<!--
+ 1987  which git
+ 1988  git config --list
+ 1989  git status
+ 1990  git diff
+ 1991  git pull
+ 1992  git status
+ 1993  git diff
+ 1994  git stash
+ 1995  git status
+ 1996  git branch 2026
+ 1997  git branch
+ 1998  git switch 2026
+ 1999  git stash pop
+ 2000  git add basic/string1.py 
+ 2001  git commit --m "students solutions"
+ 2002  git switch master
+ 2003  git branch
+ 2004  git push
+ 2005  history
+-->
