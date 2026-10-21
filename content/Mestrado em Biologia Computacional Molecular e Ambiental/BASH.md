@@ -18,15 +18,31 @@ Core Principles:
 - **Programmer Time Over Machine Time:** Optimize for human efficiency and reuse rather than squeezing out every microsecond of raw hardware speed. ([YouTube video 1](https://www.youtube.com/watch?v=wFdN7FCrjN4\&t=112); [YouTube video 2](https://www.youtube.com/watch?v=wmmsdT93ils\&t=56))
 
 A terminal provides an interface to a shell.
+
 Bash interprets commands and runs programs.
-Use Bash on Linux, macOS or through Git Bash/WSL+Ubuntu on Windows; Command shell and PowerShell looks similar but use different syntax.
+
+Bourne Again SHell == BASH
+
+Use Bash on Linux, macOS or through Git Bash/WSL+Ubuntu on Windows;
+
+Command shell and PowerShell looks similar but use different syntax.
 
 ---
 
 ## Download a file
 
+### Go to desktop from anywhere
+
 ```bash
-cd %USERPROFILE%\Desktop  # go to the desktop 
+
+cd /mnt/c/USERS/<username>/Desktop # Works on WSL+Ubuntu
+
+cd %USERPROFILE%/Desktop  # Works on AnacondaPrompt, goes to the windows desktop.
+
+cd ~/Desktop  # Works on PowerShell, Not on AnacondaPrompt, on WSL+Ubuntu folder does not exist.
+```
+
+```bash
 wget https://raw.githubusercontent.com/biopython/biopython/master/Doc/examples/ls_orchid.fasta
 ```
 
@@ -44,15 +60,15 @@ wc -l ls_orchid.fasta         # Count lines instead
 
 ## Navigate and organize files
 
-| Command | Purpose |
-| --- | --- |
-| `pwd` | Show the current directory |
-| `ls`, `ls -lh` | List files and their sizes |
-| `cd`, `cd ..`, `cd ~` | Change directory, go up one level, return home |
-| `mkdir results` | Create a directory |
-| `cp input.fasta input-copy.fasta` | Copy a file |
-| `mv old.fasta new.fasta` | Move or rename a file |
-| `rm input-copy.fasta` | Remove a file |
+| Command                           | Purpose                                        |
+| --------------------------------- | ---------------------------------------------- |
+| `pwd`                             | Show the current directory                     |
+| `ls`, `ls -lh`                    | List files and their sizes                     |
+| `cd`, `cd ..`, `cd ~`             | Change directory, go up one level, return home |
+| `mkdir results`                   | Create a directory                             |
+| `cp input.fasta input-copy.fasta` | Copy a file                                    |
+| `mv old.fasta new.fasta`          | Move or rename a file                          |
+| `rm input-copy.fasta`             | Remove a file                                  |
 
 Paths:
 `/` is the filesystem root,
@@ -115,12 +131,12 @@ appA | appB
 
 The pipe sends the standard output of `appA` to the standard input of `appB`; standard error is separate by default.
 
-| Syntax | Purpose |
-| --- | --- |
-| `command > results.txt` | Write stdout to a file, overwriting existing content |
-| `command >> results.txt` | Append stdout to a file |
-| `command 2> errors.log` | Write stderr to a file |
-| `command < input.txt` | Read stdin from a file |
+| Syntax                   | Purpose                                              |
+| ------------------------ | ---------------------------------------------------- |
+| `command > results.txt`  | Write stdout to a file, overwriting existing content |
+| `command >> results.txt` | Append stdout to a file                              |
+| `command 2> errors.log`  | Write stderr to a file                               |
+| `command < input.txt`    | Read stdin from a file                               |
 
 ## Select columns, filter rows and summarize
 

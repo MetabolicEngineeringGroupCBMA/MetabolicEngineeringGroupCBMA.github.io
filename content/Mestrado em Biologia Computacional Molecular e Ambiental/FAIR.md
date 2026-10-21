@@ -4,15 +4,15 @@ publish: true
 
 # FAIR principles
 
-Imagine that you have a dataset and have written a Python script that produces a useful result.
+Imagine that you have a dataset and have written a Python script that produces a useful result. Could another student or researcher find the data, understand them, and use them in a different project? Could another researcher run the Python script on their computer? Could **you** do the same six months from now?
 
-Could another student or researcher find the data, understand them, and use them in a different project?
+Following FAIR principles helps us plan for this reuse.
 
-Could another researcher run the Python script on their computer?
+The plasmid sequence below was once mailed to me a raw DNA sequence in a MS word file:
 
-Could **you** do the same six months from now?
+![[Mestrado em Biologia Computacional Molecular e Ambiental/FAIR1xnppt.png]]
 
-FAIR helps us plan for this reuse.
+What is wrong with that?
 
 ---
 
@@ -26,7 +26,8 @@ sequences_new.txt
 analysis_final_v3.py
 ```
 
-The spreadsheet has columns named `sample`, `value`, and `group`. There are no units, no source, and no explanation of the groups.
+The spreadsheet has columns named `sample`, `value`, and `group`. There are no units, no source, and
+no explanation of the groups.
 
 The script works on the author's computer, but it expects a file at `C:/Users/Ana/Desktop/data.xlsx`.
 
@@ -66,7 +67,7 @@ Data must integrate and work smoothly with other datasets, apps, or workflows.
 
 ### Reusable (R)
 
-Data must have enough context and legal clarity so it can be reliably used in new projects.
+Data must have enough context and clarity so it can be reliably used in new projects.
 
 - **Clear Licenses:** Attach explicit usage and licensing terms (e.g., Creative Commons).
 - **Detailed Provenance:** Document the origin, history, and processing steps of the data.
@@ -78,11 +79,9 @@ Data must have enough context and legal clarity so it can be reliably used in ne
 
 ## Data, metadata and provenance
 
-**Data** are the observations or sequences you analyse.
-
-**Metadata** explain what those data represent.
-
-**Provenance** records where they came from and how they were produced or changed.
+- **Data** are the observations or sequences you analyse.
+- **Metadata** explain what those data represent.
+- **Provenance** records where they came from and how they were produced or changed.
 
 For a DNA sequence, useful context includes:
 
@@ -92,14 +91,23 @@ For a DNA sequence, useful context includes:
 - Retrieval date and source.
 - Any trimming, reverse complementation, or other transformation.
 
-A sequence of A, C, G and T does not tell you these things by itself.
+---
+
+## Time and date
+
+Use the ISO8604 date format. IT is the only one that makes sense.
+
+![](https://imgs.xkcd.com/comics/iso_8601.png)
+
+Just do it!
 
 ---
 
 ## F - Findable
 
+- Bottom-up give you files meaningful names. `analysis023.dat` compared to `2026-10-16_analysis_Oct_spectrophotometric_activity_assay_data.dat`
 - Give the project a meaningful title.
-- Record source accessions and dataset identifiers in your ==README==.
+- Record source accessions and dataset identifiers in your ==README.md==.
 - Describe the organism and biological question.
 - For a shared release, consider a repository that assigns a [[DOI]].
 
@@ -109,9 +117,10 @@ Compare these descriptions:
 Some yeast sequences
 ```
 
+and
+
 ```text
-Coding sequences of selected Saccharomyces cerevisiae genes
-used to compare sequence length and GC content
+Coding sequences of selected Saccharomyces cerevisiae genes used to compare sequence length and GC content
 ```
 
 ---
@@ -127,17 +136,11 @@ For your project:
 - State any access restrictions.
 - Avoid relying on a file that exists only on your laptop.
 
-**Can your partner obtain the input files using only your instructions?**
+**Can someone obtain the input files using only your instructions?**
 
----
+FAIR is not necessarlyi open data, FAIR does not require unrestricted access.
 
-## FAIR and open data
-
-FAIR does not require unrestricted access.
-
-Sensitive human data may need controlled access while public metadata explain their existence and access conditions.
-
-Conversely, a publicly downloadable spreadsheet with unexplained columns can be difficult to reuse.
+Sensitive clinical human data may need controlled access while public metadata explain their existence and access conditions.
 
 ---
 
@@ -160,6 +163,58 @@ S02,Saccharomyces cerevisiae,37
 
 A CSV file is easy to read in Python, but its meaning still needs documentation. Does `temperature_C` mean growth temperature or measurement temperature?
 
+FAIR compliant formats 😊:
+
+- CSV/TSV [info](https://en.wikipedia.org/wiki/Comma-separated_values) /[info](https://en.wikipedia.org/wiki/Tab-separated_values)
+- XML [info](https://www.w3schools.com/xml/xml_whatis.asp)
+- JSON [info](https://www.json.org/json-en.html)
+- yaml [info](https://learnxinyminutes.com/yaml/)
+- toml [info](https://toml.io/en/)
+
+Proprietary or closed binary formats ⛔
+
+- MS PowerPoint (.ppt/.pptx), MS Access (.mdb/.accdb)
+- Apple Pages, Numbers, Keynote
+- Adobe Illustrator (.ai), Photoshop (.psd), InDesign (.indd)
+- MATLAB .mat (older, proprietary versions), SAS (.sas7bdat), SPSS (.sav), Stata (.dta)
+- Origin (.opj), GraphPad Prism (.pzfx/.prism), SnapGene (.dna), Geneious, Vector NTI, and similar vendor-specific project files
+- Vendor-specific instrument raw files (e.g. Thermo .raw, Agilent .d, Waters .raw, Bruker .baf/.tdf, ABI .ab1 as the only copy) without a documented open conversion
+
+Formats that lose information or are hard to parse
+
+- PDF as the sole carrier of tables or data (fine for reports, poor for data reuse)
+- Data embedded in images (JPEG, PNG screenshots of tables or gels without underlying data)
+- Lossy compression of primary data (JPEG for microscopy or gel images)
+- Scanned documents without OCR or structured transcription
+- Free-text .doc/.rtf with data tables embedded
+
+Formats that are open but poorly suited
+
+- Unstructured plain-text dumps without a schema or header definition
+- CSV with undocumented delimiters, encodings, units, or merged or multi-row headers
+- Pickle (.pkl), RData/.rds, and Python/R workspace dumps: language-specific, version-fragile, and a security risk when loading
+- Excel-exported CSV with locale-dependent decimal commas, date autoconversion (e.g. gene names like SEPT2 turned into dates)
+- SQLite/other DB dumps without exported schema and documentation (acceptable if documented, but not self-describing for most users)
+
+Compressed or container formats without documentation
+
+- Proprietary archives (.rar, .7z are open but less widely supported than .zip or .tar.gz)
+- Custom binary formats with no published specification
+
+Better open alternatives for common cases
+
+- Spreadsheets: CSV/TSV (plus a data dictionary), or ODS
+- Documents: PDF/A for archiving, plus Markdown, plain text, or ODT for the source
+- Tabular/array data: Parquet, HDF5, NetCDF, Zarr
+- Sequences/annotations: FASTA, FASTQ, GenBank, GFF3, VCF, SBOL, SBML
+- Mass spectrometry: mzML, mzXML, mzTab
+- Images: TIFF (uncompressed or lossless), OME-TIFF, PNG for derived figures
+- Structured metadata: JSON-LD, YAML, XML with a published schema (e.g. ISA-Tab, RO-Crate)
+
+**Rule of thumb:**
+
+a format is FAIR-friendly if its specification is public, it is readable without licensed software, and it can carry its own metadata or be paired with a documented schema. Where a proprietary format is unavoidable (e.g. instrument raw files), deposit it alongside an open converted version.
+
 ---
 
 ## R - Reusable
@@ -169,7 +224,7 @@ Reuse requires relevant descriptions, an explicit usage licence, provenance, and
 For your project:
 
 - Explain how the samples and sequences were selected.
-- Record software versions and analysis parameters.
+- Record **software versions** and **analysis parameters**.
 - Describe missing values, exclusions, and limitations.
 - Identify the terms that apply to input data and your own outputs.
 
@@ -184,10 +239,9 @@ For your project:
 These ideas support each other, but ask different questions.
 
 **Reproducibility:** Can another person run your analysis with the same inputs and obtain the same results?
-
 **Reuse:** Can someone understand and use your data in a new analysis?
 
-A script may run successfully while analysing poorly documented samples. A well-described dataset may be useful even when the original analysis code is missing.
+A script may run successfully while analyzing poorly documented samples. A well-described dataset may be useful even when the original analysis code is missing.
 
 For this course, aim for **both**: understandable data and an analysis someone else can run.
 
@@ -211,6 +265,7 @@ An image of a plasmid map can help you understand the design. Sequence files and
 
 ---
 
+<!--
 ## Exercise: audit a published example
 
 Work in pairs. Choose one paper from the table in [[Cloning documentation workshop 2025]]. Open the paper and its supplementary material.
@@ -229,28 +284,7 @@ Record URLs, accessions, file names, or specific sections. If you cannot find so
 Finish with two sentences: **What could you reconstruct? What information would you request from the authors?**
 
 This is an assessment of the documentation, not of your cloning skills.
-
----
-
-## Apply this to your Python sequence analysis project
-
-Start with a small, understandable folder:
-
-```text
-my_project/
-├── README.md
-├── data/
-│   ├── README.md
-│   └── sequences.fasta
-├── analysis.py
-└── results/
-```
-
-Keep the downloaded input unchanged. Save derived data separately.
-
-Your `data/README.md` should explain the source, identifiers, retrieval date, selection criteria, and applicable usage terms.
-
-Your main README should explain the biological question, how to run the analysis, and what the outputs mean. Link this work to [[Git&Github|Git and GitHub]] so changes can be tracked.
+-->
 
 ---
 
@@ -286,39 +320,9 @@ Who did the work, and which terms apply to code and data?
 
 ---
 
-## GitHub, repositories and a DOI
-
-Use Git and GitHub while developing your project. Record changes and explain decisions in commits.
-
-When sharing a finished version, consider an appropriate archive such as **Zenodo**, **dataRepositoriUM**, or a repository used by your research community.
-
-A DOI identifies a deposited object. The accompanying files, metadata, and documentation determine how useful that object will be.
-
-Example to inspect: [Cunha et al. 2017 — sequences and cloning strategies](https://github.com/MetabolicEngineeringGroupCBMA/Cunha_et_al_2017).
-
-Find one sequence file and follow its connection to the paper and the construction strategy.
-
----
-
-## Before you share your project
-
-Swap projects with another student.
-
-- [ ] Can they identify the biological question?
-- [ ] Can they find and obtain the original input data?
-- [ ] Can they understand the identifiers, formats, and units?
-- [ ] Can they trace your transformations from input to output?
-- [ ] Can they run the analysis using your instructions?
-- [ ] Can they identify the usage terms and cite the source?
-
-Choose **one improvement** and make it before continuing the analysis.
-
----
-
 ## Reading and examples
 
 - [Wilkinson et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship.](https://doi.org/10.1038/sdata.2016.18) The original paper.
 - [GO FAIR principles](https://www.gofair.foundation/fair-principles). The individual principles and interpretations.
 - [[Cloning documentation workshop 2025]]. Papers and instructions for the audit exercise.
-- [[2026-05-21#FAIR Data as a Research Asset: Beyond “Open” and “Closed”|CBMA discussion of FAIR data]]. Local examples of repositories, metadata, and sharing decisions.
 - [D’Ambrosio et al. (2022). A FAIR-compliant parts catalogue for genome engineering and expression control in Saccharomyces cerevisiae.](https://doi.org/10.1016/j.synbio.2022.02.001) An example connecting yeast engineering, data, and analysis notebooks.
