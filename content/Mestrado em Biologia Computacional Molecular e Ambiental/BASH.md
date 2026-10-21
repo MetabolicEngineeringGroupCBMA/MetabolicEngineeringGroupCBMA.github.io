@@ -2,83 +2,142 @@
 publish: true
 ---
 
-# BASH scripting / pipelines, The Unix philosophy
+# The Unix philosophy and BASH scripting
 
 ## The shell and the Unix philosophy
+
+Unix is a multi-user, and multitasking computer operating system created in 1969 at Bell Labs. It forms the genetic and philosophical foundation for modern computing, influencing how files, permissions, and command-line tools work across almost all contemporary operating systems.
+
+Linux is a free, open-source Unix-like operating system. While it was built from scratch and does not contain original Unix code, it mimics Unix design, commands, and file structures.
 
 The Unix philosophy is a minimalist approach to software design created by pioneers like Ken Thompson, Dennis Ritchie, and Doug McIlroy at Bell Labs.
 
 Core Principles:
 
-- **Do One Thing Well:** Build focused tools rather than bloated, all-in-one applications. ([Principles.design](https://principles.design/examples/unix-philosophy); [YouTube](https://www.youtube.com/watch?v=3M4W2sf51rI))
-- **Work Together:** Design programs so the output of one can feed directly into another via pipelines. ([YouTube](https://www.youtube.com/watch?v=3M4W2sf51rI); [Principles.design](https://principles.design/examples/unix-philosophy))
-- **Universal Text Streams:** Use plain text as a common interface so components can easily parse and exchange data. ([Klara Systems](https://klarasystems.com/articles/unix-philosophy-a-quick-look-at-the-ideas-that-made-unix/); [YouTube](https://www.youtube.com/watch?v=3M4W2sf51rI))
-- **Clarity Over Cleverness:** Write code that is easy for humans to read, maintain, and debug. ([Harvard](https://cscie2x.dce.harvard.edu/hw/ch01s06.html); [YouTube video 1](https://www.youtube.com/watch?v=wFdN7FCrjN4\&t=112))
+- **Do One Thing Well:** Build focused tools rather than bloated, all-in-one applications.
+- **Work Together:** Design programs so the output of one can feed directly into another via pipelines.
+- **Universal Text Streams:** Use plain text as a common interface so components can easily parse and exchange data.
+- **Clarity Over Cleverness:** Write code that is easy for humans to read, maintain, and debug.
 - **Silence is Golden:** Programs should print output only when something unusual or important happens.
-- **Programmer Time Over Machine Time:** Optimize for human efficiency and reuse rather than squeezing out every microsecond of raw hardware speed. ([YouTube video 1](https://www.youtube.com/watch?v=wFdN7FCrjN4\&t=112); [YouTube video 2](https://www.youtube.com/watch?v=wmmsdT93ils\&t=56))
+- **Programmer Time Over Machine Time:** Optimize for human efficiency and reuse rather than squeezing out every microsecond of raw hardware speed.
 
-A terminal provides an interface to a shell.
+[Basics of the Unix Philosophy - Harvard](https://cscie2x.dce.harvard.edu/hw/ch01s06.html)
 
-Bash interprets commands and runs programs.
+A terminal provides an interface to a shell. An operating system shell is named a "shell" because it forms the outermost layer surrounding the core of the operating system (the kernel). The Bourne Again SHell == BASH is a popular shell.
 
-Bourne Again SHell == BASH
+Bash is also an interpreter that can execute code in a similar way to R an Python.
 
-Use Bash on Linux, macOS or through Git Bash/WSL+Ubuntu on Windows;
+Use Bash on Linux, macOS or through Git Bash/WSL+Ubuntu on Windows
+![[Mestrado em Biologia Computacional Molecular e Ambiental/BASHp0qpiu.png]]
 
 Command shell and PowerShell looks similar but use different syntax.
 
+- [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview)
+- [Windows Command Shell](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd)
+- [bash](https://www.gnu.org/software/bash/) - popular on Linux
+- [zsh](https://support.apple.com/102360) - popular on macOS
+
 ---
 
-## Download a file
+## Download a file from the shell
 
 ### Go to desktop from anywhere
 
 ```bash
 
-cd /mnt/c/USERS/<username>/Desktop # Works on WSL+Ubuntu
+cd /mnt/c/USERS/<username>/Desktop # Works on WSL+Ubuntu, this will take you to the "Windows" Desktop
 
-cd %USERPROFILE%/Desktop  # Works on AnacondaPrompt, goes to the windows desktop.
+cd %USERPROFILE%/Desktop  # Works on Anaconda Prompt, goes to the windows desktop.
 
-cd ~/Desktop  # Works on PowerShell, Not on AnacondaPrompt, on WSL+Ubuntu folder does not exist.
+cd ~/Desktop  # Works on PowerShell, Not on Anaconda Prompt, on WSL+Ubuntu no such folder.
 ```
 
 ```bash
 wget https://raw.githubusercontent.com/biopython/biopython/master/Doc/examples/ls_orchid.fasta
 ```
 
-Download the Biopython **orchid DNA sequences** example FASTA on your desktop.
+wget is not available on the Anaconda Prompt, use curl:
+
+```bash
+curl -L -O "https://raw.githubusercontent.com/biopython/biopython/master/Doc/examples/ls_orchid.fasta"
+```
 
 ---
+
+## Commands that can be used to rapidly inspect a text file
 
 ```bash
 ls -lh ls_orchid.fasta        # Show the file and its size
 head ls_orchid.fasta          # Inspect the beginning
 less ls_orchid.fasta          # Browse; press q to quit
-grep -c '^>' ls_orchid.fasta  # Count sequence headers
 wc -l ls_orchid.fasta         # Count lines instead
 ```
 
+---
+
 ## Navigate and organize files
 
-| Command                           | Purpose                                        |
-| --------------------------------- | ---------------------------------------------- |
-| `pwd`                             | Show the current directory                     |
-| `ls`, `ls -lh`                    | List files and their sizes                     |
-| `cd`, `cd ..`, `cd ~`             | Change directory, go up one level, return home |
-| `mkdir results`                   | Create a directory                             |
-| `cp input.fasta input-copy.fasta` | Copy a file                                    |
-| `mv old.fasta new.fasta`          | Move or rename a file                          |
-| `rm input-copy.fasta`             | Remove a file                                  |
+```bash
+pwd  # Show the current directory
+ls  # List files
+cd  # Change directory
+mkdir results  # Create a directory
+cp ls_orchid.fasta results/ls_orchidy.fasta  # Copy a file to a subdirectory
+mv old.fasta new.fasta  # Move or rename a file
+rm results/ls_orchidy.fasta  # Remove a file
+```
 
 Paths:
-`/` is the filesystem root,
-`~` is your home directory,
-`.` is the current directory
-`..` is its parent.
-Absolute paths start at `/`
-relative paths start from the current directory.
 
-`rm` usually bypasses the trash. Keep original biological data and write results to separate files.
+```bash
+18:10 $ cd /  # filesystem root on linux
+✔ / 
+18:10 $ ls 
+bin boot dev home  ...
+✔ / 
+18:10 $ cd ~   # tilde is your home directory
+✔ ~ 
+18:11 $ ls 
+bin         Dropbox                             learning.mp3  Obsidian.AppImage                 Teaching
+brown.opus  FatVal                              micromamba    Pictures                          Templates
+Desktop
+✔ ~ 
+18:11 $ ls .  # . is the current directory 
+bin         Dropbox                             learning.mp3  Obsidian.AppImage                 Teaching
+brown.opus  FatVal                              micromamba    Pictures                          Templates
+Desktop
+✔ ~ 
+18:11 $ cd Desktop/
+✔ ~/Desktop 
+18:12 $ ls
+ agregação                                            'Mariana Santos'
+ bash-script.sh~                                      'Mestrado em Biologia Computacional Molecular e Ambiental'
+'Bruna Oliveria'                                       mestradoembioqumicaaplicadadatasexamesderecurso
+'Catarina Martins'                                    'MetabolicEngineeringGroupCBMA GitHub Org'
+ DABDGE                                                misc
+ dig                                                  'ole1 deletion primer design'
+ ERASMUS26                                             ongoing-work
+ euproject                                             pHEY-1
+'file processing'                                     'primer screen'
+ garmin                                               'pTA1 sequence'
+ gel                                                   pTA5_FASIIe
+ genética--manual-pl--mutagénese-24-25-corrigido.doc   pVG1.gbk
+ humb                                                  pydna
+ icebox.jpeg                                           python_packages
+ ideas                                                 river2ocean
+'Link to mec GitHub Org'                              'sequences with IS1 transposons'
+'Link to Teaching'                                     strains
+'Luana Moura'                                          work
+✔ ~/Desktop 
+18:12 $ cd ..  #  .. is the parent directory, use this to go "up". 
+✔ ~ 
+18:12 $ ls
+bin         Dropbox                             learning.mp3  Obsidian.AppImage                 Teaching
+brown.opus  FatVal                              micromamba    Pictures                          Templates
+Desktop
+```
+
+---
 
 ## Get help and work efficiently
 
@@ -88,19 +147,9 @@ relative paths start from the current directory.
 - Ctrl+C: interrupt a running command.
 - `nano script.sh`: edit a text file; Ctrl+O saves, Enter confirms the filename, Ctrl+X exits.
 
-## Inspect text files
+---
 
-| Command                      | Purpose                                          |
-| ---------------------------- | ------------------------------------------------ |
-| `cat ls_orchid.fasta`        | Write the complete file to the terminal          |
-| `less ls_orchid.fasta`       | Browse a file; `/pattern` searches and `q` quits |
-| `head -n 10 ls_orchid.fasta` | Show the first ten lines                         |
-| `tail -n 10 ls_orchid.fasta` | Show the last ten lines                          |
-| `wc -l ls_orchid.fasta`      | Count lines                                      |
-
-Lines are not necessarily biological records: a FASTA sequence can span several lines.
-
-## Globbing, quoting and searching
+## Globbing and searching with regexp (regular expression)
 
 The shell expands filename patterns before running a command:
 
@@ -114,22 +163,28 @@ ls sample[12].tsv
 
 ```bash
 head "sample one.fasta"
-grep '^>' sequences.fasta
-grep -c '^>' sequences.fasta
-grep -i 'kinase' annotations.tsv
+grep '^>' ls_orchid.fasta  # returns the line of the match
+grep -c '^>' ls_orchid.fasta  # Count sequence headers
+
 ```
 
 `grep '^>'` selects FASTA header lines; `grep -c '^>'` counts them. Single quotes preserve literal text. Double quotes preserve spaces while allowing variable expansion, as in `"$sample"`.
 
 ## Streams, pipes and redirection
 
+- **`stdin` (Standard Input / Stream 0):** The input data the program reads. By default, this is your keyboard.
+- **`stdout` (Standard Output / Stream 1):** The normal output data the program produces. By default, this goes to your screen.
+- **`stderr` (Standard Error / Stream 2):** Error messages produced by the program. By default, this also goes to your screen, but it is kept separate from `stdout` so errors don't mix with normal data
+
 Programs can read **stdin**, write results to **stdout**, and write diagnostics to **stderr**.
+
+The pipe (`|`) sends the standard output of `appA` to the standard input of `appB`
 
 ```bash
 appA | appB
 ```
 
-The pipe sends the standard output of `appA` to the standard input of `appB`; standard error is separate by default.
+Redirection (`>`)
 
 | Syntax                   | Purpose                                              |
 | ------------------------ | ---------------------------------------------------- |
@@ -138,6 +193,7 @@ The pipe sends the standard output of `appA` to the standard input of `appB`; st
 | `command 2> errors.log`  | Write stderr to a file                               |
 | `command < input.txt`    | Read stdin from a file                               |
 
+<!--
 ## Select columns, filter rows and summarize
 
 For a headerless, tab-separated annotation file with one record per line and a category in column 3:
@@ -155,6 +211,7 @@ awk -F '\t' 'NR == 1 || $4 < 5e-8' variants.tsv > significant.tsv
 ```
 
 This retains the header and filters data rows numerically. Inspect the actual header and column order first; the example assumes valid numeric p-values without missing values.
+-->
 
 ## Compressed biological data
 
@@ -166,12 +223,14 @@ This retains the header and filters data rows numerically. Inspect the actual he
 
 ## Variables, loops and reusable scripts
 
+Count sequences:
+
 ```bash
-sample="sample one.fasta"
+sample="ls_orchid.fasta"
 grep -c '^>' "$sample"
 ```
 
-A loop repeats a command for each matching file:
+A loop repeats a command for each matching file in a directory:
 
 ```bash
 for sample in *.fasta; do
@@ -196,7 +255,7 @@ Run it with an input filename:
 bash count_sequences.sh sequences.fasta
 ```
 
-The first line is the **shebang**; `"$1"` is the first script argument. To run it directly, use `chmod +x count_sequences.sh`, then `./count_sequences.sh sequences.fasta`.
+The first line is the **shebang**; `"$1"` is the first script argument.
 
 ## Exit status and conditional execution
 
