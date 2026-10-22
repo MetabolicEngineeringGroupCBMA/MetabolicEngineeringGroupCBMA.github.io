@@ -16,7 +16,9 @@ Björn Johansson
 [[introduction]]
 🛠️ An hour of Python - Interactive session exploring Python with Spyder
 An [[hour]] of Python
+
 **lunch**
+
 💬 Update your [[GitHub profile]]
 🛠️ google python classes (I)
 [[Google-Python-Classes]]
@@ -51,13 +53,14 @@ Continue the Google-Python-Classes where you left off.
 ### **DAY#5** 📅 2026-10-22 Thursday 📍 Ed 1 - 1.15 (morning)  📍 Ed 2 - 0.16 (afternoon)
 
 💬 How to initiate a Data science project                       <!--💬 Object oriented coding with Python-->
-💬 JupyterLab and Jupyter Notebooks
+[[project]]
+💬 Cloning with Pydna in a Jupyter Notebook
+[[cloning]]
 🛠️ Common Python project & Exercises
 
 **lunch**
 
-💬 Code with Co-pilot - vibe coding
-🛠️ Common Python project & Exercises
+🛠️ Common Python project & Exercises                            <!-- 💬 Code with Co-pilot - vibe coding -->
 
 ### **DAY#6** 📅 2026-10-23 Friday 📍 Ed 2 - 0.17
 
