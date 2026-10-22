@@ -39,6 +39,8 @@ Where to get packages? Depends on
   - Python wheels (.whl) = pre-built binary distribution
   - Source Distributions / sdists (.tar.gz) = archive containing the raw source code along with metadata (`PKG-INFO`).
 
+Conda can install R and almost any other language.
+
 ---
 
 How to specify a Python environment?
@@ -77,8 +79,6 @@ dependencies:
   - numpy
 ```
 
-Conda can install R and almost any other language.
-
 **Option A: build the environment, then export**
 
 ```bash
@@ -86,7 +86,7 @@ conda create -n myproj -c conda-forge -c bioconda python=3.11 samtools=1.20
 conda activate myproj
 conda install -c bioconda bcftools=1.20     # add more as needed
 
-conda env export --from-history > environment.yaml
+conda env export --from-history > environment.yml
 ```
 
 `--from-history` lists only the packages you explicitly requested, with the version constraints you typed. This makes the file portable across platforms, but only as tightly pinned as your requests were. It also omits pip-installed packages, so add those by hand.
@@ -97,7 +97,7 @@ Plain `conda env export` writes every package with exact version and build strin
 
 **Option B: write the file by hand (my preference for a project)**
 
-```yaml
+```yml
 name: myproj
 channels:
   - conda-forge
@@ -114,13 +114,13 @@ dependencies:
 Then create and update it with:
 
 ```bash
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```
 
 **Getting to a real Level 2:** a hand-edited or `--from-history` file is only as pinned as you make it. To get exact, hash-verified resolution across platforms, generate a lockfile from it:
 
 ```bash
-conda-lock lock -f environment.yaml -p linux-64 -p osx-arm64
+conda-lock lock -f environment.yml -p linux-64 -p osx-arm64
 conda-lock install -n myproj conda-lock.yml
 ```
 
@@ -133,3 +133,7 @@ pixi add --pypi some-pip-only-package
 ```
 
 This edits the file `pixi.toml` and writes a `pixi.lock` automatically, so the lockfile is produced as part of normal use rather than as an extra step. If you want a uv-like experience with bioconda packages, pixi is the tool to look at.
+
+---
+
+Github templates ...
