@@ -6,6 +6,8 @@ publish: true
 [[köttbullar]]
 [[snickerskaka]]
 
+[[Moussaka]]
+
 <https://foodbydrygast.com/sv/recipe/burger_sauce>
 
 <https://www.browneyedbaker.com/classic-burger-sauce>

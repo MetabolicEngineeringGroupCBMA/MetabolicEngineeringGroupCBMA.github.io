@@ -64,7 +64,7 @@ Continue the Google-Python-Classes where you left off.
 
 ### **DAY#6** 📅 2026-10-23 Friday 📍 Ed 2 - 0.17
 
-test theoretical + practical with NBGRADER
+test theoretical + practical using [nbgrader](https://nbgrader.readthedocs.io/en/stable/)
 
 **Week#3**
 Teresa Rito
@@ -82,6 +82,7 @@ Phylogenetic analysis, core genome,
 - Photo [album](https://photos.app.goo.gl/DrkBZMWrrWYNDHGG8)
 - Our [etherpad](https://etherpad.wikimedia.org/p/FDBC)
 - YouTube [channel](https://www.youtube.com/playlist?list=PLEydLBuZE_TA\&jct=mhK3cvTBF-lBGf1iSBtIzA)
+- [[lessons learned]]
 
 <!--
  1987  which git

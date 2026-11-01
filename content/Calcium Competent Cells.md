@@ -48,7 +48,8 @@ It is important not to let the OD get any higher than 0.4. The OD should be
 carefully monitored and checked often, especially when it gets above 0.2, as the
 cells grow exponentially. It usually takes about 3 hours to reach an OD of 0.35
 when using a 10 mL starter culture.
--> It is also very important to keep the cells at 4°C for the remainder of the
+
+It is also very important to keep the cells at 4°C for the remainder of the
 procedure. The cells, and any bottles or solutions that they come in contact with,
 must be pre-chilled to 4°C.
 
@@ -87,7 +88,8 @@ must be pre-chilled to 4°C.
    nitrogen. Store frozen cells in the -80°C freezer.
 
 FINAL NOTE:
--> Each aliquot of cells created by this method is 10x concentrated which reduces
+
+Each aliquot of cells created by this method is 10x concentrated which reduces
 deepfreezer space usage. In order to take full advantage of this, it's better to
 divide one aliquot in 10 microcentrifuge tubes, each with 5µl original aliquo
 plus 45µl of ice cold 85 mM CaCl2, 15% glycerol.

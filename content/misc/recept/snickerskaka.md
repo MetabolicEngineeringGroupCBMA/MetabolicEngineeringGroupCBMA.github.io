@@ -9,7 +9,6 @@ och nyttigt.
 1 burk jordnötssmör (gärna med bitar)
 2 dl sirap
 1 dl strösocker
-
 1 tsk vaniljsocker
 8 dl cornflakes (krossa dom om du vill)
 En näve jordnötter eller mera om du tycker om jordnötter
