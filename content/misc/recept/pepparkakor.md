@@ -32,7 +32,7 @@ GÖR SÅ HÄR:
 > [!observera]
 > Det är viktigt att knåda degen ordentligt (3) annars håller inte pepparkakorna ihop. Jag kör med elvisp och degkrokar i 10 - 15 min.
 
-Däremot tror jag att det är 1 msk hela kryddnejlikor som avses i originalreceptet och inte mald. Jag brukar ta kanske hälften annars blir kakorna för starka för mina lokala förhållanden. Jag får inte tag pa svensk sirap, men jag brukar använda en sirapsliknande goja som kallas caramelo eller rörsockermelass (Melaço).
+Däremot tror jag att det är 1 msk hela kryddnejlikor som avses i originalreceptet och inte mald. Jag brukar ta kanske hälften annars blir kakorna för starka för mina lokala förhållanden. Jag får inte tag pa svensk sirap, men jag brukar använda en sirapsliknande goja som kallas  [[Kryddor på svenska, engelska och portugisiska|caramelo]] eller rörsockermelass (Melaço).
 
 Jag får inte tag i kardemummapulver så jag brukar strunta i det.
 
