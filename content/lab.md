@@ -17,6 +17,14 @@ Protocols and other information mostly of interest to our research group.
 - [[notes from teaching]]
 - [[requisitions|Requesting chemicals]]
 
+### PCR primers
+
+- [Google doc](https://docs.google.com/document/d/1TfKUGfgoNLhM8fXh8LbT8TxDb_vpuViC37C-xepqJY8/edit?tab=t.0)
+
+### Restriction enzymes
+
+- [[Restriction enzymes]]
+
 ### Commonly used [[protocols]]
 
 - [[High Efficiency Yeast Transformation Protocol|Yeast transformation]]
