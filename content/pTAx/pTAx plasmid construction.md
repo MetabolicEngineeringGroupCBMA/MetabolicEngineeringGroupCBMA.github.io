@@ -57,20 +57,24 @@ See [[pTAx assembly strategy]] for details of how the five PCR products are asse
 
 The pTAx vectors are similar to each other, but differ in the selection markers (**yeast marker**) and yeast origin of replication (**yeast ORI**).
 
-| Table#2 | Name     | _E. coli_ marker | _E. coli_ ORI | yeast ORI | yeast marker | MCS  | Constructed by:           | Enzyme to linearize       | 🥶 freezer list number(s) | Sequenced? | Date       |
-| ------- | -------- | ---------------- | ------------- | --------- | ------------ | ---- | ------------------------- | ------------------------- | ------------------------- | ---------- | ---------- |
-|         |          | ➀                | ➁             | ➂         | ➃            | ➄    |                           |                           |                           |            |            |
-|         | pTA1     | ampR             | pBR           | 2µ        | LEU2         | Δcrp | Tatiana Pozdniakova       | AatII, ZraI, FspAI        | µ828, µ928, µ929          | ✅          | 2019-10-xx |
-|         | pTA2     | -"-              | -"-           | CEN/ARS   | LEU2         | -"-  | EGB2023                   | AatII, ZraI, FspAI        | µ1814, µ1815, µ1817       |            | 2023-06-01 |
-|         | pTA3     | -"-              | -"-           | 2µ        | HIS3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI, EcoRV | µ1271                     |            | 2021-07-09 |
-|         | pTA4     | -"-              | -"-           | CEN/ARS   | HIS3         | -"-  | EGB2023                   | AatII, ZraI, FspAI, EcoRV | µ1816, µ1818, µ1819       |            | 2023-06-01 |
-|         | pTA5     | -"-              | -"-           | 2µ        | KanMX4       | -"-  | Paulo Silva, Julio Freire | AatII, ZraI, FspAI, EcoRV | µ1652                     | ✅          | 2022-10-11 |
-|         | pTA6     | -"-              | -"-           | CEN/ARS   | KanMX4       | -"-  | GMB20                     | AatII, ZraI, FspAI, EcoRV | µ520                      |            | 2020-12-23 |
-| 🔥      | ==pTA7== | -"-              | -"-           | 2µ        | TRP1         | -"-  | ==EGB2025==               | AatII, ZraI, FspAI        | µ20                       | ✅          | 2026-04-23 |
-|         | pTA8     | -"-              | -"-           | CEN/ARS   | TRP1         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ521, µ522                |            | 2020-12-23 |
-|         | pTA9     | -"-              | -"-           | 2µ        | URA3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI        | µ1272                     |            | 2021-07-09 |
-|         | pTA10    | -"-              | -"-           | CEN/ARS   | URA3         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ523                      |            | 2020-12-23 |
-|         | pTA11    | -"-              | -"-           | 2µ        | LEU2d        | -"-  | EGB2024                   | AatII, ZraI, FspAI        | µ542                      | ✅          | 2024-05-23 |
+| Table#2 | Name  | _E. coli_ marker | _E. coli_ ORI | yeast ORI | yeast marker | MCS  | Constructed by:           | Enzyme to linearize       | 🥶 freezer list number(s) | Sequenced? | Date       |
+| ------- | ----- | ---------------- | ------------- | --------- | ------------ | ---- | ------------------------- | ------------------------- | ------------------------- | ---------- | ---------- |
+|         |       | ➀                | ➁             | ➂         | ➃            | ➄    |                           |                           |                           |            |            |
+|         | pTA1  | ampR             | pBR           | 2µ        | LEU2         | Δcrp | Tatiana Pozdniakova       | AatII, ZraI, FspAI        | µ828, µ928, µ929          | ✅          | 2019-10-xx |
+|         | pTA2  | -"-              | -"-           | CEN/ARS   | LEU2         | -"-  | EGB2023                   | AatII, ZraI, FspAI        | µ1814, µ1815, µ1817       |            | 2023-06-01 |
+|         | pTA3  | -"-              | -"-           | 2µ        | HIS3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI, EcoRV | µ1271                     |            | 2021-07-09 |
+|         | pTA4  | -"-              | -"-           | CEN/ARS   | HIS3         | -"-  | EGB2023                   | AatII, ZraI, FspAI, EcoRV | µ1816, µ1818, µ1819       |            | 2023-06-01 |
+|         | pTA5  | -"-              | -"-           | 2µ        | KanMX4       | -"-  | Paulo Silva, Julio Freire | AatII, ZraI, FspAI, EcoRV | µ1652                     | ✅          | 2022-10-11 |
+|         | pTA6  | -"-              | -"-           | CEN/ARS   | KanMX4       | -"-  | GMB20                     | AatII, ZraI, FspAI, EcoRV | µ520                      |            | 2020-12-23 |
+|         | pTA7  | -"-              | -"-           | 2µ        | TRP1         | -"-  | EGB2025                   | AatII, ZraI, FspAI        | µ20                       | ✅          | 2026-04-23 |
+|         | pTA8  | -"-              | -"-           | CEN/ARS   | TRP1         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ521, µ522                |            | 2020-12-23 |
+|         | pTA9  | -"-              | -"-           | 2µ        | URA3         | -"-  | Tatiana Pozdniakova       | AatII, ZraI, FspAI        | µ1272                     |            | 2021-07-09 |
+|         | pTA10 | -"-              | -"-           | CEN/ARS   | URA3         | -"-  | GMB20                     | AatII, ZraI, FspAI        | µ523                      |            | 2020-12-23 |
+|         | pTA11 | -"-              | -"-           | 2µ        | LEU2d        | -"-  | EGB2024                   | AatII, ZraI, FspAI        | µ542                      | ✅          | 2024-05-23 |
+|         | pTA12 | -"-              | -"-           | CEN/ARS   | LEU2d        |      | 👤                        | 🛇                        | 🛇                        | 🛇         | 🛇         |
+| 🔥      | pTA13 | -"-              | -"-           | 2µ        | HphMX4       | -"-  | 👤                        | 🛇                        | 🛇                        | 🛇         | 🛇         |
+|         | ...   | ...              | ...           | ...       | ...          | ...  | ...                       | ...                       | ...                       | ...        | ...        |
+|         | pTA25 | -"-              | -"-           | panARS    | KanMX4       | -"-  | 👤                        | 🛇                        | 🛇                        | 🛇         | 🛇         |
 
 This lab course is divided into nine practical classes, see below. Each student attends three of the nine classes. In each practical class, we advance the project towards the finished plasmid.
 
