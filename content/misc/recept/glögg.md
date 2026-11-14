@@ -2,7 +2,7 @@
 publish: true
 ---
 
-![[files/glögg.jpg]]
+![[misc/recept/glögg.jpg]]
 Slopa köpeglögg och juldryck som tar veckor att förbereda. Fira in första advent med en snabb hemmagjord glögg.
 
 Här är receptet som är enkelt, snabbt – och gott.
