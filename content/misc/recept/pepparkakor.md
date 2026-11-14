@@ -15,7 +15,7 @@ publish: true
 - 1 msk ingefära (Man kan dubbla mängden)
 - 2 msk kanel (Man kan dubbla mängden)
 - 1 msk kryddnejlikor (Man kan dubbla mängden)
-- 1 msk bikarbona
+- 1 msk bikarbonat
 - (2 tsk kardemumma)
 - 1,5 liter vetemjöl
 

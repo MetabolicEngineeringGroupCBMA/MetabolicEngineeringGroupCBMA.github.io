@@ -2,6 +2,11 @@
 publish: true
 ---
 
+# A compact flexible and extendable backbone assembly kit for yeast expression vectors
+
+The [[Yeast]] Pathway Kit (YPK) is a pathway assembly system developed in the department of biology and it is used to express novel metabolic pathways in
+Saccharomyces cerevisiae in order to improve the metabolic capacity or produce biotechnologically interesting products. The system has been successfully used to express up to twelve genes simultaneously in one experiment. The aim is making YPK more flexible by constructing a new plasmid backbone for the system where markers and pathway copy number can be fine tuned.
+
 ![[pTAx/EGB24-20240705161734646.jpeg]]
 
 [original artwork](https://www.instagram.com/spettsart/?hl=en)

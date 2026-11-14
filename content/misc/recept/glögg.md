@@ -3,8 +3,8 @@ publish: true
 ---
 
 ![[files/glögg.jpg]]
-Slopa köpeglögg och juldryck som tar veckor att förbereda.
-Fira in första advent med en snabb hemmagjord glögg.
+Slopa köpeglögg och juldryck som tar veckor att förbereda. Fira in första advent med en snabb hemmagjord glögg.
+
 Här är receptet som är enkelt, snabbt – och gott.
 
 Äntligen! På söndag är det första advent och det är därmed i allmänhetens ögon
