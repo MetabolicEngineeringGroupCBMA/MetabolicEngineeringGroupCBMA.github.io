@@ -14,6 +14,10 @@ Leave the machine open when not used to remove stress on the lock.
 
 ![[Thermal.png]]
 
-# Remove "Infinite hold at 12°C" ([link](https://youtu.be/xx7AoRfU4CM?si=7EbR4VCj-sLwCLdb))
+# Remove "Infinite hold at 12°C"
 
 ![[Thermal cycler.png]]
+
+Remove it like this:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xx7AoRfU4CM?loop=1&playlist=xx7AoRfU4CM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
