@@ -114,12 +114,16 @@ uv sync --all-groups --all-extras
 ```
 
 ```bash
-06:00 $ locate -b '\.venv' | grep "$HOME" | grep -v '/Trash/'
+06:59 $ locate -b '\.venv' | grep "$HOME" | grep -v '/Trash/'
+/home/bjorn/.venv
+/home/bjorn/Desktop/dig/.venv
 /home/bjorn/Desktop/gel/.venv
 /home/bjorn/Desktop/misc/sofia/05_Ficha_de_Algoritmia_Fluxogramas/.venv
 /home/bjorn/Desktop/primer screen/.venv
 /home/bjorn/Desktop/pydna/PYEAST/.venv
 /home/bjorn/myvault/Chaetomium thermophilum/notebooks/.venv
+/home/bjorn/myvault/Mestrado em Biologia Computacional Molecular e Ambiental/nbgrader/.venv
+/home/bjorn/myvault/Mestrado em Biologia Computacional Molecular e Ambiental/nbgrader##/.venv
 /home/bjorn/myvault/agregação/.venv
 /home/bjorn/myvault/agregação/papers/.venv
 /home/bjorn/myvault/files/2026-09-25/FAS2_primer_design/.venv
@@ -132,6 +136,7 @@ uv sync --all-groups --all-extras
 /home/bjorn/python_packages/pydna-utils/.venv
 /home/bjorn/python_packages/pydnaweb/.venv
 /home/bjorn/python_packages/pygenome/.venv
+
 ```
 
 ---

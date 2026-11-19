@@ -2,12 +2,12 @@
 publish: true
 ---
 
-This document describes the _dnaudit_ standard for documentation of genetic constructs in a light plain text format and a a combination of yaml, markdown and Genbank files.
+This document describes the _dnaudit_ standard for documentation of genetic constructs
+in Genbank files and markdown format text files with toml and DOT (graph description language).
 
 The goal of this standard is to facilitate documentation that is clear and unambiguous, yet with minimal markup.
 
-The documentation generated using this standard shows step-by step how a genetic construct was made so that it can be reproduced
-while at the same time making it easier to _preserve_ and _share_ genetic material.
+The documentation generated using this standard shows step-by step how a genetic construct was made so that it can be reproduced while at the same time making it easier to _preserve_ and _share_ genetic material and strategies.
 
 A genetic construct can be for example:
 
@@ -25,30 +25,33 @@ A unit operation is delineated by a header (Table #1) and the next header or the
 A unit operation contains a series of input sequences in a specified order as well as at least one resulting sequence.
 The file can (and should) also contain comments explaining the aim of the experiment.
 
-| Table#1 | Header         | Unit operation                                             |
-| ------- | -------------- | ---------------------------------------------------------- |
-|         | `# pcr`        | PCR reaction                                               |
-|         | `# cut`        | Restriction digestion with one or more restriction enzymes |
-|         | `# crispr`     | CRISPr digestion                                           |
-|         | `# ligation`   | Ligation with a DNA ligase                                 |
-|         | `# assembly`   | Homologous recombination                                   |
-|         | `# fusion_pcr` | fusion PCR                                                 |
-|         | `# gateway`    | gateway cloning                                            |
-|         | `# objective`  | The end goal                                               |
+| Table#1 | Header        | Unit operation                                             |                           |
+| ------- | ------------- | ---------------------------------------------------------- | ------------------------- |
+|         | `# pcr`       | PCR reaction                                               | [[dnaudit/pcr]]           |
+|         | `# cut`       | Restriction digestion with one or more restriction enzymes | [[dnaudit/cut]]           |
+|         | `# crispr`    | CRISPr digestion                                           | [[dnaudit/crispr]]        |
+|         | `# ligation`  | Ligation with a DNA ligase                                 | [[dnaudit/ligation]]      |
+|         | `# assembly`  | Assembly by homologous recombination                       | [[dnaudit/assembly]]      |
+|         | `# translate` | Often the end goal of a construct                          | [[dnaudit/translate]]<br> |
+|         | `# gateway`   | gateway cloning                                            | [[dnaudit/gateway]]       |
 
 🔑 Additionally, there are some reserved key/value expressions (Table#2) with special meaning.
 
 🚨Key/Value Pairs should contain no white space characters.
 
-| Table#2 | Reserved Key/Value Pairs   | Meaning                                | Note                                                                                              |     |
-| ------- | -------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------- | --- |
-|         | `cdseguid=...`             | Checksum for a circular dsDNA sequence | Implies a circular molecule even in the absence of `topology=...`                                 |     |
-|         | `ldseguid=...`             | Checksum for a linear dsDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
-|         | `csseguid=...`             | Checksum for a circular ssDNA sequence | Implies a circular molecule even in the absence of `topology=...`                                 |     |
-|         | `lsseguid=...`             | Checksum for a linear ssDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
-|         | `alphabet=dsIUPAC`         | Symbols are [[dscode]].               | This is the default DNA symbol table. This is a super set of the extended [[IUPAC]] nomenclature. |     |
-|         | `topology=circular/linear` | Molecule is either circular or linear  |                                                                                                   |     |
-|         | `molecule=protein/DNA/RNA` | Indicating a protein sequence.         |                                                                                                   |     |
+| Table#2 | Reserved Key/Value Pairs | Meaning                                | Note                                                                                              |     |
+| ------- | ------------------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------- | --- |
+|         | `cdseguid=...`           | Checksum for a circular dsDNA sequence | Implies a circular molecule even in the absence of `topology=...`                                 |     |
+|         | `ldseguid=...`           | Checksum for a linear dsDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
+|         | `csseguid=...`           | Checksum for a circular ssDNA sequence | Implies a circular molecule even in the absence of `topology=...`                                 |     |
+|         | `lsseguid=...`           | Checksum for a linear ssDNA sequence   | Implies a linear molecule even in the absence of `topology=...`                                   |     |
+
+| Table#2 | Reserved Key/Value Pairs | Meaning                                | Note                                                                                              |     |
+| ------- | ------------------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------- | --- |
+|         | `topology=circular`      | Sequence is circular                   |                                                                                                   |     |
+|         | `topology=linear`        | Sequence is linear                     |                                                                                                   |     |
+|         | `alphabet=protein`       | Sequence is  a protein.                |                                                                                                   |     |
+|         | `alphabet=dscode`        | Symbols are [[dscode]].                | This is the default DNA symbol table. This is a super set of the extended [[IUPAC]] nomenclature. |     |
 
 These reserved Key/Value should be placed after the identifier in the FASTA header.
 
@@ -63,17 +66,6 @@ These reserved Key/Value should be placed after the identifier in the FASTA head
 7. There can be only one identifier for a certain DNA sequence in the project folder.
 
 The [PydnaWeb](https://pydna.pythonanywhere.com) simulation tools can be helpful when preparing unit-operation snippets.
-
-## Examples:
-
-[[dnaudit/pcr]]
-[[dnaudit/cut]]
-[[dnaudit/crispr]]
-[[dnaudit/ligation]]
-[[dnaudit/assembly]]
-[[dnaudit/fusion_pcr]]
-[[dnaudit/gateway]]
-[[dnaudit/objective]]
 
 ## More examples
 
