@@ -14,8 +14,8 @@ Protocols and other information mostly of interest to our research group.
 - [[LGM]]
 - [[Congresses]]
 - [[phone dir|Dept phone directory]]
-- [[notes from teaching]]
 - [[requisitions|Requesting chemicals]]
+- [[public plasmid sequences]]
 
 ### PCR primers
 
@@ -25,7 +25,7 @@ Protocols and other information mostly of interest to our research group.
 
 - [[Restriction enzymes]]
 
-### Commonly used [[protocols]]
+### Commonly used protocols
 
 - [[High Efficiency Yeast Transformation Protocol|Yeast transformation]]
 - [[Transforming Frozen Competent E. coli|E. coli transformation]]
@@ -39,6 +39,7 @@ Protocols and other information mostly of interest to our research group.
 - Making [[LB]] medium.
 - Making [[YPD]] medium.
 - Making defined [[SD|SC]] or [[SD]] medium .
+- All  ==🟠\[\[protocols]]==
 
 ### The Yeast Pathway Kit
 
@@ -49,7 +50,6 @@ Protocols and other information mostly of interest to our research group.
 - [[primer design]]
 - [[in silico assembly of pYPKa_A_ScATF1]]
 - [[in silico assembly of pTA1_TDH3_ScATF1_PGI1]]
-- [Plasmids, Promoters & Terminators](https://github.com/MetabolicEngineeringGroupCBMA/YeastPathwayKit/tree/master/sequences) sequence files.
 
 ### Miscellaneous
 
