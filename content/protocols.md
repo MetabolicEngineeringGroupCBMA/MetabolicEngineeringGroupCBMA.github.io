@@ -26,7 +26,7 @@ publish: true
 ### PCR
 
 - [[primers]]
-- [[standard pcr protocol]]
+- [[standard pcr protocol]] <-- including long range PCR
 - [[PCR clean up]]
 - [[10X Taq Buffer with (NH4)2SO4]]
 - [[ACCUZYME]]

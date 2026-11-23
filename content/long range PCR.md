@@ -7,13 +7,12 @@ nicking/damage, secondary structure stalling, and (for non-proofreading enzymes)
 
 ## Polymerase Comparison (Lab Toolkit)
 
-| Feature                      | Homemade Taq                         | Accuzyme                                               | Q5 High-Fidelity                            |
-| :--------------------------- | :----------------------------------- | :----------------------------------------------------- | :------------------------------------------ |
-| **Proofreading (3'→5' exo)** | No                                   | Yes                                                    | Yes                                         |
-| **Amplicon Ends**            | 3' A-overhangs                       | Blunt                                                  | Blunt                                       |
-| **Typical Sweet Spot**       | Up to ~2–4 kb (solo)                 | Up to ~5 kb                                            | Up to 10 kb (complex) / 20 kb (simple)      |
-| **Extension Rate (Long)**    | ~60 s/kb                             | ~30 s/kb                                               | 20–30 s/kb (40–50 s/kb above 6 kb)          |
-| **Best Use for 5–10+ kb**    | Only as base in a proofreading blend | Routine cloning up to ~5 kb; push carefully above 5 kb | Primary choice for 5–10+ kb & high fidelity |
+| Feature                      | Homemade Taq                                          | Accuzyme                    | Q5 High-Fidelity                            |
+| :--------------------------- | :---------------------------------------------------- | :-------------------------- | :------------------------------------------ |
+| **Proofreading (3'→5' exo)** | No                                                    | Yes                         | Yes                                         |
+| **Typical Sweet Spot**       | Up to ~2–4 kb                                         | Up to ~5 kb                 | Up to 10 kb (complex) / 20 kb (simple)      |
+| **Extension Rate (Long)**    | ~60 s/kb                                              | ~30 s/kb                    | 20–30 s/kb (40–50 s/kb above 6 kb)          |
+| **Best Use for 5–10+ kb**    | Use as base in a blend with a proofreading polymerase | Routine cloning up to ~5 kb | Primary choice for 5–10+ kb & high fidelity |
 
 > [!tip] Practical Rule of Thumb
 >
