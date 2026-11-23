@@ -4,18 +4,18 @@ publish: true
 
 # Standard PCR protocol
 
-This is a compilation of general guidelines for PCR. Most of it was lifted from the FERMENTAS website many years ago.
+This is a compilation of general guidelines for PCR. Most of it was lifted from the FERMENTAS website many years ago. If you plan to amplify more than 2-3 kb, template DNA quality becomes important. See guidelines for [[long range PCR]].
 
-| Reagent stock      	  |	Final concentration |
-|-------------------------|---------------------|
-|Sterile deionized water  |	-                   |
-|10X Taq buffer           |	1X                  |
-|2-10 mM dNTP mix         |	0.2 mM of each      |
-|Taq DNA Polymerase       |	1.25 U / 50 µl      |
-|25-50 mM MgCl2           |	2 mM                |
-|Primer I				  |	0.5 µM              |
-|Primer II				  |	0.5 µM              |
-|Template DNA			  |	10 pg-1 µg          |
+| Reagent stock           | Final concentration |
+| ----------------------- | ------------------- |
+| Sterile deionized water | -                   |
+| 10X Taq buffer          | 1X                  |
+| 2-10 mM dNTP mix        | 0.2 mM of each      |
+| Taq DNA Polymerase      | 1.25 U / 50 µl      |
+| 25-50 mM MgCl2          | 2 mM                |
+| Primer I                | 0.5 µM              |
+| Primer II               | 0.5 µM              |
+| Template DNA            | 10 pg-1 µg          |
 
 Note the concentrations of the stock solutions.
 

@@ -27,7 +27,7 @@ _The recipe yields approximately the number of meatballs shown in the image abov
 4. Combine everything in a large bowl. Do not knead the meat for too long, as it can become tough.
 5. Shape the meatballs on a baking tray lined with parchment paper. Two tablespoons can be used to form them.
 
-![[misc/recept/köttbullar-3.png]]
+![[misc/recept/köttbullar-3.png|581]]
 
 1. Bake the meatballs in the oven at 150°C (300°F) for about 10 minutes so they keep their shape.
 2. Fry them in a pan with olive oil and a little butter until browned.
